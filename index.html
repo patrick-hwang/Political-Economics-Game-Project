@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Decision Flow</title>
+
   <style>
     :root {
       --context: #B0E0E6;
@@ -28,7 +29,8 @@
       padding: 32px 18px;
       background: var(--page);
       color: var(--ink);
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system,
+        BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
 
     .app {
@@ -60,10 +62,12 @@
       border: 1px solid var(--border);
       border-radius: 12px;
       padding: 12px 16px;
-      transition: transform .12s ease, border-color .12s ease, background .12s ease;
+      transition: transform .12s ease,
+        border-color .12s ease,
+        background .12s ease;
     }
 
-    button:hover {
+    button:hover:not(:disabled) {
       transform: translateY(-1px);
     }
 
@@ -226,6 +230,113 @@
       margin-top: 4px;
     }
 
+    /* Confirmation modal */
+
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, .6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      z-index: 1000;
+    }
+
+    .modal {
+      width: min(600px, 100%);
+      max-height: 85vh;
+      overflow-y: auto;
+      background: white;
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, .2);
+      animation: modalAppear .2s ease;
+    }
+
+    @keyframes modalAppear {
+      from {
+        opacity: 0;
+        transform: translateY(12px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .modal h2 {
+      margin: 0 0 8px;
+      font-size: 1.4rem;
+    }
+
+    .modal-subtitle {
+      color: var(--muted);
+      font-size: .85rem;
+      margin-bottom: 20px;
+    }
+
+    .modal-choice {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      padding: 16px;
+      border-radius: 12px;
+      font-weight: 650;
+      line-height: 1.5;
+      margin-bottom: 20px;
+      white-space: pre-wrap;
+    }
+
+    .modal-section {
+      padding: 16px;
+      border-radius: 12px;
+      margin-bottom: 14px;
+    }
+
+    .modal-section h3 {
+      margin: 0 0 10px;
+      font-size: 1rem;
+    }
+
+    .modal-section p,
+    .modal-section li {
+      line-height: 1.6;
+      white-space: pre-wrap;
+    }
+
+    .modal-section ul {
+      padding-left: 22px;
+      margin: 0;
+    }
+
+    .modal-section li+li {
+      margin-top: 6px;
+    }
+
+    .modal-benefit {
+      background: #ecfdf5;
+      border: 1px solid #a7f3d0;
+    }
+
+    .modal-drawback {
+      background: #fff1f2;
+      border: 1px solid #fecdd3;
+    }
+
+    .modal-confirmation {
+      font-weight: 650;
+      margin: 22px 0 16px;
+      line-height: 1.5;
+    }
+
+    .modal-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
     @media (max-width: 620px) {
       body {
         padding: 20px 12px;
@@ -233,6 +344,7 @@
 
       header {
         align-items: flex-start;
+        flex-direction: column;
       }
 
       .answers {
@@ -243,181 +355,488 @@
         min-height: 78px;
       }
 
+      .toolbar {
+        flex-wrap: wrap;
+      }
+
       .toolbar button {
         padding: 9px 11px;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .modal {
+        padding: 20px;
+      }
+
+      .modal-actions {
+        flex-direction: column;
+      }
+
+      .modal-actions button {
+        width: 100%;
       }
     }
   </style>
 </head>
 
 <body>
+
   <main class="app">
+
     <header>
       <div>
         <h1>Decision Flow</h1>
-        <div class="meta" id="progress">Ready to begin</div>
+        <div class="meta" id="progress">Loading questions...</div>
       </div>
+
       <nav class="toolbar" aria-label="Navigation">
-        <button class="secondary" id="backButton" type="button" disabled>Back</button>
-        <button class="secondary" id="restartButton" type="button">Restart</button>
-        <button class="secondary" id="reloadButton" type="button">Reload JSON</button>
+        <button class="secondary" id="backButton" type="button" disabled>
+          Back
+        </button>
+
+        <button class="secondary" id="restartButton" type="button">
+          Restart
+        </button>
+
+        <button class="secondary" id="reloadButton" type="button">
+          Reload JSON
+        </button>
       </nav>
     </header>
+
     <section id="screen" class="screen" aria-live="polite">
       <div class="intro">
         <p class="eyebrow">Interactive story</p>
         <h2>Make your first decision</h2>
-        <p>Start the scenario. Each choice will take you to the next context, question, and available answers.</p>
-        <button class="primary" id="startButton" type="button">Start</button>
+        <p>Loading your decision flow...</p>
       </div>
     </section>
+
   </main>
 
   <script>
-    // The JSON remains in a separate file and is loaded when the page starts.
+
+    // ============================================
+    // CONFIGURATION
+    // ============================================
+
     const DATA_URL = "questions_v3.json";
     const START_NODE_ID = 1;
 
+
+    // ============================================
+    // APPLICATION STATE
+    // ============================================
+
     let nodes = new Map();
+
+    // Stores previously visited screens.
     let history = [];
+
+    // Currently displayed question/outcome.
     let currentScreen = null;
+
+    // Choice waiting for confirmation.
+    let pendingChoice = null;
+
+    let isLoading = false;
+
+
+    // ============================================
+    // DOM REFERENCES
+    // ============================================
 
     const screenElement = document.getElementById("screen");
     const progressElement = document.getElementById("progress");
+
     const backButton = document.getElementById("backButton");
     const restartButton = document.getElementById("restartButton");
-    const startButton = document.getElementById("startButton");
     const reloadButton = document.getElementById("reloadButton");
 
+
+    // ============================================
+    // HELPER FUNCTIONS
+    // ============================================
+
     function makeElement(tag, className, text) {
+
       const element = document.createElement(tag);
-      if (className) element.className = className;
-      if (text !== undefined) element.textContent = text;
+
+      if (className) {
+        element.className = className;
+      }
+
+      if (text !== undefined) {
+        element.textContent = text;
+      }
+
       return element;
     }
 
+
     function setNavigationState() {
-      backButton.disabled = history.length === 0;
+
+      backButton.disabled =
+        history.length === 0 || isLoading;
+
+      restartButton.disabled = isLoading;
+      reloadButton.disabled = isLoading;
+
     }
 
+
+    // ============================================
+    // JSON LOADING
+    // ============================================
+
+    async function loadNodes() {
+
+      const response = await fetch(
+        `${DATA_URL}?t=${Date.now()}`
+      );
+
+      if (!response.ok) {
+        throw new Error(
+          `Could not load ${DATA_URL} (HTTP ${response.status}).`
+        );
+      }
+
+      const data = await response.json();
+
+      if (!Array.isArray(data)) {
+        throw new Error(
+          "The JSON root must be an array of nodes."
+        );
+      }
+
+      const newNodes = new Map(
+        data.map(node => [Number(node.node), node])
+      );
+
+      if (newNodes.size !== data.length) {
+        throw new Error(
+          "The JSON contains duplicate node IDs."
+        );
+      }
+
+      nodes = newNodes;
+
+      console.log("JSON loaded successfully.");
+
+    }
+
+
+    // ============================================
+    // START SCREEN
+    // ============================================
+
     function showStart() {
-      currentScreen = null;
+
+      closeChoiceModal();
+
       history = [];
+      currentScreen = null;
+
       progressElement.textContent = "Ready to begin";
+
       screenElement.replaceChildren();
+
       const intro = makeElement("div", "intro");
+
       intro.append(
         makeElement("p", "eyebrow", "Interactive story"),
         makeElement("h2", "", "Make your first decision"),
-        makeElement("p", "", "Start the scenario. Each choice will take you to the next context, question, and available answers.")
+        makeElement(
+          "p",
+          "",
+          "Start the scenario. Each choice will take you to the next context, question, and available answers."
+        )
       );
-      const button = makeElement("button", "primary", "Start");
+
+      const button = makeElement(
+        "button",
+        "primary",
+        "Start"
+      );
+
       button.type = "button";
+      button.disabled = isLoading;
+
       button.addEventListener("click", startFlow);
+
       intro.append(button);
       screenElement.append(intro);
+
       setNavigationState();
+
     }
-    async function loadNodes() {
-      try {
-        const response = await fetch(
-          `questions_v3.json?t=${Date.now()}`
-        );
 
-        if (!response.ok) {
-          throw new Error("Failed to load JSON");
-        }
 
-        nodes = await response.json();
+    // ============================================
+    // RESOLVE NODE FLOW
+    // ============================================
 
-        console.log("JSON reloaded successfully");
+    /*
+      Starting from a node ID:
 
-      } catch (error) {
-        console.error("Error loading JSON:", error);
-      }
-    }
-    // Follow a path through context nodes until a question or ending is reached.
+      1. Collect context nodes.
+      2. Stop when a question node is found.
+      3. Retrieve its two choice nodes.
+      4. Or stop when a win/lose node is found.
+    */
+
     function resolveScreen(startNodeId) {
+
       const contexts = [];
       const visited = new Set();
-      let nodeId = startNodeId;
+
+      let nodeId = Number(startNodeId);
 
       while (true) {
-        if (visited.has(nodeId)) throw new Error(`A cycle was detected at node ${nodeId}.`);
+
+        if (visited.has(nodeId)) {
+          throw new Error(
+            `A cycle was detected at node ${nodeId}.`
+          );
+        }
+
         visited.add(nodeId);
+
         const node = nodes.get(nodeId);
-        if (!node) throw new Error(`Node ${nodeId} was not found in the JSON file.`);
+
+        if (!node) {
+          throw new Error(
+            `Node ${nodeId} was not found in the JSON file.`
+          );
+        }
+
+
+        // ----------------------------------------
+        // CONTEXT NODE
+        // ----------------------------------------
 
         if (node.type === "context") {
+
           contexts.push(node);
+
           const next = node["next node"] || [];
-          if (next.length !== 1) throw new Error(`Context node ${nodeId} should link to exactly one next node.`);
-          nodeId = next[0];
+
+          if (next.length !== 1) {
+            throw new Error(
+              `Context node ${nodeId} should link to exactly one next node.`
+            );
+          }
+
+          nodeId = Number(next[0]);
+
           continue;
         }
 
+
+        // ----------------------------------------
+        // QUESTION NODE
+        // ----------------------------------------
+
         if (node.type === "question") {
+
           const next = node["next node"] || [];
-          if (next.length !== 2) throw new Error(`Question node ${nodeId} should have exactly two choices.`);
+
+          if (next.length !== 2) {
+            throw new Error(
+              `Question node ${nodeId} should have exactly two choices.`
+            );
+          }
+
           const choices = next.map(id => {
-            const choice = nodes.get(id);
+
+            const choice = nodes.get(Number(id));
+
             if (!choice || choice.type !== "choice") {
-              throw new Error(`Question ${nodeId} points to node ${id}, which is not a choice node.`);
+              throw new Error(
+                `Question ${nodeId} points to node ${id}, which is not a choice node.`
+              );
             }
+
             return choice;
+
           });
-          return { contexts, question: node, choices };
+
+          return {
+            contexts,
+            question: node,
+            choices
+          };
+
         }
+
+
+        // ----------------------------------------
+        // OUTCOME NODE
+        // ----------------------------------------
 
         if (node.type === "win" || node.type === "lose") {
-          return { contexts, outcome: node };
+
+          return {
+            contexts,
+            outcome: node
+          };
+
         }
 
-        throw new Error(`Unexpected node type "${node.type}" at node ${nodeId}.`);
+
+        throw new Error(
+          `Unexpected node type "${node.type}" at node ${nodeId}.`
+        );
+
       }
+
     }
 
+
+    // ============================================
+    // RENDER SCREEN
+    // ============================================
+
     function renderScreen(view, pushHistory = true) {
-      if (pushHistory && currentScreen) history.push(currentScreen);
+
+      if (pushHistory && currentScreen) {
+        history.push(currentScreen);
+      }
+
       currentScreen = view;
+
       screenElement.replaceChildren();
+
       setNavigationState();
 
+
+      // ----------------------------------------
+      // WIN / LOSE SCREEN
+      // ----------------------------------------
+
       if (view.outcome) {
-        progressElement.textContent = view.outcome.type === "win" ? "Scenario completed" : "Scenario ended";
-        const outcome = makeElement("article", `outcome ${view.outcome.type}`);
+
+        progressElement.textContent =
+          view.outcome.type === "win"
+            ? "Scenario completed"
+            : "Scenario ended";
+
+        const outcome = makeElement(
+          "article",
+          `outcome ${view.outcome.type}`
+        );
+
         outcome.append(
           makeElement(
             "p",
             "eyebrow",
-            view.outcome.type === "win" ? "Winning outcome" : "Losing outcome"
+            view.outcome.type === "win"
+              ? "Winning outcome"
+              : "Losing outcome"
           ),
+
           makeElement(
             "h2",
             "",
-            view.outcome.type === "win" ? "You win" : "You lose"
+            view.outcome.type === "win"
+              ? "You win"
+              : "You lose"
           ),
-          makeElement("p", "", view.outcome.content || "The scenario has ended."),
-          makeElement("p", "meta", `Node ID: ${view.outcome.node}`)
+
+          makeElement(
+            "p",
+            "",
+            view.outcome.content || "The scenario has ended."
+          ),
+
+          makeElement(
+            "p",
+            "meta",
+            `Node ID: ${view.outcome.node}`
+          )
         );
-        screenElement.append(...view.contexts.map(createContextCard), outcome);
+
+        screenElement.append(
+          ...view.contexts.map(createContextCard),
+          outcome
+        );
+
         return;
       }
 
-      progressElement.textContent = `Question node ${view.question.node}`;
-      const contextStack = makeElement("div", "context-stack");
-      view.contexts.forEach(context => contextStack.append(createContextCard(context)));
-      const questionCard = makeElement("article", "panel question");
-      questionCard.append(
-        makeElement("h2", "", `Question ${view.question.node}`),
-        makeElement("p", "", view.question.content)
+
+      // ----------------------------------------
+      // QUESTION SCREEN
+      // ----------------------------------------
+
+      progressElement.textContent =
+        `Question node ${view.question.node}`;
+
+
+      // Context cards.
+
+      const contextStack = makeElement(
+        "div",
+        "context-stack"
       );
-      const answers = makeElement("div", "answers");
+
+      view.contexts.forEach(context => {
+        contextStack.append(
+          createContextCard(context)
+        );
+      });
+
+
+      // Question card.
+
+      const questionCard = makeElement(
+        "article",
+        "panel question"
+      );
+
+      questionCard.append(
+        makeElement(
+          "h2",
+          "",
+          `Question ${view.question.node}`
+        ),
+
+        makeElement(
+          "p",
+          "",
+          view.question.content
+        )
+      );
+
+
+      // Answer buttons.
+
+      const answers = makeElement(
+        "div",
+        "answers"
+      );
+
       view.choices.forEach((choice, index) => {
-        const button = makeElement("button", "answer");
+
+        const button = makeElement(
+          "button",
+          "answer"
+        );
+
         button.type = "button";
-        const number = makeElement("span", "answer-index", String(index + 1));
-        const label = makeElement("span", "", choice.content);
+
+        const number = makeElement(
+          "span",
+          "answer-index",
+          String(index + 1)
+        );
+
+        const label = makeElement(
+          "span",
+          "",
+          choice.content
+        );
 
         const choiceId = makeElement(
           "span",
@@ -425,90 +844,583 @@
           `Choice node ${choice.node}`
         );
 
-        const answerContent = makeElement("div", "");
+        const answerContent = makeElement("div");
+
         answerContent.style.display = "flex";
         answerContent.style.flexDirection = "column";
         answerContent.style.gap = "4px";
 
         answerContent.append(label, choiceId);
+
         button.append(number, answerContent);
-        button.addEventListener("click", () => selectChoice(choice));
+
+        // IMPORTANT:
+        // Clicking an answer opens the confirmation popup.
+        // It does NOT immediately navigate to the next node.
+
+        button.addEventListener("click", () => {
+          selectChoice(choice);
+        });
+
         answers.append(button);
+
       });
-      screenElement.append(contextStack, questionCard, answers);
+
+
+      screenElement.append(
+        contextStack,
+        questionCard,
+        answers
+      );
+
     }
+
+
+    // ============================================
+    // CONTEXT CARD
+    // ============================================
 
     function createContextCard(context) {
-      const card = makeElement("article", "panel context");
-      card.append(
-        makeElement("p", "eyebrow", `Context ${context.node}`),
-        makeElement("p", "", context.content)
+
+      const card = makeElement(
+        "article",
+        "panel context"
       );
+
+      card.append(
+        makeElement(
+          "p",
+          "eyebrow",
+          `Context ${context.node}`
+        ),
+
+        makeElement(
+          "p",
+          "",
+          context.content
+        )
+      );
+
       return card;
+
     }
+
+
+    // ============================================
+    // START FLOW
+    // ============================================
 
     function startFlow() {
+
+      if (isLoading) return;
+
       try {
-        // Node 1 is the Start marker. Its next node begins the first story context.
+
         const startNode = nodes.get(START_NODE_ID);
-        if (!startNode) throw new Error(`Start node ${START_NODE_ID} was not found.`);
+
+        if (!startNode) {
+          throw new Error(
+            `Start node ${START_NODE_ID} was not found.`
+          );
+        }
+
         const next = startNode["next node"] || [];
-        if (next.length !== 1) throw new Error("The Start node must link to exactly one next node.");
-        renderScreen(resolveScreen(next[0]), false);
+
+        if (next.length !== 1) {
+          throw new Error(
+            "The Start node must link to exactly one next node."
+          );
+        }
+
+        history = [];
+
+        renderScreen(
+          resolveScreen(next[0]),
+          false
+        );
+
       } catch (error) {
+
         showError(error);
+
       }
+
     }
+
+
+    // ============================================
+    // CHOICE SELECTION
+    // ============================================
 
     function selectChoice(choice) {
-      try {
-        const next = choice["next node"] || [];
-        if (next.length !== 1) throw new Error(`Choice node ${choice.node} should link to exactly one next node.`);
-        renderScreen(resolveScreen(next[0]));
-      } catch (error) {
-        showError(error);
-      }
+
+      // Prevent another selection while a popup is open.
+      if (pendingChoice) return;
+
+      // Store the selected choice temporarily.
+      pendingChoice = choice;
+
+      showChoiceModal(choice);
+
     }
+
+
+    // ============================================
+    // CREATE BENEFIT / DRAWBACK SECTION
+    // ============================================
+
+    function createDetailSection(
+      title,
+      content,
+      className
+    ) {
+
+      const section = makeElement(
+        "section",
+        `modal-section ${className}`
+      );
+
+      section.append(
+        makeElement("h3", "", title)
+      );
+
+      // Handle empty, null or missing values.
+      if (
+        content === null ||
+        content === undefined ||
+        content === ""
+      ) {
+
+        section.append(
+          makeElement(
+            "p",
+            "",
+            "No information provided."
+          )
+        );
+
+        return section;
+      }
+
+
+      // Support both string and array formats.
+      let items;
+
+      if (Array.isArray(content)) {
+
+        items = content;
+
+      } else {
+
+        items = String(content)
+          .split("\n")
+          .map(item => item.trim())
+          .filter(item => item.length > 0);
+
+      }
+
+
+      if (items.length === 0) {
+
+        section.append(
+          makeElement(
+            "p",
+            "",
+            "No information provided."
+          )
+        );
+
+        return section;
+
+      }
+
+
+      const list = makeElement("ul");
+
+      items.forEach(item => {
+
+        list.append(
+          makeElement(
+            "li",
+            "",
+            String(item)
+          )
+        );
+
+      });
+
+      section.append(list);
+
+      return section;
+
+    }
+
+
+    // ============================================
+    // CONFIRMATION POPUP
+    // ============================================
+
+    function showChoiceModal(choice) {
+
+      const overlay = makeElement(
+        "div",
+        "modal-overlay"
+      );
+
+      overlay.id = "choiceModal";
+
+      const modal = makeElement(
+        "div",
+        "modal"
+      );
+
+      modal.setAttribute("role", "dialog");
+      modal.setAttribute("aria-modal", "true");
+      modal.setAttribute(
+        "aria-labelledby",
+        "modalTitle"
+      );
+
+
+      // ----------------------------------------
+      // MODAL HEADER
+      // ----------------------------------------
+
+      const heading = makeElement(
+        "h2",
+        "",
+        "Review Your Decision"
+      );
+
+      heading.id = "modalTitle";
+
+      const subtitle = makeElement(
+        "p",
+        "modal-subtitle",
+        `Choice node ${choice.node}`
+      );
+
+
+      // ----------------------------------------
+      // SELECTED CHOICE
+      // ----------------------------------------
+
+      const selectedChoice = makeElement(
+        "div",
+        "modal-choice",
+        choice.content || "No choice description provided."
+      );
+
+
+      // ----------------------------------------
+      // BENEFITS
+      // ----------------------------------------
+
+      const benefitSection = createDetailSection(
+        "Benefits",
+        choice.benefits,
+        "modal-benefit"
+      );
+
+
+      // ----------------------------------------
+      // POTENTIAL DRAWBACKS
+      // ----------------------------------------
+
+      const drawbackSection = createDetailSection(
+        "Potential Drawbacks",
+        choice["potential drawback"],
+        "modal-drawback"
+      );
+
+
+      // ----------------------------------------
+      // CONFIRMATION QUESTION
+      // ----------------------------------------
+
+      const confirmation = makeElement(
+        "p",
+        "modal-confirmation",
+        "Do you want to confirm this choice and continue to the next question?"
+      );
+
+
+      // ----------------------------------------
+      // BUTTONS
+      // ----------------------------------------
+
+      const actions = makeElement(
+        "div",
+        "modal-actions"
+      );
+
+
+      // Cancel button.
+
+      const cancelButton = makeElement(
+        "button",
+        "secondary",
+        "No, go back"
+      );
+
+      cancelButton.type = "button";
+
+      cancelButton.addEventListener(
+        "click",
+        closeChoiceModal
+      );
+
+
+      // Confirm button.
+
+      const confirmButton = makeElement(
+        "button",
+        "primary",
+        "Yes, confirm"
+      );
+
+      confirmButton.type = "button";
+
+      confirmButton.addEventListener("click", () => {
+
+        // Get the selected choice.
+        const confirmedChoice = pendingChoice;
+
+        if (!confirmedChoice) return;
+
+        // Close popup and clear pending selection.
+        closeChoiceModal();
+
+        // Only now navigate to the next node.
+        proceedWithChoice(confirmedChoice);
+
+      });
+
+
+      actions.append(
+        cancelButton,
+        confirmButton
+      );
+
+
+      // ----------------------------------------
+      // BUILD MODAL
+      // ----------------------------------------
+
+      modal.append(
+        heading,
+        subtitle,
+        selectedChoice,
+        benefitSection,
+        drawbackSection,
+        confirmation,
+        actions
+      );
+
+      overlay.append(modal);
+
+      document.body.append(overlay);
+
+      cancelButton.focus();
+
+    }
+
+
+    // ============================================
+    // CLOSE CONFIRMATION POPUP
+    // ============================================
+
+    function closeChoiceModal() {
+
+      const overlay = document.getElementById(
+        "choiceModal"
+      );
+
+      if (overlay) {
+        overlay.remove();
+      }
+
+      // Clear the unconfirmed answer.
+      pendingChoice = null;
+
+    }
+
+
+    // ============================================
+    // PROCEED AFTER CONFIRMATION
+    // ============================================
+
+    function proceedWithChoice(choice) {
+
+      try {
+
+        const next = choice["next node"] || [];
+
+        if (next.length !== 1) {
+          throw new Error(
+            `Choice node ${choice.node} should link to exactly one next node.`
+          );
+        }
+
+        // Navigate to the next node only after confirmation.
+        const nextScreen = resolveScreen(next[0]);
+
+        renderScreen(nextScreen);
+
+      } catch (error) {
+
+        showError(error);
+
+      }
+
+    }
+
+
+    // ============================================
+    // ERROR HANDLING
+    // ============================================
 
     function showError(error) {
+
+      closeChoiceModal();
+
       screenElement.replaceChildren();
-      screenElement.append(makeElement("div", "status", `Unable to display this part of the flow: ${error.message}`));
+
+      screenElement.append(
+        makeElement(
+          "div",
+          "status",
+          `Unable to display this part of the flow: ${error.message}`
+        )
+      );
+
       progressElement.textContent = "Flow error";
+
+      setNavigationState();
+
+      console.error(error);
+
     }
 
-    async function loadNodes() {
-      try {
-        const response = await fetch(DATA_URL);
-        if (!response.ok) throw new Error(`Could not load ${DATA_URL} (HTTP ${response.status}).`);
-        const data = await response.json();
-        if (!Array.isArray(data)) throw new Error("The JSON root must be an array of nodes.");
-        nodes = new Map(data.map(node => [Number(node.node), node]));
-        if (nodes.size !== data.length) throw new Error("The JSON contains duplicate node IDs.");
-        startButton.disabled = false;
-        startButton.addEventListener("click", startFlow);
-      } catch (error) {
-        startButton.disabled = true;
-        showError(error);
-      }
-    }
+
+    // ============================================
+    // BACK BUTTON
+    // ============================================
 
     backButton.addEventListener("click", () => {
+
+      if (isLoading) return;
+
+      // Close any pending popup.
+      closeChoiceModal();
+
       if (!history.length) return;
+
+      // Restore the previous screen.
       currentScreen = history.pop();
-      renderScreen(currentScreen, false);
+
+      renderScreen(
+        currentScreen,
+        false
+      );
+
     });
-    restartButton.addEventListener("click", showStart);
-    startButton.disabled = true;
-    loadNodes();
-    reloadButton?.addEventListener("click", async () => {
+
+
+    // ============================================
+    // RESTART BUTTON
+    // ============================================
+
+    restartButton.addEventListener("click", () => {
+
+      if (isLoading) return;
+
+      showStart();
+
+    });
+
+
+    // ============================================
+    // RELOAD JSON BUTTON
+    // ============================================
+
+    reloadButton.addEventListener("click", async () => {
+
+      if (isLoading) return;
+
+      isLoading = true;
+
+      closeChoiceModal();
+
+      setNavigationState();
+
+      progressElement.textContent = "Reloading JSON...";
+
       try {
+
         await loadNodes();
+
+        // Reset the flow after loading updated JSON.
         showStart();
+
+        progressElement.textContent =
+          "JSON reloaded successfully. Ready to begin.";
+
       } catch (error) {
+
         showError(error);
+
+      } finally {
+
+        isLoading = false;
+
+        setNavigationState();
+
       }
+
     });
+
+
+    // ============================================
+    // INITIALIZE APPLICATION
+    // ============================================
+
+    async function initialize() {
+
+      isLoading = true;
+
+      setNavigationState();
+
+      try {
+
+        await loadNodes();
+
+        showStart();
+
+        console.log(
+          `Loaded ${nodes.size} nodes successfully.`
+        );
+
+      } catch (error) {
+
+        showError(error);
+
+      } finally {
+
+        isLoading = false;
+
+        setNavigationState();
+
+      }
+
+    }
+
+
+    // Start application.
+    initialize();
+
   </script>
+
 </body>
 
 </html>
