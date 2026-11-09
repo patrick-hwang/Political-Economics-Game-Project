@@ -260,6 +260,7 @@
       <nav class="toolbar" aria-label="Navigation">
         <button class="secondary" id="backButton" type="button" disabled>Back</button>
         <button class="secondary" id="restartButton" type="button">Restart</button>
+        <button class="secondary" id="reloadButton" type="button">Reload JSON</button>
       </nav>
     </header>
     <section id="screen" class="screen" aria-live="polite">
@@ -286,6 +287,7 @@
     const backButton = document.getElementById("backButton");
     const restartButton = document.getElementById("restartButton");
     const startButton = document.getElementById("startButton");
+    const reloadButton = document.getElementById("reloadButton");
 
     function makeElement(tag, className, text) {
       const element = document.createElement(tag);
@@ -316,7 +318,24 @@
       screenElement.append(intro);
       setNavigationState();
     }
+    async function loadNodes() {
+      try {
+        const response = await fetch(
+          `questions_v3.json?t=${Date.now()}`
+        );
 
+        if (!response.ok) {
+          throw new Error("Failed to load JSON");
+        }
+
+        nodes = await response.json();
+
+        console.log("JSON reloaded successfully");
+
+      } catch (error) {
+        console.error("Error loading JSON:", error);
+      }
+    }
     // Follow a path through context nodes until a question or ending is reached.
     function resolveScreen(startNodeId) {
       const contexts = [];
@@ -368,9 +387,18 @@
         progressElement.textContent = view.outcome.type === "win" ? "Scenario completed" : "Scenario ended";
         const outcome = makeElement("article", `outcome ${view.outcome.type}`);
         outcome.append(
-          makeElement("p", "eyebrow", view.outcome.type === "win" ? "Winning outcome" : "Losing outcome"),
-          makeElement("h2", "", view.outcome.type === "win" ? "You win" : "You lose"),
-          makeElement("p", "", view.outcome.content || "The scenario has ended.")
+          makeElement(
+            "p",
+            "eyebrow",
+            view.outcome.type === "win" ? "Winning outcome" : "Losing outcome"
+          ),
+          makeElement(
+            "h2",
+            "",
+            view.outcome.type === "win" ? "You win" : "You lose"
+          ),
+          makeElement("p", "", view.outcome.content || "The scenario has ended."),
+          makeElement("p", "meta", `Node ID: ${view.outcome.node}`)
         );
         screenElement.append(...view.contexts.map(createContextCard), outcome);
         return;
@@ -390,7 +418,20 @@
         button.type = "button";
         const number = makeElement("span", "answer-index", String(index + 1));
         const label = makeElement("span", "", choice.content);
-        button.append(number, label);
+
+        const choiceId = makeElement(
+          "span",
+          "meta",
+          `Choice node ${choice.node}`
+        );
+
+        const answerContent = makeElement("div", "");
+        answerContent.style.display = "flex";
+        answerContent.style.flexDirection = "column";
+        answerContent.style.gap = "4px";
+
+        answerContent.append(label, choiceId);
+        button.append(number, answerContent);
         button.addEventListener("click", () => selectChoice(choice));
         answers.append(button);
       });
@@ -459,6 +500,14 @@
     restartButton.addEventListener("click", showStart);
     startButton.disabled = true;
     loadNodes();
+    reloadButton?.addEventListener("click", async () => {
+      try {
+        await loadNodes();
+        showStart();
+      } catch (error) {
+        showError(error);
+      }
+    });
   </script>
 </body>
 

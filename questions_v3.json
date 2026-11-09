@@ -12,7 +12,7 @@
   {
     "node": 2,
     "type": "question",
-    "content": "Có dám thử sức với những đơn hàng lớn hay không?",
+    "content": "Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -23,9 +23,9 @@
   {
     "node": 3,
     "type": "choice",
-    "content": "Sản xuất máy bay chiến đấu để xuất khẩu",
-    "benefits": "",
-    "potential drawback": "",
+    "content": "Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự",
+    "benefits": "Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển",
+    "potential drawback": "Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp",
     "next node": [
       42
     ]
@@ -34,8 +34,8 @@
     "node": 4,
     "type": "choice",
     "content": "Đẩy mạnh sản xuất máy bay dân sự",
-    "benefits": "",
-    "potential drawback": "",
+    "benefits": "Bạn nắm bắt được xu hướng của thị trường tốt, có tiềm năng để tiếp tục phát triển trong thời kỳ hậu chiến",
+    "potential drawback": "Tuy nhiên, do bạn chưa có nhiều kinh nghiệm trong lĩnh vực này nên doanh nghiệp có thể gặp khó khăn trong việc cạnh tranh với các doanh nghiệp khác, đặc biệt là các doanh nghiệp đã bỏ vốn vào nghiên cứu công nghệ này trong khoảng thời gian chiến tranh",
     "next node": [
       43
     ]
@@ -53,7 +53,7 @@
   {
     "node": 6,
     "type": "question",
-    "content": "Cải tiến gì?",
+    "content": "Bạn sẽ làm gì để tối ưu về mặt kinh tế cho doanh nghiệp nhưng vẫn phải đảm bảo an toàn?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -65,7 +65,7 @@
     "node": 7,
     "type": "choice",
     "content": "Tăng tốc độ",
-    "benefits": "",
+    "benefits": "Bạn có thể đáp ứng được nhu cầu của nhiều khách hàng trong cùng một khoảng thời gian và vì thế tối ưu hóa lợi nhuận",
     "potential drawback": "",
     "next node": [
       44
@@ -75,8 +75,8 @@
     "node": 8,
     "type": "choice",
     "content": "Tiết kiệm nhiên liệu",
-    "benefits": "",
-    "potential drawback": "",
+    "benefits": "Về dài hạn, đây là cách tiếp cận đúng đắn. Vì thị trường sẽ ngày càng khan hiếm nguồn nhiên liệu, vì thế, đây là lựa chọn của tương lai",
+    "potential drawback": "Tuy nhiên, bạn chấp nhận mất đi một phần lợi nhuận trong ngắn hạn do thị trường chưa quá chú ý đến vấn đề tiết kiệm nhiên liệu mà đang mong muốn làm sao bay thật nhanh nhất có thể",
     "next node": [
       45
     ]
@@ -94,7 +94,7 @@
   {
     "node": 10,
     "type": "question",
-    "content": "Kế hoạch tiếp theo?",
+    "content": "Bạn sẽ làm gì để tối ưu về mặt kinh tế cho doanh nghiệp nhưng vẫn phải đảm bảo an toàn?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -115,7 +115,7 @@
   {
     "node": 12,
     "type": "context",
-    "content": "WW2 nổ ra",
+    "content": "Khi Chiến tranh thế giới thứ hai bùng nổ (1939), nhu cầu máy bay quân sự tăng vọt. Chính phủ ưu tiên nguồn lực và tài trợ cho các hợp đồng quốc phòng số lượng lớn.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -125,9 +125,9 @@
   {
     "node": 13,
     "type": "choice",
-    "content": "Không sản xuất máy bay quân sự. Đầu tư vào nghiên cứu máy bay dân sự",
-    "benefits": "",
-    "potential drawback": "",
+    "content": "Không. Bạn nhận thấy sự phi nghĩa của chiến tranh. Nhưng cũng nhận thấy tiềm năng của ngành hàng không. Vậy nên bạn quyết định đầu tư vào nghiên cứu máy bay dân sự",
+    "benefits": "Khi chiến tranh kết thúc, bạn đã có nền tảng về máy bay dân sự và nếu nắm bắt được thời cơ thích hợp, bạn sẽ có tương lai rất đáng để mong đợi",
+    "potential drawback": "Có thể bạn sẽ bỏ lỡ cơ hội làm giàu nhờ chiến tranh và vì thế doanh nghiệp có thể không trụ được đến thời hậu chiến",
     "next node": [
       71
     ]
@@ -135,7 +135,7 @@
   {
     "node": 14,
     "type": "question",
-    "content": "Hướng đi tiếp theo là gì?",
+    "content": "Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -146,7 +146,7 @@
   {
     "node": 15,
     "type": "choice",
-    "content": "Đẩy mạnh xuất khẩu những mẫu máy bay hiện có",
+    "content": "Tăng cường sản xuất và đẩy mạnh xuất khẩu những mẫu máy bay dân sự đã nghiên cứu trước đó",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -156,7 +156,7 @@
   {
     "node": 16,
     "type": "choice",
-    "content": "Không",
+    "content": "Tiếp tục sản xuất máy bay dân sự nhưng chỉ phục vụ cho thị trường nội địa và không xuất khẩu",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -166,7 +166,7 @@
   {
     "node": 17,
     "type": "lose",
-    "content": "Không cạnh tranh lại. Hàng hóa còn tồn đọng. Buộc phải sát nhập để cứu doanh nghiệp",
+    "content": "Không có nguồn thu từ chiến tranh lại đầu tư quá nhiều vào công nghệ sản xuất máy bay dân sự trong thời chiến. Doanh thu thời hậu chiến không đủ để kéo lại kinh tế doanh nghiệp. Doanh nghiệp của bạn nhanh chóng bị các doanh nghiệp khác vượt mặt và đứng trước nguy cơ phá sản. Vậy nên doanh nghiệp của bạn buộc phải sát nhập để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -174,7 +174,7 @@
   {
     "node": 18,
     "type": "question",
-    "content": "Làm gì tiếp theo?",
+    "content": "Doanh nghiệp của bạn sẽ làm gì để vượt qua khủng hoảng?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -226,7 +226,7 @@
   {
     "node": 23,
     "type": "question",
-    "content": "Có sản xuất máy bay quân sự hay không?",
+    "content": "Bạn có muốn lấn sân sang thị phần sản xuất máy bay quân sự hay không?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -237,7 +237,7 @@
   {
     "node": 24,
     "type": "choice",
-    "content": "Nhập khẩu dòng máy bay mới",
+    "content": "Nhập khẩu dòng máy bay dân dụng mới",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -247,7 +247,7 @@
   {
     "node": 25,
     "type": "lose",
-    "content": "Không cạnh tranh lại. Hàng hóa còn tồn đọng. Buộc phải sát nhập để cứu doanh nghiệp",
+    "content": "Không có nguồn thu từ chiến tranh lại đầu tư quá nhiều vào công nghệ sản xuất máy bay dân sự trong thời chiến. Doanh thu thời hậu chiến không đủ để kéo lại kinh tế doanh nghiệp. Doanh nghiệp của bạn nhanh chóng bị các doanh nghiệp khác vượt mặt và đứng trước nguy cơ phá sản. Vậy nên doanh nghiệp của bạn buộc phải sát nhập để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -255,7 +255,7 @@
   {
     "node": 26,
     "type": "context",
-    "content": "Khủng hoảng năng lượng. Nhưng vì đi theo hướng tiết kiệm nhiên liệu nên ít bị ảnh hưởng",
+    "content": "Khủng hoảng năng lượng (1973) làm giá nhiêu liệu phi mã. Các hãng vận tải đồng loạt hoãn/hủy đơn hàng, chính phủ Asteria cắt giảm tài trợ cho các dự án chạy đua tốc độ. Tuy nhiên do đã nhìn trước được vấn đề này, doanh nghiệp của bạn đã từng bước vượt qua khủng hoảng",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -265,7 +265,7 @@
   {
     "node": 27,
     "type": "lose",
-    "content": "Làm ăn thua lỗ. Doanh nghiệp buộc phải sát nhập",
+    "content": "Do chưa từng trực tiếp sản xuất máy bay dân dụng nên bạn chưa khai thác được hết tiềm năng của những dòng máy bay nhập khẩu. Qua thời gian, bạn sẽ dần nắm được cách sử dụng nhưng lúc đó, một dòng máy bay khác lại ra đời. Việc chạy theo xu hướng công nghệ mới khiến doanh nghiệp của bạn không thể cạnh tranh với các doanh nghiệp khác trong ngành và sẽ sớm phá sản",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -283,7 +283,7 @@
   {
     "node": 29,
     "type": "question",
-    "content": "Hướng đi tiếp theo là gì?",
+    "content": "Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -294,7 +294,7 @@
   {
     "node": 30,
     "type": "context",
-    "content": "WW2 kết thúc. Doanh nghiệp trở lại sản xuất sản xuất máy bay dân sự",
+    "content": "Chiến tranh thế giới thứ hai kết thúc. Doanh nghiệp trở lại sản xuất sản xuất máy bay dân sự",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -304,9 +304,9 @@
   {
     "node": 31,
     "type": "choice",
-    "content": "Thay đổi thiết kế",
-    "benefits": "",
-    "potential drawback": "",
+    "content": "Tiếp tục khai thác dòng máy bay cánh quạt truyền thống nhưng có thay đổi thiết kế để tiết kiệm nhiên liệu",
+    "benefits": "Chi phí thấp, dễ dàng tiếp cận thị trường",
+    "potential drawback": "Đứng trước nguy cơ bị đào thải nếu động cơ phản lực ngày càng được ưa chuộng",
     "next node": [
       90
     ]
@@ -314,7 +314,7 @@
   {
     "node": 32,
     "type": "context",
-    "content": "Các quốc gia dần bắt kịp công nghệ mới. Doanh thu bắt đầu sụt giảm",
+    "content": "Các doanh nghiệp khác bắt đầu bắt kịp công nghệ mới. Thị trường máy bay dân sự trở nên cạnh tranh gay gắt. Doanh thu bắt đầu sụt giảm",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -324,7 +324,7 @@
   {
     "node": 33,
     "type": "choice",
-    "content": "Sản xuất hàng loạt máy bay quân sự",
+    "content": "Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -334,7 +334,7 @@
   {
     "node": 34,
     "type": "choice",
-    "content": "Chỉ tập trung phát triển máy bay dân sự",
+    "content": "Không. Bạn tiếp tục tập trung vào sản xuất máy bay dân sự",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -344,7 +344,7 @@
   {
     "node": 35,
     "type": "context",
-    "content": "Khủng hoảng năng lượng. Nhưng vì đi theo hướng tiết kiệm nhiên liệu nên ít bị ảnh hưởng",
+    "content": "Khủng hoảng năng lượng (1973) làm giá nhiêu liệu phi mã. Các hãng vận tải đồng loạt hoãn/hủy đơn hàng, chính phủ Asteria cắt giảm tài trợ cho các dự án chạy đua tốc độ. Tuy nhiên do đã nhìn trước được vấn đề này, doanh nghiệp của bạn đã từng bước vượt qua khủng hoảng",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -354,7 +354,7 @@
   {
     "node": 36,
     "type": "question",
-    "content": "Hiện đang diễn ra cách mạng động cơ phản lực. Hướng đi tiếp theo là gì?",
+    "content": "Bạn quyết định đầu tư lớn đón đầu kỷ nguyên phản lực hay tiếp tục trung thành với dòng máy bay cánh quạt chi phí thấp?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -365,7 +365,7 @@
   {
     "node": 37,
     "type": "question",
-    "content": "Hiện đang diễn ra cách mạng động cơ phản lực. Hướng đi tiếp theo là gì?",
+    "content": "Bạn quyết định đầu tư lớn đón đầu kỷ nguyên phản lực hay tiếp tục trung thành với dòng máy bay cánh quạt chi phí thấp?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -376,7 +376,7 @@
   {
     "node": 38,
     "type": "context",
-    "content": "WW2 kết thúc. Hao tổn nhiều máy bay quân sự",
+    "content": "Chiến tranh thế giới thứ hai kết thúc. Do trực tiếp sử dụng máy bay quân sự cho mục đích quân sự mà không sản xuất máy bay dân sự cộng thêm việc nhiều máy bay đã bị hao tổn trong chiến tranh, làm cho doanh nghiệp của bạn không có đủ năng lực để cạnh tranh với các doanh nghiệp khác trong ngành.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -386,7 +386,7 @@
   {
     "node": 39,
     "type": "context",
-    "content": "WW2 kết thúc. Hao tổn nhiều máy bay quân sự",
+    "content": "Chiến tranh thế giới thứ hai kết thúc. Do trực tiếp sử dụng máy bay quân sự cho mục đích quân sự mà không sản xuất máy bay dân sự cộng thêm việc nhiều máy bay đã bị hao tổn trong chiến tranh, làm cho doanh nghiệp của bạn không có đủ năng lực để cạnh tranh với các doanh nghiệp khác trong ngành.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -396,7 +396,7 @@
   {
     "node": 40,
     "type": "question",
-    "content": "Hiện đang diễn ra cách mạng động cơ phản lực. Hướng đi tiếp theo là gì?",
+    "content": "Bạn quyết định đầu tư lớn đón đầu kỷ nguyên phản lực hay tiếp tục trung thành với dòng máy bay cánh quạt chi phí thấp?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -407,7 +407,7 @@
   {
     "node": 41,
     "type": "context",
-    "content": "WW1 nổ ra",
+    "content": "Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -417,7 +417,7 @@
   {
     "node": 42,
     "type": "context",
-    "content": "WW1 kết thúc. Nhu cầu máy bay dân sự tăng dần",
+    "content": "Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -427,7 +427,7 @@
   {
     "node": 43,
     "type": "context",
-    "content": "Thị trường hàng không thương mại hình thành",
+    "content": "Tại Asteria, ngành hàng không bắt đầu giai đoạn thương mại hóa. Nhờ khoảng cách lớn giữa các trung tâm kinh tế và nhu cầu đi lại ngày càng tăng mà các giải pháp vận chuyển hàng hóa và hành khách được quan tâm hơn bao giờ hết. Tuy nhiên, giá vé quá cao và số lượng hành khách có thể chở được còn hạn chế.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -437,7 +437,7 @@
   {
     "node": 44,
     "type": "context",
-    "content": "WW2 nổ ra",
+    "content": "Khi Chiến tranh thế giới thứ hai bùng nổ (1939), nhu cầu máy bay quân sự tăng vọt. Chính phủ ưu tiên nguồn lực và tài trợ cho các hợp đồng quốc phòng số lượng lớn.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -447,7 +447,7 @@
   {
     "node": 45,
     "type": "context",
-    "content": "WW2 nổ ra",
+    "content": "Khi Chiến tranh thế giới thứ hai bùng nổ (1939), nhu cầu máy bay quân sự tăng vọt. Chính phủ ưu tiên nguồn lực và tài trợ cho các hợp đồng quốc phòng số lượng lớn.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -457,7 +457,7 @@
   {
     "node": 46,
     "type": "context",
-    "content": "WW2 kết thúc. Doanh nghiệp trở lại sản xuất máy bay dân sự",
+    "content": "Chiến tranh thế giới thứ hai kết thúc khiến hợp đồng quân sự sụt giảm đột ngột, buộc các doanh nghiệp Asteria chuyển hướng lại sang máy bay dân sự. Cùng lúc đó, cuộc cách mạng động cơ phản lực nổ ra, mở ra khả năng đạt tốc độ và tầm bay vượt trội so với máy bay cánh quạt, nhưng đòi hỏi chi phí R&D khổng lồ và đối mặt với rủi ro kỹ thuật cực kỳ cao.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -467,7 +467,7 @@
   {
     "node": 47,
     "type": "context",
-    "content": "WW2 kết thúc. Doanh nghiệp trở lại sản xuất máy bay dân sự",
+    "content": "Chiến tranh thế giới thứ hai kết thúc khiến hợp đồng quân sự sụt giảm đột ngột, buộc các doanh nghiệp Asteria chuyển hướng lại sang máy bay dân sự. Cùng lúc đó, cuộc cách mạng động cơ phản lực nổ ra, mở ra khả năng đạt tốc độ và tầm bay vượt trội so với máy bay cánh quạt, nhưng đòi hỏi chi phí R&D khổng lồ và đối mặt với rủi ro kỹ thuật cực kỳ cao.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -477,7 +477,7 @@
   {
     "node": 48,
     "type": "context",
-    "content": "Thị trường hàng không thương mại hình thành",
+    "content": "Tại Asteria, ngành hàng không bắt đầu giai đoạn thương mại hóa. Nhờ khoảng cách lớn giữa các trung tâm kinh tế và nhu cầu đi lại ngày càng tăng mà các giải pháp vận chuyển hàng hóa và hành khách được quan tâm hơn bao giờ hết. Tuy nhiên, giá vé quá cao và số lượng hành khách có thể chở được còn hạn chế.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -487,7 +487,7 @@
   {
     "node": 49,
     "type": "context",
-    "content": "WW2 nổ ra",
+    "content": "Khi Chiến tranh thế giới thứ hai bùng nổ (1939), nhu cầu máy bay quân sự tăng vọt. Chính phủ ưu tiên nguồn lực và tài trợ cho các hợp đồng quốc phòng số lượng lớn.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -497,7 +497,7 @@
   {
     "node": 50,
     "type": "question",
-    "content": "Cân bằng giữa sản xuất máy bay dân sự và quân sự như thế nào?",
+    "content": "Bạn sẽ lựa chọn chiến lược phân bổ công suất như thế nào giữa máy bay quân sự và dân sự để vừa tối ưu lợi nhuận thời chiến, vừa bảo vệ năng lực cạnh tranh thương mại hậu chiến?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -518,9 +518,9 @@
   {
     "node": 52,
     "type": "choice",
-    "content": "Thay đổi thiết kế",
-    "benefits": "",
-    "potential drawback": "",
+    "content": "Tiếp tục khai thác dòng máy bay cánh quạt truyền thống nhưng có thay đổi thiết kế để tiết kiệm nhiên liệu",
+    "benefits": "Chi phí thấp, dễ dàng tiếp cận thị trường",
+    "potential drawback": "Đứng trước nguy cơ bị đào thải nếu động cơ phản lực ngày càng được ưa chuộng",
     "next node": [
       91
     ]
@@ -538,7 +538,7 @@
   {
     "node": 54,
     "type": "question",
-    "content": "Cân bằng giữa sản xuất máy bay dân sự và quân sự như thế nào?",
+    "content": "Bạn sẽ lựa chọn chiến lược phân bổ công suất như thế nào giữa máy bay quân sự và dân sự để vừa tối ưu lợi nhuận thời chiến, vừa bảo vệ năng lực cạnh tranh thương mại hậu chiến?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -559,7 +559,7 @@
   {
     "node": 56,
     "type": "context",
-    "content": "WW2 kết thúc. Doanh nghiệp trở lại sản xuất máy bay dân sự",
+    "content": "Chiến tranh thế giới thứ hai kết thúc khiến hợp đồng quân sự sụt giảm đột ngột, buộc các doanh nghiệp Asteria chuyển hướng lại sang máy bay dân sự. Cùng lúc đó, cuộc cách mạng động cơ phản lực nổ ra, mở ra khả năng đạt tốc độ và tầm bay vượt trội so với máy bay cánh quạt, nhưng đòi hỏi chi phí R&D khổng lồ và đối mặt với rủi ro kỹ thuật cực kỳ cao.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -569,7 +569,7 @@
   {
     "node": 57,
     "type": "question",
-    "content": "Hiện đang diễn ra cách mạng động cơ phản lực. Hướng đi tiếp theo là gì?",
+    "content": "Bạn quyết định đầu tư lớn đón đầu kỷ nguyên phản lực hay tiếp tục trung thành với dòng máy bay cánh quạt chi phí thấp?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -580,9 +580,9 @@
   {
     "node": 58,
     "type": "choice",
-    "content": "Thay đổi thiết kế",
-    "benefits": "",
-    "potential drawback": "",
+    "content": "Tiếp tục khai thác dòng máy bay cánh quạt truyền thống nhưng có thay đổi thiết kế để tiết kiệm nhiên liệu",
+    "benefits": "Chi phí thấp, dễ dàng tiếp cận thị trường",
+    "potential drawback": "Đứng trước nguy cơ bị đào thải nếu động cơ phản lực ngày càng được ưa chuộng",
     "next node": [
       81
     ]
@@ -600,7 +600,7 @@
   {
     "node": 60,
     "type": "choice",
-    "content": "Thay đổi thiết kế",
+    "content": "Tiếp tục khai thác dòng máy bay cánh quạt truyền thống nhưng có thay đổi thiết kế để tiết kiệm nhiên liệu",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -650,7 +650,7 @@
   {
     "node": 65,
     "type": "lose",
-    "content": "Không khai thác được hiệu suất tối đa. Không hồi được vốn",
+    "content": "Do chưa từng trực tiếp sản xuất máy bay dân dụng nên bạn chưa khai thác được hết tiềm năng của những dòng máy bay nhập khẩu. Qua thời gian, bạn sẽ dần nắm được cách sử dụng nhưng lúc đó, một dòng máy bay khác lại ra đời. Việc chạy theo xu hướng công nghệ mới khiến doanh nghiệp của bạn không thể cạnh tranh với các doanh nghiệp khác trong ngành và sẽ sớm phá sản",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -668,7 +668,7 @@
   {
     "node": 67,
     "type": "question",
-    "content": "Cách giải quyết là gì?",
+    "content": "Quyết định của bạn là gì?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -679,7 +679,7 @@
   {
     "node": 68,
     "type": "question",
-    "content": "Cách giải quyết là gì?",
+    "content": "Quyết định của bạn là gì?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -710,7 +710,7 @@
   {
     "node": 71,
     "type": "context",
-    "content": "WW1 kết thúc. Nhu cầu máy bay dân sự tăng dần",
+    "content": "Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -720,7 +720,7 @@
   {
     "node": 72,
     "type": "context",
-    "content": "Các quốc gia dần bắt kịp công nghệ mới. Doanh thu bắt đầu sụt giảm",
+    "content": "Các doanh nghiệp khác bắt đầu bắt kịp công nghệ mới. Thị trường máy bay dân sự trở nên cạnh tranh gay gắt. Doanh thu bắt đầu sụt giảm",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -730,7 +730,7 @@
   {
     "node": 73,
     "type": "context",
-    "content": "WW2 kết thúc. Doanh nghiệp trở lại sản xuất máy bay dân sự",
+    "content": "Chiến tranh thế giới thứ hai kết thúc khiến hợp đồng quân sự sụt giảm đột ngột, buộc các doanh nghiệp Asteria chuyển hướng lại sang máy bay dân sự. Cùng lúc đó, cuộc cách mạng động cơ phản lực nổ ra, mở ra khả năng đạt tốc độ và tầm bay vượt trội so với máy bay cánh quạt, nhưng đòi hỏi chi phí R&D khổng lồ và đối mặt với rủi ro kỹ thuật cực kỳ cao.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -740,7 +740,7 @@
   {
     "node": 74,
     "type": "question",
-    "content": "Hiện đang diễn ra cách mạng động cơ phản lực. Hướng đi tiếp theo là gì?",
+    "content": "Bạn quyết định đầu tư lớn đón đầu kỷ nguyên phản lực hay tiếp tục trung thành với dòng máy bay cánh quạt chi phí thấp?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -751,9 +751,9 @@
   {
     "node": 75,
     "type": "choice",
-    "content": "Thay đổi thiết kế",
-    "benefits": "",
-    "potential drawback": "",
+    "content": "Tiếp tục khai thác dòng máy bay cánh quạt truyền thống nhưng có thay đổi thiết kế để tiết kiệm nhiên liệu",
+    "benefits": "Chi phí thấp, dễ dàng tiếp cận thị trường",
+    "potential drawback": "Đứng trước nguy cơ bị đào thải nếu động cơ phản lực ngày càng được ưa chuộng",
     "next node": [
       82
     ]
@@ -771,7 +771,7 @@
   {
     "node": 77,
     "type": "context",
-    "content": "WW2 kết thúc. Doanh nghiệp trở nên lớn mạnh trong lĩnh vực sản xuất máy bay dân sự",
+    "content": "Chiến tranh thế giới thứ hai kết thúc. Doanh nghiệp trở nên lớn mạnh trong lĩnh vực sản xuất máy bay dân sự",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -781,7 +781,7 @@
   {
     "node": 78,
     "type": "question",
-    "content": "Hiện đang diễn ra cách mạng động cơ phản lực. Hướng đi tiếp theo là gì?",
+    "content": "Bạn quyết định đầu tư lớn đón đầu kỷ nguyên phản lực hay tiếp tục trung thành với dòng máy bay cánh quạt chi phí thấp?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -792,9 +792,9 @@
   {
     "node": 79,
     "type": "choice",
-    "content": "Thay đổi thiết kế",
-    "benefits": "",
-    "potential drawback": "",
+    "content": "Tiếp tục khai thác dòng máy bay cánh quạt truyền thống nhưng có thay đổi thiết kế để tiết kiệm nhiên liệu",
+    "benefits": "Chi phí thấp, dễ dàng tiếp cận thị trường",
+    "potential drawback": "Đứng trước nguy cơ bị đào thải nếu động cơ phản lực ngày càng được ưa chuộng",
     "next node": [
       86
     ]
@@ -812,7 +812,7 @@
   {
     "node": 81,
     "type": "context",
-    "content": "Khủng hoảng năng lượng. Nhưng vì đi theo hướng tiết kiệm nhiên liệu nên ít bị ảnh hưởng",
+    "content": "Khủng hoảng năng lượng (1973) làm giá nhiêu liệu phi mã. Các hãng vận tải đồng loạt hoãn/hủy đơn hàng, chính phủ Asteria cắt giảm tài trợ cho các dự án chạy đua tốc độ. Tuy nhiên do đã nhìn trước được vấn đề này, doanh nghiệp của bạn đã từng bước vượt qua khủng hoảng",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -822,7 +822,7 @@
   {
     "node": 82,
     "type": "context",
-    "content": "Khủng hoảng năng lượng. Nhưng vì đi theo hướng tiết kiệm nhiên liệu nên ít bị ảnh hưởng",
+    "content": "Khủng hoảng năng lượng (1973) làm giá nhiêu liệu phi mã. Các hãng vận tải đồng loạt hoãn/hủy đơn hàng, chính phủ Asteria cắt giảm tài trợ cho các dự án chạy đua tốc độ. Tuy nhiên do đã nhìn trước được vấn đề này, doanh nghiệp của bạn đã từng bước vượt qua khủng hoảng",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -832,7 +832,7 @@
   {
     "node": 83,
     "type": "context",
-    "content": "Khủng hoảng năng lượng. Nhưng vì đi theo hướng tiết kiệm nhiên liệu nên ít bị ảnh hưởng",
+    "content": "Khủng hoảng năng lượng (1973) làm giá nhiêu liệu phi mã. Các hãng vận tải đồng loạt hoãn/hủy đơn hàng, chính phủ Asteria cắt giảm tài trợ cho các dự án chạy đua tốc độ. Tuy nhiên do đã nhìn trước được vấn đề này, doanh nghiệp của bạn đã từng bước vượt qua khủng hoảng",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -842,7 +842,7 @@
   {
     "node": 84,
     "type": "context",
-    "content": "Khủng hoảng năng lượng. Nhưng vì đi theo hướng tiết kiệm nhiên liệu nên ít bị ảnh hưởng",
+    "content": "Khủng hoảng năng lượng (1973) làm giá nhiêu liệu phi mã. Các hãng vận tải đồng loạt hoãn/hủy đơn hàng, chính phủ Asteria cắt giảm tài trợ cho các dự án chạy đua tốc độ. Tuy nhiên do đã nhìn trước được vấn đề này, doanh nghiệp của bạn đã từng bước vượt qua khủng hoảng",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -852,7 +852,7 @@
   {
     "node": 85,
     "type": "context",
-    "content": "Khủng hoảng năng lượng. Nhưng vì đi theo hướng tiết kiệm nhiên liệu nên ít bị ảnh hưởng",
+    "content": "Khủng hoảng năng lượng (1973) làm giá nhiêu liệu phi mã. Các hãng vận tải đồng loạt hoãn/hủy đơn hàng, chính phủ Asteria cắt giảm tài trợ cho các dự án chạy đua tốc độ. Tuy nhiên do đã nhìn trước được vấn đề này, doanh nghiệp của bạn đã từng bước vượt qua khủng hoảng",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -862,7 +862,7 @@
   {
     "node": 86,
     "type": "context",
-    "content": "Khủng hoảng năng lượng. Nhưng vì đi theo hướng tiết kiệm nhiên liệu nên ít bị ảnh hưởng",
+    "content": "Khủng hoảng năng lượng (1973) làm giá nhiêu liệu phi mã. Các hãng vận tải đồng loạt hoãn/hủy đơn hàng, chính phủ Asteria cắt giảm tài trợ cho các dự án chạy đua tốc độ. Tuy nhiên do đã nhìn trước được vấn đề này, doanh nghiệp của bạn đã từng bước vượt qua khủng hoảng",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -872,7 +872,7 @@
   {
     "node": 87,
     "type": "context",
-    "content": "Khủng hoảng năng lượng. Nhưng vì đi theo hướng tiết kiệm nhiên liệu nên ít bị ảnh hưởng",
+    "content": "Khủng hoảng năng lượng (1973) làm giá nhiêu liệu phi mã. Các hãng vận tải đồng loạt hoãn/hủy đơn hàng, chính phủ Asteria cắt giảm tài trợ cho các dự án chạy đua tốc độ. Tuy nhiên do đã nhìn trước được vấn đề này, doanh nghiệp của bạn đã từng bước vượt qua khủng hoảng",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -882,7 +882,7 @@
   {
     "node": 88,
     "type": "context",
-    "content": "Khủng hoảng năng lượng. Nhưng vì đi theo hướng tiết kiệm nhiên liệu nên ít bị ảnh hưởng",
+    "content": "Khủng hoảng năng lượng (1973) làm giá nhiêu liệu phi mã. Các hãng vận tải đồng loạt hoãn/hủy đơn hàng, chính phủ Asteria cắt giảm tài trợ cho các dự án chạy đua tốc độ. Tuy nhiên do đã nhìn trước được vấn đề này, doanh nghiệp của bạn đã từng bước vượt qua khủng hoảng",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -892,7 +892,7 @@
   {
     "node": 89,
     "type": "context",
-    "content": "Khủng hoảng năng lượng. Nhưng vì đi theo hướng tiết kiệm nhiên liệu nên ít bị ảnh hưởng",
+    "content": "Khủng hoảng năng lượng (1973) làm giá nhiêu liệu phi mã. Các hãng vận tải đồng loạt hoãn/hủy đơn hàng, chính phủ Asteria cắt giảm tài trợ cho các dự án chạy đua tốc độ. Tuy nhiên do đã nhìn trước được vấn đề này, doanh nghiệp của bạn đã từng bước vượt qua khủng hoảng",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -902,7 +902,7 @@
   {
     "node": 90,
     "type": "context",
-    "content": "Khủng hoảng năng lượng. Doanh nghiệp chịu ảnh hưởng nặng nề",
+    "content": "Khủng hoảng năng lượng (1973) làm giá nhiêu liệu phi mã. Các hãng vận tải đồng loạt hoãn/hủy đơn hàng, chính phủ Asteria cắt giảm tài trợ cho các dự án chạy đua tốc độ. Điều này làm doanh nghiệp của bạn chịu hậu quả nặng nề, buộc phải tập trung vào một phân khúc khách hàng thay vì dàn trải tất cả mọi khách hàng",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -912,7 +912,7 @@
   {
     "node": 91,
     "type": "context",
-    "content": "Khủng hoảng năng lượng. Doanh nghiệp chịu ảnh hưởng nặng nề",
+    "content": "Khủng hoảng năng lượng (1973) làm giá nhiêu liệu phi mã. Các hãng vận tải đồng loạt hoãn/hủy đơn hàng, chính phủ Asteria cắt giảm tài trợ cho các dự án chạy đua tốc độ. Điều này làm doanh nghiệp của bạn chịu hậu quả nặng nề, buộc phải tập trung vào một phân khúc khách hàng thay vì dàn trải tất cả mọi khách hàng",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -922,7 +922,7 @@
   {
     "node": 92,
     "type": "context",
-    "content": "Khủng hoảng năng lượng. Doanh nghiệp chịu ảnh hưởng nặng nề",
+    "content": "Khủng hoảng năng lượng (1973) làm giá nhiêu liệu phi mã. Các hãng vận tải đồng loạt hoãn/hủy đơn hàng, chính phủ Asteria cắt giảm tài trợ cho các dự án chạy đua tốc độ. Điều này làm doanh nghiệp của bạn chịu hậu quả nặng nề, buộc phải tập trung vào một phân khúc khách hàng thay vì dàn trải tất cả mọi khách hàng",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -932,7 +932,7 @@
   {
     "node": 93,
     "type": "context",
-    "content": "Khủng hoảng năng lượng. Doanh nghiệp chịu ảnh hưởng nặng nề",
+    "content": "Khủng hoảng năng lượng (1973) làm giá nhiêu liệu phi mã. Các hãng vận tải đồng loạt hoãn/hủy đơn hàng, chính phủ Asteria cắt giảm tài trợ cho các dự án chạy đua tốc độ. Điều này làm doanh nghiệp của bạn chịu hậu quả nặng nề, buộc phải tập trung vào một phân khúc khách hàng thay vì dàn trải tất cả mọi khách hàng",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -942,7 +942,7 @@
   {
     "node": 94,
     "type": "question",
-    "content": "Hướng đi tiếp theo?",
+    "content": "Đâu sẽ là phân khúc khách hàng mà doanh nghiệp của bạn sẽ tập trung khai thác?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -953,7 +953,7 @@
   {
     "node": 95,
     "type": "choice",
-    "content": "Biến máy bay thành xa xỉ phẩm",
+    "content": "Phân khúc khách hàng cao cấp. Đánh mạnh vào trải nghiệm của người dùng và chất lượng sản phẩm",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -963,7 +963,7 @@
   {
     "node": 96,
     "type": "choice",
-    "content": "Hạ giá thành để thu hồi vốn nhanh chóng và vượt qua thời kỳ khủng hoảng",
+    "content": "Phân khúc giá rẻ và tầm trung để thu hút được nhiều khách hàng, nhanh chóng thu hồi vốn và vượt qua thời kỳ khủng hoảng",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -973,7 +973,7 @@
   {
     "node": 97,
     "type": "question",
-    "content": "Hướng đi tiếp theo?",
+    "content": "Đâu sẽ là phân khúc khách hàng mà doanh nghiệp của bạn sẽ tập trung khai thác?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -984,7 +984,7 @@
   {
     "node": 98,
     "type": "choice",
-    "content": "Biến máy bay thành xa xỉ phẩm",
+    "content": "Phân khúc khách hàng cao cấp. Đánh mạnh vào trải nghiệm của người dùng và chất lượng sản phẩm",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -994,7 +994,7 @@
   {
     "node": 99,
     "type": "choice",
-    "content": "Hạ giá thành để thu hồi vốn nhanh chóng và vượt qua thời kỳ khủng hoảng",
+    "content": "Phân khúc giá rẻ và tầm trung để thu hút được nhiều khách hàng, nhanh chóng thu hồi vốn và vượt qua thời kỳ khủng hoảng",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1004,7 +1004,7 @@
   {
     "node": 100,
     "type": "question",
-    "content": "Hướng đi tiếp theo?",
+    "content": "Đâu sẽ là phân khúc khách hàng mà doanh nghiệp của bạn sẽ tập trung khai thác?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1015,7 +1015,7 @@
   {
     "node": 101,
     "type": "choice",
-    "content": "Biến máy bay thành xa xỉ phẩm",
+    "content": "Phân khúc khách hàng cao cấp. Đánh mạnh vào trải nghiệm của người dùng và chất lượng sản phẩm",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1025,7 +1025,7 @@
   {
     "node": 102,
     "type": "choice",
-    "content": "Hạ giá thành để thu hồi vốn nhanh chóng và vượt qua thời kỳ khủng hoảng",
+    "content": "Phân khúc khách hàng cao cấp. Đánh mạnh vào trải nghiệm của người dùng và chất lượng sản phẩm",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1035,7 +1035,7 @@
   {
     "node": 103,
     "type": "question",
-    "content": "Hướng đi tiếp theo?",
+    "content": "Đâu sẽ là phân khúc khách hàng mà doanh nghiệp của bạn sẽ tập trung khai thác?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1046,7 +1046,7 @@
   {
     "node": 104,
     "type": "choice",
-    "content": "Biến máy bay thành xa xỉ phẩm",
+    "content": "Phân khúc khách hàng cao cấp. Đánh mạnh vào trải nghiệm của người dùng và chất lượng sản phẩm",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1056,7 +1056,7 @@
   {
     "node": 105,
     "type": "choice",
-    "content": "Hạ giá thành để thu hồi vốn nhanh chóng và vượt qua thời kỳ khủng hoảng",
+    "content": "Phân khúc giá rẻ và tầm trung để thu hút được nhiều khách hàng, nhanh chóng thu hồi vốn và vượt qua thời kỳ khủng hoảng",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1066,7 +1066,7 @@
   {
     "node": 106,
     "type": "question",
-    "content": "Đi thâu tóm để mở rộng thị phần?",
+    "content": "Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1097,7 +1097,7 @@
   {
     "node": 109,
     "type": "question",
-    "content": "Đi thâu tóm để mở rộng thị phần?",
+    "content": "Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1128,7 +1128,7 @@
   {
     "node": 112,
     "type": "question",
-    "content": "Đi thâu tóm để mở rộng thị phần?",
+    "content": "Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1159,7 +1159,7 @@
   {
     "node": 115,
     "type": "question",
-    "content": "Đi thâu tóm để mở rộng thị phần?",
+    "content": "Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1190,7 +1190,7 @@
   {
     "node": 118,
     "type": "question",
-    "content": "Đi thâu tóm để mở rộng thị phần?",
+    "content": "Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1221,7 +1221,7 @@
   {
     "node": 121,
     "type": "question",
-    "content": "Đi thâu tóm để mở rộng thị phần?",
+    "content": "Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1252,7 +1252,7 @@
   {
     "node": 124,
     "type": "question",
-    "content": "Đi thâu tóm để mở rộng thị phần?",
+    "content": "Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1283,7 +1283,7 @@
   {
     "node": 127,
     "type": "question",
-    "content": "Đi thâu tóm để mở rộng thị phần?",
+    "content": "Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1314,7 +1314,7 @@
   {
     "node": 130,
     "type": "question",
-    "content": "Đi thâu tóm để mở rộng thị phần?",
+    "content": "Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1345,7 +1345,7 @@
   {
     "node": 133,
     "type": "question",
-    "content": "Đi thâu tóm để mở rộng thị phần?",
+    "content": "Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1376,7 +1376,7 @@
   {
     "node": 136,
     "type": "question",
-    "content": "Đi thâu tóm để mở rộng thị phần?",
+    "content": "Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1407,7 +1407,7 @@
   {
     "node": 139,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1417,7 +1417,7 @@
   {
     "node": 140,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1427,7 +1427,7 @@
   {
     "node": 141,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1437,7 +1437,7 @@
   {
     "node": 142,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1447,7 +1447,7 @@
   {
     "node": 143,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1457,7 +1457,7 @@
   {
     "node": 144,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1467,7 +1467,7 @@
   {
     "node": 145,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1477,7 +1477,7 @@
   {
     "node": 146,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1487,7 +1487,7 @@
   {
     "node": 147,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1497,7 +1497,7 @@
   {
     "node": 148,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1507,7 +1507,7 @@
   {
     "node": 149,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1517,7 +1517,7 @@
   {
     "node": 150,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1527,7 +1527,7 @@
   {
     "node": 151,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1537,7 +1537,7 @@
   {
     "node": 152,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1547,7 +1547,7 @@
   {
     "node": 153,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1557,7 +1557,7 @@
   {
     "node": 154,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1567,7 +1567,7 @@
   {
     "node": 155,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1577,7 +1577,7 @@
   {
     "node": 156,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1587,7 +1587,7 @@
   {
     "node": 157,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1597,7 +1597,7 @@
   {
     "node": 158,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1607,7 +1607,7 @@
   {
     "node": 159,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1617,7 +1617,7 @@
   {
     "node": 160,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1627,7 +1627,7 @@
   {
     "node": 161,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1637,7 +1637,7 @@
   {
     "node": 162,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1647,7 +1647,7 @@
   {
     "node": 163,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1657,7 +1657,7 @@
   {
     "node": 164,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1667,7 +1667,7 @@
   {
     "node": 165,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1677,7 +1677,7 @@
   {
     "node": 166,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1687,7 +1687,7 @@
   {
     "node": 167,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1697,7 +1697,7 @@
   {
     "node": 168,
     "type": "context",
-    "content": "Airbus bước đầu gia nhập thị trường nội địa",
+    "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1707,7 +1707,7 @@
   {
     "node": 169,
     "type": "question",
-    "content": "Có nâng cấp chất lượng dịch vụ không?",
+    "content": "Doanh nghiệp của bạn có định cạnh tranh với Airbus không? Nếu có, kế hoạch của bạn là gì?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1718,7 +1718,7 @@
   {
     "node": 170,
     "type": "choice",
-    "content": "Có. Trở thành ngạch sản phẩm cao cấp",
+    "content": "Không. Tập trung nâng cao chất lượng dịch vụ và trải nghiệm của khách hàng để trở thành ngạch sản phẩm cao cấp",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1728,7 +1728,7 @@
   {
     "node": 171,
     "type": "choice",
-    "content": "Không. Vẫn giữ nguyên chất lượng dịch vụ hiện tại",
+    "content": "Có. Vẫn giữ phân khúc khách hàng cao cấp nhưng tăng số ghế ngồi trên máy bay và hạ giá thành tối đa để thu hút nhiều khách hàng nhất",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1738,7 +1738,7 @@
   {
     "node": 172,
     "type": "question",
-    "content": "Hướng giải quyết?",
+    "content": "Doanh nghiệp của bạn có định cạnh tranh với Airbus không? Nếu có, kế hoạch của bạn là gì?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1759,7 +1759,7 @@
   {
     "node": 174,
     "type": "choice",
-    "content": "Không làm gì",
+    "content": "Không. Vẫn tập trung vào phân khúc khách hàng hiện tại và nâng cao chất lượng sản phẩm",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1769,7 +1769,7 @@
   {
     "node": 175,
     "type": "question",
-    "content": "Có nâng cấp chất lượng dịch vụ không?",
+    "content": "Doanh nghiệp của bạn có định cạnh tranh với Airbus không? Nếu có, kế hoạch của bạn là gì?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1780,7 +1780,7 @@
   {
     "node": 176,
     "type": "choice",
-    "content": "Có. Trở thành ngạch sản phẩm cao cấp",
+    "content": "Không. Tâp trung nâng cao chất lượng dịch vụ và trải nghiệm của khách hàng để trở thành ngạch sản phẩm cao cấp",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1790,7 +1790,7 @@
   {
     "node": 177,
     "type": "choice",
-    "content": "Không. Vẫn giữ nguyên chất lượng dịch vụ hiện tại",
+    "content": "Có. Vẫn giữ phân khúc khách hàng cao cấp nhưng tăng số ghế ngồi trên máy bay và hạ giá thành tối đa để thu hút nhiều khách hàng nhất",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1800,7 +1800,7 @@
   {
     "node": 178,
     "type": "question",
-    "content": "Hướng giải quyết?",
+    "content": "Doanh nghiệp của bạn có định cạnh tranh với Airbus không? Nếu có, kế hoạch của bạn là gì?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1821,7 +1821,7 @@
   {
     "node": 180,
     "type": "choice",
-    "content": "Không làm gì",
+    "content": "Không. Vẫn tập trung vào phân khúc khách hàng hiện tại và nâng cao chất lượng sản phẩm",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1831,7 +1831,7 @@
   {
     "node": 181,
     "type": "question",
-    "content": "Có nâng cấp chất lượng dịch vụ không?",
+    "content": "Doanh nghiệp của bạn có định cạnh tranh với Airbus không? Nếu có, kế hoạch của bạn là gì?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1842,7 +1842,7 @@
   {
     "node": 182,
     "type": "choice",
-    "content": "Có. Trở thành ngạch sản phẩm cao cấp",
+    "content": "Không. Tập trung nâng cao chất lượng dịch vụ và trải nghiệm của khách hàng để trở thành ngạch sản phẩm cao cấp",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1852,7 +1852,7 @@
   {
     "node": 183,
     "type": "choice",
-    "content": "Không. Vẫn giữ nguyên chất lượng dịch vụ hiện tại",
+    "content": "Có. Vẫn giữ phân khúc khách hàng cao cấp nhưng tăng số ghế ngồi trên máy bay và hạ giá thành tối đa để thu hút nhiều khách hàng nhất",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1862,7 +1862,7 @@
   {
     "node": 184,
     "type": "question",
-    "content": "Hướng giải quyết?",
+    "content": "Doanh nghiệp của bạn có định cạnh tranh với Airbus không? Nếu có, kế hoạch của bạn là gì?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1873,7 +1873,7 @@
   {
     "node": 185,
     "type": "choice",
-    "content": "Tăng số ghế ngồi trên máy bay. Hạ giá thành tối đa để thu hút nhiều khách hàng nhất",
+    "content": "Có. Vẫn giữ phân khúc khách hàng cao cấp nhưng tăng số ghế ngồi trên máy bay và hạ giá thành tối đa để thu hút nhiều khách hàng nhất",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1883,7 +1883,7 @@
   {
     "node": 186,
     "type": "choice",
-    "content": "Không làm gì",
+    "content": "Không. Tập trung nâng cao chất lượng dịch vụ và trải nghiệm của khách hàng để trở thành ngạch sản phẩm cao cấp",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1893,7 +1893,7 @@
   {
     "node": 187,
     "type": "question",
-    "content": "Có nâng cấp chất lượng dịch vụ không?",
+    "content": "Doanh nghiệp của bạn có định cạnh tranh với Airbus không? Nếu có, kế hoạch của bạn là gì?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1904,7 +1904,7 @@
   {
     "node": 188,
     "type": "choice",
-    "content": "Có. Trở thành ngạch sản phẩm cao cấp",
+    "content": "Không. Tập trung nâng cao chất lượng dịch vụ và trải nghiệm của khách hàng để trở thành ngạch sản phẩm cao cấp",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1914,7 +1914,7 @@
   {
     "node": 189,
     "type": "choice",
-    "content": "Không. Vẫn giữ nguyên chất lượng dịch vụ hiện tại",
+    "content": "Có. Vẫn giữ phân khúc khách hàng cao cấp nhưng tăng số ghế ngồi trên máy bay và hạ giá thành tối đa để thu hút nhiều khách hàng nhất",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1924,7 +1924,7 @@
   {
     "node": 190,
     "type": "question",
-    "content": "Hướng giải quyết?",
+    "content": "Doanh nghiệp của bạn có định cạnh tranh với Airbus không? Nếu có, kế hoạch của bạn là gì?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -1945,7 +1945,7 @@
   {
     "node": 192,
     "type": "choice",
-    "content": "Không làm gì",
+    "content": "Không. Vẫn tập trung vào phân khúc khách hàng hiện tại và nâng cao chất lượng sản phẩm",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2637,7 +2637,7 @@
   {
     "node": 259,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy chịu ảnh hưởng ít nhiều nhưng do đã xác định được tệp khác hàng chính nên vẫn có thể sống sót được",
+    "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Do đã xác định được phân khúc khách hàng cao cấp vốn không chịu tác động quá nhiều từ biến động thế giới. Vì vậy sản phẩm của doanh nghiệp vẫn được đón nhận và phần nào giúp doanh nghiệp sống sót qua khủng hoảng. Trong khi đó, các doanh nghiệp khác trong ngành lại lao đao và đứng trước nguy cơ phá sản",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2647,7 +2647,7 @@
   {
     "node": 260,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Không thể cạnh tranh được với Airbus về giá cả hay chất lượng dịch vụ",
+    "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Airbus củng cố vị thế áp đảo nhờ các dòng máy bay hiện đại, tối ưu chi phí và mạng lưới dịch vụ vượt trội. Trong khi đó, doanh nghiệp của bạn không đủ cao cấp để phục vụ cho khách hạng sang, nhưng cũng không đủ rẻ để cạnh tranh với Airbus nên kinh doanh ngày càng sa sút",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2657,7 +2657,7 @@
   {
     "node": 261,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Không thể cạnh tranh được với Airbus về giá cả hay chất lượng dịch vụ",
+    "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Airbus củng cố vị thế áp đảo nhờ các dòng máy bay hiện đại, tối ưu chi phí và mạng lưới dịch vụ vượt trội. Trong khi đó, doanh nghiệp của bạn không thể cạnh tranh lại do vẫn sử dụng công nghệ cũ nên kinh doanh ngày càng sa sút",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2667,7 +2667,7 @@
   {
     "node": 262,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Không thể cạnh tranh được với Airbus về giá cả hay chất lượng dịch vụ",
+    "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Airbus củng cố vị thế áp đảo nhờ các dòng máy bay hiện đại, tối ưu chi phí và mạng lưới dịch vụ vượt trội. Trong khi đó, doanh nghiệp của bạn không thể cạnh tranh lại do vẫn sử dụng công nghệ cũ nên kinh doanh ngày càng sa sút",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2677,7 +2677,7 @@
   {
     "node": 263,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy chịu ảnh hưởng ít nhiều nhưng do đã xác định được tệp khác hàng chính nên vẫn có thể sống sót được",
+    "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Do đã xác định được phân khúc khách hàng cao cấp vốn không chịu tác động quá nhiều từ biến động thế giới. Vì vậy sản phẩm của doanh nghiệp vẫn được đón nhận và phần nào giúp doanh nghiệp sống sót qua khủng hoảng. Trong khi đó, các doanh nghiệp khác trong ngành lại lao đao và đứng trước nguy cơ phá sản",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2687,7 +2687,7 @@
   {
     "node": 264,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Không thể cạnh tranh được với Airbus về giá cả hay chất lượng dịch vụ",
+    "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Airbus củng cố vị thế áp đảo nhờ các dòng máy bay hiện đại, tối ưu chi phí và mạng lưới dịch vụ vượt trội. Trong khi đó, doanh nghiệp của bạn không đủ cao cấp để phục vụ cho khách hạng sang, nhưng cũng không đủ rẻ để cạnh tranh với Airbus nên kinh doanh ngày càng sa sút",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2697,7 +2697,7 @@
   {
     "node": 265,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Không thể cạnh tranh được với Airbus về giá cả hay chất lượng dịch vụ",
+    "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Airbus củng cố vị thế áp đảo nhờ các dòng máy bay hiện đại, tối ưu chi phí và mạng lưới dịch vụ vượt trội. Trong khi đó, doanh nghiệp của bạn không thể cạnh tranh lại do vẫn sử dụng công nghệ cũ, mạng lưới dịch vụ không thể so sánh được với Airbus nên kinh doanh ngày càng sa sút",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2707,7 +2707,7 @@
   {
     "node": 266,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Không thể cạnh tranh được với Airbus về giá cả hay chất lượng dịch vụ",
+    "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Airbus củng cố vị thế áp đảo nhờ các dòng máy bay hiện đại, tối ưu chi phí và mạng lưới dịch vụ vượt trội. Trong khi đó, doanh nghiệp của bạn không thể cạnh tranh lại do vẫn sử dụng công nghệ cũ, mạng lưới dịch vụ không thể so sánh được với Airbus nên kinh doanh ngày càng sa sút",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2717,7 +2717,7 @@
   {
     "node": 267,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy chịu ảnh hưởng ít nhiều nhưng do đã xác định được tệp khác hàng chính nên vẫn có thể sống sót được",
+    "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Do đã xác định được phân khúc khách hàng cao cấp vốn không chịu tác động quá nhiều từ biến động thế giới. Vì vậy sản phẩm của doanh nghiệp vẫn được đón nhận và phần nào giúp doanh nghiệp sống sót qua khủng hoảng. Trong khi đó, các doanh nghiệp khác trong ngành lại lao đao và đứng trước nguy cơ phá sản",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2727,7 +2727,7 @@
   {
     "node": 268,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Không thể cạnh tranh được với Airbus về giá cả hay chất lượng dịch vụ",
+    "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Airbus củng cố vị thế áp đảo nhờ các dòng máy bay hiện đại, tối ưu chi phí và mạng lưới dịch vụ vượt trội. Trong khi đó, doanh nghiệp của bạn không đủ cao cấp để phục vụ cho khách hạng sang, nhưng cũng không đủ rẻ để cạnh tranh với Airbus nên kinh doanh ngày càng sa sút",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2737,7 +2737,7 @@
   {
     "node": 269,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Không thể cạnh tranh được với Airbus về giá cả hay chất lượng dịch vụ",
+    "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Airbus củng cố vị thế áp đảo nhờ các dòng máy bay hiện đại, tối ưu chi phí và mạng lưới dịch vụ vượt trội. Trong khi đó, doanh nghiệp của bạn không đủ cao cấp để phục vụ cho khách hạng sang, nhưng cũng không đủ rẻ để cạnh tranh với Airbus nên kinh doanh ngày càng sa sút",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2747,7 +2747,7 @@
   {
     "node": 270,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Không thể cạnh tranh được với Airbus về giá cả hay chất lượng dịch vụ",
+    "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Airbus củng cố vị thế áp đảo nhờ các dòng máy bay hiện đại, tối ưu chi phí và mạng lưới dịch vụ vượt trội. Do doanh nghiệp của bạn không sản xuất máy bay theo hướng tiết kiệm nhiên liệu, điều đang là hướng đi tất yếu của ngành hàng không, nên doanh nghiệp của bạn không thể cạnh tranh với Airbus, khi hãng này cũng cung cấp những dòng máy bay hạng sang và tiết kiệm nhiên liệu. Vì thế doanh nghiệp của bạn không thể cạnh tranh và kinh doanh ngày càng sa sút",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2757,7 +2757,7 @@
   {
     "node": 271,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy chịu ảnh hưởng ít nhiều nhưng do đã xác định được tệp khác hàng chính nên vẫn có thể sống sót được",
+    "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Do đã xác định được phân khúc khách hàng cao cấp vốn không chịu tác động quá nhiều từ biến động thế giới. Vì vậy sản phẩm của doanh nghiệp vẫn được đón nhận và phần nào giúp doanh nghiệp sống sót qua khủng hoảng. Trong khi đó, các doanh nghiệp khác trong ngành lại lao đao và đứng trước nguy cơ phá sản",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2767,7 +2767,7 @@
   {
     "node": 272,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Không thể cạnh tranh được với Airbus về giá cả hay chất lượng dịch vụ",
+    "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Airbus củng cố vị thế áp đảo nhờ các dòng máy bay hiện đại, tối ưu chi phí và mạng lưới dịch vụ vượt trội. Trong khi đó, doanh nghiệp của bạn không đủ cao cấp để phục vụ cho khách hạng sang, nhưng cũng không đủ rẻ để cạnh tranh với Airbus nên kinh doanh ngày càng sa sút",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2777,7 +2777,7 @@
   {
     "node": 273,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Không thể cạnh tranh được với Airbus về giá cả hay chất lượng dịch vụ",
+    "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Airbus củng cố vị thế áp đảo nhờ các dòng máy bay hiện đại, tối ưu chi phí và mạng lưới dịch vụ vượt trội. Trong khi đó, doanh nghiệp của bạn tuy có sử dụng công nghệ mới nhưng mạng lưới dịch vụ không thể so sánh được với Airbus nên kinh doanh ngày càng sa sút",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2787,7 +2787,7 @@
   {
     "node": 274,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Không thể cạnh tranh được với Airbus về giá cả hay chất lượng dịch vụ",
+    "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Airbus củng cố vị thế áp đảo nhờ các dòng máy bay hiện đại, tối ưu chi phí và mạng lưới dịch vụ vượt trội. Trong khi đó, doanh nghiệp của bạn tuy có sử dụng công nghệ mới nhưng mạng lưới dịch vụ không thể so sánh được với Airbus nên kinh doanh ngày càng sa sút",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2797,7 +2797,7 @@
   {
     "node": 275,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh do đã bị mất hết nhân tài",
+    "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2807,7 +2807,7 @@
   {
     "node": 276,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy có công nghệ lõi nhưng vốn đầu tư không đủ để vượt qua khủng khoảng",
+    "content": "Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2817,7 +2817,7 @@
   {
     "node": 277,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh do đã bị mất hết nhân tài",
+    "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2827,7 +2827,7 @@
   {
     "node": 278,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy có công nghệ lõi nhưng vốn đầu tư không đủ để vượt qua khủng khoảng",
+    "content": "Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2837,7 +2837,7 @@
   {
     "node": 279,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh do đã bị mất hết nhân tài",
+    "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2847,7 +2847,7 @@
   {
     "node": 280,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy có công nghệ lõi nhưng vốn đầu tư không đủ để vượt qua khủng khoảng",
+    "content": "Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2857,7 +2857,7 @@
   {
     "node": 281,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh do đã bị mất hết nhân tài",
+    "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2867,7 +2867,7 @@
   {
     "node": 282,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy có công nghệ lõi nhưng vốn đầu tư không đủ để vượt qua khủng khoảng",
+    "content": "Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2877,7 +2877,7 @@
   {
     "node": 283,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh do đã bị mất hết nhân tài",
+    "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2887,7 +2887,7 @@
   {
     "node": 284,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy có công nghệ lõi nhưng vốn đầu tư không đủ để vượt qua khủng khoảng",
+    "content": "Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2897,7 +2897,7 @@
   {
     "node": 285,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh do đã bị mất hết nhân tài",
+    "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2907,7 +2907,7 @@
   {
     "node": 286,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy có công nghệ lõi nhưng vốn đầu tư không đủ để vượt qua khủng khoảng",
+    "content": "Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2917,7 +2917,7 @@
   {
     "node": 287,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh do đã bị mất hết nhân tài",
+    "content": "Khủng hoảng kinh tế 2008. Airbus trở nên sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2927,7 +2927,7 @@
   {
     "node": 288,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy có công nghệ lõi nhưng vốn đầu tư không đủ để vượt qua khủng khoảng",
+    "content": "Khủng hoảng kinh tế 2008. Tuy doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2937,7 +2937,7 @@
   {
     "node": 289,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh do đã bị mất hết nhân tài",
+    "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2947,7 +2947,7 @@
   {
     "node": 290,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy có công nghệ lõi nhưng vốn đầu tư không đủ để vượt qua khủng khoảng",
+    "content": "Khủng hoảng kinh tế 2008. Tuy doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2957,7 +2957,7 @@
   {
     "node": 291,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh do đã bị mất hết nhân tài",
+    "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2967,7 +2967,7 @@
   {
     "node": 292,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy có công nghệ lõi nhưng vốn đầu tư không đủ để vượt qua khủng khoảng",
+    "content": "Khủng hoảng kinh tế 2008. Tuy doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2977,7 +2977,7 @@
   {
     "node": 293,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh do đã bị mất hết nhân tài",
+    "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2987,7 +2987,7 @@
   {
     "node": 294,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy có công nghệ lõi nhưng vốn đầu tư không đủ để vượt qua khủng khoảng",
+    "content": "Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -2997,7 +2997,7 @@
   {
     "node": 295,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh do đã bị mất hết nhân tài",
+    "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3007,7 +3007,7 @@
   {
     "node": 296,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy có công nghệ lõi nhưng vốn đầu tư không đủ để vượt qua khủng khoảng",
+    "content": "Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3017,7 +3017,7 @@
   {
     "node": 297,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh do đã bị mất hết nhân tài",
+    "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3027,7 +3027,7 @@
   {
     "node": 298,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy có công nghệ lõi nhưng vốn đầu tư không đủ để vượt qua khủng khoảng",
+    "content": "Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3037,7 +3037,7 @@
   {
     "node": 299,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh do đã bị mất hết nhân tài",
+    "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3047,7 +3047,7 @@
   {
     "node": 300,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy có công nghệ lõi nhưng vốn đầu tư không đủ để vượt qua khủng khoảng",
+    "content": "Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3057,7 +3057,7 @@
   {
     "node": 301,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh do đã bị mất hết nhân tài",
+    "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3067,7 +3067,7 @@
   {
     "node": 302,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy có công nghệ lõi nhưng vốn đầu tư không đủ để vượt qua khủng khoảng",
+    "content": "Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3077,7 +3077,7 @@
   {
     "node": 303,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh do đã bị mất hết nhân tài",
+    "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3087,7 +3087,7 @@
   {
     "node": 304,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy có công nghệ lõi nhưng vốn đầu tư không đủ để vượt qua khủng khoảng",
+    "content": "Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3097,7 +3097,7 @@
   {
     "node": 305,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh do đã bị mất hết nhân tài",
+    "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3107,7 +3107,7 @@
   {
     "node": 306,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy có công nghệ lõi nhưng vốn đầu tư không đủ để vượt qua khủng khoảng",
+    "content": "Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3117,7 +3117,7 @@
   {
     "node": 307,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh do đã bị mất hết nhân tài",
+    "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3127,7 +3127,7 @@
   {
     "node": 308,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy có công nghệ lõi nhưng vốn đầu tư không đủ để vượt qua khủng khoảng",
+    "content": "Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3137,7 +3137,7 @@
   {
     "node": 309,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh do đã bị mất hết nhân tài",
+    "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3147,7 +3147,7 @@
   {
     "node": 310,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy có công nghệ lõi nhưng vốn đầu tư không đủ để vượt qua khủng khoảng",
+    "content": "Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3157,7 +3157,7 @@
   {
     "node": 311,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh do đã bị mất hết nhân tài",
+    "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3167,7 +3167,7 @@
   {
     "node": 312,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy có công nghệ lõi nhưng vốn đầu tư không đủ để vượt qua khủng khoảng",
+    "content": "Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3177,7 +3177,7 @@
   {
     "node": 313,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh do đã bị mất hết nhân tài",
+    "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3187,7 +3187,7 @@
   {
     "node": 314,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy có công nghệ lõi nhưng vốn đầu tư không đủ để vượt qua khủng khoảng",
+    "content": "Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3197,7 +3197,7 @@
   {
     "node": 315,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh do đã bị mất hết nhân tài",
+    "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3207,7 +3207,7 @@
   {
     "node": 316,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy có công nghệ lõi nhưng vốn đầu tư không đủ để vượt qua khủng khoảng",
+    "content": "Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3217,7 +3217,7 @@
   {
     "node": 317,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh do đã bị mất hết nhân tài",
+    "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3227,7 +3227,7 @@
   {
     "node": 318,
     "type": "context",
-    "content": "Khủng hoảng kinh tế 2008. Tuy có công nghệ lõi nhưng vốn đầu tư không đủ để vượt qua khủng khoảng",
+    "content": "Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3237,7 +3237,7 @@
   {
     "node": 319,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Doanh nghiệp của bạn nhân cơ hội đó để thâu tóm thị trường nội địa và trở thành độc quyền. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3247,7 +3247,7 @@
   {
     "node": 320,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Doanh nghiệp của bạn nhân cơ hội đó để thâu tóm thị trường nội địa và trở thành độc quyền. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3257,7 +3257,7 @@
   {
     "node": 321,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Sau khi thâu tóm thị trường nội địa và trở thành độc quyền. Bạn có muốn giành luôn thị phần nội địa của Airbus không?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3267,7 +3267,7 @@
   {
     "node": 322,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Doanh nghiệp của bạn nhân cơ hội đó để thâu tóm thị trường nội địa và trở thành độc quyền. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3277,7 +3277,7 @@
   {
     "node": 323,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3287,7 +3287,7 @@
   {
     "node": 324,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3297,7 +3297,7 @@
   {
     "node": 325,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3307,7 +3307,7 @@
   {
     "node": 326,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3317,7 +3317,7 @@
   {
     "node": 327,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3327,7 +3327,7 @@
   {
     "node": 328,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3337,7 +3337,7 @@
   {
     "node": 329,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3347,7 +3347,7 @@
   {
     "node": 330,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3357,7 +3357,7 @@
   {
     "node": 331,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3367,7 +3367,7 @@
   {
     "node": 332,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3377,7 +3377,7 @@
   {
     "node": 333,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3387,7 +3387,7 @@
   {
     "node": 334,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3397,7 +3397,7 @@
   {
     "node": 335,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3407,7 +3407,7 @@
   {
     "node": 336,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3417,7 +3417,7 @@
   {
     "node": 337,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3427,7 +3427,7 @@
   {
     "node": 338,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3437,7 +3437,7 @@
   {
     "node": 339,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3447,7 +3447,7 @@
   {
     "node": 340,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3457,7 +3457,7 @@
   {
     "node": 341,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3467,7 +3467,7 @@
   {
     "node": 342,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3477,7 +3477,7 @@
   {
     "node": 343,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3487,7 +3487,7 @@
   {
     "node": 344,
     "type": "context",
-    "content": "Doanh nghiệp trở thành thế độc quyền trong sản xuất máy bay ở thị trường nội địa",
+    "content": "Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3497,7 +3497,7 @@
   {
     "node": 345,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Do không thể tiếp tục duy trì hoạt động, doanh nghiệp buộc phải sát nhập để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3505,7 +3505,7 @@
   {
     "node": 346,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Do không thể tiếp tục duy trì hoạt động, doanh nghiệp buộc phải sát nhập để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3513,7 +3513,7 @@
   {
     "node": 347,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Do không thể tiếp tục duy trì hoạt động, doanh nghiệp buộc phải sát nhập để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3521,7 +3521,7 @@
   {
     "node": 348,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Do không thể tiếp tục duy trì hoạt động, doanh nghiệp buộc phải sát nhập để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3529,7 +3529,7 @@
   {
     "node": 349,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Do không thể tiếp tục duy trì hoạt động, doanh nghiệp buộc phải sát nhập để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3537,7 +3537,7 @@
   {
     "node": 350,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Do không thể tiếp tục duy trì hoạt động, doanh nghiệp buộc phải sát nhập để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3545,7 +3545,7 @@
   {
     "node": 351,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Do không thể tiếp tục duy trì hoạt động, doanh nghiệp buộc phải sát nhập để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3553,7 +3553,7 @@
   {
     "node": 352,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Do không thể tiếp tục duy trì hoạt động, doanh nghiệp buộc phải sát nhập để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3561,7 +3561,7 @@
   {
     "node": 353,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Do không thể tiếp tục duy trì hoạt động, doanh nghiệp buộc phải sát nhập để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3569,7 +3569,7 @@
   {
     "node": 354,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Do không thể tiếp tục duy trì hoạt động, doanh nghiệp buộc phải sát nhập để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3577,7 +3577,7 @@
   {
     "node": 355,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Do không thể tiếp tục duy trì hoạt động, doanh nghiệp buộc phải sát nhập để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3585,7 +3585,7 @@
   {
     "node": 356,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3593,7 +3593,7 @@
   {
     "node": 357,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3601,7 +3601,7 @@
   {
     "node": 358,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3609,7 +3609,7 @@
   {
     "node": 359,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3617,7 +3617,7 @@
   {
     "node": 360,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3625,7 +3625,7 @@
   {
     "node": 361,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3633,7 +3633,7 @@
   {
     "node": 362,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3641,7 +3641,7 @@
   {
     "node": 363,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3649,7 +3649,7 @@
   {
     "node": 364,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3657,7 +3657,7 @@
   {
     "node": 365,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3665,7 +3665,7 @@
   {
     "node": 366,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3673,7 +3673,7 @@
   {
     "node": 367,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3681,7 +3681,7 @@
   {
     "node": 368,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3689,7 +3689,7 @@
   {
     "node": 369,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3697,7 +3697,7 @@
   {
     "node": 370,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3705,7 +3705,7 @@
   {
     "node": 371,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3713,7 +3713,7 @@
   {
     "node": 372,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3721,7 +3721,7 @@
   {
     "node": 373,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3729,7 +3729,7 @@
   {
     "node": 374,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3737,7 +3737,7 @@
   {
     "node": 375,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3745,7 +3745,7 @@
   {
     "node": 376,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3753,7 +3753,7 @@
   {
     "node": 377,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3761,7 +3761,7 @@
   {
     "node": 378,
     "type": "lose",
-    "content": "Doanh nghiệp buộc phải sát nhập",
+    "content": "Do không thể tiếp tục duy trì hoạt động, doanh nghiệp buộc phải sát nhập để cứu vãn tình hình",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3769,7 +3769,7 @@
   {
     "node": 379,
     "type": "question",
-    "content": "Có thâu tóm Airbus không?",
+    "content": "Quyết định của bạn là gì?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3780,7 +3780,7 @@
   {
     "node": 380,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3790,7 +3790,7 @@
   {
     "node": 381,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3800,7 +3800,7 @@
   {
     "node": 382,
     "type": "win",
-    "content": "Khủng hoảng kinh tế 2011. Do doanh nghiệp của mình đã mất đi người đứng đầu, thị trường bị các doanh nghiệp nước ngoài nhăm nhe. Chính phủ quyết định thả người đứng đầu để lấy lại thị phần nội địa",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3818,7 +3818,7 @@
   {
     "node": 384,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3826,7 +3826,7 @@
   {
     "node": 385,
     "type": "question",
-    "content": "Có thâu tóm Airbus không?",
+    "content": "Quyết định của bạn là gì?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3837,7 +3837,7 @@
   {
     "node": 386,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3847,7 +3847,7 @@
   {
     "node": 387,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3857,7 +3857,7 @@
   {
     "node": 388,
     "type": "win",
-    "content": "Khủng hoảng kinh tế 2011. Do doanh nghiệp của mình đã mất đi người đứng đầu, thị trường bị các doanh nghiệp nước ngoài nhăm nhe. Chính phủ quyết định thả người đứng đầu để lấy lại thị phần nội địa",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3875,7 +3875,7 @@
   {
     "node": 390,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3894,7 +3894,7 @@
   {
     "node": 392,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3904,7 +3904,7 @@
   {
     "node": 393,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3914,7 +3914,7 @@
   {
     "node": 394,
     "type": "win",
-    "content": "Khủng hoảng kinh tế 2011. Do doanh nghiệp của mình đã mất đi người đứng đầu, thị trường bị các doanh nghiệp nước ngoài nhăm nhe. Chính phủ quyết định thả người đứng đầu để lấy lại thị phần nội địa",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3932,7 +3932,7 @@
   {
     "node": 396,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3940,7 +3940,7 @@
   {
     "node": 397,
     "type": "question",
-    "content": "Có thâu tóm Airbus không?",
+    "content": "Quyết định của bạn là gì?",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3951,7 +3951,7 @@
   {
     "node": 398,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3961,7 +3961,7 @@
   {
     "node": 399,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -3971,7 +3971,7 @@
   {
     "node": 400,
     "type": "win",
-    "content": "Khủng hoảng kinh tế 2011. Do doanh nghiệp của mình đã mất đi người đứng đầu, thị trường bị các doanh nghiệp nước ngoài nhăm nhe. Chính phủ quyết định thả người đứng đầu để lấy lại thị phần nội địa",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -3989,7 +3989,7 @@
   {
     "node": 402,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4008,7 +4008,7 @@
   {
     "node": 404,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4018,7 +4018,7 @@
   {
     "node": 405,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4028,7 +4028,7 @@
   {
     "node": 406,
     "type": "win",
-    "content": "Khủng hoảng kinh tế 2011. Do doanh nghiệp của mình đã mất đi người đứng đầu, thị trường bị các doanh nghiệp nước ngoài nhăm nhe. Chính phủ quyết định thả người đứng đầu để lấy lại thị phần nội địa",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4046,7 +4046,7 @@
   {
     "node": 408,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4065,7 +4065,7 @@
   {
     "node": 410,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4075,7 +4075,7 @@
   {
     "node": 411,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4085,7 +4085,7 @@
   {
     "node": 412,
     "type": "lose",
-    "content": "Tuy đã thâu tóm Airbus nhưng vẫn phải chia thị phần nội địa với các doanh nghiệp khác nên không phải độc quyền. Vì vậy không được thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4103,7 +4103,7 @@
   {
     "node": 414,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4122,7 +4122,7 @@
   {
     "node": 416,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4132,7 +4132,7 @@
   {
     "node": 417,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4142,7 +4142,7 @@
   {
     "node": 418,
     "type": "win",
-    "content": "Khủng hoảng kinh tế 2011. Do doanh nghiệp của mình đã mất đi người đứng đầu, thị trường bị các doanh nghiệp nước ngoài nhăm nhe. Chính phủ quyết định thả người đứng đầu để lấy lại thị phần nội địa",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4160,7 +4160,7 @@
   {
     "node": 420,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4179,7 +4179,7 @@
   {
     "node": 422,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4189,7 +4189,7 @@
   {
     "node": 423,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4199,7 +4199,7 @@
   {
     "node": 424,
     "type": "lose",
-    "content": "Tuy đã thâu tóm Airbus nhưng vẫn phải chia thị phần nội địa với các doanh nghiệp khác nên không phải độc quyền. Vì vậy không được thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4217,7 +4217,7 @@
   {
     "node": 426,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4236,7 +4236,7 @@
   {
     "node": 428,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4246,7 +4246,7 @@
   {
     "node": 429,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4256,7 +4256,7 @@
   {
     "node": 430,
     "type": "win",
-    "content": "Khủng hoảng kinh tế 2011. Do doanh nghiệp của mình đã mất đi người đứng đầu, thị trường bị các doanh nghiệp nước ngoài nhăm nhe. Chính phủ quyết định thả người đứng đầu để lấy lại thị phần nội địa",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4274,7 +4274,7 @@
   {
     "node": 432,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4293,7 +4293,7 @@
   {
     "node": 434,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4303,7 +4303,7 @@
   {
     "node": 435,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4313,7 +4313,7 @@
   {
     "node": 436,
     "type": "lose",
-    "content": "Tuy đã thâu tóm Airbus nhưng vẫn phải chia thị phần nội địa với các doanh nghiệp khác nên không phải độc quyền. Vì vậy không được thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4331,7 +4331,7 @@
   {
     "node": 438,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4350,7 +4350,7 @@
   {
     "node": 440,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4360,7 +4360,7 @@
   {
     "node": 441,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4370,7 +4370,7 @@
   {
     "node": 442,
     "type": "win",
-    "content": "Khủng hoảng kinh tế 2011. Do doanh nghiệp của mình đã mất đi người đứng đầu, thị trường bị các doanh nghiệp nước ngoài nhăm nhe. Chính phủ quyết định thả người đứng đầu để lấy lại thị phần nội địa",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4388,7 +4388,7 @@
   {
     "node": 444,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4407,7 +4407,7 @@
   {
     "node": 446,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4417,7 +4417,7 @@
   {
     "node": 447,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4427,7 +4427,7 @@
   {
     "node": 448,
     "type": "lose",
-    "content": "Tuy đã thâu tóm Airbus nhưng vẫn phải chia thị phần nội địa với các doanh nghiệp khác nên không phải độc quyền. Vì vậy không được thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4445,7 +4445,7 @@
   {
     "node": 450,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4464,7 +4464,7 @@
   {
     "node": 452,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4474,7 +4474,7 @@
   {
     "node": 453,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4484,7 +4484,7 @@
   {
     "node": 454,
     "type": "win",
-    "content": "Khủng hoảng kinh tế 2011. Do doanh nghiệp của mình đã mất đi người đứng đầu, thị trường bị các doanh nghiệp nước ngoài nhăm nhe. Chính phủ quyết định thả người đứng đầu để lấy lại thị phần nội địa",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4502,7 +4502,7 @@
   {
     "node": 456,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4521,7 +4521,7 @@
   {
     "node": 458,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4531,7 +4531,7 @@
   {
     "node": 459,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4541,7 +4541,7 @@
   {
     "node": 460,
     "type": "lose",
-    "content": "Tuy đã thâu tóm Airbus nhưng vẫn phải chia thị phần nội địa với các doanh nghiệp khác nên không phải độc quyền. Vì vậy không được thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4559,7 +4559,7 @@
   {
     "node": 462,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4578,7 +4578,7 @@
   {
     "node": 464,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4588,7 +4588,7 @@
   {
     "node": 465,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4598,7 +4598,7 @@
   {
     "node": 466,
     "type": "win",
-    "content": "Khủng hoảng kinh tế 2011. Do doanh nghiệp của mình đã mất đi người đứng đầu, thị trường bị các doanh nghiệp nước ngoài nhăm nhe. Chính phủ quyết định thả người đứng đầu để lấy lại thị phần nội địa",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4616,7 +4616,7 @@
   {
     "node": 468,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4635,7 +4635,7 @@
   {
     "node": 470,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4645,7 +4645,7 @@
   {
     "node": 471,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4655,7 +4655,7 @@
   {
     "node": 472,
     "type": "lose",
-    "content": "Tuy đã thâu tóm Airbus nhưng vẫn phải chia thị phần nội địa với các doanh nghiệp khác nên không phải độc quyền. Vì vậy không được thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4673,7 +4673,7 @@
   {
     "node": 474,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4692,7 +4692,7 @@
   {
     "node": 476,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4702,7 +4702,7 @@
   {
     "node": 477,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4712,7 +4712,7 @@
   {
     "node": 478,
     "type": "win",
-    "content": "Khủng hoảng kinh tế 2011. Do doanh nghiệp của mình đã mất đi người đứng đầu, thị trường bị các doanh nghiệp nước ngoài nhăm nhe. Chính phủ quyết định thả người đứng đầu để lấy lại thị phần nội địa",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4730,7 +4730,7 @@
   {
     "node": 480,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4749,7 +4749,7 @@
   {
     "node": 482,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4759,7 +4759,7 @@
   {
     "node": 483,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4769,7 +4769,7 @@
   {
     "node": 484,
     "type": "lose",
-    "content": "Tuy đã thâu tóm Airbus nhưng vẫn phải chia thị phần nội địa với các doanh nghiệp khác nên không phải độc quyền. Vì vậy không được thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4787,7 +4787,7 @@
   {
     "node": 486,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4806,7 +4806,7 @@
   {
     "node": 488,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4816,7 +4816,7 @@
   {
     "node": 489,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4826,7 +4826,7 @@
   {
     "node": 490,
     "type": "win",
-    "content": "Khủng hoảng kinh tế 2011. Do doanh nghiệp của mình đã mất đi người đứng đầu, thị trường bị các doanh nghiệp nước ngoài nhăm nhe. Chính phủ quyết định thả người đứng đầu để lấy lại thị phần nội địa",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4844,7 +4844,7 @@
   {
     "node": 492,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4863,7 +4863,7 @@
   {
     "node": 494,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4873,7 +4873,7 @@
   {
     "node": 495,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4883,7 +4883,7 @@
   {
     "node": 496,
     "type": "lose",
-    "content": "Tuy đã thâu tóm Airbus nhưng vẫn phải chia thị phần nội địa với các doanh nghiệp khác nên không phải độc quyền. Vì vậy không được thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4901,7 +4901,7 @@
   {
     "node": 498,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4920,7 +4920,7 @@
   {
     "node": 500,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4930,7 +4930,7 @@
   {
     "node": 501,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4940,7 +4940,7 @@
   {
     "node": 502,
     "type": "win",
-    "content": "Khủng hoảng kinh tế 2011. Do doanh nghiệp của mình đã mất đi người đứng đầu, thị trường bị các doanh nghiệp nước ngoài nhăm nhe. Chính phủ quyết định thả người đứng đầu để lấy lại thị phần nội địa",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4958,7 +4958,7 @@
   {
     "node": 504,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -4977,7 +4977,7 @@
   {
     "node": 506,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4987,7 +4987,7 @@
   {
     "node": 507,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -4997,7 +4997,7 @@
   {
     "node": 508,
     "type": "lose",
-    "content": "Tuy đã thâu tóm Airbus nhưng vẫn phải chia thị phần nội địa với các doanh nghiệp khác nên không phải độc quyền. Vì vậy không được thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -5015,7 +5015,7 @@
   {
     "node": 510,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -5034,7 +5034,7 @@
   {
     "node": 512,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5044,7 +5044,7 @@
   {
     "node": 513,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5054,7 +5054,7 @@
   {
     "node": 514,
     "type": "win",
-    "content": "Khủng hoảng kinh tế 2011. Do doanh nghiệp của mình đã mất đi người đứng đầu, thị trường bị các doanh nghiệp nước ngoài nhăm nhe. Chính phủ quyết định thả người đứng đầu để lấy lại thị phần nội địa",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -5072,7 +5072,7 @@
   {
     "node": 516,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -5091,7 +5091,7 @@
   {
     "node": 518,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5101,7 +5101,7 @@
   {
     "node": 519,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5111,7 +5111,7 @@
   {
     "node": 520,
     "type": "lose",
-    "content": "Tuy đã thâu tóm Airbus nhưng vẫn phải chia thị phần nội địa với các doanh nghiệp khác nên không phải độc quyền. Vì vậy không được thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -5129,7 +5129,7 @@
   {
     "node": 522,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -5148,7 +5148,7 @@
   {
     "node": 524,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5158,7 +5158,7 @@
   {
     "node": 525,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5168,7 +5168,7 @@
   {
     "node": 526,
     "type": "win",
-    "content": "Khủng hoảng kinh tế 2011. Do doanh nghiệp của mình đã mất đi người đứng đầu, thị trường bị các doanh nghiệp nước ngoài nhăm nhe. Chính phủ quyết định thả người đứng đầu để lấy lại thị phần nội địa",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -5186,7 +5186,7 @@
   {
     "node": 528,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -5205,7 +5205,7 @@
   {
     "node": 530,
     "type": "choice",
-    "content": "Có",
+    "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5215,7 +5215,7 @@
   {
     "node": 531,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5225,7 +5225,7 @@
   {
     "node": 532,
     "type": "lose",
-    "content": "Tuy đã thâu tóm Airbus nhưng vẫn phải chia thị phần nội địa với các doanh nghiệp khác nên không phải độc quyền. Vì vậy không được thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -5243,7 +5243,7 @@
   {
     "node": 534,
     "type": "lose",
-    "content": "Do không phải độc quyền nên không thả tự do",
+    "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
     "benefits": "",
     "potential drawback": "",
     "next node": []
@@ -5251,7 +5251,7 @@
   {
     "node": 535,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5261,7 +5261,7 @@
   {
     "node": 536,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5271,7 +5271,7 @@
   {
     "node": 537,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5281,7 +5281,7 @@
   {
     "node": 538,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5291,7 +5291,7 @@
   {
     "node": 539,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5301,7 +5301,7 @@
   {
     "node": 540,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5311,7 +5311,7 @@
   {
     "node": 541,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5321,7 +5321,7 @@
   {
     "node": 542,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5331,7 +5331,7 @@
   {
     "node": 543,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5341,7 +5341,7 @@
   {
     "node": 544,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5351,7 +5351,7 @@
   {
     "node": 545,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5361,7 +5361,7 @@
   {
     "node": 546,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5371,7 +5371,7 @@
   {
     "node": 547,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5381,7 +5381,7 @@
   {
     "node": 548,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5391,7 +5391,7 @@
   {
     "node": 549,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5401,7 +5401,7 @@
   {
     "node": 550,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5411,7 +5411,7 @@
   {
     "node": 551,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5421,7 +5421,7 @@
   {
     "node": 552,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5431,7 +5431,7 @@
   {
     "node": 553,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5441,7 +5441,7 @@
   {
     "node": 554,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5451,7 +5451,7 @@
   {
     "node": 555,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5461,7 +5461,7 @@
   {
     "node": 556,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5471,7 +5471,7 @@
   {
     "node": 557,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5481,7 +5481,7 @@
   {
     "node": 558,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5491,7 +5491,7 @@
   {
     "node": 559,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
@@ -5501,7 +5501,7 @@
   {
     "node": 560,
     "type": "context",
-    "content": "Do muốn nắm thị trường nội địa nên ép các hãng bay phải sử dụng máy bay của mình. Nhưng vì đó là cạnh tranh không lành mạng nên bị tống đi tù",
+    "content": "Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù",
     "benefits": "",
     "potential drawback": "",
     "next node": [
