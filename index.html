@@ -230,6 +230,47 @@
       margin-top: 4px;
     }
 
+    .budget-display {
+      margin-top: 8px;
+      font-size: .95rem;
+      font-weight: 750;
+      color: var(--accent);
+    }
+
+    .impact {
+      background: #eff6ff;
+      border-color: #bfdbfe;
+    }
+
+    .impact-change {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 18px 0;
+    }
+
+    .impact-stat {
+      flex: 1 1 180px;
+      padding: 16px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: white;
+    }
+
+    .impact-stat strong {
+      display: block;
+      font-size: 1.2rem;
+      margin-top: 6px;
+    }
+
+    .budget-positive {
+      color: #15803d;
+    }
+
+    .budget-negative {
+      color: #be123c;
+    }
+
     /* Confirmation modal */
 
     .modal-overlay {
@@ -388,6 +429,7 @@
       <div>
         <h1>Decision Flow</h1>
         <div class="meta" id="progress">Loading questions...</div>
+        <div class="budget-display" id="budgetDisplay">Available budget: $1,000,000</div>
       </div>
 
       <nav class="toolbar" aria-label="Navigation">
@@ -434,7 +476,11 @@
     // Stores previously visited screens.
     let history = [];
 
-    // Currently displayed question/outcome.
+    // The scenario starts with a $1 million budget.
+    const INITIAL_BUDGET = 1_000_000;
+    let currentBudget = INITIAL_BUDGET;
+
+    // Currently displayed question/outcome/impact.
     let currentScreen = null;
 
     // Choice waiting for confirmation.
@@ -449,6 +495,7 @@
 
     const screenElement = document.getElementById("screen");
     const progressElement = document.getElementById("progress");
+    const budgetDisplayElement = document.getElementById("budgetDisplay");
 
     const backButton = document.getElementById("backButton");
     const restartButton = document.getElementById("restartButton");
@@ -485,6 +532,57 @@
 
     }
 
+
+    function formatMoney(amount) {
+      return new Intl.NumberFormat("en-US", {
+        style: "currency",
+        currency: "USD",
+        maximumFractionDigits: 0
+      }).format(amount);
+    }
+
+    function updateBudgetDisplay() {
+      budgetDisplayElement.textContent =
+        `Available budget: ${formatMoney(currentBudget)}`;
+    }
+
+    // Accepts values such as "+$3.2 million", "-$500,000",
+    // "$250,000", or numeric values. Missing revenue means no change.
+    function parseRevenue(revenue) {
+      if (revenue === null || revenue === undefined || revenue === "") {
+        return 0;
+      }
+
+      if (typeof revenue === "number") {
+        return revenue;
+      }
+
+      const raw = String(revenue).trim().toLowerCase();
+      const sign = raw.startsWith("-") ? -1 : 1;
+      const numberMatch = raw.match(/[+-]?\$?\s*([\d,.]+)\s*(million|m|thousand|k)?/i);
+
+      if (!numberMatch) {
+        console.warn("Could not parse choice revenue:", revenue);
+        return 0;
+      }
+
+      const value = Number(numberMatch[1].replace(/,/g, ""));
+      const unit = numberMatch[2];
+      const multiplier =
+        unit === "million" || unit === "m" ? 1_000_000 :
+          unit === "thousand" || unit === "k" ? 1_000 :
+            1;
+
+      // A leading minus is retained separately; otherwise the numeric
+      // portion's sign is used (e.g. "-$500,000").
+      const numericSign = raw.match(/^\\s*-/) ? -1 : 1;
+      return value * multiplier * numericSign;
+    }
+
+    function formatBudgetChange(amount) {
+      const sign = amount > 0 ? "+" : amount < 0 ? "−" : "";
+      return `${sign}${formatMoney(Math.abs(amount))}`;
+    }
 
     // ============================================
     // JSON LOADING
@@ -537,6 +635,8 @@
 
       history = [];
       currentScreen = null;
+      currentBudget = INITIAL_BUDGET;
+      updateBudgetDisplay();
 
       progressElement.textContent = "Ready to begin";
 
@@ -701,7 +801,10 @@
     function renderScreen(view, pushHistory = true) {
 
       if (pushHistory && currentScreen) {
-        history.push(currentScreen);
+        history.push({
+          screen: currentScreen,
+          budget: currentBudget
+        });
       }
 
       currentScreen = view;
@@ -765,6 +868,64 @@
         return;
       }
 
+
+      // ----------------------------------------
+      // CHOICE IMPACT SCREEN
+      // ----------------------------------------
+
+      if (view.impact) {
+        const { choice, budgetBefore, budgetAfter, change, nextScreen } = view;
+
+        progressElement.textContent = `Impact of choice node ${choice.node}`;
+
+        const impactCard = makeElement("article", "panel impact");
+        impactCard.append(
+          makeElement("p", "eyebrow", "Decision impact"),
+          makeElement("h2", "", choice.content || "Confirmed choice"),
+          makeElement(
+            "p",
+            "",
+            choice.impact || "No impact description provided."
+          )
+        );
+
+        const stats = makeElement("div", "impact-change");
+        const before = makeElement("div", "impact-stat");
+        before.append(
+          makeElement("span", "meta", "Budget before"),
+          makeElement("strong", "", formatMoney(budgetBefore))
+        );
+
+        const changeStat = makeElement("div", "impact-stat");
+        const changeValue = makeElement(
+          "strong",
+          change > 0 ? "budget-positive" : change < 0 ? "budget-negative" : "",
+          formatBudgetChange(change)
+        );
+        changeStat.append(
+          makeElement("span", "meta", "Revenue / budget impact"),
+          changeValue
+        );
+
+        const after = makeElement("div", "impact-stat");
+        after.append(
+          makeElement("span", "meta", "Updated budget"),
+          makeElement("strong", "", formatMoney(budgetAfter))
+        );
+
+        stats.append(before, changeStat, after);
+        impactCard.append(stats);
+
+        const continueButton = makeElement("button", "primary", "Continue");
+        continueButton.type = "button";
+        continueButton.addEventListener("click", () => {
+          renderScreen(nextScreen);
+        });
+
+        impactCard.append(continueButton);
+        screenElement.append(...(view.contexts || []).map(createContextCard), impactCard);
+        return;
+      }
 
       // ----------------------------------------
       // QUESTION SCREEN
@@ -1262,10 +1423,25 @@
           );
         }
 
-        // Navigate to the next node only after confirmation.
+        // Resolve the destination now, but show the decision impact first.
         const nextScreen = resolveScreen(next[0]);
 
-        renderScreen(nextScreen);
+        const budgetBefore = currentBudget;
+        const change = parseRevenue(choice.revenue);
+        currentBudget += change;
+        updateBudgetDisplay();
+
+        // The impact screen pauses the flow. The user must click Continue
+        // before entering the next context/question.
+        renderScreen({
+          impact: true,
+          choice,
+          budgetBefore,
+          budgetAfter: currentBudget,
+          change,
+          nextScreen,
+          contexts: currentScreen?.contexts || []
+        });
 
       } catch (error) {
 
@@ -1316,8 +1492,11 @@
 
       if (!history.length) return;
 
-      // Restore the previous screen.
-      currentScreen = history.pop();
+      // Restore the previous screen and its budget snapshot.
+      const previous = history.pop();
+      currentScreen = previous.screen;
+      currentBudget = previous.budget;
+      updateBudgetDisplay();
 
       renderScreen(
         currentScreen,
@@ -1395,6 +1574,8 @@
 
         await loadNodes();
 
+        currentBudget = INITIAL_BUDGET;
+        updateBudgetDisplay();
         showStart();
 
         console.log(
