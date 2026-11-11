@@ -133,7 +133,7 @@
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "-$5 million"
     },
     {
         "id": 103,
@@ -172,7 +172,7 @@
         "content": "Tăng số ghế ngồi trên máy bay. Hạ giá thành tối đa để thu hút nhiều khách hàng nhất",
         "benefits": "Cố gắng thu hút tối đa lượng khách hàng nhờ mức giá cạnh tranh hơn",
         "potential_drawback": "Chất lượng sản phẩm bị giảm xuống đáng kể so với trước đây vì muốn ưu tiên số lượng hơn chất lượng",
-        "impact": "Doanh nghiệp hạ chuẩn thiết kế để tăng mật độ ghế nhằm hạ giá vé. Tuy nhiên điểm yếu chí mạng của bạn vẫn là không có đi theo xu hướng tiết kiệm nhiên liệu của thế giới. Chính điều này làm khách hàng phân vân và khó lòng cạnh tranh với sự tối ưu của Airbus.",
+        "impact": "Doanh nghiệp hạ chuẩn thiết kế để tăng mật độ ghế nhằm hạ giá vé. Tuy nhiên điểm yếu chí mạng của bạn vẫn là không đi theo xu hướng tiết kiệm nhiên liệu của thế giới. Chính điều này làm khách hàng phân vân và khó lòng cạnh tranh với sự tối ưu của Airbus.",
         "revenue": "-$45.5 million"
     },
     {
@@ -188,7 +188,7 @@
         "content": "Doanh thu của bạn ngày càng giảm, thị phần ngày càng bị thu hẹp do Airbus thâu tóm hết thị phần nội địa. Đến cuối cùng, doanh nghiệp bạn không thể tiếp tục duy trì hoạt động độc lập, buộc phải hợp tác với một doanh nghiệp khác hoặc chờ bị thu mua. Dù quyết định của bạn có là gì, thì doanh nghiệp của bạn cũng không còn đủ năng lực cạnh tranh để duy trì vị thế độc lập",
         "benefits": "",
         "potential_drawback": "",
-        "impact": "Dù đã chuyển sang động cơ phản lực, doanh nghiệp không duy trì được đầu tư R&D, quy mô sản xuất và hệ sinh thái dịch vụ đủ mạnh để biến công nghệ mới thành lợi thế bền vững. Chiến lược giá rẻ và tầm trung không tạo được sản phẩm đủ hấp dẫn và có chi phí khai thác cạnh tranh trước các nhà sản xuất quốc tế. Việc không cạnh tranh trực diện với Airbus cũng không khắc phục được điểm yếu cốt lõi về sản phẩm và công nghệ. Sau khủng hoảng 2008, đơn hàng và dòng tiền suy giảm, doanh nghiệp không đủ vốn đổi mới sản phẩm, mất khách hàng và buộc phải sáp nhập để cứu vãn hoạt động.",
+        "impact": "",
         "revenue": ""
     }
 ]

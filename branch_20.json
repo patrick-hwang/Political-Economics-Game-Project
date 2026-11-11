@@ -105,7 +105,7 @@
     },
     {
         "id": 30,
-        "content": "Chiến tranh thế giới thứ hai kết thúc. Doanh nghiệp trở lại sản xuất sản xuất máy bay dân sự",
+        "content": "Chiến tranh thế giới thứ hai kết thúc (1945), hàng loạt hợp đồng quốc phòng bị cắt giảm hoặc hủy bỏ đột ngột, khiến các nhà máy hàng không Asteria rơi vào khủng hoảng dư thừa công suất nghiêm trọng. Thách thức cốt lõi của các doanh nghiệp không chỉ là tìm kiếm thị trường dân dụng thay thế, mà là phải xác định đúng dòng máy bay phù hợp với túi tiền và nhu cầu thực tế của các hãng hàng không thương mại. Đúng lúc đó, cuộc cách mạng động cơ phản lực (Jet Engine) nổ ra trên thế giới, mở ra khả năng chế tạo những thế hệ máy bay đạt tốc độ, độ cao và tầm bay vượt trội hoàn toàn so với máy bay cánh quạt truyền thống. Mặc dù công nghệ phản lực hứa hẹn tái định hình toàn bộ ngành vận tải đường dài, nó đòi hỏi chi phí nghiên cứu và phát triển (R&D) khổng lồ, nguồn vốn đầu tư dài hạn và đi kèm rủi ro kỹ thuật cực kỳ cao. Doanh nghiệp của bạn cũng đối diện với thực trạng cắt giảm hợp đồng quốc phòng và dư thùa công suất nghiêm trọng. Đồng thời cũng phải bỏ ra khoản đầu tư khổng lồ để tái sản xuất.",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -129,11 +129,11 @@
     },
     {
         "id": 92,
-        "content": "Sau hai thập kỷ tăng trưởng vượt bậc của kỷ nguyên phản lực, ngành hàng không Asteria bước vào thập niên 1970 với cuộc Cú sốc Năng lượng toàn cầu (1973 & 1979). Giá nhiên liệu hàng không phi mã chỉ trong thời gian ngắn đã đảo lộn toàn bộ cấu trúc chi phí vận tải. Các hãng hàng không đối mặt với thua lỗ nặng nề, đồng loạt hoãn hoặc hủy các đơn đặt hàng máy bay mới, trong khi chính phủ Asteria buộc phải cắt giảm tài trợ cho các dự án nghiên cứu chạy đua tốc độ cao",
+        "content": "Sau hai thập kỷ tăng trưởng vượt bậc của kỷ nguyên phản lực, ngành hàng không Asteria bước vào thập niên 1970 với cuộc Cú sốc Năng lượng toàn cầu (1973 & 1979). Giá nhiên liệu hàng không phi mã chỉ trong thời gian ngắn đã đảo lộn toàn bộ cấu trúc chi phí vận tải. Các hãng hàng không đối mặt với thua lỗ nặng nề, đồng loạt hoãn hoặc hủy các đơn đặt hàng máy bay mới, trong khi chính phủ Asteria buộc phải cắt giảm tài trợ cho các dự án nghiên cứu chạy đua tốc độ cao. Với doanh nghiệp của bạn, do đã đầu tư quá nhiều vào phần tốc độ lại không để ý đến nhiên liệu đầu vào, vậy nên chịu ảnh hưởng nặng nề từ cú sốc năng lượng 1973",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "-$5 million"
     },
     {
         "id": 100,
@@ -148,7 +148,7 @@
         "content": "Phân khúc khách hàng cao cấp. Đánh mạnh vào trải nghiệm của người dùng và chất lượng sản phẩm",
         "benefits": "Biên lợi nhuận cao, ít chịu ảnh hưởng bởi biến động suy thoái kinh tế thông thường",
         "potential_drawback": "Quy mô khách hàng hẹp, đòi hỏi chi phí đầu tư dịch vụ và trải nghiệm khắt khe",
-        "impact": "Doanh nghiệp định hình vị thế thương hiệu hạng sang với biên lợi nhuận cao, giúp duy trì dòng tiền ổn định vì nhóm khách hàng này ít bị ảnh hưởng bởi khủng hoảng kinh tế.",
+        "impact": "Doanh nghiệp định hình vị thế thương hiệu hạng sang với biên lợi nhuận cao",
         "revenue": "+$10 million"
     },
     {
@@ -169,26 +169,25 @@
     },
     {
         "id": 186,
-        "content": "Không. Tập trung nâng cao chất lượng dịch vụ và trải nghiệm của khách hàng để trở thành ngạch sản phẩm cao cấp",
+        "content": "Không làm gì để cạnh tranh với Airbus. Cụ thể, không đổi mới, không cải tiến mà chỉ dùng những công nghệ sẵn có, nguồn vốn sẵn có và tệp khách hàng cũ",
         "benefits": "Tránh đối đầu trực diện với gã khổng lồ Airbus, giữ vững thị phần ngách lợi nhuận cao",
-        "potential_drawback": "Giới hạn dư địa tăng trưởng thị phần đại chúng trước sự bành trướng của dòng máy bay nhập khẩu",
-        "impact": "Doanh nghiệp tạo dựng thị trường ngách cao cấp bền vững, tránh cuộc chiến giá rẻ trực tiếp với Airbus và duy trì sự trung thành của đối tượng khách hàng thượng lưu.",
-        "revenue": "-$51.5 million"
+        "potential_drawback": "Doanh nghiệp dần tụt hậu về công nghệ, khách hàng ngày càng ít, doanh thu suy giảm và mất khả năng cạnh tranh",
+        "revenue": "-$45.5 million"
     },
     {
         "id": 270,
-        "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Airbus củng cố vị thế áp đảo nhờ các dòng máy bay hiện đại, tối ưu chi phí và mạng lưới dịch vụ vượt trội. Do doanh nghiệp của bạn không sản xuất máy bay theo hướng tiết kiệm nhiên liệu, điều đang là hướng đi tất yếu của ngành hàng không, nên doanh nghiệp của bạn không thể cạnh tranh với Airbus, khi hãng này cũng cung cấp những dòng máy bay hạng sang và tiết kiệm nhiên liệu. Vì thế doanh nghiệp của bạn không thể cạnh tranh và kinh doanh ngày càng sa sút",
+        "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Airbus củng cố vị thế áp đảo nhờ các dòng máy bay hiện đại, tối ưu chi phí và mạng lưới dịch vụ vượt trội. Ngược lại, doanh nghiệp bạn đang lao đao và đứng trước nguy cơ phá sản",
+        "benefits": "",
+        "potential_drawback": "",
+        "impact": "",
+        "revenue": "-$10 million"
+    },
+    {
+        "id": 352,
+        "content": "Khủng hoảng kinh tế 2011 xảy ra, doanh nghiệp bạn không thể tiếp tục gắng gượng, liên tục báo lỗ và cuối cùng tuyên bố đóng cửa",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
         "revenue": ""
-    },
-    {
-        "id": 352,
-        "content": "Do không thể tiếp tục duy trì hoạt động, doanh nghiệp buộc phải sát nhập để cứu vãn tình hình",
-        "benefits": "",
-        "potential_drawback": "",
-        "impact": "Dù đã chuyển sang động cơ phản lực, doanh nghiệp không duy trì được đầu tư R&D, quy mô sản xuất và hệ sinh thái dịch vụ đủ mạnh để biến công nghệ mới thành lợi thế bền vững. Chiến lược tập trung vào phân khúc cao cấp không tạo được sản phẩm đủ hấp dẫn và có chi phí khai thác cạnh tranh trước các nhà sản xuất quốc tế. Việc không cạnh tranh trực diện với Airbus cũng không khắc phục được điểm yếu cốt lõi về sản phẩm và công nghệ. Sau khủng hoảng 2008, đơn hàng và dòng tiền suy giảm, doanh nghiệp không đủ vốn đổi mới sản phẩm, mất khách hàng và buộc phải sáp nhập để cứu vãn hoạt động.",
-        "revenue": "-$15 million"
     }
 ]

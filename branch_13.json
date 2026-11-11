@@ -105,7 +105,7 @@
     },
     {
         "id": 30,
-        "content": "Chiến tranh thế giới thứ hai kết thúc. Doanh nghiệp trở lại sản xuất sản xuất máy bay dân sự",
+        "content": "Chiến tranh thế giới thứ hai kết thúc (1945), hàng loạt hợp đồng quốc phòng bị cắt giảm hoặc hủy bỏ đột ngột, khiến các nhà máy hàng không Asteria rơi vào khủng hoảng dư thừa công suất nghiêm trọng. Thách thức cốt lõi của các doanh nghiệp không chỉ là tìm kiếm thị trường dân dụng thay thế, mà là phải xác định đúng dòng máy bay phù hợp với túi tiền và nhu cầu thực tế của các hãng hàng không thương mại. Đúng lúc đó, cuộc cách mạng động cơ phản lực (Jet Engine) nổ ra trên thế giới, mở ra khả năng chế tạo những thế hệ máy bay đạt tốc độ, độ cao và tầm bay vượt trội hoàn toàn so với máy bay cánh quạt truyền thống. Mặc dù công nghệ phản lực hứa hẹn tái định hình toàn bộ ngành vận tải đường dài, nó đòi hỏi chi phí nghiên cứu và phát triển (R&D) khổng lồ, nguồn vốn đầu tư dài hạn và đi kèm rủi ro kỹ thuật cực kỳ cao.",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -169,26 +169,26 @@
     },
     {
         "id": 177,
-        "content": "Có. Vẫn giữ phân khúc khách hàng cao cấp nhưng tăng số ghế ngồi trên máy bay và hạ giá thành tối đa để thu hút nhiều khách hàng nhất",
-        "benefits": "Cố gắng thu hút tối đa lượng khách hàng nhờ mức giá cạnh tranh hơn",
-        "potential_drawback": "Chiến lược dở dang khiến sản phẩm không đủ cao cấp cho khách hạng sang nhưng cũng không đủ rẻ để đấu lại Airbus",
-        "impact": "Doanh nghiệp cố gắng mở rộng quy mô phục vụ nhưng mô hình lai khiến chất lượng dịch vụ cao cấp suy giảm, trong khi mức giá vẫn chưa đủ sức đánh bại Airbus.",
-        "revenue": "-$48 million"
+        "content": "Có. Vẫn giữ phân khúc khách hàng cao cấp. Nhưng cũng mở thêm phân khúc giá rẻ để cạnh tranh trực tiếp với Airbus",
+        "benefits": "Mở rộng tệp khách hàng, tăng doanh thu và thị phần nội địa",
+        "potential_drawback": "Mất định vị thương hiệu hạng sang",
+        "impact": "Doanh nghiệp của bạn thành công trong việc thu hút khách hàng mới, tăng doanh thu và thị phần nội địa. Tuy nhiên, việc duy trì cả hai phân khúc khách hàng khiến chi phí sản xuất bị đội lên nhiều phần, trong khi không thật sự đưa ra được sản phẩm nào đủ hấp dẫn để vượt trội hơn Airbus",
+        "revenue": "-$51.5 million"
     },
     {
         "id": 264,
-        "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Airbus củng cố vị thế áp đảo nhờ các dòng máy bay hiện đại, tối ưu chi phí và mạng lưới dịch vụ vượt trội. Trong khi đó, doanh nghiệp của bạn không đủ cao cấp để phục vụ cho khách hạng sang, nhưng cũng không đủ rẻ để cạnh tranh với Airbus nên kinh doanh ngày càng sa sút",
+        "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Airbus củng cố vị thế áp đảo nhờ các dòng máy bay hiện đại, tối ưu chi phí và mạng lưới dịch vụ vượt trội. Trong khi đó, doanh nghiệp của bạn vẫn phải duy trì hai phân khúc khách hàng, nên chịu ảnh hưởng nặng nề hơn so với các đối thủ cạnh tranh. Vì vậy, bạn quyết định phải từ bỏ phân khúc giá rẻ. Quyết định này cũng chẳng khiến tình hình kinh doanh của bạn bớt ảm đạm",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "-$15 million"
     },
     {
         "id": 347,
-        "content": "Do không thể tiếp tục duy trì hoạt động, doanh nghiệp buộc phải sát nhập để cứu vãn tình hình",
+        "content": "Là một người bảo thủ, bạn quyết tâm không để thương hiệu hạng sang của mình bị mất đi. Tuy nhiên nguồn vốn còn lại không đủ để bạn làm được điều này. Từ đó, bạn buộc phải hợp tác với một doanh nghiệp khác hoặc chờ bị thu mua. Dù quyết định của bạn có là gì, thì doanh nghiệp của bạn cũng không còn đủ năng lực cạnh tranh để duy trì vị thể độc lập",
         "benefits": "",
         "potential_drawback": "",
-        "impact": "Dù đã chuyển sang động cơ phản lực, doanh nghiệp không duy trì được đầu tư R&D, quy mô sản xuất và hệ sinh thái dịch vụ đủ mạnh để biến công nghệ mới thành lợi thế bền vững. Chiến lược tập trung vào phân khúc cao cấp không tạo được sản phẩm đủ hấp dẫn và có chi phí khai thác cạnh tranh trước các nhà sản xuất quốc tế. Việc không cạnh tranh trực diện với Airbus cũng không khắc phục được điểm yếu cốt lõi về sản phẩm và công nghệ. Sau khủng hoảng 2008, đơn hàng và dòng tiền suy giảm, doanh nghiệp không đủ vốn đổi mới sản phẩm, mất khách hàng và buộc phải sáp nhập để cứu vãn hoạt động.",
+        "impact": "",
         "revenue": "-$15 million"
     }
 ]

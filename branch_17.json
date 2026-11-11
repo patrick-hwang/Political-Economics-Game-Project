@@ -105,7 +105,7 @@
     },
     {
         "id": 30,
-        "content": "Chiến tranh thế giới thứ hai kết thúc. Doanh nghiệp trở lại sản xuất sản xuất máy bay dân sự",
+        "content": "Chiến tranh thế giới thứ hai kết thúc (1945), hàng loạt hợp đồng quốc phòng bị cắt giảm hoặc hủy bỏ đột ngột, khiến các nhà máy hàng không Asteria rơi vào khủng hoảng dư thừa công suất nghiêm trọng. Thách thức cốt lõi của các doanh nghiệp không chỉ là tìm kiếm thị trường dân dụng thay thế, mà là phải xác định đúng dòng máy bay phù hợp với túi tiền và nhu cầu thực tế của các hãng hàng không thương mại. Đúng lúc đó, cuộc cách mạng động cơ phản lực (Jet Engine) nổ ra trên thế giới, mở ra khả năng chế tạo những thế hệ máy bay đạt tốc độ, độ cao và tầm bay vượt trội hoàn toàn so với máy bay cánh quạt truyền thống. Mặc dù công nghệ phản lực hứa hẹn tái định hình toàn bộ ngành vận tải đường dài, nó đòi hỏi chi phí nghiên cứu và phát triển (R&D) khổng lồ, nguồn vốn đầu tư dài hạn và đi kèm rủi ro kỹ thuật cực kỳ cao. Doanh nghiệp của bạn cũng đối diện với thực trạng cắt giảm hợp đồng quốc phòng và dư thùa công suất nghiêm trọng. Đồng thời cũng phải bỏ ra khoản đầu tư khổng lồ để tái sản xuất.",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -129,11 +129,11 @@
     },
     {
         "id": 92,
-        "content": "Sau hai thập kỷ tăng trưởng vượt bậc của kỷ nguyên phản lực, ngành hàng không Asteria bước vào thập niên 1970 với cuộc Cú sốc Năng lượng toàn cầu (1973 & 1979). Giá nhiên liệu hàng không phi mã chỉ trong thời gian ngắn đã đảo lộn toàn bộ cấu trúc chi phí vận tải. Các hãng hàng không đối mặt với thua lỗ nặng nề, đồng loạt hoãn hoặc hủy các đơn đặt hàng máy bay mới, trong khi chính phủ Asteria buộc phải cắt giảm tài trợ cho các dự án nghiên cứu chạy đua tốc độ cao",
+        "content": "Sau hai thập kỷ tăng trưởng vượt bậc của kỷ nguyên phản lực, ngành hàng không Asteria bước vào thập niên 1970 với cuộc Cú sốc Năng lượng toàn cầu (1973 & 1979). Giá nhiên liệu hàng không phi mã chỉ trong thời gian ngắn đã đảo lộn toàn bộ cấu trúc chi phí vận tải. Các hãng hàng không đối mặt với thua lỗ nặng nề, đồng loạt hoãn hoặc hủy các đơn đặt hàng máy bay mới, trong khi chính phủ Asteria buộc phải cắt giảm tài trợ cho các dự án nghiên cứu chạy đua tốc độ cao. Với doanh nghiệp của bạn, do đã đầu tư quá nhiều vào phần tốc độ lại không để ý đến nhiên liệu đầu vào, vậy nên chịu ảnh hưởng nặng nề từ cú sốc năng lượng 1973",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "-$5 million"
     },
     {
         "id": 100,
@@ -148,7 +148,7 @@
         "content": "Phân khúc khách hàng cao cấp. Đánh mạnh vào trải nghiệm của người dùng và chất lượng sản phẩm",
         "benefits": "Biên lợi nhuận cao, ít chịu ảnh hưởng bởi biến động suy thoái kinh tế thông thường",
         "potential_drawback": "Quy mô khách hàng hẹp, đòi hỏi chi phí đầu tư dịch vụ và trải nghiệm khắt khe",
-        "impact": "Doanh nghiệp định hình vị thế thương hiệu hạng sang với biên lợi nhuận cao, giúp duy trì dòng tiền ổn định vì nhóm khách hàng này ít bị ảnh hưởng bởi khủng hoảng kinh tế.",
+        "impact": "Doanh nghiệp định hình vị thế thương hiệu hạng sang với biên lợi nhuận cao",
         "revenue": "+$10 million"
     },
     {
@@ -169,15 +169,15 @@
     },
     {
         "id": 182,
-        "content": "Không. Tập trung nâng cao chất lượng dịch vụ và trải nghiệm của khách hàng để trở thành ngạch sản phẩm cao cấp",
+        "content": "Không cạnh tranh trực tiếp nhưng lấy đó làm động lực để cải tiến sản phẩm. Cụ thể, doanh nghiệp bạn bắt đầu thay thế động cơ cánh quạt bằng động cơ phản lực, đồng thời nâng cấp những tiện ích khác để đáp ứng nhu cầu phân khúc khách hàng cao cấp.",
         "benefits": "Tránh đối đầu trực diện với gã khổng lồ Airbus, giữ vững thị phần ngách lợi nhuận cao",
-        "potential_drawback": "Giới hạn dư địa tăng trưởng thị phần đại chúng trước sự bành trướng của dòng máy bay nhập khẩu",
-        "impact": "Doanh nghiệp tạo dựng thị trường ngách cao cấp bền vững, tránh cuộc chiến giá rẻ trực tiếp với Airbus và duy trì sự trung thành của đối tượng khách hàng thượng lưu.",
-        "revenue": "+$17 million"
+        "potential_drawback": "Thị phần nội địa của doanh nghiệp bạn sẽ càng ngày càng bị thu hẹp",
+        "impact": "Doanh nghiệp của bạn tốn nhiều chi phí để nâng cấp sản phẩm, tuy nhiên, đây là bước đi đúng đắn. Vì nhờ đó, doanh nghiệp vẫn duy trì được phân khúc khách hàng đã được xác định từ trước, và giữ vững thương hiệu hạng sang",
+        "revenue": "+$4 million"
     },
     {
         "id": 267,
-        "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Do đã xác định được phân khúc khách hàng cao cấp vốn không chịu tác động quá nhiều từ biến động thế giới. Vì vậy sản phẩm của doanh nghiệp vẫn được đón nhận và phần nào giúp doanh nghiệp sống sót qua khủng hoảng. Trong khi đó, các doanh nghiệp khác trong ngành lại lao đao và đứng trước nguy cơ phá sản",
+        "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Do đã xác định được phân khúc khách hàng cao cấp vốn không chịu tác động quá nhiều từ biến động thế giới nên sản phẩm của doanh nghiệp bạn vẫn được đón nhận và phần nào giúp doanh nghiệp sống sót qua khủng hoảng. Trong khi đó, các doanh nghiệp khác trong ngành lại lao đao và đứng trước nguy cơ phá sản",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -185,27 +185,27 @@
     },
     {
         "id": 321,
-        "content": "Sau khi thâu tóm thị trường nội địa và trở thành độc quyền. Bạn có muốn giành luôn thị phần nội địa của Airbus không?",
+        "content": "Doanh nghiệp của bạn nhân cơ hội đó để thâu tóm thị trường nội địa và trở thành độc quyền. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.",
+        "benefits": "",
+        "potential_drawback": "",
+        "impact": "",
+        "revenue": "-$20 million"
+    },
+    {
+        "id": 391,
+        "content": "Quyết định của bạn là gì?",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
         "revenue": ""
     },
     {
-        "id": 391,
-        "content": "Có thâu tóm Airbus không?",
-        "benefits": "Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa",
-        "potential_drawback": "Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù",
-        "impact": "Doanh nghiệp cân nhắc bước đi chiến lược mang tính quyết định về việc loại bỏ đối thủ ngoại hối Airbus khỏi thị trường nội địa hay chấp nhận chung sống hòa bình.",
-        "revenue": "+$25 million"
-    },
-    {
         "id": 395,
         "content": "Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa",
-        "benefits": "Tuân thủ luật cạnh tranh, duy trì môi trường kinh doanh lành mạnh và giữ mối quan hệ tốt với Chính phủ",
-        "potential_drawback": "Chia sẻ phần thị phần nội địa cho đối thủ nước ngoài",
-        "impact": "Doanh nghiệp duy trì trạng thái cạnh tranh lành mạnh song song với Airbus, tuân thủ quy định pháp lý của Asteria và giữ môi trường kinh doanh ổn định lâu dài.",
-        "revenue": "-$49.5 million"
+        "benefits": "Có động lực để tiếp tục cải tiến sản phẩm",
+        "potential_drawback": "Có thể trong tương lai phải cạnh tranh trực tiếp để giành thị phần nội địa",
+        "impact": "Trong ngắn hạn, doanh nghiệp vẫn duy trì được thị phần nội địa và có động lực để cải tiến sản phẩm. Tuy nhiên, Airbus là một doanh nghiệp lớn, có danh tiếng ở thị trường toàn cầu. Hãng cung cấp những dòng máy bay hiện đại, tối ưu chi phí vận hành và có mạng lưới dịch vụ toàn cầu. Bạn đã vuột mất cơ hội để thâu tóm thị phần nội địa của Airbus và đồng thời cũng đã tiêu hao nhiều tài nguyên vào việc đầu tư cải tiến sản phẩm cũng như thâu tóm các doanh nghiệp khác. Do đó, chi phí sản phẩm của doanh nghiệp bạn sẽ cao hơn so với Airbus, trong khi chất lượng thì chỉ bằng hoặc kém hơn. Điều này khiến doanh nghiệp của bạn ngày càng sa sút.",
+        "revenue": "-$30 million"
     },
     {
         "id": 537,
@@ -220,7 +220,7 @@
         "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
         "benefits": "",
         "potential_drawback": "",
-        "impact": "Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.",
-        "revenue": "+$4 million"
+        "impact": "",
+        "revenue": ""
     }
 ]
