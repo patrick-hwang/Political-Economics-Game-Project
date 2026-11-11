@@ -29,7 +29,7 @@
     {
         "node": 3,
         "type": "choice",
-        "content": "Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự",
+        "content": "Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự",
         "benefits": "Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển",
         "potential drawback": "Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp",
         "impact": "Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.",
@@ -479,7 +479,7 @@
     {
         "node": 33,
         "type": "choice",
-        "content": "Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự",
+        "content": "Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự",
         "benefits": "Doanh thu và lợi nhuận tăng vọt ngắn hạn nhờ hợp đồng quốc phòng lớn của chính phủ",
         "potential drawback": "Đối mặt với rủi ro dư thừa công suất nghiêm trọng và suy giảm doanh thu đột ngột khi chiến tranh kết thúc",
         "impact": "Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.",
@@ -4063,7 +4063,7 @@
     {
         "node": 287,
         "type": "context",
-        "content": "Khủng hoảng kinh tế 2008. Airbus trở nên sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
+        "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh với doanh nghiệp bạn ở thị trường nội địa do đã bị chảy máu chất xám hoàn toàn. Tuy nhiên, các hãng bay nội địa vẫn còn lựa chọn nhập khẩu máy bay của Airbus",
         "benefits": "",
         "potential drawback": "",
         "impact": "",

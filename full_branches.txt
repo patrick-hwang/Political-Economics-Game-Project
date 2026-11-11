@@ -18,7 +18,7 @@ Branch 1
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -78,7 +78,7 @@ Branch 1
  - Impact: Doanh nghiệp tối đa hóa lợi nhuận thời chiến nhờ tập trung toàn bộ dây chuyền cho hợp đồng quốc phòng.
  - Revenue: +$13 million
 47: 
- - Chiến tranh thế giới thứ hai kết thúc (1945), hàng loạt hợp đồng quốc phòng bị cắt giảm hoặc hủy bỏ đột ngột, khiến các nhà máy hàng không Asteria rơi vào khủng hoảng dư thừa công suất nghiêm trọng. Thách thức cốt lõi của các doanh nghiệp không chỉ là tìm kiếm thị trường dân dụng thay thế, mà là phải xác định đúng dòng máy bay phù hợp với túi tiền và nhu cầu thực tế của các hãng hàng không thương mại. Đúng lúc đó, cuộc cách mạng động cơ phản lực (Jet Engine) nổ ra trên thế giới, mở ra khả năng chế tạo những thế hệ máy bay đạt tốc độ, độ cao và tầm bay vượt trội hoàn toàn so với máy bay cánh quạt truyền thống. Mặc dù công nghệ phản lực hứa hẹn tái định hình toàn bộ ngành vận tải đường dài, nó đòi hỏi chi phí nghiên cứu và phát triển (R&D) khổng lồ, nguồn vốn đầu tư dài hạn và đi kèm rủi ro kỹ thuật cực kỳ cao. Doanh nghiệp của bạn cũng đối diện với thực trạng cắt giảm hợp đồng quốc phòng và dư thùa công suất nghiêm trọng. Đồng thời cũng phải bỏ ra khoản đầu tư khổng lồ để tái sản xuất.
+ - Chiến tranh thế giới thứ hai kết thúc (1945), hàng loạt hợp đồng quốc phòng bị cắt giảm hoặc hủy bỏ đột ngột, khiến các nhà máy hàng không Asteria rơi vào khủng hoảng dư thừa công suất nghiêm trọng. Thách thức cốt lõi của các doanh nghiệp không chỉ là tìm kiếm thị trường dân dụng thay thế, mà là phải xác định đúng dòng máy bay phù hợp với túi tiền và nhu cầu thực tế của các hãng hàng không thương mại. Đúng lúc đó, cuộc cách mạng động cơ phản lực (Jet Engine) nổ ra trên thế giới, mở ra khả năng chế tạo những thế hệ máy bay đạt tốc độ, độ cao và tầm bay vượt trội hoàn toàn so với máy bay cánh quạt truyền thống. Mặc dù công nghệ phản lực hứa hẹn tái định hình toàn bộ ngành vận tải đường dài, nó đòi hỏi chi phí nghiên cứu và phát triển (R&D) khổng lồ, nguồn vốn đầu tư dài hạn và đi kèm rủi ro kỹ thuật cực kỳ cao. Doanh nghiệp của bạn cũng đối diện với thực trạng cắt giảm hợp đồng quốc phòng và dư thừa công suất nghiêm trọng. Đồng thời cũng phải bỏ ra khoản đầu tư khổng lồ để tái sản xuất.
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -188,7 +188,7 @@ Branch 2
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -358,7 +358,7 @@ Branch 3
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -504,7 +504,7 @@ Branch 4
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -650,7 +650,7 @@ Branch 5
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -796,7 +796,7 @@ Branch 6
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -966,7 +966,7 @@ Branch 7
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -1136,7 +1136,7 @@ Branch 8
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -1282,7 +1282,7 @@ Branch 9
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -1428,7 +1428,7 @@ Branch 10
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -1574,7 +1574,7 @@ Branch 11
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -1744,7 +1744,7 @@ Branch 12
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -1914,7 +1914,7 @@ Branch 13
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -2060,7 +2060,7 @@ Branch 14
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -2206,7 +2206,7 @@ Branch 15
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -2352,7 +2352,7 @@ Branch 16
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -2522,7 +2522,7 @@ Branch 17
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -2692,7 +2692,7 @@ Branch 18
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -2838,7 +2838,7 @@ Branch 19
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -2984,7 +2984,7 @@ Branch 20
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -3130,7 +3130,7 @@ Branch 21
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -3244,7 +3244,7 @@ Branch 21
  - Impact: Doanh nghiệp tuyển dụng thành công các kỹ sư và chuyên gia quản lý hàng đầu từ Airbus, nhanh chóng tiếp cận quy trình quản trị hiện đại và nâng cao năng lực thiết kế.
  - Revenue: +$12 million
 287: 
- - Khủng hoảng kinh tế 2008. Airbus trở nên sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
+ - Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh với doanh nghiệp bạn ở thị trường nội địa do đã bị chảy máu chất xám hoàn toàn. Tuy nhiên, các hãng bay nội địa vẫn còn lựa chọn nhập khẩu máy bay của Airbus
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -3300,7 +3300,7 @@ Branch 22
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -3414,7 +3414,7 @@ Branch 22
  - Impact: Doanh nghiệp tuyển dụng thành công các kỹ sư và chuyên gia quản lý hàng đầu từ Airbus, nhanh chóng tiếp cận quy trình quản trị hiện đại và nâng cao năng lực thiết kế.
  - Revenue: +$12 million
 287: 
- - Khủng hoảng kinh tế 2008. Airbus trở nên sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
+ - Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh với doanh nghiệp bạn ở thị trường nội địa do đã bị chảy máu chất xám hoàn toàn. Tuy nhiên, các hãng bay nội địa vẫn còn lựa chọn nhập khẩu máy bay của Airbus
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -3470,7 +3470,7 @@ Branch 23
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -3616,7 +3616,7 @@ Branch 24
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -3786,7 +3786,7 @@ Branch 25
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -3956,7 +3956,7 @@ Branch 26
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -4102,7 +4102,7 @@ Branch 27
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -4272,7 +4272,7 @@ Branch 28
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -4442,7 +4442,7 @@ Branch 29
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -4588,7 +4588,7 @@ Branch 30
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -4758,7 +4758,7 @@ Branch 31
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -4928,7 +4928,7 @@ Branch 32
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -5074,7 +5074,7 @@ Branch 33
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -5244,7 +5244,7 @@ Branch 34
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -5414,7 +5414,7 @@ Branch 35
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -5560,7 +5560,7 @@ Branch 36
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -5730,7 +5730,7 @@ Branch 37
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -5900,7 +5900,7 @@ Branch 38
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -6046,7 +6046,7 @@ Branch 39
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -6216,7 +6216,7 @@ Branch 40
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -6386,7 +6386,7 @@ Branch 41
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -6532,7 +6532,7 @@ Branch 42
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -6702,7 +6702,7 @@ Branch 43
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -6872,7 +6872,7 @@ Branch 44
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -7018,7 +7018,7 @@ Branch 45
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -7122,7 +7122,7 @@ Branch 46
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -7292,7 +7292,7 @@ Branch 47
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -7462,7 +7462,7 @@ Branch 48
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -7608,7 +7608,7 @@ Branch 49
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -7778,7 +7778,7 @@ Branch 50
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -7948,7 +7948,7 @@ Branch 51
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -8094,7 +8094,7 @@ Branch 52
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -8264,7 +8264,7 @@ Branch 53
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -8434,7 +8434,7 @@ Branch 54
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -8580,7 +8580,7 @@ Branch 55
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -8750,7 +8750,7 @@ Branch 56
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -8920,7 +8920,7 @@ Branch 57
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -9066,7 +9066,7 @@ Branch 58
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -9236,7 +9236,7 @@ Branch 59
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -9406,7 +9406,7 @@ Branch 60
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -9552,7 +9552,7 @@ Branch 61
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -9722,7 +9722,7 @@ Branch 62
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -9892,7 +9892,7 @@ Branch 63
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -10038,7 +10038,7 @@ Branch 64
  - Impact: 
  - Revenue: 
 3: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
  - Potential Drawback: Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -10160,7 +10160,7 @@ Branch 65
  - Impact: 
  - Revenue: 
 33: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Doanh thu và lợi nhuận tăng vọt ngắn hạn nhờ hợp đồng quốc phòng lớn của chính phủ
  - Potential Drawback: Đối mặt với rủi ro dư thừa công suất nghiêm trọng và suy giảm doanh thu đột ngột khi chiến tranh kết thúc
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -10330,7 +10330,7 @@ Branch 66
  - Impact: 
  - Revenue: 
 33: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Doanh thu và lợi nhuận tăng vọt ngắn hạn nhờ hợp đồng quốc phòng lớn của chính phủ
  - Potential Drawback: Đối mặt với rủi ro dư thừa công suất nghiêm trọng và suy giảm doanh thu đột ngột khi chiến tranh kết thúc
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -10500,7 +10500,7 @@ Branch 67
  - Impact: 
  - Revenue: 
 33: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Doanh thu và lợi nhuận tăng vọt ngắn hạn nhờ hợp đồng quốc phòng lớn của chính phủ
  - Potential Drawback: Đối mặt với rủi ro dư thừa công suất nghiêm trọng và suy giảm doanh thu đột ngột khi chiến tranh kết thúc
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -10646,7 +10646,7 @@ Branch 68
  - Impact: 
  - Revenue: 
 33: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Doanh thu và lợi nhuận tăng vọt ngắn hạn nhờ hợp đồng quốc phòng lớn của chính phủ
  - Potential Drawback: Đối mặt với rủi ro dư thừa công suất nghiêm trọng và suy giảm doanh thu đột ngột khi chiến tranh kết thúc
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -10816,7 +10816,7 @@ Branch 69
  - Impact: 
  - Revenue: 
 33: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Doanh thu và lợi nhuận tăng vọt ngắn hạn nhờ hợp đồng quốc phòng lớn của chính phủ
  - Potential Drawback: Đối mặt với rủi ro dư thừa công suất nghiêm trọng và suy giảm doanh thu đột ngột khi chiến tranh kết thúc
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -10986,7 +10986,7 @@ Branch 70
  - Impact: 
  - Revenue: 
 33: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Doanh thu và lợi nhuận tăng vọt ngắn hạn nhờ hợp đồng quốc phòng lớn của chính phủ
  - Potential Drawback: Đối mặt với rủi ro dư thừa công suất nghiêm trọng và suy giảm doanh thu đột ngột khi chiến tranh kết thúc
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -11132,7 +11132,7 @@ Branch 71
  - Impact: 
  - Revenue: 
 33: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Doanh thu và lợi nhuận tăng vọt ngắn hạn nhờ hợp đồng quốc phòng lớn của chính phủ
  - Potential Drawback: Đối mặt với rủi ro dư thừa công suất nghiêm trọng và suy giảm doanh thu đột ngột khi chiến tranh kết thúc
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -11302,7 +11302,7 @@ Branch 72
  - Impact: 
  - Revenue: 
 33: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Doanh thu và lợi nhuận tăng vọt ngắn hạn nhờ hợp đồng quốc phòng lớn của chính phủ
  - Potential Drawback: Đối mặt với rủi ro dư thừa công suất nghiêm trọng và suy giảm doanh thu đột ngột khi chiến tranh kết thúc
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -11472,7 +11472,7 @@ Branch 73
  - Impact: 
  - Revenue: 
 33: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Doanh thu và lợi nhuận tăng vọt ngắn hạn nhờ hợp đồng quốc phòng lớn của chính phủ
  - Potential Drawback: Đối mặt với rủi ro dư thừa công suất nghiêm trọng và suy giảm doanh thu đột ngột khi chiến tranh kết thúc
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -11618,7 +11618,7 @@ Branch 74
  - Impact: 
  - Revenue: 
 33: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Doanh thu và lợi nhuận tăng vọt ngắn hạn nhờ hợp đồng quốc phòng lớn của chính phủ
  - Potential Drawback: Đối mặt với rủi ro dư thừa công suất nghiêm trọng và suy giảm doanh thu đột ngột khi chiến tranh kết thúc
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -11788,7 +11788,7 @@ Branch 75
  - Impact: 
  - Revenue: 
 33: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Doanh thu và lợi nhuận tăng vọt ngắn hạn nhờ hợp đồng quốc phòng lớn của chính phủ
  - Potential Drawback: Đối mặt với rủi ro dư thừa công suất nghiêm trọng và suy giảm doanh thu đột ngột khi chiến tranh kết thúc
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
@@ -11958,7 +11958,7 @@ Branch 76
  - Impact: 
  - Revenue: 
 33: 
- - Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+ - Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
  - Benefits: Doanh thu và lợi nhuận tăng vọt ngắn hạn nhờ hợp đồng quốc phòng lớn của chính phủ
  - Potential Drawback: Đối mặt với rủi ro dư thừa công suất nghiêm trọng và suy giảm doanh thu đột ngột khi chiến tranh kết thúc
  - Impact: Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.

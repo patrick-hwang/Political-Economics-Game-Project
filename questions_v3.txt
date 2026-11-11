@@ -2,7 +2,7 @@ Branch 1
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -32,7 +32,7 @@ Branch 2
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -62,7 +62,7 @@ Branch 3
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -88,7 +88,7 @@ Branch 4
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -114,7 +114,7 @@ Branch 5
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -140,7 +140,7 @@ Branch 6
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -170,7 +170,7 @@ Branch 7
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -200,7 +200,7 @@ Branch 8
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -226,7 +226,7 @@ Branch 9
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -252,7 +252,7 @@ Branch 10
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -278,7 +278,7 @@ Branch 11
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -308,7 +308,7 @@ Branch 12
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -338,7 +338,7 @@ Branch 13
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -364,7 +364,7 @@ Branch 14
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -390,7 +390,7 @@ Branch 15
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -416,7 +416,7 @@ Branch 16
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -446,7 +446,7 @@ Branch 17
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -476,7 +476,7 @@ Branch 18
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -502,7 +502,7 @@ Branch 19
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -528,7 +528,7 @@ Branch 20
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -554,7 +554,7 @@ Branch 21
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -573,7 +573,7 @@ Branch 21
 153: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
 211: Cạnh tranh với Airbus như thế nào?
 212: Thu hút nhân tài từ Airbus
-287: Khủng hoảng kinh tế 2008. Airbus trở nên sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
+287: Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh với doanh nghiệp bạn ở thị trường nội địa do đã bị chảy máu chất xám hoàn toàn. Tuy nhiên, các hãng bay nội địa vẫn còn lựa chọn nhập khẩu máy bay của Airbus
 329: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.
 439: Có thâu tóm Airbus không?
 440: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
@@ -584,7 +584,7 @@ Branch 22
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -603,7 +603,7 @@ Branch 22
 153: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
 211: Cạnh tranh với Airbus như thế nào?
 212: Thu hút nhân tài từ Airbus
-287: Khủng hoảng kinh tế 2008. Airbus trở nên sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
+287: Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh với doanh nghiệp bạn ở thị trường nội địa do đã bị chảy máu chất xám hoàn toàn. Tuy nhiên, các hãng bay nội địa vẫn còn lựa chọn nhập khẩu máy bay của Airbus
 329: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.
 439: Có thâu tóm Airbus không?
 443: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
@@ -614,7 +614,7 @@ Branch 23
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -640,7 +640,7 @@ Branch 24
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -659,7 +659,7 @@ Branch 24
 154: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
 214: Cạnh tranh với Airbus như thế nào?
 215: Thu hút nhân tài từ Airbus
-289: Khủng hoảng kinh tế 2008. Airbus trở nên sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
+289: Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh với doanh nghiệp bạn ở thị trường nội địa do đã bị chảy máu chất xám hoàn toàn. Tuy nhiên, các hãng bay nội địa vẫn còn lựa chọn nhập khẩu máy bay của Airbus
 330: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.
 445: Có thâu tóm Airbus không?
 446: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
@@ -670,7 +670,7 @@ Branch 25
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -700,7 +700,7 @@ Branch 26
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -726,7 +726,7 @@ Branch 27
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -756,7 +756,7 @@ Branch 28
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -786,7 +786,7 @@ Branch 29
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -812,7 +812,7 @@ Branch 30
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -842,7 +842,7 @@ Branch 31
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -872,7 +872,7 @@ Branch 32
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -898,7 +898,7 @@ Branch 33
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -928,7 +928,7 @@ Branch 34
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -958,7 +958,7 @@ Branch 35
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -984,7 +984,7 @@ Branch 36
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -1014,7 +1014,7 @@ Branch 37
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -1044,7 +1044,7 @@ Branch 38
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -1070,7 +1070,7 @@ Branch 39
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -1100,7 +1100,7 @@ Branch 40
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -1130,7 +1130,7 @@ Branch 41
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -1156,7 +1156,7 @@ Branch 42
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -1186,7 +1186,7 @@ Branch 43
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -1216,7 +1216,7 @@ Branch 44
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 4: Đẩy mạnh sản xuất máy bay dân sự
@@ -1242,7 +1242,7 @@ Branch 45
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 5: Cải hoán máy bay quân sự thành phục vụ mục đích dân dụng
@@ -1261,7 +1261,7 @@ Branch 46
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 5: Cải hoán máy bay quân sự thành phục vụ mục đích dân dụng
@@ -1291,7 +1291,7 @@ Branch 47
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 5: Cải hoán máy bay quân sự thành phục vụ mục đích dân dụng
@@ -1321,7 +1321,7 @@ Branch 48
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 5: Cải hoán máy bay quân sự thành phục vụ mục đích dân dụng
@@ -1347,7 +1347,7 @@ Branch 49
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 5: Cải hoán máy bay quân sự thành phục vụ mục đích dân dụng
@@ -1377,7 +1377,7 @@ Branch 50
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 5: Cải hoán máy bay quân sự thành phục vụ mục đích dân dụng
@@ -1407,7 +1407,7 @@ Branch 51
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 5: Cải hoán máy bay quân sự thành phục vụ mục đích dân dụng
@@ -1433,7 +1433,7 @@ Branch 52
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 5: Cải hoán máy bay quân sự thành phục vụ mục đích dân dụng
@@ -1463,7 +1463,7 @@ Branch 53
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 5: Cải hoán máy bay quân sự thành phục vụ mục đích dân dụng
@@ -1493,7 +1493,7 @@ Branch 54
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 5: Cải hoán máy bay quân sự thành phục vụ mục đích dân dụng
@@ -1519,7 +1519,7 @@ Branch 55
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 5: Cải hoán máy bay quân sự thành phục vụ mục đích dân dụng
@@ -1549,7 +1549,7 @@ Branch 56
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 5: Cải hoán máy bay quân sự thành phục vụ mục đích dân dụng
@@ -1579,7 +1579,7 @@ Branch 57
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 5: Cải hoán máy bay quân sự thành phục vụ mục đích dân dụng
@@ -1605,7 +1605,7 @@ Branch 58
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 5: Cải hoán máy bay quân sự thành phục vụ mục đích dân dụng
@@ -1635,7 +1635,7 @@ Branch 59
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 5: Cải hoán máy bay quân sự thành phục vụ mục đích dân dụng
@@ -1665,7 +1665,7 @@ Branch 60
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 5: Cải hoán máy bay quân sự thành phục vụ mục đích dân dụng
@@ -1691,7 +1691,7 @@ Branch 61
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 5: Cải hoán máy bay quân sự thành phục vụ mục đích dân dụng
@@ -1721,7 +1721,7 @@ Branch 62
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 5: Cải hoán máy bay quân sự thành phục vụ mục đích dân dụng
@@ -1751,7 +1751,7 @@ Branch 63
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 5: Cải hoán máy bay quân sự thành phục vụ mục đích dân dụng
@@ -1777,7 +1777,7 @@ Branch 64
 1: Start
 41: Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
 2: Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
-3: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+3: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 42: Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự. Vì vậy doanh thu đến từ những đơn đặt hàng quân sự ngày càng sụt giảm
 29: Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?
 5: Cải hoán máy bay quân sự thành phục vụ mục đích dân dụng
@@ -1799,7 +1799,7 @@ Branch 65
 19: Cải tiến theo hướng tiết kiệm nhiên liệu
 12: Khi Chiến tranh thế giới thứ hai bùng nổ (1939), nhu cầu máy bay quân sự tăng vọt. Chính phủ ưu tiên nguồn lực và tài trợ cho các hợp đồng quốc phòng số lượng lớn.
 23: Bạn có muốn lấn sân sang thị phần sản xuất máy bay quân sự hay không?
-33: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+33: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 73: Chiến tranh thế giới thứ hai kết thúc khiến hợp đồng quân sự sụt giảm đột ngột, buộc các doanh nghiệp Asteria chuyển hướng lại sang máy bay dân sự. Cùng lúc đó, cuộc cách mạng động cơ phản lực nổ ra, mở ra khả năng đạt tốc độ và tầm bay vượt trội so với máy bay cánh quạt, nhưng đòi hỏi chi phí R&D khổng lồ và đối mặt với rủi ro kỹ thuật cực kỳ cao.
 74: Bạn quyết định đầu tư lớn đón đầu kỷ nguyên phản lực hay tiếp tục trung thành với dòng máy bay cánh quạt chi phí thấp?
 75: Tiếp tục khai thác dòng máy bay cánh quạt truyền thống nhưng có thay đổi thiết kế để tiết kiệm nhiên liệu
@@ -1829,7 +1829,7 @@ Branch 66
 19: Cải tiến theo hướng tiết kiệm nhiên liệu
 12: Khi Chiến tranh thế giới thứ hai bùng nổ (1939), nhu cầu máy bay quân sự tăng vọt. Chính phủ ưu tiên nguồn lực và tài trợ cho các hợp đồng quốc phòng số lượng lớn.
 23: Bạn có muốn lấn sân sang thị phần sản xuất máy bay quân sự hay không?
-33: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+33: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 73: Chiến tranh thế giới thứ hai kết thúc khiến hợp đồng quân sự sụt giảm đột ngột, buộc các doanh nghiệp Asteria chuyển hướng lại sang máy bay dân sự. Cùng lúc đó, cuộc cách mạng động cơ phản lực nổ ra, mở ra khả năng đạt tốc độ và tầm bay vượt trội so với máy bay cánh quạt, nhưng đòi hỏi chi phí R&D khổng lồ và đối mặt với rủi ro kỹ thuật cực kỳ cao.
 74: Bạn quyết định đầu tư lớn đón đầu kỷ nguyên phản lực hay tiếp tục trung thành với dòng máy bay cánh quạt chi phí thấp?
 75: Tiếp tục khai thác dòng máy bay cánh quạt truyền thống nhưng có thay đổi thiết kế để tiết kiệm nhiên liệu
@@ -1859,7 +1859,7 @@ Branch 67
 19: Cải tiến theo hướng tiết kiệm nhiên liệu
 12: Khi Chiến tranh thế giới thứ hai bùng nổ (1939), nhu cầu máy bay quân sự tăng vọt. Chính phủ ưu tiên nguồn lực và tài trợ cho các hợp đồng quốc phòng số lượng lớn.
 23: Bạn có muốn lấn sân sang thị phần sản xuất máy bay quân sự hay không?
-33: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+33: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 73: Chiến tranh thế giới thứ hai kết thúc khiến hợp đồng quân sự sụt giảm đột ngột, buộc các doanh nghiệp Asteria chuyển hướng lại sang máy bay dân sự. Cùng lúc đó, cuộc cách mạng động cơ phản lực nổ ra, mở ra khả năng đạt tốc độ và tầm bay vượt trội so với máy bay cánh quạt, nhưng đòi hỏi chi phí R&D khổng lồ và đối mặt với rủi ro kỹ thuật cực kỳ cao.
 74: Bạn quyết định đầu tư lớn đón đầu kỷ nguyên phản lực hay tiếp tục trung thành với dòng máy bay cánh quạt chi phí thấp?
 75: Tiếp tục khai thác dòng máy bay cánh quạt truyền thống nhưng có thay đổi thiết kế để tiết kiệm nhiên liệu
@@ -1885,7 +1885,7 @@ Branch 68
 19: Cải tiến theo hướng tiết kiệm nhiên liệu
 12: Khi Chiến tranh thế giới thứ hai bùng nổ (1939), nhu cầu máy bay quân sự tăng vọt. Chính phủ ưu tiên nguồn lực và tài trợ cho các hợp đồng quốc phòng số lượng lớn.
 23: Bạn có muốn lấn sân sang thị phần sản xuất máy bay quân sự hay không?
-33: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+33: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 73: Chiến tranh thế giới thứ hai kết thúc khiến hợp đồng quân sự sụt giảm đột ngột, buộc các doanh nghiệp Asteria chuyển hướng lại sang máy bay dân sự. Cùng lúc đó, cuộc cách mạng động cơ phản lực nổ ra, mở ra khả năng đạt tốc độ và tầm bay vượt trội so với máy bay cánh quạt, nhưng đòi hỏi chi phí R&D khổng lồ và đối mặt với rủi ro kỹ thuật cực kỳ cao.
 74: Bạn quyết định đầu tư lớn đón đầu kỷ nguyên phản lực hay tiếp tục trung thành với dòng máy bay cánh quạt chi phí thấp?
 75: Tiếp tục khai thác dòng máy bay cánh quạt truyền thống nhưng có thay đổi thiết kế để tiết kiệm nhiên liệu
@@ -1915,7 +1915,7 @@ Branch 69
 19: Cải tiến theo hướng tiết kiệm nhiên liệu
 12: Khi Chiến tranh thế giới thứ hai bùng nổ (1939), nhu cầu máy bay quân sự tăng vọt. Chính phủ ưu tiên nguồn lực và tài trợ cho các hợp đồng quốc phòng số lượng lớn.
 23: Bạn có muốn lấn sân sang thị phần sản xuất máy bay quân sự hay không?
-33: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+33: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 73: Chiến tranh thế giới thứ hai kết thúc khiến hợp đồng quân sự sụt giảm đột ngột, buộc các doanh nghiệp Asteria chuyển hướng lại sang máy bay dân sự. Cùng lúc đó, cuộc cách mạng động cơ phản lực nổ ra, mở ra khả năng đạt tốc độ và tầm bay vượt trội so với máy bay cánh quạt, nhưng đòi hỏi chi phí R&D khổng lồ và đối mặt với rủi ro kỹ thuật cực kỳ cao.
 74: Bạn quyết định đầu tư lớn đón đầu kỷ nguyên phản lực hay tiếp tục trung thành với dòng máy bay cánh quạt chi phí thấp?
 75: Tiếp tục khai thác dòng máy bay cánh quạt truyền thống nhưng có thay đổi thiết kế để tiết kiệm nhiên liệu
@@ -1945,7 +1945,7 @@ Branch 70
 19: Cải tiến theo hướng tiết kiệm nhiên liệu
 12: Khi Chiến tranh thế giới thứ hai bùng nổ (1939), nhu cầu máy bay quân sự tăng vọt. Chính phủ ưu tiên nguồn lực và tài trợ cho các hợp đồng quốc phòng số lượng lớn.
 23: Bạn có muốn lấn sân sang thị phần sản xuất máy bay quân sự hay không?
-33: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+33: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 73: Chiến tranh thế giới thứ hai kết thúc khiến hợp đồng quân sự sụt giảm đột ngột, buộc các doanh nghiệp Asteria chuyển hướng lại sang máy bay dân sự. Cùng lúc đó, cuộc cách mạng động cơ phản lực nổ ra, mở ra khả năng đạt tốc độ và tầm bay vượt trội so với máy bay cánh quạt, nhưng đòi hỏi chi phí R&D khổng lồ và đối mặt với rủi ro kỹ thuật cực kỳ cao.
 74: Bạn quyết định đầu tư lớn đón đầu kỷ nguyên phản lực hay tiếp tục trung thành với dòng máy bay cánh quạt chi phí thấp?
 75: Tiếp tục khai thác dòng máy bay cánh quạt truyền thống nhưng có thay đổi thiết kế để tiết kiệm nhiên liệu
@@ -1971,7 +1971,7 @@ Branch 71
 19: Cải tiến theo hướng tiết kiệm nhiên liệu
 12: Khi Chiến tranh thế giới thứ hai bùng nổ (1939), nhu cầu máy bay quân sự tăng vọt. Chính phủ ưu tiên nguồn lực và tài trợ cho các hợp đồng quốc phòng số lượng lớn.
 23: Bạn có muốn lấn sân sang thị phần sản xuất máy bay quân sự hay không?
-33: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+33: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 73: Chiến tranh thế giới thứ hai kết thúc khiến hợp đồng quân sự sụt giảm đột ngột, buộc các doanh nghiệp Asteria chuyển hướng lại sang máy bay dân sự. Cùng lúc đó, cuộc cách mạng động cơ phản lực nổ ra, mở ra khả năng đạt tốc độ và tầm bay vượt trội so với máy bay cánh quạt, nhưng đòi hỏi chi phí R&D khổng lồ và đối mặt với rủi ro kỹ thuật cực kỳ cao.
 74: Bạn quyết định đầu tư lớn đón đầu kỷ nguyên phản lực hay tiếp tục trung thành với dòng máy bay cánh quạt chi phí thấp?
 76: Sử dụng động cơ phản lực
@@ -2001,7 +2001,7 @@ Branch 72
 19: Cải tiến theo hướng tiết kiệm nhiên liệu
 12: Khi Chiến tranh thế giới thứ hai bùng nổ (1939), nhu cầu máy bay quân sự tăng vọt. Chính phủ ưu tiên nguồn lực và tài trợ cho các hợp đồng quốc phòng số lượng lớn.
 23: Bạn có muốn lấn sân sang thị phần sản xuất máy bay quân sự hay không?
-33: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+33: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 73: Chiến tranh thế giới thứ hai kết thúc khiến hợp đồng quân sự sụt giảm đột ngột, buộc các doanh nghiệp Asteria chuyển hướng lại sang máy bay dân sự. Cùng lúc đó, cuộc cách mạng động cơ phản lực nổ ra, mở ra khả năng đạt tốc độ và tầm bay vượt trội so với máy bay cánh quạt, nhưng đòi hỏi chi phí R&D khổng lồ và đối mặt với rủi ro kỹ thuật cực kỳ cao.
 74: Bạn quyết định đầu tư lớn đón đầu kỷ nguyên phản lực hay tiếp tục trung thành với dòng máy bay cánh quạt chi phí thấp?
 76: Sử dụng động cơ phản lực
@@ -2031,7 +2031,7 @@ Branch 73
 19: Cải tiến theo hướng tiết kiệm nhiên liệu
 12: Khi Chiến tranh thế giới thứ hai bùng nổ (1939), nhu cầu máy bay quân sự tăng vọt. Chính phủ ưu tiên nguồn lực và tài trợ cho các hợp đồng quốc phòng số lượng lớn.
 23: Bạn có muốn lấn sân sang thị phần sản xuất máy bay quân sự hay không?
-33: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+33: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 73: Chiến tranh thế giới thứ hai kết thúc khiến hợp đồng quân sự sụt giảm đột ngột, buộc các doanh nghiệp Asteria chuyển hướng lại sang máy bay dân sự. Cùng lúc đó, cuộc cách mạng động cơ phản lực nổ ra, mở ra khả năng đạt tốc độ và tầm bay vượt trội so với máy bay cánh quạt, nhưng đòi hỏi chi phí R&D khổng lồ và đối mặt với rủi ro kỹ thuật cực kỳ cao.
 74: Bạn quyết định đầu tư lớn đón đầu kỷ nguyên phản lực hay tiếp tục trung thành với dòng máy bay cánh quạt chi phí thấp?
 76: Sử dụng động cơ phản lực
@@ -2057,7 +2057,7 @@ Branch 74
 19: Cải tiến theo hướng tiết kiệm nhiên liệu
 12: Khi Chiến tranh thế giới thứ hai bùng nổ (1939), nhu cầu máy bay quân sự tăng vọt. Chính phủ ưu tiên nguồn lực và tài trợ cho các hợp đồng quốc phòng số lượng lớn.
 23: Bạn có muốn lấn sân sang thị phần sản xuất máy bay quân sự hay không?
-33: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+33: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 73: Chiến tranh thế giới thứ hai kết thúc khiến hợp đồng quân sự sụt giảm đột ngột, buộc các doanh nghiệp Asteria chuyển hướng lại sang máy bay dân sự. Cùng lúc đó, cuộc cách mạng động cơ phản lực nổ ra, mở ra khả năng đạt tốc độ và tầm bay vượt trội so với máy bay cánh quạt, nhưng đòi hỏi chi phí R&D khổng lồ và đối mặt với rủi ro kỹ thuật cực kỳ cao.
 74: Bạn quyết định đầu tư lớn đón đầu kỷ nguyên phản lực hay tiếp tục trung thành với dòng máy bay cánh quạt chi phí thấp?
 76: Sử dụng động cơ phản lực
@@ -2087,7 +2087,7 @@ Branch 75
 19: Cải tiến theo hướng tiết kiệm nhiên liệu
 12: Khi Chiến tranh thế giới thứ hai bùng nổ (1939), nhu cầu máy bay quân sự tăng vọt. Chính phủ ưu tiên nguồn lực và tài trợ cho các hợp đồng quốc phòng số lượng lớn.
 23: Bạn có muốn lấn sân sang thị phần sản xuất máy bay quân sự hay không?
-33: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+33: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 73: Chiến tranh thế giới thứ hai kết thúc khiến hợp đồng quân sự sụt giảm đột ngột, buộc các doanh nghiệp Asteria chuyển hướng lại sang máy bay dân sự. Cùng lúc đó, cuộc cách mạng động cơ phản lực nổ ra, mở ra khả năng đạt tốc độ và tầm bay vượt trội so với máy bay cánh quạt, nhưng đòi hỏi chi phí R&D khổng lồ và đối mặt với rủi ro kỹ thuật cực kỳ cao.
 74: Bạn quyết định đầu tư lớn đón đầu kỷ nguyên phản lực hay tiếp tục trung thành với dòng máy bay cánh quạt chi phí thấp?
 76: Sử dụng động cơ phản lực
@@ -2117,7 +2117,7 @@ Branch 76
 19: Cải tiến theo hướng tiết kiệm nhiên liệu
 12: Khi Chiến tranh thế giới thứ hai bùng nổ (1939), nhu cầu máy bay quân sự tăng vọt. Chính phủ ưu tiên nguồn lực và tài trợ cho các hợp đồng quốc phòng số lượng lớn.
 23: Bạn có muốn lấn sân sang thị phần sản xuất máy bay quân sự hay không?
-33: Có. Bạn dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+33: Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
 73: Chiến tranh thế giới thứ hai kết thúc khiến hợp đồng quân sự sụt giảm đột ngột, buộc các doanh nghiệp Asteria chuyển hướng lại sang máy bay dân sự. Cùng lúc đó, cuộc cách mạng động cơ phản lực nổ ra, mở ra khả năng đạt tốc độ và tầm bay vượt trội so với máy bay cánh quạt, nhưng đòi hỏi chi phí R&D khổng lồ và đối mặt với rủi ro kỹ thuật cực kỳ cao.
 74: Bạn quyết định đầu tư lớn đón đầu kỷ nguyên phản lực hay tiếp tục trung thành với dòng máy bay cánh quạt chi phí thấp?
 76: Sử dụng động cơ phản lực
