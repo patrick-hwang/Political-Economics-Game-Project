@@ -105,11 +105,11 @@
     },
     {
         "id": 56,
-        "content": "Chiến tranh thế giới thứ hai kết thúc khiến hợp đồng quân sự sụt giảm đột ngột, buộc các doanh nghiệp Asteria chuyển hướng lại sang máy bay dân sự. Cùng lúc đó, cuộc cách mạng động cơ phản lực nổ ra, mở ra khả năng đạt tốc độ và tầm bay vượt trội so với máy bay cánh quạt, nhưng đòi hỏi chi phí R&D khổng lồ và đối mặt với rủi ro kỹ thuật cực kỳ cao.",
+        "content": "Chiến tranh thế giới thứ hai kết thúc (1945), hàng loạt hợp đồng quốc phòng bị cắt giảm hoặc hủy bỏ đột ngột, khiến các nhà máy hàng không Asteria rơi vào khủng hoảng dư thừa công suất nghiêm trọng. Thách thức cốt lõi của các doanh nghiệp không chỉ là tìm kiếm thị trường dân dụng thay thế, mà là phải xác định đúng dòng máy bay phù hợp với túi tiền và nhu cầu thực tế của các hãng hàng không thương mại. Đúng lúc đó, cuộc cách mạng động cơ phản lực (Jet Engine) nổ ra trên thế giới, mở ra khả năng chế tạo những thế hệ máy bay đạt tốc độ, độ cao và tầm bay vượt trội hoàn toàn so với máy bay cánh quạt truyền thống. Mặc dù công nghệ phản lực hứa hẹn tái định hình toàn bộ ngành vận tải đường dài, nó đòi hỏi chi phí nghiên cứu và phát triển (R&D) khổng lồ, nguồn vốn đầu tư dài hạn và đi kèm rủi ro kỹ thuật cực kỳ cao. Doanh nghiệp của bạn cũng đối diện với thực trạng cắt giảm hợp đồng quốc phòng và dư thừa công suất nghiêm trọng. Đồng thời cũng phải bỏ ra khoản đầu tư khổng lồ để tái sản xuất.",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "-$6 million"
     },
     {
         "id": 57,
@@ -177,7 +177,7 @@
     },
     {
         "id": 301,
-        "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
+        "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh với doanh nghiệp bạn ở thị trường nội địa do đã bị chảy máu chất xám hoàn toàn. Tuy nhiên, các hãng bay nội địa vẫn còn lựa chọn nhập khẩu máy bay của Airbus",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",

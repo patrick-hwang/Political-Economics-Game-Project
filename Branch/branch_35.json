@@ -105,11 +105,11 @@
     },
     {
         "id": 56,
-        "content": "Chiến tranh thế giới thứ hai kết thúc khiến hợp đồng quân sự sụt giảm đột ngột, buộc các doanh nghiệp Asteria chuyển hướng lại sang máy bay dân sự. Cùng lúc đó, cuộc cách mạng động cơ phản lực nổ ra, mở ra khả năng đạt tốc độ và tầm bay vượt trội so với máy bay cánh quạt, nhưng đòi hỏi chi phí R&D khổng lồ và đối mặt với rủi ro kỹ thuật cực kỳ cao.",
+        "content": "Chiến tranh thế giới thứ hai kết thúc (1945), hàng loạt hợp đồng quốc phòng bị cắt giảm hoặc hủy bỏ đột ngột, khiến các nhà máy hàng không Asteria rơi vào khủng hoảng dư thừa công suất nghiêm trọng. Thách thức cốt lõi của các doanh nghiệp không chỉ là tìm kiếm thị trường dân dụng thay thế, mà là phải xác định đúng dòng máy bay phù hợp với túi tiền và nhu cầu thực tế của các hãng hàng không thương mại. Đúng lúc đó, cuộc cách mạng động cơ phản lực (Jet Engine) nổ ra trên thế giới, mở ra khả năng chế tạo những thế hệ máy bay đạt tốc độ, độ cao và tầm bay vượt trội hoàn toàn so với máy bay cánh quạt truyền thống. Mặc dù công nghệ phản lực hứa hẹn tái định hình toàn bộ ngành vận tải đường dài, nó đòi hỏi chi phí nghiên cứu và phát triển (R&D) khổng lồ, nguồn vốn đầu tư dài hạn và đi kèm rủi ro kỹ thuật cực kỳ cao. Doanh nghiệp của bạn cũng đối diện với thực trạng cắt giảm hợp đồng quốc phòng và dư thừa công suất nghiêm trọng. Đồng thời cũng phải bỏ ra khoản đầu tư khổng lồ để tái sản xuất.",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "-$6 million"
     },
     {
         "id": 57,
@@ -121,7 +121,7 @@
     },
     {
         "id": 60,
-        "content": "Tiếp tục khai thác dòng máy bay cánh quạt truyền thống nhưng có thay đổi thiết kế để tiết kiệm nhiên liệu",
+        "content": "Tiếp tục khai thác dòng máy bay cánh quạt truyền thống",
         "benefits": "Duy trì chi phí R&D thấp, tối ưu hóa lợi nhuận trong khủng hoảng năng lượng",
         "potential_drawback": "Tụt hậu về mặt tốc độ và tầm bay so với các đối thủ chuyển sang kỷ nguyên phản lực",
         "impact": "Doanh nghiệp bảo vệ được dòng tiền an toàn và chi phí vận hành thấp, tạo lợi thế lớn trong giai đoạn khủng hoảng năng lượng dù không sở hữu tốc độ phản lực.",
@@ -146,10 +146,10 @@
     {
         "id": 122,
         "content": "Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác",
-        "benefits": "Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa",
-        "potential_drawback": "Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường",
-        "impact": "Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.",
-        "revenue": "+$15 million"
+        "benefits": "",
+        "potential_drawback": "",
+        "impact": "Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa",
+        "revenue": "+$30 million"
     },
     {
         "id": 157,
@@ -161,7 +161,7 @@
     },
     {
         "id": 223,
-        "content": "Cạnh tranh với Airbus như thế nào?",
+        "content": "Quyết định của bạn là gì?",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -173,22 +173,22 @@
         "benefits": "Xây dựng năng lực tự chủ công nghệ lâu dài, tạo rào cản kỹ thuật riêng biệt",
         "potential_drawback": "Thời gian R&D kéo dài, tốn kém tài chính và chịu áp lực thời gian từ các dòng máy bay nhập khẩu",
         "impact": "Doanh nghiệp làm chủ hoàn toàn các bằng sáng chế và công nghệ hàng không nội địa, gia tăng tính tự chủ kỹ thuật và giảm sự lệ thuộc vào linh kiện nước ngoài.",
-        "revenue": "-$49.4 million"
+        "revenue": "+$1.5 million"
     },
     {
         "id": 296,
-        "content": "Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
+        "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Airbus củng cố vị thế áp đảo nhờ các dòng máy bay hiện đại, tối ưu chi phí và mạng lưới dịch vụ vượt trội. Doanh nghiệp của bạn cũng không kém cạnh khi liên tục đưa ra thị trường những mẫu máy bay mới, tuy không hẳn là đột phá nhưng vẫn đáp ứng nhu cầu vận tải nội địa",
+        "benefits": "",
+        "potential_drawback": "",
+        "impact": "",
+        "revenue": "+$2 million"
+    },
+    {
+        "id": 366,
+        "content": "Khủng hoảng kinh tế 2011 xảy ra. Doanh nghiệp của bạn và Airbus vẫn đứng vững trên thị trường và luôn tranh giành từng thị phần nội địa. Thế đối đầu này là không thể phá vỡ, vậy nên, không một doanh nghiệp nào chiếm được thế độc quyền",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
         "revenue": ""
-    },
-    {
-        "id": 366,
-        "content": "Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình",
-        "benefits": "",
-        "potential_drawback": "",
-        "impact": "Doanh nghiệp vẫn sở hữu một phần công nghệ lõi nhưng thiếu vốn lưu động và năng lực tài chính để tiếp tục nghiên cứu, thử nghiệm, sản xuất hàng loạt và hỗ trợ khách hàng. Các khoản đầu tư trước đó chưa tạo ra dòng tiền đủ lớn; trong khi đối thủ có nguồn vốn và mạng lưới dịch vụ tốt hơn tiếp tục rút ngắn khoảng cách công nghệ. Doanh nghiệp phải bán công nghệ lõi để thanh toán nghĩa vụ tài chính, mất lợi thế khác biệt và không còn khả năng cạnh tranh độc lập, cuối cùng phải sáp nhập.",
-        "revenue": "-$12 million"
     }
 ]

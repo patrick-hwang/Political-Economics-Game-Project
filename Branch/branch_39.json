@@ -105,11 +105,11 @@
     },
     {
         "id": 56,
-        "content": "Chiến tranh thế giới thứ hai kết thúc khiến hợp đồng quân sự sụt giảm đột ngột, buộc các doanh nghiệp Asteria chuyển hướng lại sang máy bay dân sự. Cùng lúc đó, cuộc cách mạng động cơ phản lực nổ ra, mở ra khả năng đạt tốc độ và tầm bay vượt trội so với máy bay cánh quạt, nhưng đòi hỏi chi phí R&D khổng lồ và đối mặt với rủi ro kỹ thuật cực kỳ cao.",
+        "content": "Chiến tranh thế giới thứ hai kết thúc (1945), hàng loạt hợp đồng quốc phòng bị cắt giảm hoặc hủy bỏ đột ngột, khiến các nhà máy hàng không Asteria rơi vào khủng hoảng dư thừa công suất nghiêm trọng. Thách thức cốt lõi của các doanh nghiệp không chỉ là tìm kiếm thị trường dân dụng thay thế, mà là phải xác định đúng dòng máy bay phù hợp với túi tiền và nhu cầu thực tế của các hãng hàng không thương mại. Đúng lúc đó, cuộc cách mạng động cơ phản lực (Jet Engine) nổ ra trên thế giới, mở ra khả năng chế tạo những thế hệ máy bay đạt tốc độ, độ cao và tầm bay vượt trội hoàn toàn so với máy bay cánh quạt truyền thống. Mặc dù công nghệ phản lực hứa hẹn tái định hình toàn bộ ngành vận tải đường dài, nó đòi hỏi chi phí nghiên cứu và phát triển (R&D) khổng lồ, nguồn vốn đầu tư dài hạn và đi kèm rủi ro kỹ thuật cực kỳ cao. Doanh nghiệp của bạn cũng đối diện với thực trạng cắt giảm hợp đồng quốc phòng và dư thừa công suất nghiêm trọng. Đồng thời cũng phải bỏ ra khoản đầu tư khổng lồ để tái sản xuất.",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "-$6 million"
     },
     {
         "id": 57,
@@ -146,10 +146,10 @@
     {
         "id": 125,
         "content": "Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác",
-        "benefits": "Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa",
-        "potential_drawback": "Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường",
-        "impact": "Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.",
-        "revenue": "+$15 million"
+        "benefits": "",
+        "potential_drawback": "",
+        "impact": "Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa",
+        "revenue": "+$30 million"
     },
     {
         "id": 159,
@@ -161,7 +161,7 @@
     },
     {
         "id": 229,
-        "content": "Cạnh tranh với Airbus như thế nào?",
+        "content": "Quyết định của bạn là gì?",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -177,7 +177,7 @@
     },
     {
         "id": 299,
-        "content": "Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.",
+        "content": "Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh với doanh nghiệp bạn ở thị trường nội địa do đã bị chảy máu chất xám hoàn toàn. Tuy nhiên, các hãng bay nội địa vẫn còn lựa chọn nhập khẩu máy bay của Airbus",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -185,7 +185,7 @@
     },
     {
         "id": 335,
-        "content": "Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.",
+        "content": "Với vị thế hiện tại, bạn hoàn toàn có thể thâu tóm Airbus để củng cố vị thế độc quyền của bản thân",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -193,7 +193,7 @@
     },
     {
         "id": 475,
-        "content": "Có thâu tóm Airbus không?",
+        "content": "Quyết định của bạn là gì?",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -202,10 +202,10 @@
     {
         "id": 476,
         "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
-        "benefits": "Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa",
-        "potential_drawback": "Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù",
-        "impact": "Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.",
-        "revenue": "-$44.9 million"
+        "benefits": "",
+        "potential_drawback": "",
+        "impact": "Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa",
+        "revenue": "+$30 million"
     },
     {
         "id": 477,
@@ -220,7 +220,7 @@
         "content": "Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù",
         "benefits": "",
         "potential_drawback": "",
-        "impact": "Doanh nghiệp vẫn tạo được dòng tiền và tăng trưởng nhờ vị thế thị trường đã xây dựng, nhưng nguy cơ mất thị phần trước đối thủ nước ngoài vẫn hiện hữu. Việc lãnh đạo được thả không đồng nghĩa doanh nghiệp đã an toàn: cần tiếp tục đổi mới sản phẩm, đầu tư công nghệ và tuân thủ luật cạnh tranh để giữ khách hàng lâu dài.",
-        "revenue": "+$8 million"
+        "impact": "",
+        "revenue": ""
     }
 ]
