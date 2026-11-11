@@ -146,10 +146,10 @@
     {
         "id": 137,
         "content": "Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác",
-        "benefits": "Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa",
-        "potential_drawback": "Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường",
-        "impact": "Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.",
-        "revenue": "+$15 million"
+        "benefits": "",
+        "potential_drawback": "",
+        "impact": "Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa",
+        "revenue": "+$30 million"
     },
     {
         "id": 165,
@@ -161,7 +161,7 @@
     },
     {
         "id": 247,
-        "content": "Cạnh tranh với Airbus như thế nào?",
+        "content": "Quyết định của bạn là gì?",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -193,7 +193,7 @@
     },
     {
         "id": 511,
-        "content": "Có thâu tóm Airbus không?",
+        "content": "Quyết định của bạn là gì?",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -202,9 +202,9 @@
     {
         "id": 512,
         "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
-        "benefits": "Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa",
-        "potential_drawback": "Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù",
-        "impact": "Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.",
+        "benefits": "",
+        "potential_drawback": "",
+        "impact": "Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa",
         "revenue": "-$27.2 million"
     },
     {

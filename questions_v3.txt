@@ -467,7 +467,7 @@ Branch 17
 182: Không. Tập trung nâng cao chất lượng dịch vụ và trải nghiệm của khách hàng để trở thành ngạch sản phẩm cao cấp
 267: Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Do đã xác định được phân khúc khách hàng cao cấp vốn không chịu tác động quá nhiều từ biến động thế giới. Vì vậy sản phẩm của doanh nghiệp vẫn được đón nhận và phần nào giúp doanh nghiệp sống sót qua khủng hoảng. Trong khi đó, các doanh nghiệp khác trong ngành lại lao đao và đứng trước nguy cơ phá sản
 321: Sau khi thâu tóm thị trường nội địa và trở thành độc quyền. Bạn có muốn giành luôn thị phần nội địa của Airbus không?
-391: Có thâu tóm Airbus không?
+391: Quyết định của bạn là gì?
 395: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 537: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 396: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -571,11 +571,11 @@ Branch 21
 115: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không? 
 116: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 153: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-211: Cạnh tranh với Airbus như thế nào?
+211: Quyết định của bạn là gì?
 212: Thu hút nhân tài từ Airbus
 287: Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh với doanh nghiệp bạn ở thị trường nội địa do đã bị chảy máu chất xám hoàn toàn. Tuy nhiên, các hãng bay nội địa vẫn còn lựa chọn nhập khẩu máy bay của Airbus
 329: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.
-439: Có thâu tóm Airbus không?
+439: Quyết định của bạn là gì?
 440: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
 441: Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 442: Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
@@ -601,11 +601,11 @@ Branch 22
 115: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 116: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 153: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-211: Cạnh tranh với Airbus như thế nào?
+211: Quyết định của bạn là gì?
 212: Thu hút nhân tài từ Airbus
 287: Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh với doanh nghiệp bạn ở thị trường nội địa do đã bị chảy máu chất xám hoàn toàn. Tuy nhiên, các hãng bay nội địa vẫn còn lựa chọn nhập khẩu máy bay của Airbus
 329: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.
-439: Có thâu tóm Airbus không?
+439: Quyết định của bạn là gì?
 443: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 545: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 444: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -631,7 +631,7 @@ Branch 23
 115: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 116: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 153: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-211: Cạnh tranh với Airbus như thế nào?
+211: Quyết định của bạn là gì?
 213: Tiếp tục cải tiến công nghệ lõi
 288: Khủng hoảng kinh tế 2008. Tuy doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn
 362: Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình
@@ -657,11 +657,11 @@ Branch 24
 115: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 117: Không. Vẫn giữ nguyên quy mô hiện tại
 154: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-214: Cạnh tranh với Airbus như thế nào?
+214: Quyết định của bạn là gì?
 215: Thu hút nhân tài từ Airbus
 289: Khủng hoảng kinh tế 2008. Airbus không thể cạnh tranh với doanh nghiệp bạn ở thị trường nội địa do đã bị chảy máu chất xám hoàn toàn. Tuy nhiên, các hãng bay nội địa vẫn còn lựa chọn nhập khẩu máy bay của Airbus
 330: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.
-445: Có thâu tóm Airbus không?
+445: Quyết định của bạn là gì?
 446: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
 447: Doanh nghiệp của bạn 
 448: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -687,11 +687,11 @@ Branch 25
 115: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 117: Không. Vẫn giữ nguyên quy mô hiện tại
 154: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-214: Cạnh tranh với Airbus như thế nào?
+214: Quyết định của bạn là gì?
 215: Thu hút nhân tài từ Airbus
 289: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 330: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.
-445: Có thâu tóm Airbus không?
+445: Quyết định của bạn là gì?
 449: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 546: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 450: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -717,7 +717,7 @@ Branch 26
 115: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 117: Không. Vẫn giữ nguyên quy mô hiện tại
 154: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-214: Cạnh tranh với Airbus như thế nào?
+214: Quyết định của bạn là gì?
 216: Tiếp tục cải tiến công nghệ lõi
 290: Khủng hoảng kinh tế 2008. Tuy doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn
 363: Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình
@@ -743,11 +743,11 @@ Branch 27
 118: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 119: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 155: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-217: Cạnh tranh với Airbus như thế nào?
+217: Quyết định của bạn là gì?
 218: Thu hút nhân tài từ Airbus
 291: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 331: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.
-451: Có thâu tóm Airbus không?
+451: Quyết định của bạn là gì?
 452: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
 453: Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 454: Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
@@ -773,11 +773,11 @@ Branch 28
 118: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 119: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 155: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-217: Cạnh tranh với Airbus như thế nào?
+217: Quyết định của bạn là gì?
 218: Thu hút nhân tài từ Airbus
 291: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 331: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.
-451: Có thâu tóm Airbus không?
+451: Quyết định của bạn là gì?
 455: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 547: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 456: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -803,7 +803,7 @@ Branch 29
 118: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 119: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 155: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-217: Cạnh tranh với Airbus như thế nào?
+217: Quyết định của bạn là gì?
 219: Tiếp tục cải tiến công nghệ lõi
 292: Khủng hoảng kinh tế 2008. Tuy doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn
 364: Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình
@@ -829,11 +829,11 @@ Branch 30
 118: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 120: Không. Vẫn giữ nguyên quy mô hiện tại
 156: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-220: Cạnh tranh với Airbus như thế nào?
+220: Quyết định của bạn là gì?
 221: Thu hút nhân tài từ Airbus
 293: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 332: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-457: Có thâu tóm Airbus không?
+457: Quyết định của bạn là gì?
 458: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
 459: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 460: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -859,11 +859,11 @@ Branch 31
 118: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 120: Không. Vẫn giữ nguyên quy mô hiện tại
 156: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-220: Cạnh tranh với Airbus như thế nào?
+220: Quyết định của bạn là gì?
 221: Thu hút nhân tài từ Airbus
 293: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 332: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-457: Có thâu tóm Airbus không?
+457: Quyết định của bạn là gì?
 461: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 548: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 462: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -889,7 +889,7 @@ Branch 32
 118: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 120: Không. Vẫn giữ nguyên quy mô hiện tại
 156: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-220: Cạnh tranh với Airbus như thế nào?
+220: Quyết định của bạn là gì?
 222: Tiếp tục cải tiến công nghệ lõi
 294: Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn
 365: Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình
@@ -915,11 +915,11 @@ Branch 33
 121: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 122: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 157: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-223: Cạnh tranh với Airbus như thế nào?
+223: Quyết định của bạn là gì?
 224: Thu hút nhân tài từ Airbus
 295: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 333: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.
-463: Có thâu tóm Airbus không?
+463: Quyết định của bạn là gì?
 464:  Thâu tóm hết thị phần của Airbus tại thị trường nội địa
 465: Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 466: Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
@@ -945,11 +945,11 @@ Branch 34
 121: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 122: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 157: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-223: Cạnh tranh với Airbus như thế nào?
+223: Quyết định của bạn là gì?
 224: Thu hút nhân tài từ Airbus
 295: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 333: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.
-463: Có thâu tóm Airbus không?
+463: Quyết định của bạn là gì?
 467: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 549: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 468: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -975,7 +975,7 @@ Branch 35
 121: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 122: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 157: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-223: Cạnh tranh với Airbus như thế nào?
+223: Quyết định của bạn là gì?
 225: Tiếp tục cải tiến công nghệ lõi
 296: Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn
 366: Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình
@@ -1001,11 +1001,11 @@ Branch 36
 121: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 123: Không. Vẫn giữ nguyên quy mô hiện tại
 158: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-226: Cạnh tranh với Airbus như thế nào?
+226: Quyết định của bạn là gì?
 227: Thu hút nhân tài từ Airbus
 297: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 334: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-469: Có thâu tóm Airbus không?
+469: Quyết định của bạn là gì?
 470: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
 471: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 472: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -1031,11 +1031,11 @@ Branch 37
 121: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 123: Không. Vẫn giữ nguyên quy mô hiện tại
 158: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-226: Cạnh tranh với Airbus như thế nào?
+226: Quyết định của bạn là gì?
 227: Thu hút nhân tài từ Airbus
 297: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 334: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-469: Có thâu tóm Airbus không?
+469: Quyết định của bạn là gì?
 473: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 550: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 474: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -1061,7 +1061,7 @@ Branch 38
 121: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 123: Không. Vẫn giữ nguyên quy mô hiện tại
 158: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-226: Cạnh tranh với Airbus như thế nào?
+226: Quyết định của bạn là gì?
 228: Tiếp tục cải tiến công nghệ lõi
 298: Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn
 367: Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình
@@ -1087,11 +1087,11 @@ Branch 39
 124: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 125: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 159: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-229: Cạnh tranh với Airbus như thế nào?
+229: Quyết định của bạn là gì?
 230: Thu hút nhân tài từ Airbus
 299: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 335: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-475: Có thâu tóm Airbus không?
+475: Quyết định của bạn là gì?
 476: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
 477: Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 478: Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
@@ -1117,11 +1117,11 @@ Branch 40
 124: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 125: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 159: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-229: Cạnh tranh với Airbus như thế nào?
+229: Quyết định của bạn là gì?
 230: Thu hút nhân tài từ Airbus
 299: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 335: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.
-475: Có thâu tóm Airbus không?
+475: Quyết định của bạn là gì?
 479: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 551: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 480: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -1147,7 +1147,7 @@ Branch 41
 124: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 125: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 159: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-229: Cạnh tranh với Airbus như thế nào?
+229: Quyết định của bạn là gì?
 231: Tiếp tục cải tiến công nghệ lõi
 300: Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn
 368: Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình
@@ -1173,11 +1173,11 @@ Branch 42
 124: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 126: Không. Vẫn giữ nguyên quy mô hiện tại
 160: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-232: Cạnh tranh với Airbus như thế nào?
+232: Quyết định của bạn là gì?
 233: Thu hút nhân tài từ Airbus
 301: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 336: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-481: Có thâu tóm Airbus không?
+481: Quyết định của bạn là gì?
 482: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
 483: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 484: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -1203,11 +1203,11 @@ Branch 43
 124: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 126: Không. Vẫn giữ nguyên quy mô hiện tại
 160: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-232: Cạnh tranh với Airbus như thế nào?
+232: Quyết định của bạn là gì?
 233: Thu hút nhân tài từ Airbus
 301: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 336: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-481: Có thâu tóm Airbus không?
+481: Quyết định của bạn là gì?
 485: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 552: Không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 486: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -1233,7 +1233,7 @@ Branch 44
 124: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 126: Không. Vẫn giữ nguyên quy mô hiện tại
 160: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-232: Cạnh tranh với Airbus như thế nào?
+232: Quyết định của bạn là gì?
 234: Tiếp tục cải tiến công nghệ lõi
 302: Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn
 369: Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình
@@ -1278,11 +1278,11 @@ Branch 46
 112: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 113: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 151: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-205: Cạnh tranh với Airbus như thế nào?
+205: Quyết định của bạn là gì?
 206: Thu hút nhân tài từ Airbus
 283: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 327: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.
-427: Có thâu tóm Airbus không?
+427: Quyết định của bạn là gì?
 428: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
 429: Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 430: Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
@@ -1308,11 +1308,11 @@ Branch 47
 112: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 113: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 151: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-205: Cạnh tranh với Airbus như thế nào?
+205: Quyết định của bạn là gì?
 206: Thu hút nhân tài từ Airbus
 283: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 327: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.
-427: Có thâu tóm Airbus không?
+427: Quyết định của bạn là gì?
 431: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 543: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 432: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -1338,7 +1338,7 @@ Branch 48
 112: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 113: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 151: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-205: Cạnh tranh với Airbus như thế nào?
+205: Quyết định của bạn là gì?
 207: Tiếp tục cải tiến công nghệ lõi
 284: Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn
 360: Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình
@@ -1364,11 +1364,11 @@ Branch 49
 112: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 114: Không. Vẫn giữ nguyên quy mô hiện tại
 152: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-208: Cạnh tranh với Airbus như thế nào?
+208: Quyết định của bạn là gì?
 209: Thu hút nhân tài từ Airbus
 285: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 328: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-433: Có thâu tóm Airbus không?
+433: Quyết định của bạn là gì?
 434: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
 435: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 436: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -1394,11 +1394,11 @@ Branch 50
 112: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 114: Không. Vẫn giữ nguyên quy mô hiện tại
 152: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-208: Cạnh tranh với Airbus như thế nào?
+208: Quyết định của bạn là gì?
 209: Thu hút nhân tài từ Airbus
 285: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 328: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-433: Có thâu tóm Airbus không?
+433: Quyết định của bạn là gì?
 437: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 544: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 438: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -1424,7 +1424,7 @@ Branch 51
 112: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 114: Không. Vẫn giữ nguyên quy mô hiện tại
 152: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-208: Cạnh tranh với Airbus như thế nào?
+208: Quyết định của bạn là gì?
 210: Tiếp tục cải tiến công nghệ lõi
 286: Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn
 361: Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình
@@ -1450,11 +1450,11 @@ Branch 52
 106: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 107: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 147: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-193: Cạnh tranh với Airbus như thế nào?
+193: Quyết định của bạn là gì?
 194: Thu hút nhân tài từ Airbus
 275: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 323: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.
-403: Có thâu tóm Airbus không?
+403: Quyết định của bạn là gì?
 404: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
 405: Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 406: Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
@@ -1480,11 +1480,11 @@ Branch 53
 106: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 107: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 147: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-193: Cạnh tranh với Airbus như thế nào?
+193: Quyết định của bạn là gì?
 194: Thu hút nhân tài từ Airbus
 275: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 323: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.
-403: Có thâu tóm Airbus không?
+403: Quyết định của bạn là gì?
 407: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 539: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 408: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -1510,7 +1510,7 @@ Branch 54
 106: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 107: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 147: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-193: Cạnh tranh với Airbus như thế nào?
+193: Quyết định của bạn là gì?
 195: Tiếp tục cải tiến công nghệ lõi
 276: Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn
 356: Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình
@@ -1536,11 +1536,11 @@ Branch 55
 106: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 108: Không. Vẫn giữ nguyên quy mô hiện tại
 148: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-196: Cạnh tranh với Airbus như thế nào?
+196: Quyết định của bạn là gì?
 197: Thu hút nhân tài từ Airbus
 277: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 324: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-409: Có thâu tóm Airbus không?
+409: Quyết định của bạn là gì?
 410: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
 411: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 412: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -1566,11 +1566,11 @@ Branch 56
 106: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 108: Không. Vẫn giữ nguyên quy mô hiện tại
 148: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-196: Cạnh tranh với Airbus như thế nào?
+196: Quyết định của bạn là gì?
 197: Thu hút nhân tài từ Airbus
 277: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 324: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-409: Có thâu tóm Airbus không?
+409: Quyết định của bạn là gì?
 413: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 540: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 414: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -1596,7 +1596,7 @@ Branch 57
 106: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 108: Không. Vẫn giữ nguyên quy mô hiện tại
 148: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-196: Cạnh tranh với Airbus như thế nào?
+196: Quyết định của bạn là gì?
 198: Tiếp tục cải tiến công nghệ lõi
 278: Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn
 357: Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình
@@ -1622,11 +1622,11 @@ Branch 58
 109: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 110: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 149: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-199: Cạnh tranh với Airbus như thế nào?
+199: Quyết định của bạn là gì?
 200: Thu hút nhân tài từ Airbus
 279: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 325: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.
-415: Có thâu tóm Airbus không?
+415: Quyết định của bạn là gì?
 416: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
 417: Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 418: Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
@@ -1652,11 +1652,11 @@ Branch 59
 109: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 110: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 149: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-199: Cạnh tranh với Airbus như thế nào?
+199: Quyết định của bạn là gì?
 200: Thu hút nhân tài từ Airbus
 279: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 325: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.
-415: Có thâu tóm Airbus không?
+415: Quyết định của bạn là gì?
 419: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 541: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 420: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -1682,7 +1682,7 @@ Branch 60
 109: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 110: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 149: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-199: Cạnh tranh với Airbus như thế nào?
+199: Quyết định của bạn là gì?
 201: Tiếp tục cải tiến công nghệ lõi
 280: Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn
 358: Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình
@@ -1708,11 +1708,11 @@ Branch 61
 109: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 111: Không. Vẫn giữ nguyên quy mô hiện tại
 150: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-202: Cạnh tranh với Airbus như thế nào?
+202: Quyết định của bạn là gì?
 203: Thu hút nhân tài từ Airbus
 281: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 326: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-421: Có thâu tóm Airbus không?
+421: Quyết định của bạn là gì?
 422: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
 423: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 424: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -1738,11 +1738,11 @@ Branch 62
 109: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 111: Không. Vẫn giữ nguyên quy mô hiện tại
 150: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-202: Cạnh tranh với Airbus như thế nào?
+202: Quyết định của bạn là gì?
 203: Thu hút nhân tài từ Airbus
 281: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 326: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-421: Có thâu tóm Airbus không?
+421: Quyết định của bạn là gì?
 425: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 542: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 426: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -1768,7 +1768,7 @@ Branch 63
 109: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 111: Không. Vẫn giữ nguyên quy mô hiện tại
 150: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-202: Cạnh tranh với Airbus như thế nào?
+202: Quyết định của bạn là gì?
 204: Tiếp tục cải tiến công nghệ lõi
 282: Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn
 359: Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình
@@ -1807,11 +1807,11 @@ Branch 65
 130: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 131: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 161: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-235: Cạnh tranh với Airbus như thế nào?
+235: Quyết định của bạn là gì?
 236: Thu hút nhân tài từ Airbus
 303: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 337: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.
-487: Có thâu tóm Airbus không?
+487: Quyết định của bạn là gì?
 488: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
 489: Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 490: Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
@@ -1837,11 +1837,11 @@ Branch 66
 130: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 131: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 161: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-235: Cạnh tranh với Airbus như thế nào?
+235: Quyết định của bạn là gì?
 236: Thu hút nhân tài từ Airbus
 303: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 337: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.
-487: Có thâu tóm Airbus không?
+487: Quyết định của bạn là gì?
 491: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 553: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 492: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -1867,7 +1867,7 @@ Branch 67
 130: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 131: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 161: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-235: Cạnh tranh với Airbus như thế nào?
+235: Quyết định của bạn là gì?
 237: Tiếp tục cải tiến công nghệ lõi
 304: Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn
 370: Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình
@@ -1893,11 +1893,11 @@ Branch 68
 130: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 132: Không. Vẫn giữ nguyên quy mô hiện tại
 162: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-238: Cạnh tranh với Airbus như thế nào?
+238: Quyết định của bạn là gì?
 239: Thu hút nhân tài từ Airbus
 305: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 338: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-493: Có thâu tóm Airbus không?
+493: Quyết định của bạn là gì?
 494: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
 495: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 496: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -1923,11 +1923,11 @@ Branch 69
 130: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 132: Không. Vẫn giữ nguyên quy mô hiện tại
 162: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-238: Cạnh tranh với Airbus như thế nào?
+238: Quyết định của bạn là gì?
 239: Thu hút nhân tài từ Airbus
 305: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 338: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-493: Có thâu tóm Airbus không?
+493: Quyết định của bạn là gì?
 497: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 554: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 498: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -1953,7 +1953,7 @@ Branch 70
 130: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 132: Không. Vẫn giữ nguyên quy mô hiện tại
 162: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-238: Cạnh tranh với Airbus như thế nào?
+238: Quyết định của bạn là gì?
 240: Tiếp tục cải tiến công nghệ lõi
 306: Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn
 371: Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình
@@ -1979,11 +1979,11 @@ Branch 71
 133: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 134: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 163: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-241: Cạnh tranh với Airbus như thế nào?
+241: Quyết định của bạn là gì?
 242: Thu hút nhân tài từ Airbus
 307: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 339: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.
-499: Có thâu tóm Airbus không?
+499: Quyết định của bạn là gì?
 500: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
 501: Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 502: Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
@@ -2009,11 +2009,11 @@ Branch 72
 133: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 134: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 163: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-241: Cạnh tranh với Airbus như thế nào?
+241: Quyết định của bạn là gì?
 242: Thu hút nhân tài từ Airbus
 307: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 339: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.
-499: Có thâu tóm Airbus không?
+499: Quyết định của bạn là gì?
 503: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 555: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 504: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -2039,7 +2039,7 @@ Branch 73
 133: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 134: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 163: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-241: Cạnh tranh với Airbus như thế nào?
+241: Quyết định của bạn là gì?
 243: Tiếp tục cải tiến công nghệ lõi
 308: Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn
 372: Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình
@@ -2065,11 +2065,11 @@ Branch 74
 133: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 135: Không. Vẫn giữ nguyên quy mô hiện tại
 164: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-244: Cạnh tranh với Airbus như thế nào?
+244: Quyết định của bạn là gì?
 245: Thu hút nhân tài từ Airbus
 309: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 340: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-505: Có thâu tóm Airbus không?
+505: Quyết định của bạn là gì?
 506: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
 507: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 508: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -2095,11 +2095,11 @@ Branch 75
 133: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 135: Không. Vẫn giữ nguyên quy mô hiện tại
 164: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-244: Cạnh tranh với Airbus như thế nào?
+244: Quyết định của bạn là gì?
 245: Thu hút nhân tài từ Airbus
 309: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 340: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-505: Có thâu tóm Airbus không?
+505: Quyết định của bạn là gì?
 509: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 556: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 510: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -2125,7 +2125,7 @@ Branch 76
 133: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 135: Không. Vẫn giữ nguyên quy mô hiện tại
 164: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-244: Cạnh tranh với Airbus như thế nào?
+244: Quyết định của bạn là gì?
 246: Tiếp tục cải tiến công nghệ lõi
 310: Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn
 373: Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình
@@ -2151,11 +2151,11 @@ Branch 77
 136: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 137: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 165: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-247: Cạnh tranh với Airbus như thế nào?
+247: Quyết định của bạn là gì?
 248: Thu hút nhân tài từ Airbus
 311: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 341: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-511: Có thâu tóm Airbus không?
+511: Quyết định của bạn là gì?
 512: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
 513: Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 514: Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
@@ -2181,11 +2181,11 @@ Branch 78
 136: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 137: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 165: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-247: Cạnh tranh với Airbus như thế nào?
+247: Quyết định của bạn là gì?
 248: Thu hút nhân tài từ Airbus
 311: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 341: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-511: Có thâu tóm Airbus không?
+511: Quyết định của bạn là gì?
 515: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 557: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 516: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -2211,7 +2211,7 @@ Branch 79
 136: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 137: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 165: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-247: Cạnh tranh với Airbus như thế nào?
+247: Quyết định của bạn là gì?
 249: Tiếp tục cải tiến công nghệ lõi
 312: Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn
 374: Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình
@@ -2237,11 +2237,11 @@ Branch 80
 136: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 138: Không. Vẫn giữ nguyên quy mô hiện tại
 166: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-250: Cạnh tranh với Airbus như thế nào?
+250: Quyết định của bạn là gì?
 251: Thu hút nhân tài từ Airbus
 313: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 342: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-517: Có thâu tóm Airbus không?
+517: Quyết định của bạn là gì?
 518: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
 519: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 520: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -2267,11 +2267,11 @@ Branch 81
 136: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 138: Không. Vẫn giữ nguyên quy mô hiện tại
 166: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-250: Cạnh tranh với Airbus như thế nào?
+250: Quyết định của bạn là gì?
 251: Thu hút nhân tài từ Airbus
 313: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 342: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-517: Có thâu tóm Airbus không?
+517: Quyết định của bạn là gì?
 521: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 558: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 522: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -2297,7 +2297,7 @@ Branch 82
 136: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 138: Không. Vẫn giữ nguyên quy mô hiện tại
 166: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-250: Cạnh tranh với Airbus như thế nào?
+250: Quyết định của bạn là gì?
 252: Tiếp tục cải tiến công nghệ lõi
 314: Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn
 375: Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình
@@ -2323,11 +2323,11 @@ Branch 83
 127: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 128: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 167: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-253: Cạnh tranh với Airbus như thế nào?
+253: Quyết định của bạn là gì?
 254: Thu hút nhân tài từ Airbus
 315: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 343: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-523: Có thâu tóm Airbus không?
+523: Quyết định của bạn là gì?
 524: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
 525: Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 526: Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
@@ -2353,11 +2353,11 @@ Branch 84
 127: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 128: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 167: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-253: Cạnh tranh với Airbus như thế nào?
+253: Quyết định của bạn là gì?
 254: Thu hút nhân tài từ Airbus
 315: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 343: Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-523: Có thâu tóm Airbus không?
+523: Quyết định của bạn là gì?
 527: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 559: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 528: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -2383,7 +2383,7 @@ Branch 85
 127: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 128: Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
 167: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-253: Cạnh tranh với Airbus như thế nào?
+253: Quyết định của bạn là gì?
 255: Tiếp tục cải tiến công nghệ lõi
 316: Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn
 376: Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình
@@ -2409,11 +2409,11 @@ Branch 86
 127: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 129: Không. Vẫn giữ nguyên quy mô hiện tại
 168: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-256: Cạnh tranh với Airbus như thế nào?
+256: Quyết định của bạn là gì?
 257: Thu hút nhân tài từ Airbus
 317: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 344: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-529: Có thâu tóm Airbus không?
+529: Quyết định của bạn là gì?
 530: Thâu tóm hết thị phần của Airbus tại thị trường nội địa
 531: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 532: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -2439,11 +2439,11 @@ Branch 87
 127: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 129: Không. Vẫn giữ nguyên quy mô hiện tại
 168: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-256: Cạnh tranh với Airbus như thế nào?
+256: Quyết định của bạn là gì?
 257: Thu hút nhân tài từ Airbus
 317: Khủng hoảng kinh tế 2008. Airbus ngày càng sa sút và không thể cạnh tranh với doanh nghiệp của bạn do họ còn rất ít nhân tài, người nắm giữ công nghệ lõi.
 344: Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không
-529: Có thâu tóm Airbus không?
+529: Quyết định của bạn là gì?
 533: Không. Để Airbus như đối thủ cạnh tranh trong thị trường nội địa
 560: Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
 534: Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
@@ -2469,7 +2469,7 @@ Branch 88
 127: Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?
 129: Không. Vẫn giữ nguyên quy mô hiện tại
 168: Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
-256: Cạnh tranh với Airbus như thế nào?
+256: Quyết định của bạn là gì?
 258: Tiếp tục cải tiến công nghệ lõi
 318: Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn
 377: Để công nghệ lõi của doanh nghiệp được tiếp tục sử dụng, bạn buộc phải bán lại cho những doanh nghiệp khác trong ngành. Vì vậy, doanh nghiệp của bạn đã không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình

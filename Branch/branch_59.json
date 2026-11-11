@@ -146,10 +146,10 @@
     {
         "id": 110,
         "content": "Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác",
-        "benefits": "Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa",
-        "potential_drawback": "Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường",
-        "impact": "Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.",
-        "revenue": "+$15 million"
+        "benefits": "",
+        "potential_drawback": "",
+        "impact": "Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa",
+        "revenue": "+$30 million"
     },
     {
         "id": 149,
@@ -161,7 +161,7 @@
     },
     {
         "id": 199,
-        "content": "Cạnh tranh với Airbus như thế nào?",
+        "content": "Quyết định của bạn là gì?",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -193,7 +193,7 @@
     },
     {
         "id": 415,
-        "content": "Có thâu tóm Airbus không?",
+        "content": "Quyết định của bạn là gì?",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -202,9 +202,9 @@
     {
         "id": 419,
         "content": "Để Airbus như đối thủ cạnh tranh trong thị trường nội địa",
-        "benefits": "Tuân thủ luật cạnh tranh, duy trì môi trường kinh doanh lành mạnh và giữ mối quan hệ tốt với Chính phủ",
-        "potential_drawback": "Chia sẻ phần thị phần nội địa cho đối thủ nước ngoài",
-        "impact": "Doanh nghiệp duy trì trạng thái cạnh tranh lành mạnh song song với Airbus, tuân thủ quy định pháp lý của Asteria và giữ môi trường kinh doanh ổn định lâu dài.",
+        "benefits": "Có động lực để tiếp tục cải tiến sản phẩm",
+        "potential_drawback": "Có thể trong tương lai phải cạnh tranh trực tiếp để giành thị phần nội địa",
+        "impact": "Trong ngắn hạn, doanh nghiệp vẫn duy trì được thị phần nội địa và có động lực để cải tiến sản phẩm. Tuy nhiên, Airbus là một doanh nghiệp lớn, có danh tiếng ở thị trường toàn cầu. Hãng cung cấp những dòng máy bay hiện đại, tối ưu chi phí vận hành và có mạng lưới dịch vụ toàn cầu. Bạn đã vuột mất cơ hội để thâu tóm thị phần nội địa của Airbus và đồng thời cũng đã tiêu hao nhiều tài nguyên vào việc đầu tư cải tiến sản phẩm cũng như thâu tóm các doanh nghiệp khác. Do đó, chi phí sản phẩm của doanh nghiệp bạn sẽ cao hơn so với Airbus, trong khi chất lượng thì chỉ bằng hoặc kém hơn. Điều này khiến doanh nghiệp của bạn ngày càng sa sút.",
         "revenue": "-$43.7 million"
     },
     {

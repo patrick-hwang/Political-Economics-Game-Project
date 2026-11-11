@@ -129,7 +129,7 @@
     },
     {
         "id": 26,
-        "content": "Sau hai thập kỷ tăng trưởng vượt bậc của kỷ nguyên phản lực, ngành hàng không Asteria bước vào thập niên 1970 với cuộc Cú sốc Năng lượng toàn cầu (1973 & 1979). Giá nhiên liệu hàng không phi mã chỉ trong thời gian ngắn đã đảo lộn toàn bộ cấu trúc chi phí vận tải. Các hãng hàng không đối mặt với thua lỗ nặng nề, đồng loạt hoãn hoặc hủy các đơn đặt hàng máy bay mới, trong khi chính phủ Asteria buộc phải cắt giảm tài trợ cho các dự án nghiên cứu chạy đua tốc độ cao. Với doanh nghiệp của bạn, do đã đầu tư quá nhiều vào phần tốc độ lại không để ý đến nhiên liệu đầu vào, vậy nên chịu ảnh hưởng nặng nề từ cú sốc năng lượng 1973",
+        "content": "Sau hai thập kỷ tăng trưởng vượt bậc của kỷ nguyên phản lực, ngành hàng không Asteria bước vào thập niên 1970 với cuộc Cú sốc Năng lượng toàn cầu (1973 & 1979). Giá nhiên liệu hàng không phi mã chỉ trong thời gian ngắn đã đảo lộn toàn bộ cấu trúc chi phí vận tải. Các hãng hàng không đối mặt với thua lỗ nặng nề, đồng loạt hoãn hoặc hủy các đơn đặt hàng máy bay mới, trong khi chính phủ Asteria buộc phải cắt giảm tài trợ cho các dự án nghiên cứu chạy đua tốc độ cao. Nhờ những cải tiến tiết kiệm nhiên liệu từ trước, doanh nghiệp hạn chế được phần nào mức tăng chi phí vận hành so với các đối thủ. Tuy nhiên, giá nhiên liệu tăng phi mã vẫn khiến nhu cầu mua máy bay suy giảm và doanh thu của doanh nghiệp chịu ảnh hưởng đáng kể",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -161,7 +161,7 @@
     },
     {
         "id": 232,
-        "content": "Cạnh tranh với Airbus như thế nào?",
+        "content": "Quyết định của bạn là gì?",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -185,7 +185,7 @@
     },
     {
         "id": 336,
-        "content": "Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không",
+        "content": "Với vị thế hiện tại, bạn hoàn toàn có thể thâu tóm Airbus để mở rộng thị phần và phát triển hơn nữa",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -193,7 +193,7 @@
     },
     {
         "id": 481,
-        "content": "Có thâu tóm Airbus không?",
+        "content": "Quyết định của bạn là gì?",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -202,10 +202,10 @@
     {
         "id": 482,
         "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
-        "benefits": "Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa",
-        "potential_drawback": "Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù",
-        "impact": "Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.",
-        "revenue": "-$39.9 million"
+        "benefits": "",
+        "potential_drawback": "",
+        "impact": "Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa",
+        "revenue": "+$30 million"
     },
     {
         "id": 483,
@@ -220,7 +220,7 @@
         "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
         "benefits": "",
         "potential_drawback": "",
-        "impact": "Doanh nghiệp vẫn đứng vững qua khủng hoảng 2011 nhưng tăng trưởng và khả năng mở rộng thị trường còn hạn chế. Việc không có một lợi thế cạnh tranh đủ mạnh khiến doanh nghiệp phải tập trung bảo toàn dòng tiền, nâng cấp sản phẩm và duy trì khách hàng thay vì mở rộng ồ ạt.",
-        "revenue": "+$3 million"
+        "impact": "",
+        "revenue": ""
     }
 ]

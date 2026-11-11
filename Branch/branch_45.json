@@ -105,11 +105,11 @@
     },
     {
         "id": 39,
-        "content": "Chiến tranh thế giới thứ hai kết thúc. Do trực tiếp sử dụng máy bay quân sự cho mục đích quân sự mà không sản xuất máy bay dân sự cộng thêm việc nhiều máy bay đã bị hao tổn trong chiến tranh, làm cho doanh nghiệp của bạn không có đủ năng lực để cạnh tranh với các doanh nghiệp khác trong ngành.",
+        "content": "Chiến tranh thế giới thứ hai kết thúc (1945), hàng loạt hợp đồng quốc phòng bị cắt giảm hoặc hủy bỏ đột ngột, khiến các nhà máy hàng không Asteria rơi vào khủng hoảng dư thừa công suất nghiêm trọng. Thách thức cốt lõi của các doanh nghiệp không chỉ là tìm kiếm thị trường dân dụng thay thế, mà là phải xác định đúng dòng máy bay phù hợp với túi tiền và nhu cầu thực tế của các hãng hàng không thương mại. Đúng lúc đó, cuộc cách mạng động cơ phản lực (Jet Engine) nổ ra trên thế giới, mở ra khả năng chế tạo những thế hệ máy bay đạt tốc độ, độ cao và tầm bay vượt trội hoàn toàn so với máy bay cánh quạt truyền thống. Mặc dù công nghệ phản lực hứa hẹn tái định hình toàn bộ ngành vận tải đường dài, nó đòi hỏi chi phí nghiên cứu và phát triển (R&D) khổng lồ, nguồn vốn đầu tư dài hạn và đi kèm rủi ro kỹ thuật cực kỳ cao. Doanh nghiệp của bạn cũng đối diện với thực trạng cắt giảm hợp đồng quốc phòng và dư thừa công suất nghiêm trọng. Đồng thời cũng phải bỏ ra khoản đầu tư khổng lồ để tái sản xuất. Quan trọng nhất, bạn đã dành toàn bộ máy bay cho mục đích quân sự nên không có dự phòng cho việc nghiên cứu và phát triển dòng máy bay dân dụng mới.",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "-$10 million"
     },
     {
         "id": 67,
@@ -125,14 +125,14 @@
         "benefits": "Nhanh chóng có công nghệ hiện đại phục vụ thị trường mà không tốn chi phí R&D",
         "potential_drawback": "Phụ thuộc nguồn cung nước ngoài, không nắm giữ công nghệ lõi và chịu chi phí nhập khẩu cao",
         "impact": "Doanh nghiệp nhanh chóng đáp ứng nhu cầu thị trường bằng các dòng máy bay hiện đại nhập khẩu, nhưng bị phụ thuộc vào công nghệ nước ngoài và tốn kém ngoại tệ.",
-        "revenue": "-$38.7 million"
+        "revenue": "-$40 million"
     },
     {
         "id": 65,
-        "content": "Do chưa từng trực tiếp sản xuất máy bay dân dụng nên bạn chưa khai thác được hết tiềm năng của những dòng máy bay nhập khẩu. Qua thời gian, bạn sẽ dần nắm được cách sử dụng nhưng lúc đó, một dòng máy bay khác lại ra đời. Việc chạy theo xu hướng công nghệ mới khiến doanh nghiệp của bạn không thể cạnh tranh với các doanh nghiệp khác trong ngành và sẽ sớm phá sản",
+        "content": "Khủng hoảng năng lượng năm 1973 khiến giá nhiên liệu hàng không phi mã, ảnh hưởng trực tiếp đến giá nhập khẩu máy bay. Đồng thời, việc liên tục chạy theo các thệ hệ máy bay mới mà không có nhân lực và vốn cho nghiên cứu và phát triển khiến doanh nghiệp của bạn kém cạnh tranh và ngày càng phụ thuộc vào yếu tố bên ngoài. Sau một thời gian dài, doanh nghiệp của bạn không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình.",
         "benefits": "",
         "potential_drawback": "",
-        "impact": "Doanh nghiệp liên tục chạy theo các thế hệ máy bay mới nhưng không tích lũy được năng lực công nghệ và kinh nghiệm khai thác đủ sâu. Sản phẩm ra mắt chậm, chi phí chuyển đổi cao và nhanh chóng lỗi thời trước khi thu hồi vốn; khách hàng chuyển sang các nhà sản xuất có công nghệ, hiệu suất và dịch vụ tốt hơn. Đơn hàng suy giảm kéo dài khiến dòng tiền cạn kiệt và doanh nghiệp đứng trước nguy cơ phá sản.",
-        "revenue": "-$18 million"
+        "impact": "",
+        "revenue": ""
     }
 ]

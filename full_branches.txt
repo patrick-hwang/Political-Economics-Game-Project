@@ -930,8 +930,8 @@ Branch 6
 398: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$49 million
 399: 
  - Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -1708,8 +1708,8 @@ Branch 11
 386: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$42 million
 387: 
  - Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -2478,16 +2478,16 @@ Branch 16
  - Impact: 
  - Revenue: 
 391: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
+ - Potential Drawback: 
  - Impact: Doanh nghiệp cân nhắc bước đi chiến lược mang tính quyết định về việc loại bỏ đối thủ ngoại hối Airbus khỏi thị trường nội địa hay chấp nhận chung sống hòa bình.
  - Revenue: +$25 million
 392: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$45.5 million
 393: 
  - Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -2648,9 +2648,9 @@ Branch 17
  - Impact: 
  - Revenue: 
 391: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
+ - Potential Drawback: 
  - Impact: Doanh nghiệp cân nhắc bước đi chiến lược mang tính quyết định về việc loại bỏ đối thủ ngoại hối Airbus khỏi thị trường nội địa hay chấp nhận chung sống hòa bình.
  - Revenue: +$25 million
 395: 
@@ -3221,9 +3221,9 @@ Branch 21
  - Revenue: 
 116: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 153: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -3232,7 +3232,7 @@ Branch 21
  - Impact: 
  - Revenue: 
 211: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -3256,7 +3256,7 @@ Branch 21
  - Impact: 
  - Revenue: 
 439: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -3264,8 +3264,8 @@ Branch 21
 440: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$44.9 million
 441: 
  - Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -3391,9 +3391,9 @@ Branch 22
  - Revenue: 
 116: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 153: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -3402,7 +3402,7 @@ Branch 22
  - Impact: 
  - Revenue: 
 211: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -3426,7 +3426,7 @@ Branch 22
  - Impact: 
  - Revenue: 
 439: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -3561,9 +3561,9 @@ Branch 23
  - Revenue: 
 116: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 153: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -3572,7 +3572,7 @@ Branch 23
  - Impact: 
  - Revenue: 
 211: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -3718,7 +3718,7 @@ Branch 24
  - Impact: 
  - Revenue: 
 214: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -3742,7 +3742,7 @@ Branch 24
  - Impact: 
  - Revenue: 
 445: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -3750,8 +3750,8 @@ Branch 24
 446: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$38.9 million
 447: 
  - Doanh nghiệp của bạn
@@ -3888,7 +3888,7 @@ Branch 25
  - Impact: 
  - Revenue: 
 214: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -3912,7 +3912,7 @@ Branch 25
  - Impact: 
  - Revenue: 
 445: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -4058,7 +4058,7 @@ Branch 26
  - Impact: 
  - Revenue: 
 214: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -4193,9 +4193,9 @@ Branch 27
  - Revenue: 
 119: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 155: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -4204,7 +4204,7 @@ Branch 27
  - Impact: 
  - Revenue: 
 217: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -4228,7 +4228,7 @@ Branch 27
  - Impact: 
  - Revenue: 
 451: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -4236,8 +4236,8 @@ Branch 27
 452: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$48.4 million
 453: 
  - Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -4363,9 +4363,9 @@ Branch 28
  - Revenue: 
 119: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 155: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -4374,7 +4374,7 @@ Branch 28
  - Impact: 
  - Revenue: 
 217: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -4398,7 +4398,7 @@ Branch 28
  - Impact: 
  - Revenue: 
 451: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -4533,9 +4533,9 @@ Branch 29
  - Revenue: 
 119: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 155: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -4544,7 +4544,7 @@ Branch 29
  - Impact: 
  - Revenue: 
 217: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -4690,7 +4690,7 @@ Branch 30
  - Impact: 
  - Revenue: 
 220: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -4714,7 +4714,7 @@ Branch 30
  - Impact: 
  - Revenue: 
 457: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -4722,8 +4722,8 @@ Branch 30
 458: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$43.4 million
 459: 
  - Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -4860,7 +4860,7 @@ Branch 31
  - Impact: 
  - Revenue: 
 220: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -4884,7 +4884,7 @@ Branch 31
  - Impact: 
  - Revenue: 
 457: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -5030,7 +5030,7 @@ Branch 32
  - Impact: 
  - Revenue: 
 220: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -5165,9 +5165,9 @@ Branch 33
  - Revenue: 
 122: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 157: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -5176,7 +5176,7 @@ Branch 33
  - Impact: 
  - Revenue: 
 223: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -5200,7 +5200,7 @@ Branch 33
  - Impact: 
  - Revenue: 
 463: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -5208,8 +5208,8 @@ Branch 33
 464: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$41.4 million
 465: 
  - Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -5335,9 +5335,9 @@ Branch 34
  - Revenue: 
 122: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 157: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -5346,7 +5346,7 @@ Branch 34
  - Impact: 
  - Revenue: 
 223: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -5370,7 +5370,7 @@ Branch 34
  - Impact: 
  - Revenue: 
 463: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -5505,9 +5505,9 @@ Branch 35
  - Revenue: 
 122: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 157: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -5516,7 +5516,7 @@ Branch 35
  - Impact: 
  - Revenue: 
 223: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -5662,7 +5662,7 @@ Branch 36
  - Impact: 
  - Revenue: 
 226: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -5686,7 +5686,7 @@ Branch 36
  - Impact: 
  - Revenue: 
 469: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -5694,8 +5694,8 @@ Branch 36
 470: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$35.4 million
 471: 
  - Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -5832,7 +5832,7 @@ Branch 37
  - Impact: 
  - Revenue: 
 226: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -5856,7 +5856,7 @@ Branch 37
  - Impact: 
  - Revenue: 
 469: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -6002,7 +6002,7 @@ Branch 38
  - Impact: 
  - Revenue: 
 226: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -6137,9 +6137,9 @@ Branch 39
  - Revenue: 
 125: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 159: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -6148,7 +6148,7 @@ Branch 39
  - Impact: 
  - Revenue: 
 229: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -6172,7 +6172,7 @@ Branch 39
  - Impact: 
  - Revenue: 
 475: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -6180,8 +6180,8 @@ Branch 39
 476: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$44.9 million
 477: 
  - Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -6307,9 +6307,9 @@ Branch 40
  - Revenue: 
 125: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 159: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -6318,7 +6318,7 @@ Branch 40
  - Impact: 
  - Revenue: 
 229: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -6342,7 +6342,7 @@ Branch 40
  - Impact: 
  - Revenue: 
 475: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -6477,9 +6477,9 @@ Branch 41
  - Revenue: 
 125: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 159: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -6488,7 +6488,7 @@ Branch 41
  - Impact: 
  - Revenue: 
 229: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -6634,7 +6634,7 @@ Branch 42
  - Impact: 
  - Revenue: 
 232: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -6658,7 +6658,7 @@ Branch 42
  - Impact: 
  - Revenue: 
 481: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -6666,8 +6666,8 @@ Branch 42
 482: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$39.9 million
 483: 
  - Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -6804,7 +6804,7 @@ Branch 43
  - Impact: 
  - Revenue: 
 232: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -6828,7 +6828,7 @@ Branch 43
  - Impact: 
  - Revenue: 
 481: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -6974,7 +6974,7 @@ Branch 44
  - Impact: 
  - Revenue: 
 232: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -7213,9 +7213,9 @@ Branch 46
  - Revenue: 
 113: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 151: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -7224,7 +7224,7 @@ Branch 46
  - Impact: 
  - Revenue: 
 205: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -7248,7 +7248,7 @@ Branch 46
  - Impact: 
  - Revenue: 
 427: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -7256,8 +7256,8 @@ Branch 46
 428: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$46.7 million
 429: 
  - Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -7383,9 +7383,9 @@ Branch 47
  - Revenue: 
 113: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 151: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -7394,7 +7394,7 @@ Branch 47
  - Impact: 
  - Revenue: 
 205: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -7418,7 +7418,7 @@ Branch 47
  - Impact: 
  - Revenue: 
 427: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -7553,9 +7553,9 @@ Branch 48
  - Revenue: 
 113: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 151: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -7564,7 +7564,7 @@ Branch 48
  - Impact: 
  - Revenue: 
 205: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -7710,7 +7710,7 @@ Branch 49
  - Impact: 
  - Revenue: 
 208: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -7734,7 +7734,7 @@ Branch 49
  - Impact: 
  - Revenue: 
 433: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -7742,8 +7742,8 @@ Branch 49
 434: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$41.7 million
 435: 
  - Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -7880,7 +7880,7 @@ Branch 50
  - Impact: 
  - Revenue: 
 208: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -7904,7 +7904,7 @@ Branch 50
  - Impact: 
  - Revenue: 
 433: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -8050,7 +8050,7 @@ Branch 51
  - Impact: 
  - Revenue: 
 208: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -8185,9 +8185,9 @@ Branch 52
  - Revenue: 
 107: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 147: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -8196,7 +8196,7 @@ Branch 52
  - Impact: 
  - Revenue: 
 193: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -8220,7 +8220,7 @@ Branch 52
  - Impact: 
  - Revenue: 
 403: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -8228,8 +8228,8 @@ Branch 52
 404: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$43.2 million
 405: 
  - Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -8355,9 +8355,9 @@ Branch 53
  - Revenue: 
 107: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 147: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -8366,7 +8366,7 @@ Branch 53
  - Impact: 
  - Revenue: 
 193: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -8390,7 +8390,7 @@ Branch 53
  - Impact: 
  - Revenue: 
 403: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -8525,9 +8525,9 @@ Branch 54
  - Revenue: 
 107: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 147: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -8536,7 +8536,7 @@ Branch 54
  - Impact: 
  - Revenue: 
 193: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -8682,7 +8682,7 @@ Branch 55
  - Impact: 
  - Revenue: 
 196: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -8706,7 +8706,7 @@ Branch 55
  - Impact: 
  - Revenue: 
 409: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -8714,8 +8714,8 @@ Branch 55
 410: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$38.2 million
 411: 
  - Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -8852,7 +8852,7 @@ Branch 56
  - Impact: 
  - Revenue: 
 196: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -8876,7 +8876,7 @@ Branch 56
  - Impact: 
  - Revenue: 
 409: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -9022,7 +9022,7 @@ Branch 57
  - Impact: 
  - Revenue: 
 196: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -9157,9 +9157,9 @@ Branch 58
  - Revenue: 
 110: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 149: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -9168,7 +9168,7 @@ Branch 58
  - Impact: 
  - Revenue: 
 199: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -9192,7 +9192,7 @@ Branch 58
  - Impact: 
  - Revenue: 
 415: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -9200,8 +9200,8 @@ Branch 58
 416: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$39.7 million
 417: 
  - Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -9327,9 +9327,9 @@ Branch 59
  - Revenue: 
 110: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 149: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -9338,7 +9338,7 @@ Branch 59
  - Impact: 
  - Revenue: 
 199: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -9362,7 +9362,7 @@ Branch 59
  - Impact: 
  - Revenue: 
 415: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -9497,9 +9497,9 @@ Branch 60
  - Revenue: 
 110: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 149: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -9508,7 +9508,7 @@ Branch 60
  - Impact: 
  - Revenue: 
 199: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -9654,7 +9654,7 @@ Branch 61
  - Impact: 
  - Revenue: 
 202: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -9678,7 +9678,7 @@ Branch 61
  - Impact: 
  - Revenue: 
 421: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -9686,8 +9686,8 @@ Branch 61
 422: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$34.7 million
 423: 
  - Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -9824,7 +9824,7 @@ Branch 62
  - Impact: 
  - Revenue: 
 202: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -9848,7 +9848,7 @@ Branch 62
  - Impact: 
  - Revenue: 
 421: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -9994,7 +9994,7 @@ Branch 63
  - Impact: 
  - Revenue: 
 202: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -10197,9 +10197,9 @@ Branch 65
  - Revenue: 
 131: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 161: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -10208,7 +10208,7 @@ Branch 65
  - Impact: 
  - Revenue: 
 235: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -10232,7 +10232,7 @@ Branch 65
  - Impact: 
  - Revenue: 
 487: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -10240,8 +10240,8 @@ Branch 65
 488: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$30.4 million
 489: 
  - Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -10367,9 +10367,9 @@ Branch 66
  - Revenue: 
 131: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 161: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -10378,7 +10378,7 @@ Branch 66
  - Impact: 
  - Revenue: 
 235: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -10402,7 +10402,7 @@ Branch 66
  - Impact: 
  - Revenue: 
 487: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -10537,9 +10537,9 @@ Branch 67
  - Revenue: 
 131: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 161: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -10548,7 +10548,7 @@ Branch 67
  - Impact: 
  - Revenue: 
 235: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -10694,7 +10694,7 @@ Branch 68
  - Impact: 
  - Revenue: 
 238: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -10718,7 +10718,7 @@ Branch 68
  - Impact: 
  - Revenue: 
 493: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -10726,8 +10726,8 @@ Branch 68
 494: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$25.4 million
 495: 
  - Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -10864,7 +10864,7 @@ Branch 69
  - Impact: 
  - Revenue: 
 238: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -10888,7 +10888,7 @@ Branch 69
  - Impact: 
  - Revenue: 
 493: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -11034,7 +11034,7 @@ Branch 70
  - Impact: 
  - Revenue: 
 238: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -11169,9 +11169,9 @@ Branch 71
  - Revenue: 
 134: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 163: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -11180,7 +11180,7 @@ Branch 71
  - Impact: 
  - Revenue: 
 241: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -11204,7 +11204,7 @@ Branch 71
  - Impact: 
  - Revenue: 
 499: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -11212,8 +11212,8 @@ Branch 71
 500: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$33.9 million
 501: 
  - Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -11339,9 +11339,9 @@ Branch 72
  - Revenue: 
 134: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 163: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -11350,7 +11350,7 @@ Branch 72
  - Impact: 
  - Revenue: 
 241: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -11374,7 +11374,7 @@ Branch 72
  - Impact: 
  - Revenue: 
 499: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -11509,9 +11509,9 @@ Branch 73
  - Revenue: 
 134: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 163: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -11520,7 +11520,7 @@ Branch 73
  - Impact: 
  - Revenue: 
 241: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -11666,7 +11666,7 @@ Branch 74
  - Impact: 
  - Revenue: 
 244: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -11690,7 +11690,7 @@ Branch 74
  - Impact: 
  - Revenue: 
 505: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -11698,8 +11698,8 @@ Branch 74
 506: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$28.9 million
 507: 
  - Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -11836,7 +11836,7 @@ Branch 75
  - Impact: 
  - Revenue: 
 244: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -11860,7 +11860,7 @@ Branch 75
  - Impact: 
  - Revenue: 
 505: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -12006,7 +12006,7 @@ Branch 76
  - Impact: 
  - Revenue: 
 244: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -12141,9 +12141,9 @@ Branch 77
  - Revenue: 
 137: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 165: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -12152,7 +12152,7 @@ Branch 77
  - Impact: 
  - Revenue: 
 247: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -12176,7 +12176,7 @@ Branch 77
  - Impact: 
  - Revenue: 
 511: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -12184,8 +12184,8 @@ Branch 77
 512: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$27.2 million
 513: 
  - Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -12311,9 +12311,9 @@ Branch 78
  - Revenue: 
 137: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 165: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -12322,7 +12322,7 @@ Branch 78
  - Impact: 
  - Revenue: 
 247: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -12346,7 +12346,7 @@ Branch 78
  - Impact: 
  - Revenue: 
 511: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -12481,9 +12481,9 @@ Branch 79
  - Revenue: 
 137: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 165: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -12492,7 +12492,7 @@ Branch 79
  - Impact: 
  - Revenue: 
 247: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -12638,7 +12638,7 @@ Branch 80
  - Impact: 
  - Revenue: 
 250: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -12662,7 +12662,7 @@ Branch 80
  - Impact: 
  - Revenue: 
 517: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -12670,8 +12670,8 @@ Branch 80
 518: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$22.2 million
 519: 
  - Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -12808,7 +12808,7 @@ Branch 81
  - Impact: 
  - Revenue: 
 250: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -12832,7 +12832,7 @@ Branch 81
  - Impact: 
  - Revenue: 
 517: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -12978,7 +12978,7 @@ Branch 82
  - Impact: 
  - Revenue: 
 250: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -13113,9 +13113,9 @@ Branch 83
  - Revenue: 
 128: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 167: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -13124,7 +13124,7 @@ Branch 83
  - Impact: 
  - Revenue: 
 253: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -13148,7 +13148,7 @@ Branch 83
  - Impact: 
  - Revenue: 
 523: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -13156,8 +13156,8 @@ Branch 83
 524: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$30.7 million
 525: 
  - Sau khi dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Bạn muốn nhiều hơn thế nữa. Vì vậy bạn đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -13283,9 +13283,9 @@ Branch 84
  - Revenue: 
 128: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 167: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -13294,7 +13294,7 @@ Branch 84
  - Impact: 
  - Revenue: 
 253: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -13318,7 +13318,7 @@ Branch 84
  - Impact: 
  - Revenue: 
 523: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -13453,9 +13453,9 @@ Branch 85
  - Revenue: 
 128: 
  - Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác
- - Benefits: Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa
- - Potential Drawback: Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường
- - Impact: Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.
+ - Benefits: 
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: +$15 million
 167: 
  - Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.
@@ -13464,7 +13464,7 @@ Branch 85
  - Impact: 
  - Revenue: 
 253: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -13610,7 +13610,7 @@ Branch 86
  - Impact: 
  - Revenue: 
 256: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -13634,7 +13634,7 @@ Branch 86
  - Impact: 
  - Revenue: 
 529: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -13642,8 +13642,8 @@ Branch 86
 530: 
  - Thâu tóm hết thị phần của Airbus tại thị trường nội địa
  - Benefits: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
- - Potential Drawback: Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù
- - Impact: Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.
+ - Potential Drawback: 
+ - Impact: Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa
  - Revenue: -$25.7 million
 531: 
  - Doanh nghiệp của bạn không dành được thế độc quyền trong sản xuất máy bay tại thị trường nội địa. Nhưng bạn muốn mở rộng tầm ảnh hưởng nên đã chèn ép để các hãng bay nội địa phải sử dụng máy bay của mình thay vì nhập khẩu máy bay của các hãng nước ngoài. Tuy nhiên, chính phủ Asteria nhận định đây là hành vi cạnh tranh không lành mạnh nên bạn bị bắt bỏ vào tù
@@ -13780,7 +13780,7 @@ Branch 87
  - Impact: 
  - Revenue: 
 256: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -13804,7 +13804,7 @@ Branch 87
  - Impact: 
  - Revenue: 
 529: 
- - Có thâu tóm Airbus không?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 
@@ -13950,7 +13950,7 @@ Branch 88
  - Impact: 
  - Revenue: 
 256: 
- - Cạnh tranh với Airbus như thế nào?
+ - Quyết định của bạn là gì?
  - Benefits: 
  - Potential Drawback: 
  - Impact: 

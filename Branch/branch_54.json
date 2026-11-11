@@ -146,10 +146,10 @@
     {
         "id": 107,
         "content": "Có. Doanh nghiệp ngày càng phát triển và đồng thời cũng lấy được công nghệ lõi của những doanh nghiệp khác",
-        "benefits": "Mở rộng quy mô nhanh chóng, thâu tóm tài sản và công nghệ lõi để tiến tới vị thế độc quyền nội địa",
-        "potential_drawback": "Gánh nặng quản lý các doanh nghiệp sa sút và rủi ro bị cơ quan quản lý điều tra hành vi thao túng thị trường",
-        "impact": "Doanh nghiệp thâu tóm hàng loạt đối thủ suy yếu, hợp nhất bằng sáng chế và công nghệ lõi để thiết lập vị thế chi phối gần như tuyệt đối tại thị trường nội địa.",
-        "revenue": "+$15 million"
+        "benefits": "",
+        "potential_drawback": "",
+        "impact": "Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa",
+        "revenue": "+$30 million"
     },
     {
         "id": 147,
@@ -161,7 +161,7 @@
     },
     {
         "id": 193,
-        "content": "Cạnh tranh với Airbus như thế nào?",
+        "content": "Quyết định của bạn là gì?",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -177,11 +177,11 @@
     },
     {
         "id": 276,
-        "content": "Khủng hoảng kinh tế 2008. Doanh nghiệp của bạn vẫn có công nghệ lõi nhưng lại không có đủ vốn đầu tư, đó là hệ lụy từ những quyết định trước đây của bạn",
+        "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Airbus củng cố vị thế áp đảo nhờ các dòng máy bay hiện đại, tối ưu chi phí và mạng lưới dịch vụ vượt trội. Doanh nghiệp của bạn cũng không kém cạnh khi liên tục đưa ra thị trường những mẫu máy bay mới, tuy không hẳn là đột phá nhưng vẫn đáp ứng nhu cầu vận tải nội địa",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "+$2 million"
     },
     {
         "id": 356,

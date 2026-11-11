@@ -161,7 +161,7 @@
     },
     {
         "id": 256,
-        "content": "Cạnh tranh với Airbus như thế nào?",
+        "content": "Quyết định của bạn là gì?",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -185,7 +185,7 @@
     },
     {
         "id": 344,
-        "content": "Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không",
+        "content": "Với vị thế hiện tại, bạn hoàn toàn có thể thâu tóm Airbus để mở rộng thị phần và phát triển hơn nữa",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -193,7 +193,7 @@
     },
     {
         "id": 529,
-        "content": "Có thâu tóm Airbus không?",
+        "content": "Quyết định của bạn là gì?",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -202,9 +202,9 @@
     {
         "id": 530,
         "content": "Thâu tóm hết thị phần của Airbus tại thị trường nội địa",
-        "benefits": "Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa",
-        "potential_drawback": "Hành vi chèn ép cạnh tranh không lành mạnh dẫn đến sự can thiệp nghiêm khắc của Chính phủ và nguy cơ lãnh đạo bị đi tù",
-        "impact": "Doanh nghiệp gây ép các hãng bay nội địa loại bỏ Airbus để đạt thế độc quyền tuyệt đối, nhưng hành vi cạnh tranh không lành mạnh khiến chính phủ can thiệp và bắt giữ lãnh đạo.",
+        "benefits": "",
+        "potential_drawback": "",
+        "impact": "Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa",
         "revenue": "-$25.7 million"
     },
     {
