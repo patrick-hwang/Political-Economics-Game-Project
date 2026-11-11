@@ -37,7 +37,7 @@
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "-$2 million"
     },
     {
         "id": 29,
@@ -61,7 +61,7 @@
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "-$4 million"
     },
     {
         "id": 10,
@@ -77,14 +77,14 @@
         "benefits": "Nhanh chóng có công nghệ hiện đại phục vụ thị trường mà không tốn chi phí R&D",
         "potential_drawback": "Phụ thuộc nguồn cung nước ngoài, không nắm giữ công nghệ lõi và chịu chi phí nhập khẩu cao",
         "impact": "Doanh nghiệp nhanh chóng đáp ứng nhu cầu thị trường bằng các dòng máy bay hiện đại nhập khẩu, nhưng bị phụ thuộc vào công nghệ nước ngoài và tốn kém ngoại tệ.",
-        "revenue": "-$23.5 million"
+        "revenue": "-$40 million"
     },
     {
         "id": 27,
-        "content": "Do chưa từng trực tiếp sản xuất máy bay dân dụng nên bạn chưa khai thác được hết tiềm năng của những dòng máy bay nhập khẩu. Qua thời gian, bạn sẽ dần nắm được cách sử dụng nhưng lúc đó, một dòng máy bay khác lại ra đời. Việc chạy theo xu hướng công nghệ mới khiến doanh nghiệp của bạn không thể cạnh tranh với các doanh nghiệp khác trong ngành và sẽ sớm phá sản",
+        "content": "Khủng hoảng năng lượng năm 1973 khiến giá nhiên liệu hàng không phi mã, ảnh hưởng trực tiếp đến giá nhập khẩu máy bay. Đồng thời, việc liên tục chạy theo các thệ hệ máy bay mới mà không có nhân lực và vốn cho nghiên cứu và phát triển khiến doanh nghiệp của bạn kém cạnh tranh và ngày càng phụ thuộc vào yếu tố bên ngoài. Sau một thời gian dài, doanh nghiệp của bạn không còn đủ năng lực để cạnh tranh trên thị trường và sẽ sớm phải sát nhập với những doanh nghiệp khác để cứu vãn tình hình.",
         "benefits": "",
         "potential_drawback": "",
-        "impact": "Doanh nghiệp liên tục chạy theo các thế hệ máy bay mới nhưng không tích lũy được năng lực công nghệ và kinh nghiệm khai thác đủ sâu. Sản phẩm ra mắt chậm, chi phí chuyển đổi cao và nhanh chóng lỗi thời trước khi thu hồi vốn; khách hàng chuyển sang các nhà sản xuất có công nghệ, hiệu suất và dịch vụ tốt hơn. Đơn hàng suy giảm kéo dài khiến dòng tiền cạn kiệt và doanh nghiệp đứng trước nguy cơ phá sản.",
-        "revenue": "-$18 million"
+        "impact": "",
+        "revenue": ""
     }
 ]

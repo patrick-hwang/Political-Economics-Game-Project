@@ -37,7 +37,7 @@
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "-$2 million"
     },
     {
         "id": 29,
@@ -61,7 +61,7 @@
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "-$4 million"
     },
     {
         "id": 10,
@@ -105,11 +105,11 @@
     },
     {
         "id": 38,
-        "content": "Chiến tranh thế giới thứ hai kết thúc. Do trực tiếp sử dụng máy bay quân sự cho mục đích quân sự mà không sản xuất máy bay dân sự cộng thêm việc nhiều máy bay đã bị hao tổn trong chiến tranh, làm cho doanh nghiệp của bạn không có đủ năng lực để cạnh tranh với các doanh nghiệp khác trong ngành.",
+        "content": "Chiến tranh thế giới thứ hai kết thúc (1945), hàng loạt hợp đồng quốc phòng bị cắt giảm hoặc hủy bỏ đột ngột, khiến các nhà máy hàng không Asteria rơi vào khủng hoảng dư thừa công suất nghiêm trọng. Thách thức cốt lõi của các doanh nghiệp không chỉ là tìm kiếm thị trường dân dụng thay thế, mà là phải xác định đúng dòng máy bay phù hợp với túi tiền và nhu cầu thực tế của các hãng hàng không thương mại. Đúng lúc đó, cuộc cách mạng động cơ phản lực (Jet Engine) nổ ra trên thế giới, mở ra khả năng chế tạo những thế hệ máy bay đạt tốc độ, độ cao và tầm bay vượt trội hoàn toàn so với máy bay cánh quạt truyền thống. Mặc dù công nghệ phản lực hứa hẹn tái định hình toàn bộ ngành vận tải đường dài, nó đòi hỏi chi phí nghiên cứu và phát triển (R&D) khổng lồ, nguồn vốn đầu tư dài hạn và đi kèm rủi ro kỹ thuật cực kỳ cao. Doanh nghiệp của bạn cũng đối diện với thực trạng cắt giảm hợp đồng quốc phòng và dư thừa công suất nghiêm trọng. Đồng thời cũng phải bỏ ra khoản đầu tư khổng lồ để tái sản xuất. Quan trọng nhất, bạn đã dành phần lớn máy bay cho mục đích quân sự nên không có dự phòng cho việc nghiên cứu và phát triển dòng máy bay dân dụng mới.",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "-$8 million"
     },
     {
         "id": 68,
@@ -221,6 +221,6 @@
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
-        "revenue": "+$4 million"
+        "revenue": ""
     }
 ]
