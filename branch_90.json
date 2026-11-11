@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "content": "Start",
+        "benefits": "",
+        "potential_drawback": "",
+        "impact": "",
+        "revenue": ""
+    },
+    {
+        "id": 41,
+        "content": "Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.",
+        "benefits": "",
+        "potential_drawback": "",
+        "impact": "",
+        "revenue": ""
+    },
+    {
+        "id": 2,
+        "content": "Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?",
+        "benefits": "",
+        "potential_drawback": "",
+        "impact": "",
+        "revenue": ""
+    },
+    {
+        "id": 13,
+        "content": "Không. Bạn nhận thấy sự phi nghĩa của chiến tranh. Nhưng cũng nhận thấy tiềm năng của ngành hàng không. Vậy nên bạn quyết định đầu tư vào nghiên cứu máy bay dân sự",
+        "benefits": "Chủ động đón đầu nghiên cứu máy bay dân sự và giữ hình ảnh thương hiệu tích cực",
+        "potential_drawback": "Bỏ lỡ dòng vốn và hợp đồng quốc phòng dồi dào trong thời chiến, đối mặt khó khăn tài chính ngắn hạn",
+        "impact": "Doanh nghiệp chấp nhận bỏ qua lợi nhuận thời chiến để tích lũy công nghệ dân dụng độc lập, tạo lợi thế xuất phát sớm trong kỷ nguyên hàng không thương mại hậu chiến.",
+        "revenue": "-$400,000"
+    },
+    {
+        "id": 71,
+        "content": "Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự.",
+        "benefits": "",
+        "potential_drawback": "",
+        "impact": "",
+        "revenue": ""
+    },
+    {
+        "id": 14,
+        "content": "Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?",
+        "benefits": "",
+        "potential_drawback": "",
+        "impact": "",
+        "revenue": ""
+    },
+    {
+        "id": 16,
+        "content": "Tiếp tục sản xuất máy bay dân sự nhưng chỉ phục vụ cho thị trường nội địa và không xuất khẩu",
+        "benefits": "Thị trường an toàn, rủi ro thấp, dễ kiểm soát chi phí và duy trì dòng tiền ổn định",
+        "potential_drawback": "Quy mô thị trường bị giới hạn, khó phát triển thành tập đoàn hàng không tầm vóc quốc tế",
+        "impact": "Doanh nghiệp làm chủ hoàn toàn thị trường vận tải trong nước với rủi ro tài chính thấp, nhưng tự giới hạn dư địa tăng trưởng và quy mô doanh thu toàn cầu.",
+        "revenue": "-$19.6 million"
+    },
+    {
+        "id": 72,
+        "content": "Các doanh nghiệp khác bắt đầu bắt kịp công nghệ mới. Thị trường máy bay dân sự trở nên cạnh tranh gay gắt. Doanh thu bắt đầu sụt giảm",
+        "benefits": "",
+        "potential_drawback": "",
+        "impact": "",
+        "revenue": ""
+    },
+    {
+        "id": 17,
+        "content": "Không có nguồn thu từ chiến tranh lại đầu tư quá nhiều vào công nghệ sản xuất máy bay dân sự trong thời chiến. Doanh thu thời hậu chiến không đủ để kéo lại kinh tế doanh nghiệp. Doanh nghiệp của bạn nhanh chóng bị các doanh nghiệp khác vượt mặt và đứng trước nguy cơ phá sản. Vậy nên doanh nghiệp của bạn buộc phải sát nhập để cứu vãn tình hình",
+        "benefits": "",
+        "potential_drawback": "",
+        "impact": "Doanh nghiệp không có nguồn thu quân sự đáng kể nhưng lại đầu tư quá nhiều vào sản xuất máy bay dân sự trong thời chiến. Khi chiến tranh kết thúc, doanh thu dân dụng chưa đủ lớn để bù đắp chi phí nhà máy và vốn đầu tư; đối thủ có quy mô, công nghệ và nguồn lực tốt hơn nhanh chóng chiếm thị phần. Doanh nghiệp mất khả năng thanh toán và buộc phải sáp nhập để tránh phá sản hoàn toàn.",
+        "revenue": "-$20 million"
+    }
+]
