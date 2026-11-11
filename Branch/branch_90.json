@@ -33,11 +33,11 @@
     },
     {
         "id": 71,
-        "content": "Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự.",
+        "content": "Chiến tranh thế giới thứ nhất kết thúc (1918), các hợp đồng quốc phòng sụt giảm đột ngột khiến nhiều dây chuyền sản xuất rơi vào cảnh dư thừa công suất. Tuy nhiên, những tiến bộ vượt bậc về công nghệ động cơ, thiết kế khí động học và kỹ thuật chế tạo tích lũy trong thời chiến đã mở ra tính khả thi cho việc ứng dụng máy bay vào các hoạt động kinh tế dân dụng thường xuyên. Tại Asteria, khoảng cách địa lý mênh mông giữa các trung tâm kinh tế lớn tạo tiền đề thuận lợi cho vận tải hàng không.",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "-$2 million"
     },
     {
         "id": 14,
@@ -53,7 +53,7 @@
         "benefits": "Thị trường an toàn, rủi ro thấp, dễ kiểm soát chi phí và duy trì dòng tiền ổn định",
         "potential_drawback": "Quy mô thị trường bị giới hạn, khó phát triển thành tập đoàn hàng không tầm vóc quốc tế",
         "impact": "Doanh nghiệp làm chủ hoàn toàn thị trường vận tải trong nước với rủi ro tài chính thấp, nhưng tự giới hạn dư địa tăng trưởng và quy mô doanh thu toàn cầu.",
-        "revenue": "-$19.6 million"
+        "revenue": "-$1 million"
     },
     {
         "id": 72,
@@ -65,10 +65,10 @@
     },
     {
         "id": 17,
-        "content": "Không có nguồn thu từ chiến tranh lại đầu tư quá nhiều vào công nghệ sản xuất máy bay dân sự trong thời chiến. Doanh thu thời hậu chiến không đủ để kéo lại kinh tế doanh nghiệp. Doanh nghiệp của bạn nhanh chóng bị các doanh nghiệp khác vượt mặt và đứng trước nguy cơ phá sản. Vậy nên doanh nghiệp của bạn buộc phải sát nhập để cứu vãn tình hình",
+        "content": "Không có nguồn thu từ chiến tranh lại đầu tư quá nhiều vào công nghệ sản xuất máy bay dân sự trong thời chiến. Doanh thu thời hậu chiến không đủ để kéo lại kinh tế doanh nghiệp. Bạn buộc phải hợp tác với một doanh nghiệp khác hoặc chờ bị thu mua. Dù quyết định của bạn có là gì, thì doanh nghiệp của bạn cũng không còn đủ năng lực cạnh tranh để duy trì vị thể độc lập",
         "benefits": "",
         "potential_drawback": "",
-        "impact": "Doanh nghiệp không có nguồn thu quân sự đáng kể nhưng lại đầu tư quá nhiều vào sản xuất máy bay dân sự trong thời chiến. Khi chiến tranh kết thúc, doanh thu dân dụng chưa đủ lớn để bù đắp chi phí nhà máy và vốn đầu tư; đối thủ có quy mô, công nghệ và nguồn lực tốt hơn nhanh chóng chiếm thị phần. Doanh nghiệp mất khả năng thanh toán và buộc phải sáp nhập để tránh phá sản hoàn toàn.",
-        "revenue": "-$20 million"
+        "impact": "",
+        "revenue": ""
     }
 ]
