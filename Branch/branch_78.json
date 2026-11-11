@@ -33,11 +33,11 @@
     },
     {
         "id": 71,
-        "content": "Chiến tranh thế giới thứ nhất kết thúc. Nhu cầu sản xuất máy bay cho mục đích quân sự ngày càng giảm và dần bị thay thế bởi máy bay phục vụ mục đích dân sự.",
+        "content": "Chiến tranh thế giới thứ nhất kết thúc (1918), các hợp đồng quốc phòng sụt giảm đột ngột khiến nhiều dây chuyền sản xuất rơi vào cảnh dư thừa công suất. Tuy nhiên, những tiến bộ vượt bậc về công nghệ động cơ, thiết kế khí động học và kỹ thuật chế tạo tích lũy trong thời chiến đã mở ra tính khả thi cho việc ứng dụng máy bay vào các hoạt động kinh tế dân dụng thường xuyên. Tại Asteria, khoảng cách địa lý mênh mông giữa các trung tâm kinh tế lớn tạo tiền đề thuận lợi cho vận tải hàng không.",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "-$2 million"
     },
     {
         "id": 14,
@@ -53,7 +53,7 @@
         "benefits": "Nhanh chóng chiếm lĩnh thị trường quốc tế nhờ có sẵn sản phẩm thương mại hoàn chỉnh",
         "potential_drawback": "Chịu sức ép cạnh tranh gay gắt từ các hãng sản xuất toàn cầu và rủi ro biến động thị trường xuất khẩu",
         "impact": "Doanh nghiệp nhanh chóng xuất khẩu các dòng máy bay thương mại ra thị trường quốc tế, khẳng định uy tín thương hiệu và thu về nguồn ngoại tệ lớn.",
-        "revenue": "+$2.5 million"
+        "revenue": "+$10 million"
     },
     {
         "id": 32,
@@ -61,7 +61,7 @@
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "-$3 million"
     },
     {
         "id": 18,
@@ -101,15 +101,15 @@
         "benefits": "Xây dựng vững chắc năng lực thương mại dân dụng và bắt kịp xu hướng di chuyển đường dài hậu chiến",
         "potential_drawback": "Mất đi lợi nhuận bùng nổ thời chiến và đòi hỏi đầu tư dài hạn vào hạ tầng dân dụng",
         "impact": "Doanh nghiệp duy trì sự tập trung chuyên sâu vào phân khúc thương mại dân dụng, củng cố vị thế thương hiệu an toàn và tin cậy trong lòng khách hàng nội địa.",
-        "revenue": "+$800,000"
+        "revenue": "+$2 million"
     },
     {
         "id": 77,
-        "content": "Chiến tranh thế giới thứ hai kết thúc. Doanh nghiệp trở nên lớn mạnh trong lĩnh vực sản xuất máy bay dân sự",
+        "content": "Chiến tranh thế giới thứ hai kết thúc (1945), hàng loạt hợp đồng quốc phòng bị cắt giảm hoặc hủy bỏ đột ngột, khiến các nhà máy hàng không Asteria rơi vào khủng hoảng dư thừa công suất nghiêm trọng. Thách thức cốt lõi của các doanh nghiệp không chỉ là tìm kiếm thị trường dân dụng thay thế, mà là phải xác định đúng dòng máy bay phù hợp với túi tiền và nhu cầu thực tế của các hãng hàng không thương mại. Đúng lúc đó, cuộc cách mạng động cơ phản lực (Jet Engine) nổ ra trên thế giới, mở ra khả năng chế tạo những thế hệ máy bay đạt tốc độ, độ cao và tầm bay vượt trội hoàn toàn so với máy bay cánh quạt truyền thống. Mặc dù công nghệ phản lực hứa hẹn tái định hình toàn bộ ngành vận tải đường dài, nó đòi hỏi chi phí nghiên cứu và phát triển (R&D) khổng lồ, nguồn vốn đầu tư dài hạn và đi kèm rủi ro kỹ thuật cực kỳ cao. Thật may mắn, doanh nghiệp của bạn không những không mất gì cho các hợp đồng quốc phòng, mà còn tích lũy được một lượng vốn đáng kể từ các dòng máy bay dân dụng trước đó.",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "+$10 million"
     },
     {
         "id": 78,
@@ -121,7 +121,7 @@
     },
     {
         "id": 79,
-        "content": "Tiếp tục khai thác dòng máy bay cánh quạt truyền thống nhưng có thay đổi thiết kế để tiết kiệm nhiên liệu",
+        "content": "Tiếp tục khai thác dòng máy bay cánh quạt truyền thống",
         "benefits": "Duy trì chi phí R&D thấp, tối ưu hóa lợi nhuận trong khủng hoảng năng lượng",
         "potential_drawback": "Tụt hậu về mặt tốc độ và tầm bay so với các đối thủ chuyển sang kỷ nguyên phản lực",
         "impact": "Doanh nghiệp bảo vệ được dòng tiền an toàn và chi phí vận hành thấp, tạo lợi thế lớn trong giai đoạn khủng hoảng năng lượng dù không sở hữu tốc độ phản lực.",
@@ -129,7 +129,7 @@
     },
     {
         "id": 86,
-        "content": "Sau hai thập kỷ tăng trưởng vượt bậc của kỷ nguyên phản lực, ngành hàng không Asteria bước vào thập niên 1970 với cuộc Cú sốc Năng lượng toàn cầu (1973 & 1979). Giá nhiên liệu hàng không phi mã chỉ trong thời gian ngắn đã đảo lộn toàn bộ cấu trúc chi phí vận tải. Các hãng hàng không đối mặt với thua lỗ nặng nề, đồng loạt hoãn hoặc hủy các đơn đặt hàng máy bay mới, trong khi chính phủ Asteria buộc phải cắt giảm tài trợ cho các dự án nghiên cứu chạy đua tốc độ cao. Với doanh nghiệp của bạn, do đã đầu tư quá nhiều vào phần tốc độ lại không để ý đến nhiên liệu đầu vào, vậy nên chịu ảnh hưởng nặng nề từ cú sốc năng lượng 1973",
+        "content": "Sau hai thập kỷ tăng trưởng vượt bậc của kỷ nguyên phản lực, ngành hàng không Asteria bước vào thập niên 1970 với cuộc Cú sốc Năng lượng toàn cầu (1973 & 1979). Giá nhiên liệu hàng không phi mã chỉ trong thời gian ngắn đã đảo lộn toàn bộ cấu trúc chi phí vận tải. Các hãng hàng không đối mặt với thua lỗ nặng nề, đồng loạt hoãn hoặc hủy các đơn đặt hàng máy bay mới, trong khi chính phủ Asteria buộc phải cắt giảm tài trợ cho các dự án nghiên cứu chạy đua tốc độ cao. Nhờ những cải tiến tiết kiệm nhiên liệu từ trước, doanh nghiệp hạn chế được phần nào mức tăng chi phí vận hành so với các đối thủ. Tuy nhiên, giá nhiên liệu tăng phi mã vẫn khiến nhu cầu mua máy bay suy giảm và doanh thu của doanh nghiệp chịu ảnh hưởng đáng kể",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -221,6 +221,6 @@
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
-        "revenue": "+$4 million"
+        "revenue": ""
     }
 ]
