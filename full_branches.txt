@@ -335,7 +335,7 @@ Branch 2
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 3
@@ -943,7 +943,7 @@ Branch 6
  - Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn tạo được dòng tiền và tăng trưởng nhờ vị thế thị trường đã xây dựng, nhưng nguy cơ mất thị phần trước đối thủ nước ngoài vẫn hiện hữu. Việc lãnh đạo được thả không đồng nghĩa doanh nghiệp đã an toàn: cần tiếp tục đổi mới sản phẩm, đầu tư công nghệ và tuân thủ luật cạnh tranh để giữ khách hàng lâu dài.
+ - Impact: 
  - Revenue: +$8 million
 
 Branch 7
@@ -1113,7 +1113,7 @@ Branch 7
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 8
@@ -1721,7 +1721,7 @@ Branch 11
  - Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn tạo được dòng tiền và tăng trưởng nhờ vị thế thị trường đã xây dựng, nhưng nguy cơ mất thị phần trước đối thủ nước ngoài vẫn hiện hữu. Việc lãnh đạo được thả không đồng nghĩa doanh nghiệp đã an toàn: cần tiếp tục đổi mới sản phẩm, đầu tư công nghệ và tuân thủ luật cạnh tranh để giữ khách hàng lâu dài.
+ - Impact: 
  - Revenue: +$8 million
 
 Branch 12
@@ -1891,7 +1891,7 @@ Branch 12
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 13
@@ -2499,7 +2499,7 @@ Branch 16
  - Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn tạo được dòng tiền và tăng trưởng nhờ vị thế thị trường đã xây dựng, nhưng nguy cơ mất thị phần trước đối thủ nước ngoài vẫn hiện hữu. Việc lãnh đạo được thả không đồng nghĩa doanh nghiệp đã an toàn: cần tiếp tục đổi mới sản phẩm, đầu tư công nghệ và tuân thủ luật cạnh tranh để giữ khách hàng lâu dài.
+ - Impact: 
  - Revenue: +$8 million
 
 Branch 17
@@ -2669,7 +2669,7 @@ Branch 17
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 18
@@ -3277,7 +3277,7 @@ Branch 21
  - Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn tạo được dòng tiền và tăng trưởng nhờ vị thế thị trường đã xây dựng, nhưng nguy cơ mất thị phần trước đối thủ nước ngoài vẫn hiện hữu. Việc lãnh đạo được thả không đồng nghĩa doanh nghiệp đã an toàn: cần tiếp tục đổi mới sản phẩm, đầu tư công nghệ và tuân thủ luật cạnh tranh để giữ khách hàng lâu dài.
+ - Impact: 
  - Revenue: +$8 million
 
 Branch 22
@@ -3447,7 +3447,7 @@ Branch 22
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 23
@@ -3763,7 +3763,7 @@ Branch 24
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 25
@@ -4249,7 +4249,7 @@ Branch 27
  - Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn tạo được dòng tiền và tăng trưởng nhờ vị thế thị trường đã xây dựng, nhưng nguy cơ mất thị phần trước đối thủ nước ngoài vẫn hiện hữu. Việc lãnh đạo được thả không đồng nghĩa doanh nghiệp đã an toàn: cần tiếp tục đổi mới sản phẩm, đầu tư công nghệ và tuân thủ luật cạnh tranh để giữ khách hàng lâu dài.
+ - Impact: 
  - Revenue: +$8 million
 
 Branch 28
@@ -5221,7 +5221,7 @@ Branch 33
  - Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn tạo được dòng tiền và tăng trưởng nhờ vị thế thị trường đã xây dựng, nhưng nguy cơ mất thị phần trước đối thủ nước ngoài vẫn hiện hữu. Việc lãnh đạo được thả không đồng nghĩa doanh nghiệp đã an toàn: cần tiếp tục đổi mới sản phẩm, đầu tư công nghệ và tuân thủ luật cạnh tranh để giữ khách hàng lâu dài.
+ - Impact: 
  - Revenue: +$8 million
 
 Branch 34
@@ -5707,7 +5707,7 @@ Branch 36
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 37
@@ -5877,7 +5877,7 @@ Branch 37
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 38
@@ -6193,7 +6193,7 @@ Branch 39
  - Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn tạo được dòng tiền và tăng trưởng nhờ vị thế thị trường đã xây dựng, nhưng nguy cơ mất thị phần trước đối thủ nước ngoài vẫn hiện hữu. Việc lãnh đạo được thả không đồng nghĩa doanh nghiệp đã an toàn: cần tiếp tục đổi mới sản phẩm, đầu tư công nghệ và tuân thủ luật cạnh tranh để giữ khách hàng lâu dài.
+ - Impact: 
  - Revenue: +$8 million
 
 Branch 40
@@ -6363,7 +6363,7 @@ Branch 40
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 41
@@ -6849,7 +6849,7 @@ Branch 43
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 44
@@ -7269,7 +7269,7 @@ Branch 46
  - Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn tạo được dòng tiền và tăng trưởng nhờ vị thế thị trường đã xây dựng, nhưng nguy cơ mất thị phần trước đối thủ nước ngoài vẫn hiện hữu. Việc lãnh đạo được thả không đồng nghĩa doanh nghiệp đã an toàn: cần tiếp tục đổi mới sản phẩm, đầu tư công nghệ và tuân thủ luật cạnh tranh để giữ khách hàng lâu dài.
+ - Impact: 
  - Revenue: +$8 million
 
 Branch 47
@@ -7439,7 +7439,7 @@ Branch 47
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 48
@@ -7925,7 +7925,7 @@ Branch 50
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 51
@@ -8241,7 +8241,7 @@ Branch 52
  - Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn tạo được dòng tiền và tăng trưởng nhờ vị thế thị trường đã xây dựng, nhưng nguy cơ mất thị phần trước đối thủ nước ngoài vẫn hiện hữu. Việc lãnh đạo được thả không đồng nghĩa doanh nghiệp đã an toàn: cần tiếp tục đổi mới sản phẩm, đầu tư công nghệ và tuân thủ luật cạnh tranh để giữ khách hàng lâu dài.
+ - Impact: 
  - Revenue: +$8 million
 
 Branch 53
@@ -8411,7 +8411,7 @@ Branch 53
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 54
@@ -8897,7 +8897,7 @@ Branch 56
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 57
@@ -9213,7 +9213,7 @@ Branch 58
  - Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn tạo được dòng tiền và tăng trưởng nhờ vị thế thị trường đã xây dựng, nhưng nguy cơ mất thị phần trước đối thủ nước ngoài vẫn hiện hữu. Việc lãnh đạo được thả không đồng nghĩa doanh nghiệp đã an toàn: cần tiếp tục đổi mới sản phẩm, đầu tư công nghệ và tuân thủ luật cạnh tranh để giữ khách hàng lâu dài.
+ - Impact: 
  - Revenue: +$8 million
 
 Branch 59
@@ -9383,7 +9383,7 @@ Branch 59
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 60
@@ -9869,7 +9869,7 @@ Branch 62
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 63
@@ -10253,7 +10253,7 @@ Branch 65
  - Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn tạo được dòng tiền và tăng trưởng nhờ vị thế thị trường đã xây dựng, nhưng nguy cơ mất thị phần trước đối thủ nước ngoài vẫn hiện hữu. Việc lãnh đạo được thả không đồng nghĩa doanh nghiệp đã an toàn: cần tiếp tục đổi mới sản phẩm, đầu tư công nghệ và tuân thủ luật cạnh tranh để giữ khách hàng lâu dài.
+ - Impact: 
  - Revenue: +$8 million
 
 Branch 66
@@ -10423,7 +10423,7 @@ Branch 66
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 67
@@ -10909,7 +10909,7 @@ Branch 69
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 70
@@ -11225,7 +11225,7 @@ Branch 71
  - Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn tạo được dòng tiền và tăng trưởng nhờ vị thế thị trường đã xây dựng, nhưng nguy cơ mất thị phần trước đối thủ nước ngoài vẫn hiện hữu. Việc lãnh đạo được thả không đồng nghĩa doanh nghiệp đã an toàn: cần tiếp tục đổi mới sản phẩm, đầu tư công nghệ và tuân thủ luật cạnh tranh để giữ khách hàng lâu dài.
+ - Impact: 
  - Revenue: +$8 million
 
 Branch 72
@@ -11395,7 +11395,7 @@ Branch 72
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 73
@@ -11881,7 +11881,7 @@ Branch 75
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 76
@@ -12197,7 +12197,7 @@ Branch 77
  - Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn tạo được dòng tiền và tăng trưởng nhờ vị thế thị trường đã xây dựng, nhưng nguy cơ mất thị phần trước đối thủ nước ngoài vẫn hiện hữu. Việc lãnh đạo được thả không đồng nghĩa doanh nghiệp đã an toàn: cần tiếp tục đổi mới sản phẩm, đầu tư công nghệ và tuân thủ luật cạnh tranh để giữ khách hàng lâu dài.
+ - Impact: 
  - Revenue: +$8 million
 
 Branch 78
@@ -12367,7 +12367,7 @@ Branch 78
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 79
@@ -12853,7 +12853,7 @@ Branch 81
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 82
@@ -13169,7 +13169,7 @@ Branch 83
  - Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn tạo được dòng tiền và tăng trưởng nhờ vị thế thị trường đã xây dựng, nhưng nguy cơ mất thị phần trước đối thủ nước ngoài vẫn hiện hữu. Việc lãnh đạo được thả không đồng nghĩa doanh nghiệp đã an toàn: cần tiếp tục đổi mới sản phẩm, đầu tư công nghệ và tuân thủ luật cạnh tranh để giữ khách hàng lâu dài.
+ - Impact: 
  - Revenue: +$8 million
 
 Branch 84
@@ -13339,7 +13339,7 @@ Branch 84
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 85
@@ -13825,7 +13825,7 @@ Branch 87
  - Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra
  - Benefits: 
  - Potential Drawback: 
- - Impact: Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.
+ - Impact: 
  - Revenue: +$4 million
 
 Branch 88

@@ -105,11 +105,11 @@
     },
     {
         "id": 38,
-        "content": "Chiến tranh thế giới thứ hai kết thúc. Do trực tiếp sử dụng máy bay quân sự cho mục đích quân sự mà không sản xuất máy bay dân sự cộng thêm việc nhiều máy bay đã bị hao tổn trong chiến tranh, làm cho doanh nghiệp của bạn không có đủ năng lực để cạnh tranh với các doanh nghiệp khác trong ngành.",
+        "content": "Chiến tranh thế giới thứ hai kết thúc (1945), hàng loạt hợp đồng quốc phòng bị cắt giảm hoặc hủy bỏ đột ngột, khiến các nhà máy hàng không Asteria rơi vào khủng hoảng dư thừa công suất nghiêm trọng. Thách thức cốt lõi của các doanh nghiệp không chỉ là tìm kiếm thị trường dân dụng thay thế, mà là phải xác định đúng dòng máy bay phù hợp với túi tiền và nhu cầu thực tế của các hãng hàng không thương mại. Đúng lúc đó, cuộc cách mạng động cơ phản lực (Jet Engine) nổ ra trên thế giới, mở ra khả năng chế tạo những thế hệ máy bay đạt tốc độ, độ cao và tầm bay vượt trội hoàn toàn so với máy bay cánh quạt truyền thống. Mặc dù công nghệ phản lực hứa hẹn tái định hình toàn bộ ngành vận tải đường dài, nó đòi hỏi chi phí nghiên cứu và phát triển (R&D) khổng lồ, nguồn vốn đầu tư dài hạn và đi kèm rủi ro kỹ thuật cực kỳ cao. Doanh nghiệp của bạn cũng đối diện với thực trạng cắt giảm hợp đồng quốc phòng và dư thừa công suất nghiêm trọng. Đồng thời cũng phải bỏ ra khoản đầu tư khổng lồ để tái sản xuất. Quan trọng nhất, bạn đã dành phần lớn máy bay cho mục đích quân sự nên không có dự phòng cho việc nghiên cứu và phát triển dòng máy bay dân dụng mới.",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "-$8 million"
     },
     {
         "id": 68,
@@ -129,7 +129,7 @@
     },
     {
         "id": 88,
-        "content": "Sau hai thập kỷ tăng trưởng vượt bậc của kỷ nguyên phản lực, ngành hàng không Asteria bước vào thập niên 1970 với cuộc Cú sốc Năng lượng toàn cầu (1973 & 1979). Giá nhiên liệu hàng không phi mã chỉ trong thời gian ngắn đã đảo lộn toàn bộ cấu trúc chi phí vận tải. Các hãng hàng không đối mặt với thua lỗ nặng nề, đồng loạt hoãn hoặc hủy các đơn đặt hàng máy bay mới, trong khi chính phủ Asteria buộc phải cắt giảm tài trợ cho các dự án nghiên cứu chạy đua tốc độ cao. Với doanh nghiệp của bạn, do đã đầu tư quá nhiều vào phần tốc độ lại không để ý đến nhiên liệu đầu vào, vậy nên chịu ảnh hưởng nặng nề từ cú sốc năng lượng 1973",
+        "content": "Sau hai thập kỷ tăng trưởng vượt bậc của kỷ nguyên phản lực, ngành hàng không Asteria bước vào thập niên 1970 với cuộc Cú sốc Năng lượng toàn cầu (1973 & 1979). Giá nhiên liệu hàng không phi mã chỉ trong thời gian ngắn đã đảo lộn toàn bộ cấu trúc chi phí vận tải. Các hãng hàng không đối mặt với thua lỗ nặng nề, đồng loạt hoãn hoặc hủy các đơn đặt hàng máy bay mới, trong khi chính phủ Asteria buộc phải cắt giảm tài trợ cho các dự án nghiên cứu chạy đua tốc độ cao. Nhờ những cải tiến tiết kiệm nhiên liệu từ trước, doanh nghiệp hạn chế được phần nào mức tăng chi phí vận hành so với các đối thủ. Tuy nhiên, giá nhiên liệu tăng phi mã vẫn khiến nhu cầu mua máy bay suy giảm và doanh thu của doanh nghiệp chịu ảnh hưởng đáng kể",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -185,7 +185,7 @@
     },
     {
         "id": 323,
-        "content": "Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.",
+        "content": "Với vị thế hiện tại, bạn hoàn toàn có thể thâu tóm Airbus để củng cố vị thế độc quyền của bản thân",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -205,7 +205,7 @@
         "benefits": "",
         "potential_drawback": "",
         "impact": "Vươn lên vị thế thống trị độc quyền hoàn toàn thị trường nội địa",
-        "revenue": "-$43.2 million"
+        "revenue": "+$50 million"
     },
     {
         "id": 405,
@@ -220,7 +220,7 @@
         "content": "Khủng hoảng kinh tế 2011 xảy ra. Mặc dù doanh nghiệp của bạn vẫn duy trì được đà tăng trưởng, tuy nhiên lại đứng trước nguy cơ mất thế độc quyền khi thị trường nội địa bị các doanh nghiệp nước ngoài nhăm nhe. Sau khi nhận thấy đóng góp quan trọng của bạn trong việc giành lại thị phần, chính phủ Asteria quyết định thả bạn ra khỏi tù",
         "benefits": "",
         "potential_drawback": "",
-        "impact": "Doanh nghiệp vẫn tạo được dòng tiền và tăng trưởng nhờ vị thế thị trường đã xây dựng, nhưng nguy cơ mất thị phần trước đối thủ nước ngoài vẫn hiện hữu. Việc lãnh đạo được thả không đồng nghĩa doanh nghiệp đã an toàn: cần tiếp tục đổi mới sản phẩm, đầu tư công nghệ và tuân thủ luật cạnh tranh để giữ khách hàng lâu dài.",
-        "revenue": "+$8 million"
+        "impact": "",
+        "revenue": ""
     }
 ]

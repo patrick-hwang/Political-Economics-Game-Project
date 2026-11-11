@@ -105,11 +105,11 @@
     },
     {
         "id": 38,
-        "content": "Chiến tranh thế giới thứ hai kết thúc. Do trực tiếp sử dụng máy bay quân sự cho mục đích quân sự mà không sản xuất máy bay dân sự cộng thêm việc nhiều máy bay đã bị hao tổn trong chiến tranh, làm cho doanh nghiệp của bạn không có đủ năng lực để cạnh tranh với các doanh nghiệp khác trong ngành.",
+        "content": "Chiến tranh thế giới thứ hai kết thúc (1945), hàng loạt hợp đồng quốc phòng bị cắt giảm hoặc hủy bỏ đột ngột, khiến các nhà máy hàng không Asteria rơi vào khủng hoảng dư thừa công suất nghiêm trọng. Thách thức cốt lõi của các doanh nghiệp không chỉ là tìm kiếm thị trường dân dụng thay thế, mà là phải xác định đúng dòng máy bay phù hợp với túi tiền và nhu cầu thực tế của các hãng hàng không thương mại. Đúng lúc đó, cuộc cách mạng động cơ phản lực (Jet Engine) nổ ra trên thế giới, mở ra khả năng chế tạo những thế hệ máy bay đạt tốc độ, độ cao và tầm bay vượt trội hoàn toàn so với máy bay cánh quạt truyền thống. Mặc dù công nghệ phản lực hứa hẹn tái định hình toàn bộ ngành vận tải đường dài, nó đòi hỏi chi phí nghiên cứu và phát triển (R&D) khổng lồ, nguồn vốn đầu tư dài hạn và đi kèm rủi ro kỹ thuật cực kỳ cao. Doanh nghiệp của bạn cũng đối diện với thực trạng cắt giảm hợp đồng quốc phòng và dư thừa công suất nghiêm trọng. Đồng thời cũng phải bỏ ra khoản đầu tư khổng lồ để tái sản xuất. Quan trọng nhất, bạn đã dành phần lớn máy bay cho mục đích quân sự nên không có dự phòng cho việc nghiên cứu và phát triển dòng máy bay dân dụng mới.",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "-$8 million"
     },
     {
         "id": 68,
@@ -129,7 +129,7 @@
     },
     {
         "id": 89,
-        "content": "Sau hai thập kỷ tăng trưởng vượt bậc của kỷ nguyên phản lực, ngành hàng không Asteria bước vào thập niên 1970 với cuộc Cú sốc Năng lượng toàn cầu (1973 & 1979). Giá nhiên liệu hàng không phi mã chỉ trong thời gian ngắn đã đảo lộn toàn bộ cấu trúc chi phí vận tải. Các hãng hàng không đối mặt với thua lỗ nặng nề, đồng loạt hoãn hoặc hủy các đơn đặt hàng máy bay mới, trong khi chính phủ Asteria buộc phải cắt giảm tài trợ cho các dự án nghiên cứu chạy đua tốc độ cao. Với doanh nghiệp của bạn, do đã đầu tư quá nhiều vào phần tốc độ lại không để ý đến nhiên liệu đầu vào, vậy nên chịu ảnh hưởng nặng nề từ cú sốc năng lượng 1973",
+        "content": "Sau hai thập kỷ tăng trưởng vượt bậc của kỷ nguyên phản lực, ngành hàng không Asteria bước vào thập niên 1970 với cuộc Cú sốc Năng lượng toàn cầu (1973 & 1979). Giá nhiên liệu hàng không phi mã chỉ trong thời gian ngắn đã đảo lộn toàn bộ cấu trúc chi phí vận tải. Các hãng hàng không đối mặt với thua lỗ nặng nề, đồng loạt hoãn hoặc hủy các đơn đặt hàng máy bay mới, trong khi chính phủ Asteria buộc phải cắt giảm tài trợ cho các dự án nghiên cứu chạy đua tốc độ cao. Nhờ những cải tiến tiết kiệm nhiên liệu từ trước, doanh nghiệp hạn chế được phần nào mức tăng chi phí vận hành so với các đối thủ. Tuy nhiên, giá nhiên liệu tăng phi mã vẫn khiến nhu cầu mua máy bay suy giảm và doanh thu của doanh nghiệp chịu ảnh hưởng đáng kể",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -185,7 +185,7 @@
     },
     {
         "id": 325,
-        "content": "Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không.",
+        "content": "Với vị thế hiện tại, bạn hoàn toàn có thể thâu tóm Airbus để củng cố vị thế độc quyền của bản thân",
         "benefits": "",
         "potential_drawback": "",
         "impact": "",
@@ -205,7 +205,7 @@
         "benefits": "Có động lực để tiếp tục cải tiến sản phẩm",
         "potential_drawback": "Có thể trong tương lai phải cạnh tranh trực tiếp để giành thị phần nội địa",
         "impact": "Trong ngắn hạn, doanh nghiệp vẫn duy trì được thị phần nội địa và có động lực để cải tiến sản phẩm. Tuy nhiên, Airbus là một doanh nghiệp lớn, có danh tiếng ở thị trường toàn cầu. Hãng cung cấp những dòng máy bay hiện đại, tối ưu chi phí vận hành và có mạng lưới dịch vụ toàn cầu. Bạn đã vuột mất cơ hội để thâu tóm thị phần nội địa của Airbus và đồng thời cũng đã tiêu hao nhiều tài nguyên vào việc đầu tư cải tiến sản phẩm cũng như thâu tóm các doanh nghiệp khác. Do đó, chi phí sản phẩm của doanh nghiệp bạn sẽ cao hơn so với Airbus, trong khi chất lượng thì chỉ bằng hoặc kém hơn. Điều này khiến doanh nghiệp của bạn ngày càng sa sút.",
-        "revenue": "-$43.7 million"
+        "revenue": "-$30 million"
     },
     {
         "id": 541,
@@ -220,7 +220,7 @@
         "content": "Khủng hoảng kinh tế 2011 xảy ra. Thị trường sản xuất máy bay tuy có nhiều biến động nhưng những trụ cột quan trọng như doanh nghiệp của bạn và Airbus vẫn đang đứng vững. Chính phủ có cân nhắc đến việc thả bạn ra, tuy nhiên, thiếu bạn thì doanh nghiệp vẫn đứng vững nên không có đủ lý do để thả bạn ra",
         "benefits": "",
         "potential_drawback": "",
-        "impact": "Doanh nghiệp vẫn hoạt động và duy trì được vị thế cùng Airbus trong một thị trường cạnh tranh. Không có lợi thế độc quyền để tạo tăng trưởng đột biến, nhưng nền tảng sản phẩm, khách hàng và năng lực tài chính đủ giúp doanh nghiệp vượt qua biến động năm 2011. Việc lãnh đạo chưa được thả cho thấy doanh nghiệp không còn phụ thuộc hoàn toàn vào một cá nhân.",
-        "revenue": "+$4 million"
+        "impact": "",
+        "revenue": ""
     }
 ]
