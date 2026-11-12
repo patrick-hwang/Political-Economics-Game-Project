@@ -1,194 +1,295 @@
 [
     {
-        "id": 1,
+        "node": 1,
         "content": "Start",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "",
+        "next node": [
+            41
+        ],
+        "type": "context"
     },
     {
-        "id": 41,
+        "node": 41,
         "content": "Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "",
+        "next node": [
+            2
+        ],
+        "type": "context"
     },
     {
-        "id": 2,
+        "node": 2,
         "content": "Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "",
+        "next node": [
+            3,
+            13
+        ],
+        "type": "question"
     },
     {
-        "id": 3,
+        "node": 3,
         "content": "Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự",
         "benefits": "Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển",
-        "potential_drawback": "Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp",
+        "potential drawback": "Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp",
         "impact": "Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.",
-        "revenue": "+$4 million"
+        "revenue": "+$4 million",
+        "next node": [
+            42
+        ],
+        "type": "choice"
     },
     {
-        "id": 42,
+        "node": 42,
         "content": "Chiến tranh thế giới thứ nhất kết thúc (1918), các hợp đồng quốc phòng sụt giảm đột ngột khiến nhiều dây chuyền sản xuất rơi vào cảnh dư thừa công suất. Tuy nhiên, những tiến bộ vượt bậc về công nghệ động cơ, thiết kế khí động học và kỹ thuật chế tạo tích lũy trong thời chiến đã mở ra tính khả thi cho việc ứng dụng máy bay vào các hoạt động kinh tế dân dụng thường xuyên. Tại Asteria, khoảng cách địa lý mênh mông giữa các trung tâm kinh tế lớn tạo tiền đề thuận lợi cho vận tải hàng không.",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": "-$2 million"
+        "revenue": "-$2 million",
+        "next node": [
+            29
+        ],
+        "type": "context"
     },
     {
-        "id": 29,
+        "node": 29,
         "content": "Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "",
+        "next node": [
+            4,
+            5
+        ],
+        "type": "question"
     },
     {
-        "id": 5,
+        "node": 5,
         "content": "Cải hoán máy bay quân sự thành phục vụ mục đích dân dụng",
         "benefits": "Tiết kiệm chi phí đầu tư ban đầu và nhanh chóng đưa sản phẩm ra thị trường hậu chiến",
-        "potential_drawback": "Máy bay cải hoán không tối ưu chi phí vận hành và kém thu hút đối với hành khách dân dụng",
+        "potential drawback": "Máy bay cải hoán không tối ưu chi phí vận hành và kém thu hút đối với hành khách dân dụng",
         "impact": "Doanh nghiệp tiết kiệm được nguồn vốn R&D ban đầu và nhanh chóng đưa máy bay vào khai thác thương mại, tuy nhiên hiệu quả kinh tế và độ thu hút hành khách chưa thực sự cao.",
-        "revenue": "+$1.5 million"
+        "revenue": "+$1.5 million",
+        "next node": [
+            48
+        ],
+        "type": "choice"
     },
     {
-        "id": 48,
+        "node": 48,
         "content": "Tại Asteria, ngành hàng không bắt đầu giai đoạn thương mại hóa. Nhờ khoảng cách lớn giữa các trung tâm kinh tế và nhu cầu đi lại ngày càng tăng mà các giải pháp vận chuyển hàng hóa và hành khách được quan tâm hơn bao giờ hết. Cùng lúc đó, Cuộc Đại suy thoái toàn cầu nổ ra (1929) giáng một đòn nặng nề vào nền kinh tế Asteria. Thắt chặt tín dụng và sự suy giảm thương mại buộc các hãng hàng không cắt giảm đơn đặt mua máy bay. Nhiều xưởng sản xuất nhỏ lẻ đứng trước rủi ro phá sản hoặc buộc phải sáp nhập vào các tập đoàn lớn có tiềm lực tài chính. Để vượt qua khủng hoảng, chính phủ Asteria tăng cường kiểm soát cạnh tranh, đồng thời thắt chặt quy chuẩn minh bạch hợp đồng và cấp phép bay, buộc các nhà chế tạo máy bay phải tối ưu hóa thiết kế nhằm giảm giá thành vận hành và đảm bảo an toàn tuyệt đối cho du khách.",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": "-$4 million"
+        "revenue": "-$4 million",
+        "next node": [
+            10
+        ],
+        "type": "context"
     },
     {
-        "id": 10,
+        "node": 10,
         "content": "Bạn sẽ làm gì để tối ưu về mặt kinh tế cho doanh nghiệp nhưng vẫn phải đảm bảo an toàn?",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "",
+        "next node": [
+            11,
+            24
+        ],
+        "type": "question"
     },
     {
-        "id": 11,
+        "node": 11,
         "content": "Cải tiến theo hướng tiết kiệm nhiên liệu",
         "benefits": "Tối ưu chi phí vận hành, giữ giá vé hợp lý và giúp doanh nghiệp chống chịu tốt trước các khủng hoảng năng lượng",
-        "potential_drawback": "Tốc độ bay không đột phá, yếu thế hơn trong cuộc đua công nghệ cao cấp thời kỳ đầu",
+        "potential drawback": "Tốc độ bay không đột phá, yếu thế hơn trong cuộc đua công nghệ cao cấp thời kỳ đầu",
         "impact": "Doanh nghiệp giảm thiểu đáng kể mức tiêu hao nhiên liệu trên các dòng máy bay hiện có, giúp duy trì điểm hòa vốn tốt ngay cả khi thị trường gặp khó khăn.",
-        "revenue": "+$2.2 million"
+        "revenue": "+$2.2 million",
+        "next node": [
+            49
+        ],
+        "type": "choice"
     },
     {
-        "id": 49,
+        "node": 49,
         "content": "Khi Chiến tranh thế giới thứ hai bùng nổ (1939) và lan rộng toàn cầu, nhu cầu sản xuất máy bay quân sự phục vụ trinh sát, ném bom và vận tải chiến lược tại Asteria tăng vọt lên mức kỷ lục. Chính phủ Asteria nhanh chóng chuyển hướng nền kinh tế sang trạng thái thời chiến, ưu tiên tối đa nguồn lực tài chính, vật tư chiến lược (nhôm, hợp kim, bauxite, nhiên liệu) và cấp các hợp đồng quốc phòng quy mô lớn cho các tập đoàn chế tạo nội địa",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "",
+        "next node": [
+            22
+        ],
+        "type": "context"
     },
     {
-        "id": 22,
-        "content": "Phân bổ nguồn lực máy bay cho mục đích dân sự và quân sự như thế nào?",
+        "node": 22,
+        "content": "Bạn sẽ lựa chọn chiến lược phân bổ công suất như thế nào giữa máy bay quân sự và dân dụng để vừa tối ưu lợi nhuận thời chiến, vừa bảo vệ năng lực cạnh tranh thương mại hậu chiến?",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "",
+        "next node": [
+            62,
+            63
+        ],
+        "type": "question"
     },
     {
-        "id": 62,
+        "node": 62,
         "content": "Sử dụng toàn bộ máy bay cho quân sự",
         "benefits": "Doanh thu và lợi nhuận tăng vọt ngắn hạn nhờ hợp đồng quốc phòng lớn của chính phủ",
-        "potential_drawback": "Đối mặt với rủi ro dư thừa công suất nghiêm trọng và suy giảm doanh thu đột ngột khi chiến tranh kết thúc",
-        "impact": "Toàn bộ nguồn lực phương tiện được huy động cho mục đích quân sự thời chiến, đem lại hiệu quả tác chiến tức thì nhưng làm tê liệt hoạt động giao thương dân sự.",
-        "revenue": "+$13 million"
+        "potential drawback": "Đối mặt với rủi ro dư thừa công suất nghiêm trọng và suy giảm doanh thu đột ngột khi chiến tranh kết thúc",
+        "impact": "Toàn bộ nguồn lực phương tiện được huy động cho mục đích quân sự thời chiến, đem lại hiệu quả tác chiến tức thì nhưng làm tê liệt hoạt động giao thương dân dụng.",
+        "revenue": "+$13 million",
+        "next node": [
+            39
+        ],
+        "type": "choice"
     },
     {
-        "id": 39,
+        "node": 39,
         "content": "Chiến tranh thế giới thứ hai kết thúc (1945), hàng loạt hợp đồng quốc phòng bị cắt giảm hoặc hủy bỏ đột ngột, khiến các nhà máy hàng không Asteria rơi vào khủng hoảng dư thừa công suất nghiêm trọng. Thách thức cốt lõi của các doanh nghiệp không chỉ là tìm kiếm thị trường dân dụng thay thế, mà là phải xác định đúng dòng máy bay phù hợp với túi tiền và nhu cầu thực tế của các hãng hàng không thương mại. Đúng lúc đó, cuộc cách mạng động cơ phản lực (Jet Engine) nổ ra trên thế giới, mở ra khả năng chế tạo những thế hệ máy bay đạt tốc độ, độ cao và tầm bay vượt trội hoàn toàn so với máy bay cánh quạt truyền thống. Mặc dù công nghệ phản lực hứa hẹn tái định hình toàn bộ ngành vận tải đường dài, nó đòi hỏi chi phí nghiên cứu và phát triển (R&D) khổng lồ, nguồn vốn đầu tư dài hạn và đi kèm rủi ro kỹ thuật cực kỳ cao. Doanh nghiệp của bạn cũng đối diện với thực trạng cắt giảm hợp đồng quốc phòng và dư thừa công suất nghiêm trọng. Đồng thời cũng phải bỏ ra khoản đầu tư khổng lồ để tái sản xuất. Quan trọng nhất, bạn đã dành toàn bộ máy bay cho mục đích quân sự nên không có dự phòng cho việc nghiên cứu và phát triển dòng máy bay dân dụng mới.",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": "-$10 million"
+        "revenue": "-$10 million",
+        "next node": [
+            67
+        ],
+        "type": "context"
     },
     {
-        "id": 67,
+        "node": 67,
         "content": "Quyết định của bạn là gì?",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "",
+        "next node": [
+            64,
+            66
+        ],
+        "type": "question"
     },
     {
-        "id": 66,
+        "node": 66,
         "content": "Đầu tư vào sản xuất máy bay sử dụng động cơ phản lực",
         "benefits": "Đón đầu kỷ nguyên mới với tốc độ và tầm bay vượt trội, nâng tầm vị thế công nghệ",
-        "potential_drawback": "Chi phí R&D cực kỳ khổng lồ, rủi ro kỹ thuật cao và nguy cơ thua lỗ nặng khi giá nhiên liệu phi mã",
+        "potential drawback": "Chi phí R&D cực kỳ khổng lồ, rủi ro kỹ thuật cao và nguy cơ thua lỗ nặng khi giá nhiên liệu phi mã",
         "impact": "Doanh nghiệp mở rộng quy mô phòng thí nghiệm và dây chuyền chế tạo máy bay phản lực, sẵn sàng cạnh tranh trực tiếp trên thị trường quốc tế cao cấp.",
-        "revenue": "+$7 million"
+        "revenue": "+$7 million",
+        "next node": [
+            85
+        ],
+        "type": "choice"
     },
     {
-        "id": 85,
+        "node": 85,
         "content": "Sau hai thập kỷ tăng trưởng vượt bậc của kỷ nguyên phản lực, ngành hàng không Asteria bước vào thập niên 1970 với cuộc Cú sốc Năng lượng toàn cầu (1973 & 1979). Giá nhiên liệu hàng không phi mã chỉ trong thời gian ngắn đã đảo lộn toàn bộ cấu trúc chi phí vận tải. Các hãng hàng không đối mặt với thua lỗ nặng nề, đồng loạt hoãn hoặc hủy các đơn đặt hàng máy bay mới, trong khi chính phủ Asteria buộc phải cắt giảm tài trợ cho các dự án nghiên cứu chạy đua tốc độ cao. Nhờ những cải tiến tiết kiệm nhiên liệu từ trước, doanh nghiệp hạn chế được phần nào mức tăng chi phí vận hành so với các đối thủ. Tuy nhiên, giá nhiên liệu tăng phi mã vẫn khiến nhu cầu mua máy bay suy giảm và doanh thu của doanh nghiệp chịu ảnh hưởng đáng kể",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": "-$12 million"
+        "revenue": "-$12 million",
+        "next node": [
+            112
+        ],
+        "type": "context"
     },
     {
-        "id": 112,
+        "node": 112,
         "content": "Đối với những doanh nghiệp khác trong ngành đang sa sút và đứng trước nguy cơ phá sản. Bạn có muốn thâu tóm thị trường nội địa và trở thành độc quyền không?",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "",
+        "next node": [
+            113,
+            114
+        ],
+        "type": "question"
     },
     {
-        "id": 114,
+        "node": 114,
         "content": "Không. Vẫn giữ nguyên quy mô hiện tại",
         "benefits": "Duy trì sự an toàn tài chính, tránh được sự phức tạp khi tái cấu trúc doanh nghiệp khác",
-        "potential_drawback": "Bỏ lỡ cơ hội gia tăng thị phần và chiếm lĩnh công nghệ trong giai đoạn thị trường phân rã",
+        "potential drawback": "Bỏ lỡ cơ hội gia tăng thị phần và chiếm lĩnh công nghệ trong giai đoạn thị trường phân rã",
         "impact": "Doanh nghiệp giữ cấu trúc tài chính an toàn, tránh được rủi ro tái cấu trúc phức tạp nhưng bỏ lỡ cơ hội mở rộng thị phần và thâu tóm tài sản giá rẻ.",
-        "revenue": "+$5 million"
+        "revenue": "+$5 million",
+        "next node": [
+            152
+        ],
+        "type": "choice"
     },
     {
-        "id": 152,
+        "node": 152,
         "content": "Đầu năm 2000, Airbus đẩy mạnh cạnh tranh tại Asteria với các dòng máy bay hiện đại, tối ưu chi phí vận hành cùng mạng lưới dịch vụ toàn cầu. Việc các hãng hàng không trong nước có thêm lựa chọn máy bay nhập khẩu đã gây sức ép trực diện lên các nhà sản xuất nội địa.",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "",
+        "next node": [
+            208
+        ],
+        "type": "context"
     },
     {
-        "id": 208,
+        "node": 208,
         "content": "Quyết định của bạn là gì?",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "",
+        "next node": [
+            209,
+            210
+        ],
+        "type": "question"
     },
     {
-        "id": 210,
+        "node": 210,
         "content": "Tiếp tục cải tiến công nghệ lõi",
         "benefits": "Xây dựng năng lực tự chủ công nghệ lâu dài, tạo rào cản kỹ thuật riêng biệt",
-        "potential_drawback": "Thời gian R&D kéo dài, tốn kém tài chính và chịu áp lực thời gian từ các dòng máy bay nhập khẩu",
+        "potential drawback": "Thời gian R&D kéo dài, tốn kém tài chính và chịu áp lực thời gian từ các dòng máy bay nhập khẩu",
         "impact": "Doanh nghiệp làm chủ hoàn toàn các bằng sáng chế và công nghệ hàng không nội địa, gia tăng tính tự chủ kỹ thuật và giảm sự lệ thuộc vào linh kiện nước ngoài.",
-        "revenue": "+$1.5 million"
+        "revenue": "+$1.5 million",
+        "next node": [
+            286
+        ],
+        "type": "choice"
     },
     {
-        "id": 286,
+        "node": 286,
         "content": "Khủng hoảng kinh tế 2008 thắt chặt ngân sách toàn ngành hàng không. Airbus củng cố vị thế áp đảo nhờ các dòng máy bay hiện đại, tối ưu chi phí và mạng lưới dịch vụ vượt trội. Doanh nghiệp của bạn cũng không kém cạnh khi liên tục đưa ra thị trường những mẫu máy bay mới, tuy không hẳn là đột phá nhưng vẫn đáp ứng nhu cầu vận tải nội địa",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": "+$2 million"
+        "revenue": "+$2 million",
+        "next node": [
+            361
+        ],
+        "type": "context"
     },
     {
-        "id": 361,
+        "node": 361,
         "content": "Khủng hoảng kinh tế 2011 xảy ra. Ngoài Airbus, doanh nghiệp của bạn còn phải tranh giành từng thị phần nội địa với những doanh nghiệp khác. Thế cân bằng này là không thể phá vỡ, vậy nên, không một doanh nghiệp nào chiếm được thế độc quyền",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "",
+        "next node": [],
+        "type": "lose"
     }
 ]

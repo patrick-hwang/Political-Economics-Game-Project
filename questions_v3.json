@@ -38,7 +38,7 @@
     },
     {
         "node": 4,
-        "content": "Đẩy mạnh sản xuất máy bay dân sự",
+        "content": "Đẩy mạnh sản xuất máy bay dân dụng",
         "benefits": "Xây dựng vững chắc năng lực thương mại dân dụng và bắt kịp xu hướng di chuyển đường dài hậu chiến",
         "potential drawback": "Mất đi lợi nhuận bùng nổ thời chiến và đòi hỏi đầu tư dài hạn vào hạ tầng dân dụng",
         "impact": "Doanh nghiệp nhanh chóng đặt nền móng cho mạng lưới vận tải thương mại nội địa, giúp duy trì đà tăng trưởng ổn định và tự chủ năng lực sản xuất sau khi hợp đồng quân sự giảm.",
@@ -148,8 +148,8 @@
     },
     {
         "node": 13,
-        "content": "Không. Bạn nhận thấy sự phi nghĩa của chiến tranh. Nhưng cũng nhận thấy tiềm năng của ngành hàng không. Vậy nên bạn quyết định đầu tư vào nghiên cứu máy bay dân sự",
-        "benefits": "Chủ động đón đầu nghiên cứu máy bay dân sự và giữ hình ảnh thương hiệu tích cực",
+        "content": "Không. Bạn nhận thấy sự phi nghĩa của chiến tranh. Nhưng cũng nhận thấy tiềm năng của ngành hàng không. Vậy nên bạn quyết định đầu tư vào nghiên cứu máy bay dân dụng",
+        "benefits": "Chủ động đón đầu nghiên cứu máy bay dân dụng và giữ hình ảnh thương hiệu tích cực",
         "potential drawback": "Bỏ lỡ dòng vốn và hợp đồng quốc phòng dồi dào trong thời chiến, đối mặt khó khăn tài chính ngắn hạn",
         "impact": "Doanh nghiệp chấp nhận bỏ qua lợi nhuận thời chiến để tích lũy công nghệ dân dụng độc lập, tạo lợi thế xuất phát sớm trong kỷ nguyên hàng không thương mại hậu chiến.",
         "revenue": "-$400,000",
@@ -173,7 +173,7 @@
     },
     {
         "node": 15,
-        "content": "Tăng cường sản xuất và đẩy mạnh xuất khẩu những mẫu máy bay dân sự đã nghiên cứu trước đó",
+        "content": "Tăng cường sản xuất và đẩy mạnh xuất khẩu những mẫu máy bay dân dụng đã nghiên cứu trước đó",
         "benefits": "Nhanh chóng chiếm lĩnh thị trường quốc tế nhờ có sẵn sản phẩm thương mại hoàn chỉnh",
         "potential drawback": "Chịu sức ép cạnh tranh gay gắt từ các hãng sản xuất toàn cầu và rủi ro biến động thị trường xuất khẩu",
         "impact": "Doanh nghiệp nhanh chóng xuất khẩu các dòng máy bay thương mại ra thị trường quốc tế, khẳng định uy tín thương hiệu và thu về nguồn ngoại tệ lớn.",
@@ -185,7 +185,7 @@
     },
     {
         "node": 16,
-        "content": "Tiếp tục sản xuất máy bay dân sự nhưng chỉ phục vụ cho thị trường nội địa và không xuất khẩu",
+        "content": "Tiếp tục sản xuất máy bay dân dụng nhưng chỉ phục vụ cho thị trường nội địa và không xuất khẩu",
         "benefits": "Thị trường an toàn, rủi ro thấp, dễ kiểm soát chi phí và duy trì dòng tiền ổn định",
         "potential drawback": "Quy mô thị trường bị giới hạn, khó phát triển thành tập đoàn hàng không tầm vóc quốc tế",
         "impact": "Doanh nghiệp làm chủ hoàn toàn thị trường vận tải trong nước với rủi ro tài chính thấp, nhưng tự giới hạn dư địa tăng trưởng và quy mô doanh thu toàn cầu.",
@@ -197,7 +197,7 @@
     },
     {
         "node": 17,
-        "content": "Không có nguồn thu từ chiến tranh lại đầu tư quá nhiều vào công nghệ sản xuất máy bay dân sự trong thời chiến. Doanh thu thời hậu chiến không đủ để kéo lại kinh tế doanh nghiệp. Bạn buộc phải hợp tác với một doanh nghiệp khác hoặc chờ bị thu mua. Dù quyết định của bạn có là gì, thì doanh nghiệp của bạn cũng không còn đủ năng lực cạnh tranh để duy trì vị thể độc lập",
+        "content": "Không có nguồn thu từ chiến tranh lại đầu tư quá nhiều vào công nghệ sản xuất máy bay dân dụng trong thời chiến. Doanh thu thời hậu chiến không đủ để kéo lại kinh tế doanh nghiệp. Bạn buộc phải hợp tác với một doanh nghiệp khác hoặc chờ bị thu mua. Dù quyết định của bạn có là gì, thì doanh nghiệp của bạn cũng không còn đủ năng lực cạnh tranh để duy trì vị thể độc lập",
         "benefits": "",
         "potential drawback": "",
         "impact": "",
@@ -256,7 +256,7 @@
     },
     {
         "node": 22,
-        "content": "Phân bổ nguồn lực máy bay cho mục đích dân sự và quân sự như thế nào?",
+        "content": "Bạn sẽ lựa chọn chiến lược phân bổ công suất như thế nào giữa máy bay quân sự và dân dụng để vừa tối ưu lợi nhuận thời chiến, vừa bảo vệ năng lực cạnh tranh thương mại hậu chiến?",
         "benefits": "",
         "potential drawback": "",
         "impact": "",
@@ -294,7 +294,7 @@
     },
     {
         "node": 25,
-        "content": "Không có nguồn thu từ chiến tranh lại đầu tư quá nhiều vào công nghệ sản xuất máy bay dân sự trong thời chiến. Doanh thu thời hậu chiến không đủ để kéo lại kinh tế doanh nghiệp. Bạn buộc phải hợp tác với một doanh nghiệp khác hoặc chờ bị thu mua. Dù quyết định của bạn có là gì, thì doanh nghiệp của bạn cũng không còn đủ năng lực cạnh tranh để duy trì vị thể độc lập",
+        "content": "Không có nguồn thu từ chiến tranh lại đầu tư quá nhiều vào công nghệ sản xuất máy bay dân dụng trong thời chiến. Doanh thu thời hậu chiến không đủ để kéo lại kinh tế doanh nghiệp. Bạn buộc phải hợp tác với một doanh nghiệp khác hoặc chờ bị thu mua. Dù quyết định của bạn có là gì, thì doanh nghiệp của bạn cũng không còn đủ năng lực cạnh tranh để duy trì vị thể độc lập",
         "benefits": "",
         "potential drawback": "",
         "impact": "",
@@ -375,7 +375,7 @@
     },
     {
         "node": 32,
-        "content": "Các doanh nghiệp khác bắt đầu bắt kịp công nghệ mới. Thị trường máy bay dân sự trở nên cạnh tranh gay gắt. Doanh thu bắt đầu sụt giảm",
+        "content": "Các doanh nghiệp khác bắt đầu bắt kịp công nghệ mới. Thị trường máy bay dân dụng trở nên cạnh tranh gay gắt. Doanh thu bắt đầu sụt giảm",
         "benefits": "",
         "potential drawback": "",
         "impact": "",
@@ -399,7 +399,7 @@
     },
     {
         "node": 34,
-        "content": "Không. Bạn tiếp tục tập trung vào sản xuất máy bay dân sự",
+        "content": "Không. Bạn tiếp tục tập trung vào sản xuất máy bay dân dụng",
         "benefits": "Xây dựng vững chắc năng lực thương mại dân dụng và bắt kịp xu hướng di chuyển đường dài hậu chiến",
         "potential drawback": "Mất đi lợi nhuận bùng nổ thời chiến và đòi hỏi đầu tư dài hạn vào hạ tầng dân dụng",
         "impact": "Doanh nghiệp duy trì sự tập trung chuyên sâu vào phân khúc thương mại dân dụng, củng cố vị thế thương hiệu an toàn và tin cậy trong lòng khách hàng nội địa.",
@@ -594,7 +594,7 @@
     },
     {
         "node": 50,
-        "content": "Bạn sẽ lựa chọn chiến lược phân bổ công suất như thế nào giữa máy bay quân sự và dân sự để vừa tối ưu lợi nhuận thời chiến, vừa bảo vệ năng lực cạnh tranh thương mại hậu chiến?",
+        "content": "Bạn sẽ lựa chọn chiến lược phân bổ công suất như thế nào giữa máy bay quân sự và dân dụng để vừa tối ưu lợi nhuận thời chiến, vừa bảo vệ năng lực cạnh tranh thương mại hậu chiến?",
         "benefits": "",
         "potential drawback": "",
         "impact": "",
@@ -643,7 +643,7 @@
     },
     {
         "node": 54,
-        "content": "Bạn sẽ lựa chọn chiến lược phân bổ công suất như thế nào giữa máy bay quân sự và dân sự để vừa tối ưu lợi nhuận thời chiến, vừa bảo vệ năng lực cạnh tranh thương mại hậu chiến?",
+        "content": "Bạn sẽ lựa chọn chiến lược phân bổ công suất như thế nào giữa máy bay quân sự và dân dụng để vừa tối ưu lợi nhuận thời chiến, vừa bảo vệ năng lực cạnh tranh thương mại hậu chiến?",
         "benefits": "",
         "potential drawback": "",
         "impact": "",
@@ -744,7 +744,7 @@
         "content": "Sử dụng toàn bộ máy bay cho quân sự",
         "benefits": "Doanh thu và lợi nhuận tăng vọt ngắn hạn nhờ hợp đồng quốc phòng lớn của chính phủ",
         "potential drawback": "Đối mặt với rủi ro dư thừa công suất nghiêm trọng và suy giảm doanh thu đột ngột khi chiến tranh kết thúc",
-        "impact": "Toàn bộ nguồn lực phương tiện được huy động cho mục đích quân sự thời chiến, đem lại hiệu quả tác chiến tức thì nhưng làm tê liệt hoạt động giao thương dân sự.",
+        "impact": "Toàn bộ nguồn lực phương tiện được huy động cho mục đích quân sự thời chiến, đem lại hiệu quả tác chiến tức thì nhưng làm tê liệt hoạt động giao thương dân dụng.",
         "revenue": "+$13 million",
         "next node": [
             39
@@ -753,7 +753,7 @@
     },
     {
         "node": 63,
-        "content": "Sử dụng phần lớn máy bay cho quân sự nhưng vẫn duy trì dân sự",
+        "content": "Sử dụng phần lớn máy bay cho quân sự nhưng vẫn duy trì dân dụng",
         "benefits": "Tối ưu lợi nhuận thời chiến đồng thời bảo vệ năng lực cạnh tranh thương mại hậu chiến",
         "potential drawback": "Nguồn lực bị phân tán, đòi hỏi năng lực quản trị công suất cực kỳ phức tạp",
         "impact": "Doanh nghiệp vừa phục vụ nhiệm vụ an ninh quốc phòng khẩn cấp, vừa giữ được các tuyến bay thương mại huyết mạch nối liền các đô thị Asteria.",
@@ -861,7 +861,7 @@
     },
     {
         "node": 72,
-        "content": "Các doanh nghiệp khác bắt đầu bắt kịp công nghệ mới. Thị trường máy bay dân sự trở nên cạnh tranh gay gắt. Doanh thu bắt đầu sụt giảm",
+        "content": "Các doanh nghiệp khác bắt đầu bắt kịp công nghệ mới. Thị trường máy bay dân dụng trở nên cạnh tranh gay gắt. Doanh thu bắt đầu sụt giảm",
         "benefits": "",
         "potential drawback": "",
         "impact": "",
@@ -2129,11 +2129,11 @@
     },
     {
         "node": 176,
-        "content": "Không. Tâp trung nâng cao chất lượng dịch vụ và trải nghiệm của khách hàng để trở thành ngạch sản phẩm cao cấp",
+        "content": "Không cạnh tranh trực tiếp nhưng lấy đó làm động lực để cải tiến sản phẩm. Cụ thể, doanh nghiệp bạn bắt đầu thay thế động cơ cánh quạt bằng động cơ phản lực, đồng thời nâng cấp những tiện ích khác để đáp ứng nhu cầu phân khúc khách hàng cao cấp.",
         "benefits": "Tránh đối đầu trực diện với gã khổng lồ Airbus, giữ vững thị phần ngách lợi nhuận cao",
-        "potential drawback": "Giới hạn dư địa tăng trưởng thị phần đại chúng trước sự bành trướng của dòng máy bay nhập khẩu",
-        "impact": "Doanh nghiệp tập trung nguồn lực phát triển các dịch vụ hậu mãi và nội thất sang trọng, từng bước khẳng định thế mạnh độc quyền ở ngạch sản phẩm cao cấp.",
-        "revenue": "+$17 million",
+        "potential drawback": "Thị phần nội địa của doanh nghiệp bạn sẽ càng ngày càng bị thu hẹp",
+        "impact": "Doanh nghiệp của bạn tốn nhiều chi phí để nâng cấp sản phẩm, tuy nhiên, đây là bước đi đúng đắn. Vì nhờ đó, doanh nghiệp vẫn duy trì được phân khúc khách hàng đã được xác định từ trước, và giữ vững thương hiệu hạng sang",
+        "revenue": "+$4 million",
         "next node": [
             263
         ],
@@ -2293,7 +2293,7 @@
         "benefits": "Tránh đối đầu trực diện với gã khổng lồ Airbus, giữ vững thị phần ngách lợi nhuận cao",
         "potential drawback": "Thị phần nội địa của doanh nghiệp bạn sẽ càng ngày càng bị thu hẹp",
         "impact": "Doanh nghiệp của bạn tốn nhiều chi phí để nâng cấp sản phẩm, tuy nhiên, đây là bước đi đúng đắn. Vì nhờ đó, doanh nghiệp vẫn duy trì được phân khúc khách hàng đã được xác định từ trước, và giữ vững thương hiệu hạng sang",
-        "revenue": "+$20 million",
+        "revenue": "+$4 million",
         "next node": [
             272
         ],
@@ -3888,7 +3888,7 @@
         "benefits": "",
         "potential drawback": "",
         "impact": "",
-        "revenue": "",
+        "revenue": "-$20 million",
         "next node": [
             385
         ],
@@ -4124,7 +4124,7 @@
     },
     {
         "node": 340,
-        "content": "Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không",
+        "content": "Với vị thế hiện tại, bạn hoàn toàn có thể thâu tóm Airbus để mở rộng thị phần và phát triển hơn nữa",
         "benefits": "",
         "potential drawback": "",
         "impact": "",
@@ -4136,7 +4136,7 @@
     },
     {
         "node": 341,
-        "content": "Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không",
+        "content": "Với vị thế hiện tại, bạn hoàn toàn có thể thâu tóm Airbus để củng cố vị thế độc quyền của bản thân",
         "benefits": "",
         "potential drawback": "",
         "impact": "",
@@ -4160,7 +4160,7 @@
     },
     {
         "node": 343,
-        "content": "Thị trường nội địa đã được bạn thâu tóm từ trước ở cuộc khủng hoảng năng lượng 1973. Tuy nhiên, bạn vẫn chưa quyết định được có nên thâu tóm thị phần của Airbus hay không",
+        "content": "Với vị thế hiện tại, bạn hoàn toàn có thể thâu tóm Airbus để củng cố vị thế độc quyền của bản thân",
         "benefits": "",
         "potential drawback": "",
         "impact": "",

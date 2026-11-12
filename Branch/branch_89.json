@@ -1,90 +1,135 @@
 [
     {
-        "id": 1,
+        "node": 1,
         "content": "Start",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "",
+        "next node": [
+            41
+        ],
+        "type": "context"
     },
     {
-        "id": 41,
+        "node": 41,
         "content": "Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "",
+        "next node": [
+            2
+        ],
+        "type": "context"
     },
     {
-        "id": 2,
+        "node": 2,
         "content": "Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "",
+        "next node": [
+            3,
+            13
+        ],
+        "type": "question"
     },
     {
-        "id": 13,
-        "content": "Không. Bạn nhận thấy sự phi nghĩa của chiến tranh. Nhưng cũng nhận thấy tiềm năng của ngành hàng không. Vậy nên bạn quyết định đầu tư vào nghiên cứu máy bay dân sự",
-        "benefits": "Chủ động đón đầu nghiên cứu máy bay dân sự và giữ hình ảnh thương hiệu tích cực",
-        "potential_drawback": "Bỏ lỡ dòng vốn và hợp đồng quốc phòng dồi dào trong thời chiến, đối mặt khó khăn tài chính ngắn hạn",
+        "node": 13,
+        "content": "Không. Bạn nhận thấy sự phi nghĩa của chiến tranh. Nhưng cũng nhận thấy tiềm năng của ngành hàng không. Vậy nên bạn quyết định đầu tư vào nghiên cứu máy bay dân dụng",
+        "benefits": "Chủ động đón đầu nghiên cứu máy bay dân dụng và giữ hình ảnh thương hiệu tích cực",
+        "potential drawback": "Bỏ lỡ dòng vốn và hợp đồng quốc phòng dồi dào trong thời chiến, đối mặt khó khăn tài chính ngắn hạn",
         "impact": "Doanh nghiệp chấp nhận bỏ qua lợi nhuận thời chiến để tích lũy công nghệ dân dụng độc lập, tạo lợi thế xuất phát sớm trong kỷ nguyên hàng không thương mại hậu chiến.",
-        "revenue": "-$400,000"
+        "revenue": "-$400,000",
+        "next node": [
+            71
+        ],
+        "type": "choice"
     },
     {
-        "id": 71,
+        "node": 71,
         "content": "Chiến tranh thế giới thứ nhất kết thúc (1918), các hợp đồng quốc phòng sụt giảm đột ngột khiến nhiều dây chuyền sản xuất rơi vào cảnh dư thừa công suất. Tuy nhiên, những tiến bộ vượt bậc về công nghệ động cơ, thiết kế khí động học và kỹ thuật chế tạo tích lũy trong thời chiến đã mở ra tính khả thi cho việc ứng dụng máy bay vào các hoạt động kinh tế dân dụng thường xuyên. Tại Asteria, khoảng cách địa lý mênh mông giữa các trung tâm kinh tế lớn tạo tiền đề thuận lợi cho vận tải hàng không.",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": "-$2 million"
+        "revenue": "-$2 million",
+        "next node": [
+            14
+        ],
+        "type": "context"
     },
     {
-        "id": 14,
+        "node": 14,
         "content": "Bạn sẽ chọn hướng đi chiến lược nào để tái cấu trúc và duy trì đà tăng trưởng thương mại?",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "",
+        "next node": [
+            15,
+            16
+        ],
+        "type": "question"
     },
     {
-        "id": 15,
-        "content": "Tăng cường sản xuất và đẩy mạnh xuất khẩu những mẫu máy bay dân sự đã nghiên cứu trước đó",
+        "node": 15,
+        "content": "Tăng cường sản xuất và đẩy mạnh xuất khẩu những mẫu máy bay dân dụng đã nghiên cứu trước đó",
         "benefits": "Nhanh chóng chiếm lĩnh thị trường quốc tế nhờ có sẵn sản phẩm thương mại hoàn chỉnh",
-        "potential_drawback": "Chịu sức ép cạnh tranh gay gắt từ các hãng sản xuất toàn cầu và rủi ro biến động thị trường xuất khẩu",
+        "potential drawback": "Chịu sức ép cạnh tranh gay gắt từ các hãng sản xuất toàn cầu và rủi ro biến động thị trường xuất khẩu",
         "impact": "Doanh nghiệp nhanh chóng xuất khẩu các dòng máy bay thương mại ra thị trường quốc tế, khẳng định uy tín thương hiệu và thu về nguồn ngoại tệ lớn.",
-        "revenue": "+$10 million"
+        "revenue": "+$10 million",
+        "next node": [
+            32
+        ],
+        "type": "choice"
     },
     {
-        "id": 32,
-        "content": "Các doanh nghiệp khác bắt đầu bắt kịp công nghệ mới. Thị trường máy bay dân sự trở nên cạnh tranh gay gắt. Doanh thu bắt đầu sụt giảm",
+        "node": 32,
+        "content": "Các doanh nghiệp khác bắt đầu bắt kịp công nghệ mới. Thị trường máy bay dân dụng trở nên cạnh tranh gay gắt. Doanh thu bắt đầu sụt giảm",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": "-$3 million"
+        "revenue": "-$3 million",
+        "next node": [
+            18
+        ],
+        "type": "context"
     },
     {
-        "id": 18,
+        "node": 18,
         "content": "Doanh nghiệp của bạn sẽ làm gì để vượt qua khủng hoảng?",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "",
+        "next node": [
+            19,
+            20
+        ],
+        "type": "question"
     },
     {
-        "id": 20,
+        "node": 20,
         "content": "Vẫn trung thành với công nghệ cũ",
         "benefits": "Không tốn chi phí R&D, rủi ro kỹ thuật thấp trong ngắn hạn",
-        "potential_drawback": "Sản phẩm nhanh chóng lạc hậu, suy giảm sức cạnh tranh và đối mặt nguy cơ phá sản/sáp nhập",
+        "potential drawback": "Sản phẩm nhanh chóng lạc hậu, suy giảm sức cạnh tranh và đối mặt nguy cơ phá sản/sáp nhập",
         "impact": "Doanh nghiệp tránh được rủi ro tài chính và chi phí R&D lớn trong ngắn hạn, nhưng sản phẩm nhanh chóng trở nên lạc hậu và mất dần thị phần vào tay các đối thủ đổi mới.",
-        "revenue": "-$5 million"
+        "revenue": "-$5 million",
+        "next node": [
+            25
+        ],
+        "type": "choice"
     },
     {
-        "id": 25,
-        "content": "Không có nguồn thu từ chiến tranh lại đầu tư quá nhiều vào công nghệ sản xuất máy bay dân sự trong thời chiến. Doanh thu thời hậu chiến không đủ để kéo lại kinh tế doanh nghiệp. Bạn buộc phải hợp tác với một doanh nghiệp khác hoặc chờ bị thu mua. Dù quyết định của bạn có là gì, thì doanh nghiệp của bạn cũng không còn đủ năng lực cạnh tranh để duy trì vị thể độc lập",
+        "node": 25,
+        "content": "Không có nguồn thu từ chiến tranh lại đầu tư quá nhiều vào công nghệ sản xuất máy bay dân dụng trong thời chiến. Doanh thu thời hậu chiến không đủ để kéo lại kinh tế doanh nghiệp. Bạn buộc phải hợp tác với một doanh nghiệp khác hoặc chờ bị thu mua. Dù quyết định của bạn có là gì, thì doanh nghiệp của bạn cũng không còn đủ năng lực cạnh tranh để duy trì vị thể độc lập",
         "benefits": "",
-        "potential_drawback": "",
+        "potential drawback": "",
         "impact": "",
-        "revenue": ""
+        "revenue": "",
+        "next node": [],
+        "type": "lose"
     }
 ]
