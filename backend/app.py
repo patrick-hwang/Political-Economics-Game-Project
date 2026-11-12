@@ -15,6 +15,7 @@ Endpoints:
 from __future__ import annotations
 
 import json
+import re
 import uuid
 from pathlib import Path
 from typing import Any
@@ -22,6 +23,8 @@ from typing import Any
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
+
+from ai import build_trail_text, explainer
 
 DATA_FILE = Path(__file__).resolve().parent.parent / "questions_v3.json"
 START_NODE_ID = 1
@@ -187,6 +190,25 @@ class SessionView(BaseModel):
     screen: Screen
 
 
+class ChatMessage(BaseModel):
+    role: str  # "user" | "assistant" | "system"
+    content: str
+
+
+class ExplainRequest(BaseModel):
+    question: str | None = None
+
+
+class ChatRequest(BaseModel):
+    message: str
+
+
+class ChatView(BaseModel):
+    messages: list[ChatMessage]
+    ai_available: bool
+
+
+
 # ============================================
 # ENDPOINTS
 # ============================================
@@ -203,6 +225,8 @@ def create_session() -> Any:
         "current_node": _question_node(START_NODE_ID),
         "budget": INITIAL_BUDGET,
         "history": [],
+        "trail": [],
+        "chat": [],
     }
     return _session_view(session_id)
 
@@ -241,11 +265,87 @@ def choose(session_id: str, body: ChooseRequest) -> Any:
     # Apply revenue and advance to the destination's resolved question node
     # (skip any intervening context nodes so the session is always "at"
     # a question or a terminal outcome).
-    session["budget"] += _revenue(choice)
+    change = _revenue(choice)
+    session["budget"] += change
     session["current_node"] = _question_node(int(next_ids[0]))
     session["history"].append(choice_id)
 
+    # Lean trail: store only the choice id + running budget. The choice's text
+    # (content/benefits/impact/revenue) is looked up from GRAPH at explain-time,
+    # so we don't duplicate what questions_v3.json / Branch files already hold.
+    session["trail"].append({
+        "choice_id": choice_id,
+        "budget_after": session["budget"],
+    })
+
     return _session_view(session_id)
+
+
+# ============================================
+# AI CHAT ENDPOINTS
+# ============================================
+
+@app.post("/session/{session_id}/explain", response_model=ChatView)
+def explain(session_id: str, body: ExplainRequest) -> Any:
+    """Generate (or continue) an AI explanation for the current point in the
+    story. Each call appends the assistant's answer to the session's chat log."""
+    session = _require_session(session_id)
+
+    trail = session.get("trail", [])
+    outcome = None
+    screen = resolve_screen(session["current_node"])
+    if "outcome" in screen:
+        outcome = screen["outcome"]
+
+    context = build_trail_text(trail, outcome, GRAPH)
+
+    # Explain the current outcome, anchored to the decision trail.
+    chat = session.setdefault("chat", [])
+    answer = explainer.explain_decision(context, history=chat)
+
+    chat.append({"role": "assistant", "content": answer})
+
+    return {
+        "messages": chat,
+        "ai_available": explainer.available(),
+    }
+
+
+@app.post("/session/{session_id}/chat", response_model=ChatView)
+def chat(session_id: str, body: ChatRequest) -> Any:
+    """Casual Q&A with the AI. Unlike /explain, this answers a free-form
+    message (still grounded in the decision trail) rather than explaining the
+    current outcome. Appends the message + reply to the session's chat log."""
+    session = _require_session(session_id)
+
+    trail = session.get("trail", [])
+    outcome = None
+    screen = resolve_screen(session["current_node"])
+    if "outcome" in screen:
+        outcome = screen["outcome"]
+
+    context = build_trail_text(trail, outcome, GRAPH)
+
+    chat = session.setdefault("chat", [])
+    answer = explainer.chat(context, body.message, history=chat)
+
+    chat.append({"role": "user", "content": body.message})
+    chat.append({"role": "assistant", "content": answer})
+
+    return {
+        "messages": chat,
+        "ai_available": explainer.available(),
+    }
+
+
+@app.get("/session/{session_id}/chat", response_model=ChatView)
+def get_chat(session_id: str) -> Any:
+    """Return the session's chat log without generating anything new."""
+    session = _require_session(session_id)
+    return {
+        "messages": session.get("chat", []),
+        "ai_available": explainer.available(),
+    }
 
 
 # ============================================
@@ -279,10 +379,38 @@ def _question_node(start: int) -> int:
 
 
 def _revenue(choice: dict[str, Any]) -> float:
+    """Parse a choice's revenue into dollars.
+
+    Prefers the numeric `revenue_million` field when present, otherwise parses
+    the human-readable `revenue` string (e.g. "+$4 million", "-$500,000").
+    """
     value = choice.get("revenue_million")
-    if value is None:
+    if value is not None:
+        return float(value) * 1_000_000
+    return _parse_revenue_string(choice.get("revenue"))
+
+
+def _parse_revenue_string(raw: Any) -> float:
+    """Parse strings like '+$3.2 million', '-$500,000', '$250,000'."""
+    if raw is None or raw == "":
         return 0.0
-    return float(value) * 1_000_000
+    if isinstance(raw, (int, float)):
+        return float(raw)
+
+    text = str(raw).strip().lower()
+    sign = -1.0 if text.startswith("-") else 1.0
+    match = re.search(r"[+-]?\$?\s*([\d,.]+)\s*(million|m|thousand|k)?", text)
+    if not match:
+        return 0.0
+
+    value = float(match.group(1).replace(",", ""))
+    unit = match.group(2)
+    multiplier = (
+        1_000_000 if unit in ("million", "m")
+        else 1_000 if unit in ("thousand", "k")
+        else 1
+    )
+    return value * multiplier * sign
 
 
 def _session_view(session_id: str) -> dict[str, Any]:
