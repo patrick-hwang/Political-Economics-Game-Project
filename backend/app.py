@@ -39,8 +39,11 @@ app.add_middleware(
     allow_origins=[
         "http://localhost",
         "http://localhost:8000",
+        "http://localhost:5173",
         "http://127.0.0.1",
         "http://127.0.0.1:8000",
+        "http://127.0.0.1:5173",
+        "*",
     ],
     allow_methods=["*"],
     allow_headers=["*"],
@@ -222,7 +225,7 @@ def root() -> dict[str, Any]:
 def create_session() -> Any:
     session_id = uuid.uuid4().hex
     SESSIONS[session_id] = {
-        "current_node": _question_node(START_NODE_ID),
+        "current_node": START_NODE_ID,
         "budget": INITIAL_BUDGET,
         "history": [],
         "trail": [],
@@ -247,27 +250,36 @@ def choose(session_id: str, body: ChooseRequest) -> Any:
         raise HTTPException(status_code=404, detail=f"Choice node {choice_id} not found")
 
     # The choice must belong to the question currently on-screen.
-    current = GRAPH.get(session["current_node"])
-    if current is None or current.get("type") != "question":
+    current_screen = resolve_screen(session["current_node"])
+    current = current_screen.get("question")
+    if current is None:
         raise HTTPException(status_code=409, detail="Session is not at a question node")
 
     allowed = [int(c) for c in (current.get("next node") or [])]
     if choice_id not in allowed:
         raise HTTPException(
             status_code=409,
-            detail=f"Choice {choice_id} is not valid for question {session['current_node']}",
+            detail=f"Choice {choice_id} is not valid for question {current.get('node')}",
         )
 
     next_ids = choice.get("next node") or []
     if len(next_ids) != 1:
         raise HTTPException(status_code=500, detail=f"Choice {choice_id} must link to one node")
 
-    # Apply revenue and advance to the destination's resolved question node
-    # (skip any intervening context nodes so the session is always "at"
-    # a question or a terminal outcome).
+    next_target = int(next_ids[0])
+
+    # Apply revenue of choice and any intervening context nodes
     change = _revenue(choice)
+    curr_target = next_target
+    while curr_target in GRAPH and GRAPH[curr_target].get("type") == "context":
+        change += _parse_revenue_string(GRAPH[curr_target].get("revenue"))
+        curr_nexts = GRAPH[curr_target].get("next node") or []
+        if not curr_nexts:
+            break
+        curr_target = int(curr_nexts[0])
+
     session["budget"] += change
-    session["current_node"] = _question_node(int(next_ids[0]))
+    session["current_node"] = next_target
     session["history"].append(choice_id)
 
     # Lean trail: store only the choice id + running budget. The choice's text
