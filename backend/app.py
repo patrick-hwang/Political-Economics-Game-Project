@@ -8,9 +8,9 @@ Run:
     uvicorn app:app --reload
 
 Endpoints:
-    POST /session                 -> create a playthrough (starts at node 1)
-    GET  /session/{id}            -> current screen / state
-    POST /session/{id}/choose     -> confirm a choice, advance the story
+    POST /api/session            -> create a playthrough (starts at node 1)
+    GET  /api/session/{id}        -> current screen / state
+    POST /api/session/{id}/choose -> confirm a choice, advance the story
 """
 from __future__ import annotations
 
@@ -20,17 +20,27 @@ import uuid
 from pathlib import Path
 from typing import Any
 
-from fastapi import FastAPI, HTTPException
+from fastapi import APIRouter, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 from ai import build_trail_text, explainer
 
-DATA_FILE = Path(__file__).resolve().parent.parent / "questions_v3.json"
+# Vercel builds a service-local copy; direct local runs use the source file.
+DATA_FILE = Path(__file__).resolve().parent / "questions_v3.json"
+if not DATA_FILE.is_file():
+    DATA_FILE = DATA_FILE.parent.parent / "questions_v3.json"
 START_NODE_ID = 1
 INITIAL_BUDGET = 1_000_000  # dollars; matches index.html
 
-app = FastAPI(title="Political Economics Game API")
+app = FastAPI(
+    title="Political Economics Game API",
+    docs_url="/api/docs",
+    redoc_url="/api/redoc",
+    openapi_url="/api/openapi.json",
+    swagger_ui_oauth2_redirect_url="/api/docs/oauth2-redirect",
+)
+router = APIRouter(prefix="/api")
 
 # Allow the static local frontend to call this API during development.
 # No auth/cookies are used, so credentials stay disabled regardless of origin.
@@ -216,12 +226,13 @@ class ChatView(BaseModel):
 # ENDPOINTS
 # ============================================
 
-@app.get("/")
+@router.get("")
+@router.get("/")
 def root() -> dict[str, Any]:
     return {"game": "Political Economics Game", "nodes": len(GRAPH)}
 
 
-@app.post("/session", response_model=SessionView)
+@router.post("/session", response_model=SessionView)
 def create_session() -> Any:
     session_id = uuid.uuid4().hex
     SESSIONS[session_id] = {
@@ -234,13 +245,13 @@ def create_session() -> Any:
     return _session_view(session_id)
 
 
-@app.get("/session/{session_id}", response_model=SessionView)
+@router.get("/session/{session_id}", response_model=SessionView)
 def get_session(session_id: str) -> Any:
     _require_session(session_id)
     return _session_view(session_id)
 
 
-@app.post("/session/{session_id}/choose", response_model=SessionView)
+@router.post("/session/{session_id}/choose", response_model=SessionView)
 def choose(session_id: str, body: ChooseRequest) -> Any:
     session = _require_session(session_id)
     choice_id = body.choice_node_id
@@ -297,7 +308,7 @@ def choose(session_id: str, body: ChooseRequest) -> Any:
 # AI CHAT ENDPOINTS
 # ============================================
 
-@app.post("/session/{session_id}/explain", response_model=ChatView)
+@router.post("/session/{session_id}/explain", response_model=ChatView)
 def explain(session_id: str, body: ExplainRequest) -> Any:
     """Generate (or continue) an AI explanation for the current point in the
     story. Each call appends the assistant's answer to the session's chat log."""
@@ -323,7 +334,7 @@ def explain(session_id: str, body: ExplainRequest) -> Any:
     }
 
 
-@app.post("/session/{session_id}/chat", response_model=ChatView)
+@router.post("/session/{session_id}/chat", response_model=ChatView)
 def chat(session_id: str, body: ChatRequest) -> Any:
     """Casual Q&A with the AI. Unlike /explain, this answers a free-form
     message (still grounded in the decision trail) rather than explaining the
@@ -350,7 +361,7 @@ def chat(session_id: str, body: ChatRequest) -> Any:
     }
 
 
-@app.get("/session/{session_id}/chat", response_model=ChatView)
+@router.get("/session/{session_id}/chat", response_model=ChatView)
 def get_chat(session_id: str) -> Any:
     """Return the session's chat log without generating anything new."""
     session = _require_session(session_id)
@@ -435,3 +446,6 @@ def _session_view(session_id: str) -> dict[str, Any]:
         "history": session["history"],
         "screen": screen,
     }
+
+
+app.include_router(router)

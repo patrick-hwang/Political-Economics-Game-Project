@@ -6,11 +6,14 @@ session API so the frontend does not have to re-implement graph walking or
 budget tracking.
 
 > This is intentionally a simple amateur project — in-memory storage, no
-> database, no auth. Restarting the server wipes all sessions.
+> database, no auth. Restarting the server wipes all sessions. On Vercel, instances do not share
+> this store, so a later request can lose its session after scaling or a cold
+> start. Use shared persistent storage for reliable hosted playthroughs.
 
 ## Files
 
-- `app.py` — the FastAPI server + graph/session logic.
+- `app.py` — the FastAPI server + graph/api/session logic.
+- `build.py` — copies the root story graph into the Vercel function bundle.
 - `ai.py` — Gemini AI explainer (explains decisions strictly from game data).
 - `.env.example` — template for the git-ignored `.env` file holding your API key.
 - `requirements.txt` — Python dependencies.
@@ -24,7 +27,7 @@ pip install -r requirements.txt
 uvicorn app:app --reload
 ```
 
-Check schema của API tại http://localhost:8000/docs sau khi chạy nha!! 
+Check schema của API tại http://localhost:8000/api/docs sau khi chạy nha!!
 
 ### Enabling AI explanations
 
@@ -59,16 +62,16 @@ Without a key, the endpoints still work but return a clear
 
 Root
 
-- `GET /` — small health/info payload.
+- `GET /api` — small health/info payload.
 
 Playthrough
 
-- `POST /session` — start a new game (begins at node `1`, budget `$1,000,000`).
+- `POST /api/session` — start a new game (begins at node `1`, budget `$1,000,000`).
   Returns the session id and the first resolved screen.
 
-- `GET /session/{session_id}` — resume / inspect a session's current screen.
+- `GET /api/session/{session_id}` — resume / inspect a session's current screen.
 
-- `POST /session/{session_id}/choose` — confirm a choice and advance the story.
+- `POST /api/session/{session_id}/choose` — confirm a choice and advance the story.
   Request body:
 
   ```json
@@ -81,12 +84,12 @@ Playthrough
 
 AI explanations
 
-- `POST /session/{session_id}/explain` — the "Explain with AI" button.
+- `POST /api/session/{session_id}/explain` — the "Explain with AI" button.
   Takes an empty body (`{}`) and returns an explanation of *why the current
   outcome happened*, anchored strictly to the decision trail. Each call
   appends the assistant's answer to the session's persistent chat log.
 
-- `POST /session/{session_id}/chat` — casual Q&A. Sends a free-form question:
+- `POST /api/session/{session_id}/chat` — casual Q&A. Sends a free-form question:
 
   ```json
   { "message": "Doanh nghiệp của tôi là gì?" }
@@ -95,7 +98,7 @@ AI explanations
   Answers naturally (still grounded in the decision trail), and records the
   user message + reply in the chat log.
 
-- `GET /session/{session_id}/chat` — return the session's chat log without
+- `GET /api/session/{session_id}/chat` — return the session's chat log without
   generating anything new.
 
   All three respond with:

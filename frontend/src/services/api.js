@@ -1,6 +1,7 @@
 // Dual-mode Game Service: Connects to FastAPI Backend, with robust offline graph fallback
 
-const API_BASE = "http://127.0.0.1:8000";
+// Browser requests use the public route; runtime service bindings are server-only.
+const API_BASE = "/api";
 
 let localGraph = null;
 
