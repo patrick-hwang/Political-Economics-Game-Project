@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Volume2, Maximize, Check } from 'lucide-react';
+import { Volume2, Maximize, Check, Music } from 'lucide-react';
 import { playPageTurnSound } from '../services/soundEffects';
+import { playTrack, MUSIC_TRACKS, getMusicVolume, setMusicVolume } from '../services/musicManager';
 
 export default function StartMenu({ onStartGame }) {
   const [selectedGender, setSelectedGender] = useState('male'); // 'male' | 'female'
@@ -9,7 +10,13 @@ export default function StartMenu({ onStartGame }) {
   const [showSettings, setShowSettings] = useState(false);
   const [showCredits, setShowCredits] = useState(false);
   const [volume, setVolume] = useState(80);
+  const [bgmVolume, setBgmVolume] = useState(getMusicVolume());
   const [scale, setScale] = useState(1);
+
+  // Auto-play / stream Home background music on Start Menu
+  useEffect(() => {
+    playTrack(MUSIC_TRACKS.HOME);
+  }, []);
 
   // Uniform scale calculation to fit exact 1280x720 16:9 canvas into any viewport
   useEffect(() => {
@@ -375,16 +382,44 @@ export default function StartMenu({ onStartGame }) {
                 <div className="space-y-4 text-xs font-display">
                   <div className="flex items-center justify-between p-3 bg-[#ede3d1] rounded-lg border border-[#cbb79f]">
                     <span className="flex items-center gap-2 font-bold text-[#3d2a1c]">
+                      <Music className="w-4 h-4 text-[#8c6721]" /> ÂM LƯỢNG NHẠC NỀN
+                    </span>
+                    <div className="flex items-center gap-2">
+                      <input 
+                        type="range" 
+                        min="0" 
+                        max="100" 
+                        value={bgmVolume}
+                        onChange={(e) => {
+                          const val = Number(e.target.value);
+                          setBgmVolume(val);
+                          setMusicVolume(val);
+                        }}
+                        className="accent-[#8c6721] w-24 cursor-pointer"
+                      />
+                      <span className="font-mono font-bold text-[11px] text-[#5c3818] w-7 text-right">
+                        {bgmVolume}%
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center justify-between p-3 bg-[#ede3d1] rounded-lg border border-[#cbb79f]">
+                    <span className="flex items-center gap-2 font-bold text-[#3d2a1c]">
                       <Volume2 className="w-4 h-4 text-[#8c6721]" /> ÂM LƯỢNG HIỆU ỨNG
                     </span>
-                    <input 
-                      type="range" 
-                      min="0" 
-                      max="100" 
-                      value={volume}
-                      onChange={(e) => setVolume(Number(e.target.value))}
-                      className="accent-[#8c6721] w-28 cursor-pointer"
-                    />
+                    <div className="flex items-center gap-2">
+                      <input 
+                        type="range" 
+                        min="0" 
+                        max="100" 
+                        value={volume}
+                        onChange={(e) => setVolume(Number(e.target.value))}
+                        className="accent-[#8c6721] w-24 cursor-pointer"
+                      />
+                      <span className="font-mono font-bold text-[11px] text-[#5c3818] w-7 text-right">
+                        {volume}%
+                      </span>
+                    </div>
                   </div>
 
                   <div className="flex items-center justify-between p-3 bg-[#ede3d1] rounded-lg border border-[#cbb79f]">

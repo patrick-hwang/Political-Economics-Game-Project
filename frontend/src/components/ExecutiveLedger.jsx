@@ -10,6 +10,8 @@ import {
   playPageTurnSound, 
   playStampSound 
 } from '../services/soundEffects';
+import { playTrack, pauseMusic, resumeMusic, MUSIC_TRACKS } from '../services/musicManager';
+import { getNodeEra } from '../services/nodeEraMap';
 import AtmosphericVFX from './AtmosphericVFX';
 import { getLocalGraph, sendChatMessage, getChatHistory, explainDecision } from '../services/api';
 
@@ -215,12 +217,30 @@ export default function ExecutiveLedger({
   const [showAdvisorModal, setShowAdvisorModal] = useState(false);
   const [selectedChoiceForDetail, setSelectedChoiceForDetail] = useState(null);
   const [isMediaModalOpen, setIsMediaModalOpen] = useState(false);
+  const [mediaAspect, setMediaAspect] = useState(16 / 9);
   const [chatMessages, setChatMessages] = useState([
     { role: 'assistant', content: 'Chào ngài Chủ tịch, tôi là Friedrich. Hôm nay ngài muốn thảo luận về chiến lược kinh tế hay cơ cấu tư bản của tập đoàn?' }
   ]);
   const [chatInput, setChatInput] = useState('');
   const [isChatLoading, setIsChatLoading] = useState(false);
   const chatStreamRef = useRef(null);
+  const modalVideoRef = useRef(null);
+
+  // Play video with audio and loop when media modal is open; pause/resume BGM
+  useEffect(() => {
+    if (isMediaModalOpen) {
+      pauseMusic();
+      if (modalVideoRef.current) {
+        modalVideoRef.current.currentTime = 0;
+        modalVideoRef.current.muted = false;
+        modalVideoRef.current.play().catch(err => {
+          console.warn("Autoplay with audio blocked or failed:", err);
+        });
+      }
+    } else {
+      resumeMusic();
+    }
+  }, [isMediaModalOpen]);
 
   // Uniform scale calculation to fit exact 1280x720 16:9 canvas into any viewport
   useEffect(() => {
@@ -400,32 +420,41 @@ export default function ExecutiveLedger({
     ? currentContext.node 
     : (question ? question.node : currentNodeId);
 
-  // Tính Kỷ nguyên (Era Index 0..7) chuẩn xác theo nội dung lịch sử hoặc nodeId
+  // Tính Kỷ nguyên (Era Index 0..7) chuẩn xác 100% theo bản đồ nodeEraMap cho toàn bộ 560 nodes
   const calculateEraIndex = (nodeId, contextObj = null, questionObj = null) => {
+    if (nodeId !== null && nodeId !== undefined) {
+      const era = getNodeEra(nodeId);
+      if (era !== undefined && era !== null && !isNaN(era)) {
+        return era;
+      }
+    }
     const textToCheck = `${(contextObj?.content || "")} ${(questionObj?.content || "")}`.toLowerCase();
-    
-    if (textToCheck.includes("1914") || textToCheck.includes("thế chiến thứ nhất") || textToCheck.includes("xưởng nhỏ") || Number(nodeId) === 41) return 0;
-    if (textToCheck.includes("1918") || Number(nodeId) === 42 || Number(nodeId) === 71) return 1;
-    if (textToCheck.includes("1929") || textToCheck.includes("1930") || textToCheck.includes("đại suy thoái") || textToCheck.includes("thương mại hóa")) return 2;
-    if (textToCheck.includes("1939")) return 3;
+    if (textToCheck.includes("1914") || textToCheck.includes("thế chiến thứ nhất") || textToCheck.includes("xưởng nhỏ")) return 0;
+    if (textToCheck.includes("1918")) return 1;
+    if (textToCheck.includes("1925") || textToCheck.includes("1929") || textToCheck.includes("đại suy thoái")) return 2;
+    if (textToCheck.includes("1939") || textToCheck.includes("thế chiến thứ hai")) return 3;
     if (textToCheck.includes("1945") || textToCheck.includes("động cơ phản lực")) return 4;
-    if (textToCheck.includes("1973") || textToCheck.includes("dầu mỏ") || textToCheck.includes("năng lượng") || textToCheck.includes("hai thập kỷ tăng trưởng")) return 5;
+    if (textToCheck.includes("1973") || textToCheck.includes("1978") || textToCheck.includes("dầu mỏ")) return 5;
     if (textToCheck.includes("2000") || textToCheck.includes("airbus")) return 6;
-    if (textToCheck.includes("2008") || textToCheck.includes("2011") || textToCheck.includes("độc quyền") || textToCheck.includes("bị bắt") || textToCheck.includes("tài chính")) return 7;
-
-    const id = Number(nodeId);
-    if (id <= 42) return 0;
-    if (id <= 71) return 1;
-    if (id <= 100) return 2;
-    if (id <= 150) return 3;
-    if (id <= 200) return 4;
-    if (id <= 260) return 5;
-    if (id <= 320) return 6;
-    return 7;
+    if (textToCheck.includes("2008") || textToCheck.includes("2011") || textToCheck.includes("độc quyền")) return 7;
+    return 0;
   };
 
   const eraIndex = calculateEraIndex(activeNodeId, currentContext, question);
   const chapter = ERA_METADATA[eraIndex] || ERA_METADATA[0];
+
+  // Era-based background music transitions
+  useEffect(() => {
+    if (eraIndex === 0 || eraIndex === 1) {
+      playTrack(MUSIC_TRACKS.ERA_I_II);
+    } else if (eraIndex === 2 || eraIndex === 3) {
+      playTrack(MUSIC_TRACKS.ERA_III_IV);
+    } else if (eraIndex === 4 || eraIndex === 5) {
+      playTrack(MUSIC_TRACKS.ERA_V_VI);
+    } else if (eraIndex === 6 || eraIndex === 7) {
+      playTrack(MUSIC_TRACKS.ERA_VII_VIII);
+    }
+  }, [eraIndex]);
 
   const formattedBudget = new Intl.NumberFormat('en-US', {
     style: 'currency',
@@ -566,6 +595,15 @@ export default function ExecutiveLedger({
   };
 
   const leftArt = getLeftArt();
+
+  // Tự động nhận diện tỉ lệ media ban đầu theo loại tài nguyên (tránh giật layout)
+  useEffect(() => {
+    if (leftArt.src && (leftArt.src.includes('portrait') || leftArt.src.includes('ceo'))) {
+      setMediaAspect(896 / 1200);
+    } else {
+      setMediaAspect(16 / 9);
+    }
+  }, [leftArt.src, leftArt.videoSrc]);
 
   const getAtmosphereType = () => {
     if (outcome) return outcome.type === 'win' ? 'gold' : 'rain';
@@ -716,138 +754,152 @@ export default function ExecutiveLedger({
             <div className="relative w-full h-full bg-[#f4ecd8] p-6 flex flex-col justify-between border-r border-[#d4c3ab]">
               
               {/* Header trên cùng trang trái */}
-              <div className="flex items-center justify-between text-[11px] font-mono text-[#7a6452] border-b border-[#d8c9b6] pb-1.5">
-                <span className="tracking-widest uppercase font-bold text-[#5c3818] flex items-center gap-1.5">
-                  <svg className="w-2.5 h-2.5 text-[#8c6721]" viewBox="0 0 16 16" fill="currentColor">
-                    <path d="M8 0.75L15.25 8L8 15.25L0.75 8Z"/>
-                  </svg>
+              <div className="flex items-center text-[#7a6452] border-b border-[#d8c9b6] pb-1.5">
+                <span className="font-serif font-black text-xs tracking-widest uppercase text-[#5c3818]">
                   {leftArt.tag}
                 </span>
-                <span className="text-[#a48a73] font-semibold">{leftArt.dateText || "THÁNG 8 • 1914"}</span>
               </div>
 
-              {/* Khung Kẹp Kim Loại Quân Sự 1914 (Industrial Military Dossier Frame) - Click để phóng to toàn màn hình */}
-              <div 
-                onClick={() => setIsMediaModalOpen(true)}
-                className="relative my-auto w-full h-[330px] rounded-lg bg-gradient-to-b from-[#261b11] via-[#1a120b] to-[#120d08] p-2.5 border-2 border-[#7a5823] hover:border-[#d4af37] shadow-[0_10px_25px_rgba(0,0,0,0.65),inset_0_1px_2px_rgba(255,225,130,0.2)] flex flex-col justify-between overflow-hidden cursor-pointer group transition-all duration-200"
-                title="Nhấn vào clip/ảnh để mở xem toàn màn hình (Pop-up Video)"
-              >
-                
-                {/* Dossier Frame Header Strip */}
-                <div className="w-full flex items-center justify-between px-1 pb-1 text-[10px] font-mono border-b border-[#422e17] shrink-0">
-                  <span className="flex items-center gap-1.5 font-bold tracking-widest text-[#d4af37]">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#d4af37] shadow-[0_0_5px_#d4af37] animate-pulse"></span>
-                    TƯ LIỆU MẬT • HỒ SƠ QUÂN SỰ
-                  </span>
-                  <span className="text-[#8a6e56] tracking-widest">REF: AST-{TIMELINE_ERAS[eraIndex]?.year || "1914"}</span>
-                </div>
+              {/* Khung Kẹp Kim Loại Quân Sự 1914: Tự động co giãn linh hoạt theo tỉ lệ media, không đè lên các thành phần khác */}
+              <div className="flex-1 w-full min-h-0 my-auto flex items-center justify-center overflow-hidden py-1">
+                <div 
+                  onClick={() => setIsMediaModalOpen(true)}
+                  className="relative rounded-lg bg-gradient-to-b from-[#261b11] via-[#1a120b] to-[#120d08] p-2.5 border-2 border-[#7a5823] hover:border-[#d4af37] shadow-[0_10px_25px_rgba(0,0,0,0.65),inset_0_1px_2px_rgba(255,225,130,0.2)] flex items-center justify-center cursor-pointer group transition-all duration-300"
+                  style={{
+                    aspectRatio: mediaAspect ? `${mediaAspect}` : '16/9',
+                    maxHeight: '330px',
+                    maxWidth: '100%',
+                    height: mediaAspect && mediaAspect < 1 ? '330px' : 'auto',
+                    width: mediaAspect && mediaAspect >= 1 ? '100%' : 'auto',
+                  }}
+                  title="Nhấn vào clip/ảnh để mở xem toàn màn hình (Pop-up Video)"
+                >
+                  {/* Photo Container with Brass Corner Clamps */}
+                  <div className="relative w-full h-full rounded overflow-hidden bg-[#0a0705] border border-[#52391e] shadow-inner flex items-center justify-center">
+                    
+                    {/* 4 Corner Brass Mounting Clamps */}
+                    <div className="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-[#d4af37] z-20 pointer-events-none shadow-sm"></div>
+                    <div className="absolute top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-[#d4af37] z-20 pointer-events-none shadow-sm"></div>
+                    <div className="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-[#d4af37] z-20 pointer-events-none shadow-sm"></div>
+                    <div className="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-[#d4af37] z-20 pointer-events-none shadow-sm"></div>
 
-                {/* Photo Container with Brass Corner Clamps */}
-                <div className="relative w-full h-[278px] rounded overflow-hidden bg-[#0a0705] border border-[#52391e] shadow-inner flex items-center justify-center">
-                  
-                  {/* 4 Corner Brass Mounting Clamps */}
-                  <div className="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-[#d4af37] z-20 pointer-events-none shadow-sm"></div>
-                  <div className="absolute top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-[#d4af37] z-20 pointer-events-none shadow-sm"></div>
-                  <div className="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-[#d4af37] z-20 pointer-events-none shadow-sm"></div>
-                  <div className="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-[#d4af37] z-20 pointer-events-none shadow-sm"></div>
+                    {/* Nút chỉ dẫn hover: Phóng to toàn màn hình */}
+                    <div className="absolute top-2 right-2 px-2.5 py-1 rounded bg-[#160f0a]/90 border border-[#d4af37]/80 text-[10px] font-mono text-[#d4af37] tracking-wider flex items-center gap-1.5 opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-30 shadow-[0_2px_8px_rgba(0,0,0,0.85)] pointer-events-none">
+                      <svg className="w-3.5 h-3.5 text-[#d4af37]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                      </svg>
+                      <span className="font-bold uppercase tracking-wide">Phóng to ⛶</span>
+                    </div>
 
-                  {/* Nút chỉ dẫn hover: Phóng to toàn màn hình */}
-                  <div className="absolute top-2 right-2 px-2.5 py-1 rounded bg-[#160f0a]/90 border border-[#d4af37]/80 text-[10px] font-mono text-[#d4af37] tracking-wider flex items-center gap-1.5 opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-30 shadow-[0_2px_8px_rgba(0,0,0,0.85)] pointer-events-none">
-                    <svg className="w-3.5 h-3.5 text-[#d4af37]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
-                    </svg>
-                    <span className="font-bold uppercase tracking-wide">Phóng to ⛶</span>
+                    <AnimatePresence mode="wait">
+                      <motion.div
+                        key={(leftArt.videoSrc || leftArt.src) + activeNodeId + (outcome ? '_outcome' : '')}
+                        initial={{ opacity: 0, scale: 0.98 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        exit={{ opacity: 0, scale: 0.98 }}
+                        transition={{ duration: 0.25 }}
+                        className="relative w-full h-full flex items-center justify-center overflow-hidden"
+                      >
+                        {leftArt.videoSrc ? (
+                          <video
+                            key={leftArt.videoSrc}
+                            src={leftArt.videoSrc}
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                            onLoadedMetadata={(e) => {
+                              if (e.currentTarget.videoWidth && e.currentTarget.videoHeight) {
+                                setMediaAspect(e.currentTarget.videoWidth / e.currentTarget.videoHeight);
+                              }
+                            }}
+                            className="w-full h-full object-contain object-center filter contrast-[1.03]"
+                          />
+                        ) : (
+                          <img 
+                            key={leftArt.src}
+                            src={leftArt.src} 
+                            alt={leftArt.title}
+                            onLoad={(e) => {
+                              if (e.currentTarget.naturalWidth && e.currentTarget.naturalHeight) {
+                                setMediaAspect(e.currentTarget.naturalWidth / e.currentTarget.naturalHeight);
+                              }
+                            }}
+                            className="w-full h-full object-contain contrast-[1.05] transition-all duration-300"
+                            onError={(e) => {
+                              e.currentTarget.onerror = null;
+                              e.currentTarget.src = 'https://images.unsplash.com/photo-1517976487507-5b3b11929314?q=80&w=900&auto=format&fit=crop';
+                            }}
+                          />
+                        )}
+
+                        {!leftArt.videoSrc && <AtmosphericVFX type={getAtmosphereType()} />}
+
+                        {/* Dramatic Arrest Stamp Overlay on Node 381 */}
+                        {leftArt.isStampAlert && (
+                          <motion.div 
+                            initial={{ scale: 3.8, opacity: 0, rotate: -25, y: -50 }}
+                            animate={{ scale: 1, opacity: 1, rotate: -12, y: 0 }}
+                            transition={{ type: "spring", damping: 11, stiffness: 240, delay: 0.08 }}
+                            className="absolute inset-0 flex items-center justify-center pointer-events-none z-30"
+                          >
+                            <div className="px-6 py-3 border-4 border-rose-700 bg-rose-950/90 text-rose-200 font-mono font-black text-xl tracking-widest shadow-[0_0_35px_rgba(225,29,72,0.7)] backdrop-blur-sm border-dashed">
+                              CHÍNH PHỦ BẮT GIỮ
+                            </div>
+                          </motion.div>
+                        )}
+                      </motion.div>
+                    </AnimatePresence>
                   </div>
-
-                  <AnimatePresence mode="wait">
-                    <motion.div
-                      key={(leftArt.videoSrc || leftArt.src) + activeNodeId + (outcome ? '_outcome' : '')}
-                      initial={{ opacity: 0, scale: 0.98 }}
-                      animate={{ opacity: 1, scale: 1 }}
-                      exit={{ opacity: 0, scale: 0.98 }}
-                      transition={{ duration: 0.25 }}
-                      className="relative w-full h-full flex items-center justify-center"
-                    >
-                      {leftArt.videoSrc ? (
-                        <video
-                          key={leftArt.videoSrc}
-                          src={leftArt.videoSrc}
-                          autoPlay
-                          loop
-                          muted
-                          playsInline
-                          className="w-full h-full object-cover object-center filter contrast-[1.03]"
-                        />
-                      ) : (
-                        <img 
-                          src={leftArt.src} 
-                          alt={leftArt.title}
-                          className="w-full h-full object-cover contrast-[1.05] transition-all duration-300"
-                          onError={(e) => {
-                            e.currentTarget.onerror = null;
-                            e.currentTarget.src = 'https://images.unsplash.com/photo-1517976487507-5b3b11929314?q=80&w=900&auto=format&fit=crop';
-                          }}
-                        />
-                      )}
-
-                      {!leftArt.videoSrc && <AtmosphericVFX type={getAtmosphereType()} />}
-
-                      {/* Dramatic Arrest Stamp Overlay on Node 381 */}
-                      {leftArt.isStampAlert && (
-                        <motion.div 
-                          initial={{ scale: 3.8, opacity: 0, rotate: -25, y: -50 }}
-                          animate={{ scale: 1, opacity: 1, rotate: -12, y: 0 }}
-                          transition={{ type: "spring", damping: 11, stiffness: 240, delay: 0.08 }}
-                          className="absolute inset-0 flex items-center justify-center pointer-events-none z-30"
-                        >
-                          <div className="px-6 py-3 border-4 border-rose-700 bg-rose-950/90 text-rose-200 font-mono font-black text-xl tracking-widest shadow-[0_0_35px_rgba(225,29,72,0.7)] backdrop-blur-sm border-dashed">
-                            CHÍNH PHỦ BẮT GIỮ
-                          </div>
-                        </motion.div>
-                      )}
-                    </motion.div>
-                  </AnimatePresence>
-                  
-                  {/* Status Diode Overlay on bottom-right of photo */}
-                  <div className="absolute bottom-2 right-2 px-2 py-0.5 rounded bg-[#160f0a]/85 border border-[#8c6721]/60 text-[9px] font-mono text-[#d4af37] tracking-wider flex items-center gap-1 shadow-md pointer-events-none z-20">
-                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shadow-[0_0_4px_#10b981]"></span>
-                    <span>LƯU TRỮ KHẨN</span>
-                  </div>
                 </div>
-
               </div>
 
-              {/* 2 Nút: Biên Bản & Cố Vấn Friedrich */}
-              <div className="my-2 flex items-center gap-2.5 h-[44px]">
+              {/* 2 Nút: Biên Bản & Cố Vấn Friedrich (Phông chữ Condensed 1914, căn giữa ô, cách đều 2 mép trang) */}
+              <div className="my-3 w-full flex items-center justify-evenly">
                 <button 
                   type="button"
                   onClick={() => setShowSecretaryModal(true)}
-                  className="flex-1 h-full rounded bg-[#e8ded0] hover:bg-[#ded1be] text-[#3d2f24] border-2 border-[#5c4636] font-serif transition-all shadow-[2px_2px_0px_#3d2f24] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none cursor-pointer flex items-center justify-center gap-2"
+                  className="relative h-[62px] aspect-[1320/440] transition-all active:translate-x-0.5 active:translate-y-0.5 cursor-pointer overflow-visible group"
                   title="Xem lại toàn bộ các sự kiện và quyết định đã trải qua"
                 >
-                  <img src="/assets/icons/vintage_ledger_icon.jpg" alt="Icon Sổ Cái" className="w-5 h-5 rounded border border-[#5c4636] object-cover shrink-0 shadow-sm" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
-                  <span className="font-serif font-black tracking-wide text-sm text-[#2b1f17]">Biên bản</span>
+                  <img 
+                    src="/assets/asset_btn_minutes_ledger_clean.png" 
+                    alt="Biên bản" 
+                    className="absolute inset-0 w-full h-full object-contain filter brightness-95 group-hover:brightness-105 drop-shadow-[0_4px_8px_rgba(0,0,0,0.65)] transition-all pointer-events-none" 
+                  />
+                  {/* Vùng da chứa chữ: Căn giữa tuyệt đối cả chiều ngang và dọc so với lòng ô */}
+                  <div className="absolute left-[29%] right-[9%] top-[15%] bottom-[5%] flex items-center justify-center pointer-events-none z-10 px-2">
+                    <span className="font-['Playfair_Display_SC','Faustina',serif] font-bold tracking-wider text-xs sm:text-[13px] text-[#f4ecd8] drop-shadow-[0_2px_4px_rgba(0,0,0,0.95)] uppercase select-none whitespace-nowrap text-center">
+                      Biên bản
+                    </span>
+                  </div>
                 </button>
 
                 <button 
                   type="button"
                   onClick={() => setShowAdvisorModal(true)}
-                  className="flex-1 h-full rounded bg-[#3d2f24] hover:bg-[#2c2118] text-[#f4ecd8] border-2 border-[#1f1712] font-serif transition-all shadow-[2px_2px_0px_#1a1512] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none cursor-pointer flex items-center justify-center gap-2"
+                  className="relative h-[62px] aspect-[1320/440] transition-all active:translate-x-0.5 active:translate-y-0.5 cursor-pointer overflow-visible group"
                   title="Mở Cố Vấn Friedrich để đàm đạo chiến lược và lý luận KTCT"
                 >
-                  <img src="/assets/icons/friedrich_avatar.jpg" alt="Cố Vấn Friedrich" className="w-5 h-5 rounded-full border border-[#d4af37] object-cover shrink-0 shadow-sm" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
-                  <span className="font-serif font-black tracking-wide text-sm text-[#f4ecd8]">Cố vấn Friedrich</span>
+                  <img 
+                    src="/assets/asset_btn_friedrich_plaque_clean.png" 
+                    alt="Cố Vấn Friedrich" 
+                    className="absolute inset-0 w-full h-full object-contain filter brightness-95 group-hover:brightness-105 drop-shadow-[0_4px_8px_rgba(0,0,0,0.65)] transition-all pointer-events-none" 
+                  />
+                  {/* Vùng da chứa chữ: Căn giữa tuyệt đối cả chiều ngang và dọc so với lòng ô */}
+                  <div className="absolute left-[29%] right-[9%] top-[15%] bottom-[5%] flex items-center justify-center pointer-events-none z-10 px-2">
+                    <span className="font-['Playfair_Display_SC','Faustina',serif] font-bold tracking-normal text-[11px] sm:text-[12px] text-[#f4ecd8] drop-shadow-[0_2px_4px_rgba(0,0,0,0.95)] uppercase select-none whitespace-nowrap text-center">
+                      Cố vấn Friedrich
+                    </span>
+                  </div>
                 </button>
               </div>
 
               {/* Chú Thích Trang Trái */}
               <div className="text-center pt-2 border-t border-[#d8c9b6]">
-                <h4 className="font-serif font-black text-[15px] text-[#3d2f24] tracking-wide">
-                  {leftArt.title}
+                <h4 className="font-serif font-black text-[15px] text-[#3d2f24] tracking-wider uppercase">
+                  HỒ SƠ, TƯ LIỆU LIÊN QUAN
                 </h4>
-                <p className="font-mono text-[11px] text-[#7a6452] mt-0.5 tracking-wider">
-                  {leftArt.caption}
-                </p>
               </div>
 
             </div>
@@ -861,7 +913,6 @@ export default function ExecutiveLedger({
               <div className="border-b-2 border-[#3d2f24] pb-2">
                 <div className="flex items-center justify-between text-[11px] font-mono text-[#826b58] uppercase tracking-wider mb-0.5">
                   <span>{chapter.era}</span>
-                  <span className="font-bold text-[#3d2f24]">BẢN GHI #{activeNodeId}</span>
                 </div>
                 <h2 className="font-serif font-black text-xl text-[#2b2118] tracking-tight">
                   {chapter.title}
@@ -884,75 +935,64 @@ export default function ExecutiveLedger({
                     <div className="my-auto py-2 space-y-3.5">
                       {formatStoryWithDropCap(currentContext.content)}
 
-                      {/* Quote box / Financial Movement with Red Wax Seal Stamp */}
-                      <div className="relative p-3.5 bg-[#ede4d3] border-l-4 border-[#8b6e4e] rounded-r text-[13px] text-[#4a3b2f] italic leading-relaxed shadow-sm pr-16">
-                        {currentContext.revenue && currentContext.revenue.trim() !== "" ? (
-                          <div className="flex items-center justify-between font-mono not-italic text-xs mb-1">
-                            <span className="font-bold text-[#5c3818]">GHI NHẬN BIẾN ĐỘNG SỔ CÁI:</span>
-                            <span className={`font-black text-sm px-2 py-0.5 rounded ${
-                              currentContext.revenue.includes('-') ? 'text-rose-900 bg-rose-100' : 'text-emerald-900 bg-emerald-100'
+                      {/* Financial Movement with Red Wax Seal Stamp (Bỏ nền xanh/đỏ, dùng 2 font riêng biệt làm nổi bật) */}
+                      {currentContext.revenue && currentContext.revenue.trim() !== "" && (
+                        <div className="relative p-3.5 bg-[#ede4d3]/85 border-l-4 border-[#7a5538] rounded-r shadow-sm flex items-center justify-between gap-4 pr-20 overflow-hidden">
+                          <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3">
+                            <span className="font-condensed font-bold text-xs sm:text-[13px] text-[#6b421a] tracking-widest uppercase select-none">
+                              GHI NHẬN BIẾN ĐỘNG SỔ CÁI:
+                            </span>
+                            <span className={`font-title font-black text-xl sm:text-2xl tracking-wide select-none ${
+                              currentContext.revenue.includes('-') ? 'text-[#922119]' : 'text-[#166534]'
                             }`}>
                               {currentContext.revenue}
                             </span>
                           </div>
-                        ) : null}
-                        "Chiến sự bùng phát mang lại nguy cơ phá sản dây chuyền, nhưng đồng thời cũng mở ra cơ hội tích tụ tư bản quân sự chưa từng có trong lịch sử nước Asteria."
-                        
-                        {/* Asteria Imperial Red Wax Seal Stamp */}
-                        <div className="absolute bottom-2 right-2">
-                          <RedWaxSeal className="w-16 h-16" />
+                          
+                          {/* Asteria Imperial Red Wax Seal Stamp */}
+                          <div className="absolute -bottom-2 right-1 pointer-events-none select-none">
+                            <RedWaxSeal className="w-16 h-16 drop-shadow-md opacity-95" />
+                          </div>
                         </div>
-                      </div>
+                      )}
                     </div>
                   )}
 
                   {/* 2. MÀN HÌNH QUESTION & CHOICES */}
                   {!currentContext && question && !outcome && (
-                    <div className="my-auto py-2 space-y-3">
-                      {/* Strategic Question Box */}
-                      <div className="bg-[#ede4d3] border-l-4 border-[#5c3818] p-3 rounded-r shadow-inner">
-                        <span className="text-[10px] font-mono font-bold text-[#7a5534] uppercase tracking-wider block mb-1">
+                    <div className="my-auto py-2 space-y-4">
+                      {/* Strategic Question Box (Bỏ màu nền, bỏ viền trái, tiêu đề to nổi bật) */}
+                      <div className="pb-1">
+                        <span className="font-title font-black text-sm sm:text-base text-[#5c3818] tracking-widest uppercase block mb-1.5">
                           CÂU HỎI CHIẾN LƯỢC:
                         </span>
-                        <h3 className="font-serif font-bold text-base text-[#261d15] leading-snug">
+                        <h3 className="font-serif font-bold text-base sm:text-[18px] text-[#241a12] leading-snug">
                           {question.content}
                         </h3>
                       </div>
 
-                      {/* Danh sách lựa chọn A & B */}
-                      <div className="space-y-2.5">
+                      {/* Danh sách lựa chọn A & B: Giữ nguyên tỉ lệ gốc của asset choice bar, căn giữa phương án */}
+                      <div className="space-y-3.5 flex flex-col items-center">
                         {choices.map((choice, idx) => {
                           const isFirst = idx === 0;
-                          const rev = choice.revenue || (choice.revenue_million ? `+$${choice.revenue_million}M` : null);
 
                           return (
                             <button
                               key={choice.node}
                               type="button"
                               onClick={() => handleChoiceClick(choice)}
-                              className={`w-full text-left p-3 rounded border-2 transition-all cursor-pointer shadow-[3px_3px_0px_#2b2118] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none ${
-                                isFirst
-                                  ? 'bg-[#e7dfce] hover:bg-[#ded4c0] border-[#3d2f24]'
-                                  : 'bg-[#ebdcd5] hover:bg-[#e2cdc4] border-[#4a2e2b]'
-                              }`}
+                              className="relative w-full max-w-[480px] aspect-[1202/421] transition-all active:translate-x-0.5 active:translate-y-0.5 cursor-pointer overflow-hidden group flex items-center justify-center rounded shadow-md hover:brightness-105"
                             >
-                              <div className="flex items-start justify-between gap-3">
-                                <div className="flex items-start gap-2.5">
-                                  <span className={`w-5 h-5 rounded flex items-center justify-center font-mono font-black text-xs shrink-0 mt-0.5 border border-black text-white ${
-                                    isFirst ? 'bg-emerald-800' : 'bg-rose-900'
-                                  }`}>
-                                    {isFirst ? 'A' : 'B'}
-                                  </span>
-                                  <div className="font-serif font-bold text-sm text-[#1f1710] leading-snug">
-                                    {choice.content}
-                                  </div>
-                                </div>
-
-                                {rev && (
-                                  <span className="shrink-0 font-mono font-bold text-xs px-2 py-0.5 rounded bg-[#3d2f24] text-[#f7f2e7]">
-                                    {rev}
-                                  </span>
-                                )}
+                              <img 
+                                src="/assets/asset_choice_bar_clean.png" 
+                                alt={`Phương án ${isFirst ? 'A' : 'B'}`} 
+                                className="absolute inset-0 w-full h-full object-contain filter brightness-95 group-hover:brightness-105 pointer-events-none" 
+                              />
+                              {/* Nội dung phương án căn giữa theo chiều ngang và chiều dọc */}
+                              <div className="relative z-10 w-full h-full px-12 sm:px-14 flex items-center justify-center text-center">
+                                <span className="font-serif font-bold text-[15px] sm:text-[17px] text-[#f4ecd8] drop-shadow-[0_2px_4px_rgba(0,0,0,0.95)] leading-snug text-center">
+                                  {choice.content}
+                                </span>
                               </div>
                             </button>
                           );
@@ -1005,24 +1045,28 @@ export default function ExecutiveLedger({
                     </div>
                   )}
 
-                  {/* Footer Trang Phải: Bộ Đếm Trang & Nút Tiếp Theo */}
-                  <div className="pt-2 border-t border-[#d8c9b6] flex items-center justify-between h-[42px] shrink-0">
-                    <span className="text-[11px] font-mono text-[#7a6452]">
-                      {currentContext 
-                        ? `Trang ${contextIndex + 1}/${totalContexts || 1}` 
-                        : (outcome ? "Hoàn tất" : "Trang quyết định")}
-                    </span>
-
+                  {/* Footer Trang Phải: Nút Tiếp Theo (Chuẩn hóa h-[62px] bằng 2 nút bên trái, dùng asset antique_leather_button, bỏ mũi tên) */}
+                  <div className="pt-2 border-[#d8c9b6] flex items-center justify-end h-[68px] shrink-0">
                     {currentContext && (
                       <button 
                         type="button" 
                         onClick={handleNext}
-                        className="py-2 px-6 bg-[#3d2f24] hover:bg-[#2b2118] text-[#f7f2e7] font-mono font-bold text-xs rounded border border-black shadow-[3px_3px_0px_#1a1512] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all cursor-pointer flex items-center gap-2"
+                        className="relative h-[62px] aspect-[1150/388] transition-all active:translate-x-0.5 active:translate-y-0.5 cursor-pointer overflow-hidden group flex items-center justify-center rounded shadow-md border border-[#8b6e4e]/40 hover:brightness-105"
+                        style={{
+                          backgroundImage: "url('/assets/icons/antique_leather_button.jpg')",
+                          backgroundSize: 'cover',
+                          backgroundPosition: 'center'
+                        }}
                       >
-                        <span>
+                        <img 
+                          src="/assets/asset_menu_button_clean.png" 
+                          alt="Nút tiếp theo" 
+                          className="absolute inset-0 w-full h-full object-fill filter brightness-95 group-hover:brightness-105 pointer-events-none" 
+                          onError={(e) => { e.currentTarget.style.display = 'none'; }}
+                        />
+                        <span className="relative z-10 font-['Playfair_Display_SC','Faustina',serif] font-bold text-xs sm:text-[17px] text-[#f4ecd8] drop-shadow-[0_2px_4px_rgba(0,0,0,0.95)] tracking-widest uppercase select-none">
                           {contextIndex >= totalContexts - 1 ? "TIẾP THEO" : "TRANG KẾ TIẾP"}
                         </span>
-                        <ArrowRight className="w-3.5 h-3.5 text-[#d4af37]" />
                       </button>
                     )}
                   </div>
@@ -1090,50 +1134,24 @@ export default function ExecutiveLedger({
               <BrassCornerBracket positionClass="bottom-0 left-0" transformClass="-rotate-90" />
 
               {/* Modal Header */}
-              <div className="bg-gradient-to-r from-[#21160d] via-[#2f2014] to-[#21160d] px-5 py-2.5 border-b-2 border-[#5c401f] flex items-center justify-between z-10 shrink-0">
-                <div className="flex items-center gap-3">
-                  <div className="w-6 h-6 rounded-full bg-gradient-to-br from-[#d4af37] to-[#593d0c] p-[1px] flex items-center justify-center shadow-md">
-                    <div className="w-full h-full rounded-full bg-[#1b120a] flex items-center justify-center">
-                      <svg className="w-3.5 h-3.5 text-[#d4af37]" viewBox="0 0 20 20" fill="currentColor">
-                        <path d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" />
-                      </svg>
-                    </div>
-                  </div>
-                  <div>
-                    <span className="font-mono text-[9.5px] text-[#a48a73] tracking-widest uppercase block">
-                      {leftArt.tag} • HỒ SƠ QUÂN SỰ ĐỘC QUYỀN
-                    </span>
-                    <h2 className="font-serif font-black text-base sm:text-lg text-[#f0dfcc] tracking-wide leading-tight">
-                      {leftArt.title}
-                    </h2>
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-3">
-                  <span className="font-mono text-[11px] text-[#a48a73] hidden sm:inline">
-                    ESC để đóng
-                  </span>
-                  <button
-                    type="button"
-                    onClick={() => setIsMediaModalOpen(false)}
-                    className="px-3.5 py-1 rounded bg-gradient-to-b from-[#3a2818] to-[#25180d] hover:from-[#4d3520] hover:to-[#322012] border border-[#a87f32] text-[#f2e6d6] font-mono font-bold text-xs tracking-wider transition-all shadow-[0_2px_8px_rgba(0,0,0,0.6)] cursor-pointer active:scale-95 flex items-center gap-1.5"
-                  >
-                    <span>✕</span>
-                    <span>ĐÓNG</span>
-                  </button>
-                </div>
+              <div className="bg-gradient-to-r from-[#21160d] via-[#2f2014] to-[#21160d] px-5 py-2.5 border-b-2 border-[#5c401f] flex items-center justify-center text-center z-10 shrink-0">
+                <h2 className="font-serif font-black text-base sm:text-lg text-[#f0dfcc] tracking-wide leading-tight uppercase text-center">
+                  HỒ SƠ, TƯ LIỆU LIÊN QUAN
+                </h2>
               </div>
 
               {/* Modal Body / Media Viewport */}
               <div className="relative w-full flex-1 bg-black/95 flex items-center justify-center p-2 min-h-0 overflow-hidden">
                 {leftArt.videoSrc ? (
                   <video
+                    ref={modalVideoRef}
                     key={leftArt.videoSrc}
                     src={leftArt.videoSrc}
-                    controls
                     autoPlay
+                    loop
                     playsInline
-                    className="w-full max-h-[min(54vh,440px)] object-contain rounded shadow-2xl"
+                    className="w-full max-h-[min(54vh,440px)] object-contain rounded shadow-2xl pointer-events-none select-none"
+                    onContextMenu={(e) => e.preventDefault()}
                   />
                 ) : (
                   <img
@@ -1144,13 +1162,24 @@ export default function ExecutiveLedger({
                 )}
               </div>
 
-              {/* Modal Footer Caption */}
-              <div className="bg-[#1b130c] px-5 py-2 border-t border-[#422c17] flex items-center justify-between text-xs font-mono text-[#a8907a] z-10 shrink-0">
-                <div className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#d4af37] animate-pulse"></span>
-                  <span className="text-[#e2caa8] font-serif italic text-xs sm:text-sm">{leftArt.caption}</span>
-                </div>
-                <span className="text-[#8c745d] text-[10px] hidden sm:inline">BẢN QUYỀN LƯU TRỮ ASTERIA 1914</span>
+              {/* Modal Footer */}
+              <div className="bg-[#1b130c] px-5 py-2.5 border-t border-[#422c17] flex items-center justify-center z-10 shrink-0">
+                <button
+                  type="button"
+                  onClick={() => setIsMediaModalOpen(false)}
+                  className="relative px-8 py-1.5 min-w-[120px] rounded text-[#faebcd] font-serif font-black text-xs tracking-wider uppercase transition-all shadow-[0_3px_10px_rgba(0,0,0,0.7)] border border-[#a87f32] hover:brightness-110 active:scale-95 cursor-pointer flex items-center justify-center overflow-hidden group shrink-0"
+                  style={{ backgroundImage: "url('/assets/icons/antique_leather_button.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
+                >
+                  <img 
+                    src="/assets/asset_menu_button_clean.png" 
+                    alt="Button" 
+                    className="absolute inset-0 w-full h-full object-fill filter brightness-90 group-hover:brightness-100 transition-all pointer-events-none" 
+                    onError={(e) => { e.currentTarget.style.display = 'none'; }}
+                  />
+                  <span className="relative z-10 drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] text-[#faebcd] font-serif font-black text-xs tracking-widest">
+                    ĐÓNG
+                  </span>
+                </button>
               </div>
             </motion.div>
           </motion.div>
@@ -1420,97 +1449,117 @@ export default function ExecutiveLedger({
       {/* ========================================================================= */}
       {/* MODAL 3: POP-UP PHÊ CHUẨN SẮC LỆNH (CÓ CON DẤU SÁP ĐỎ ASTERIA 1914)        */}
       {/* ========================================================================= */}
-      {selectedChoiceForDetail && (
-        <div 
-          onClick={() => setSelectedChoiceForDetail(null)}
-          className="fixed inset-0 modal-backdrop z-50 flex items-center justify-center p-4"
-        >
+      {selectedChoiceForDetail && (() => {
+        const choice = selectedChoiceForDetail;
+        const choiceIdx = choices.indexOf(choice);
+        const choiceLetter = choiceIdx >= 0 ? String.fromCharCode(65 + choiceIdx) : 'A';
+        
+        const content = choice.content || choice['nội dung'];
+        const benefits = choice.benefits || choice['lợi ích'] || choice.benefit;
+        const drawback = choice['potential drawback'] || choice.potential_drawback || choice.drawback || choice['tác hại'];
+        const impact = choice.impact || choice['ảnh hưởng'] || choice['tác động'];
+        const rev = choice.revenue || (choice.revenue_million ? `+$${choice.revenue_million} million` : null) || choice['doanh thu'];
+        const isRevValid = isValidValue(rev);
+        const isNegative = isRevValid && String(rev).includes('-');
+
+        return (
           <div 
-            onClick={(e) => e.stopPropagation()} 
-            className="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl w-[560px] max-h-[580px] p-6 shadow-[0_25px_60px_rgba(0,0,0,0.95)] flex flex-col gap-4 text-[#2b2118] font-serif"
+            onClick={() => setSelectedChoiceForDetail(null)}
+            className="fixed inset-0 modal-backdrop z-50 flex items-center justify-center p-4 select-none"
           >
-            {/* Header Pop-up */}
-            <div className="flex items-center justify-between pb-2.5 border-b-2 border-[#b8a690]">
-              <div className="flex items-center gap-2">
-                <span className="w-6 h-6 rounded flex items-center justify-center font-mono font-bold text-xs text-white bg-[#3d2f24] border border-black">
-                  A
-                </span>
-                <h3 className="font-title font-bold text-lg text-[#261d15] tracking-wide">
+            <div 
+              onClick={(e) => e.stopPropagation()} 
+              className="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl w-[640px] max-h-[85vh] p-6 shadow-[0_25px_60px_rgba(0,0,0,0.95)] flex flex-col justify-between text-[#2a241e] font-serif"
+            >
+              {/* Header Pop-up (Đã bỏ dấu ✕, thay icon A/B thành chữ 'PHƯƠNG ÁN A/B:') */}
+              <div className="flex items-center pb-3 border-b-2 border-[#b8a690]">
+                <h3 className="font-title font-bold text-lg text-[#261d15] tracking-wide uppercase">
+                  <span className="text-[#7a3e14] font-black mr-2">PHƯƠNG ÁN {choiceLetter}:</span>
                   XÁC NHẬN SẮC LỆNH ĐIỀU HÀNH
                 </h3>
               </div>
-              <button 
-                type="button" 
-                onClick={() => setSelectedChoiceForDetail(null)} 
-                className="text-[#785b42] hover:text-black font-bold text-xl px-1.5 cursor-pointer"
-              >
-                ✕
-              </button>
-            </div>
 
-            {/* 3 Thành phần: Content, Benefits, Potential Drawback */}
-            <div className="space-y-3 text-sm leading-relaxed">
-              {/* 1. Field Content with Red Wax Seal Stamp */}
-              <div className="relative p-3 bg-[#ede4d3] border-l-4 border-[#5c3818] rounded-r pr-16">
-                <span className="text-[10px] font-mono font-bold uppercase text-[#7a5534] block mb-1">
-                  NỘI DUNG PHƯƠNG ÁN:
-                </span>
-                <p className="font-serif font-bold text-[#1f1710] text-[15px] leading-snug">
-                  {selectedChoiceForDetail.content}
-                </p>
-                
-                {/* Asteria Imperial Red Wax Seal Stamp in Modal */}
-                <div className="absolute bottom-2 right-2">
-                  <RedWaxSeal className="w-16 h-16" />
-                </div>
+              {/* Danh sách các trường thông tin: hiện trơn bằng bullet SealBullet, không icon khác, không viền/background card */}
+              <div className="my-4 overflow-y-auto max-h-[400px] pr-2 space-y-3.5 text-[15px] sm:text-[16px] text-[#2a241e] leading-relaxed">
+                {isValidValue(content) && (
+                  <div className="flex items-start gap-2.5">
+                    <SealBullet />
+                    <div className="flex-1">
+                      <span className="font-bold text-[#5c3818]">Nội dung:</span> {content}
+                    </div>
+                  </div>
+                )}
+
+                {isValidValue(benefits) && (
+                  <div className="flex items-start gap-2.5">
+                    <SealBullet />
+                    <div className="flex-1">
+                      <span className="font-bold text-[#5c3818]">Lợi ích:</span> {benefits}
+                    </div>
+                  </div>
+                )}
+
+                {isValidValue(drawback) && (
+                  <div className="flex items-start gap-2.5">
+                    <SealBullet />
+                    <div className="flex-1">
+                      <span className="font-bold text-[#5c3818]">Tác hại:</span> {drawback}
+                    </div>
+                  </div>
+                )}
+
+                {isValidValue(impact) && (
+                  <div className="flex items-start gap-2.5">
+                    <SealBullet />
+                    <div className="flex-1">
+                      <span className="font-bold text-[#5c3818]">Ảnh hưởng:</span> {impact}
+                    </div>
+                  </div>
+                )}
+
+                {isRevValid && (
+                  <div className="flex items-start gap-2.5">
+                    <SealBullet />
+                    <div className="flex-1">
+                      <span className="font-bold text-[#5c3818]">Doanh thu:</span>{" "}
+                      <span className={`font-serif font-bold text-[17px] ${isNegative ? 'text-rose-900' : 'text-emerald-800'}`}>
+                        {rev}
+                      </span>
+                    </div>
+                  </div>
+                )}
               </div>
 
-              {/* 2. Field Benefits */}
-              {selectedChoiceForDetail.benefits && (
-                <div className="p-3 bg-[#eaf4ec] border border-[#a6d1ad] rounded text-[#1b5e20]">
-                  <span className="text-[10px] font-mono font-bold uppercase block mb-0.5 text-[#1b5e20]">
-                    ✦ LỢI THẾ ĐẠT ĐƯỢC (BENEFITS):
-                  </span>
-                  <p className="font-sans text-xs leading-normal">
-                    {selectedChoiceForDetail.benefits}
-                  </p>
+              {/* Footer: Góc trái dưới có Con dấu sáp đỏ Asteria 1914, Góc phải dưới có 2 Nút Duyệt / Không Duyệt */}
+              <div className="pt-3 flex items-center justify-between border-t border-[#b8a690]">
+                {/* Góc trái dưới: Con dấu sáp không che nội dung */}
+                <div className="flex items-center gap-2">
+                  <RedWaxSeal className="w-14 h-14 shrink-0 drop-shadow-md" />
                 </div>
-              )}
 
-              {/* 3. Field Potential Drawback */}
-              {selectedChoiceForDetail.potential_drawback && (
-                <div className="p-3 bg-[#fdf2f2] border border-[#f5c6cb] rounded text-[#842029]">
-                  <span className="text-[10px] font-mono font-bold uppercase block mb-0.5 text-[#842029]">
-                    ⚠ RỦI RO TIỀM ẨN (POTENTIAL DRAWBACK):
-                  </span>
-                  <p className="font-sans text-xs leading-normal">
-                    {selectedChoiceForDetail.potential_drawback}
-                  </p>
+                {/* Góc phải dưới: 2 Nút Duyệt / Suy nghĩ thêm */}
+                <div className="flex items-center gap-3">
+                  <button 
+                    type="button" 
+                    onClick={() => setSelectedChoiceForDetail(null)}
+                    className="py-2 px-5 rounded bg-[#7a5538] hover:bg-[#65442a] text-white font-mono font-bold text-xs uppercase transition-all shadow-[2px_2px_0px_#422316] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none cursor-pointer"
+                  >
+                    SUY NGHĨ THÊM
+                  </button>
+                  
+                  <button 
+                    type="button" 
+                    onClick={() => handleConfirmChoice(choice)}
+                    className="py-2 px-6 rounded bg-[#1e7e34] hover:bg-[#19692c] text-white font-mono font-bold text-xs uppercase transition-all shadow-[2px_2px_0px_#11451d] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none cursor-pointer flex items-center gap-1.5"
+                  >
+                    <span>✓ DUYỆT</span>
+                  </button>
                 </div>
-              )}
-            </div>
-
-            {/* 2 Nút: "KHÔNG DUYỆT" & "DUYỆT" */}
-            <div className="pt-2 flex items-center justify-end gap-3 border-t border-[#b8a690]">
-              <button 
-                type="button" 
-                onClick={() => setSelectedChoiceForDetail(null)}
-                className="py-2 px-5 rounded bg-[#922b21] hover:bg-[#7b241c] text-white font-mono font-bold text-xs uppercase transition-all shadow-[2px_2px_0px_#501611] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none cursor-pointer"
-              >
-                KHÔNG DUYỆT
-              </button>
-              
-              <button 
-                type="button" 
-                onClick={() => handleConfirmChoice(selectedChoiceForDetail)}
-                className="py-2 px-6 rounded bg-[#1e7e34] hover:bg-[#19692c] text-white font-mono font-bold text-xs uppercase transition-all shadow-[2px_2px_0px_#11451d] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none cursor-pointer flex items-center gap-1.5"
-              >
-                <span>✓ DUYỆT</span>
-              </button>
+              </div>
             </div>
           </div>
-        </div>
-      )}
+        );
+      })()}
 
       {/* Watermark 16:9 Letterbox */}
       <aside className="fixed bottom-1.5 right-2 font-mono text-[9px] text-[#8c6721]/50 tracking-wider pointer-events-none select-none z-50">
