@@ -23,7 +23,7 @@ from dotenv import load_dotenv
 load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 load_dotenv(Path(__file__).resolve().parent / ".env")
 
-MODEL_DEFAULT = "gemini-2.0-flash"
+MODEL_DEFAULT = "gemini-3.5-flash-lite"
 
 
 class GeminiExplainer:
@@ -39,8 +39,12 @@ class GeminiExplainer:
         return self._client is not None
 
     def _ensure_client(self) -> None:
-        if self._client is not None or self._init_error is not None:
+        if self._client is not None:
             return
+
+        # Reload .env in case the user created or updated it after server startup
+        load_dotenv(Path(__file__).resolve().parent.parent / ".env", override=True)
+        load_dotenv(Path(__file__).resolve().parent / ".env", override=True)
 
         api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
         if not api_key:
@@ -61,9 +65,31 @@ class GeminiExplainer:
 
         try:
             self._client = genai.Client(api_key=api_key)
-            self._model = os.environ.get("GEMINI_MODEL", MODEL_DEFAULT)
+            self._init_error = None
         except Exception as exc:  # noqa: BLE001 - surface any config error clearly
             self._init_error = f"Could not initialize Gemini: {exc}"
+
+    def get_model(self) -> str:
+        """Dynamically read the model configured in .env (or fallback to MODEL_DEFAULT)."""
+        load_dotenv(Path(__file__).resolve().parent.parent / ".env", override=True)
+        load_dotenv(Path(__file__).resolve().parent / ".env", override=True)
+        return (os.environ.get("GEMINI_MODEL") or "").strip() or MODEL_DEFAULT
+
+    def get_fallback_models(self) -> list[str]:
+        """Dynamically read fallback model(s) from .env (comma-separated or single)."""
+        load_dotenv(Path(__file__).resolve().parent.parent / ".env", override=True)
+        load_dotenv(Path(__file__).resolve().parent / ".env", override=True)
+        raw = os.environ.get("GEMINI_FALLBACK_MODEL") or os.environ.get("GEMINI_FALLBACK_MODELS") or "gemini-3.1-flash-lite"
+        fallbacks = [m.strip() for m in raw.split(",") if m.strip()]
+        # Always ensure standard flash-lite models are present as final safety nets
+        for default_candidate in ("gemini-3.5-flash-lite", "gemini-3.1-flash-lite"):
+            if default_candidate not in fallbacks:
+                fallbacks.append(default_candidate)
+        return fallbacks
+
+    @property
+    def model(self) -> str:
+        return self.get_model()
 
     @property
     def init_error(self) -> str | None:
@@ -131,34 +157,63 @@ class GeminiExplainer:
             "bold, italics, or links). Use normal sentences and plain paragraphs."
         )
 
+        client = self._client
+        if client is None:
+            return self._init_error or "AI explanation is unavailable."
+
+        from google.genai import types
+
         preamble = (
             "Here is the player's full decision trail so far. Use ONLY this data "
             "to explain outcomes and answer questions; do not invent anything "
             "beyond it:\n\n" f"{context}"
         )
 
-        contents: list[dict[str, str]] = [{"role": "user", "content": preamble}]
+        contents = [types.Content(role="user", parts=[types.Part.from_text(text=preamble)])]
 
         for msg in history or []:
             role = msg.get("role")
-            if role in ("user", "assistant"):
-                contents.append({"role": role, "content": msg.get("content", "")})
-
-        contents.append({"role": "user", "content": final_message})
-
-        client = self._client
-        if client is None:
-            return self._init_error or "AI explanation is unavailable."
-
-        try:
-            response = client.models.generate_content(
-                model=self._model,
-                contents=contents,
-                config={"system_instruction": system},
+            content_text = msg.get("content", "")
+            if not content_text:
+                continue
+            gemini_role = "model" if role == "assistant" else "user"
+            contents.append(
+                types.Content(
+                    role=gemini_role,
+                    parts=[types.Part.from_text(text=content_text)],
+                )
             )
-            return _strip_markdown(response.text)
-        except Exception as exc:  # noqa: BLE001 - return a readable error to the user
-            return f"AI explanation failed: {exc}"
+
+        contents.append(
+            types.Content(
+                role="user",
+                parts=[types.Part.from_text(text=final_message)],
+            )
+        )
+
+        active_model = self.get_model()
+        models_to_try = [active_model, *self.get_fallback_models()]
+        # Deduplicate preserving order
+        unique_models = []
+        for m in models_to_try:
+            if m and m not in unique_models:
+                unique_models.append(m)
+
+        last_error = None
+        for m in unique_models:
+            try:
+                response = client.models.generate_content(
+                    model=m,
+                    contents=contents,
+                    config={"system_instruction": system},
+                )
+                if response and response.text:
+                    return _strip_markdown(response.text)
+            except Exception as exc:  # noqa: BLE001
+                last_error = exc
+                continue
+
+        return f"AI explanation failed: {last_error}"
 
 
 def _strip_markdown(text: str) -> str:

@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sổ Cái Tập Đoàn Asteria — Giao Diện Tối Giản: Thư Ký & Cố Vấn AI</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts: EB Garamond, Cinzel, JetBrains Mono, Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=JetBrains+Mono:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"EB Garamond"', 'serif'],
+            display: ['"Cinzel"', 'serif'],
+            title: ['"Playfair Display"', 'Georgia', 'serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 5px;
+      height: 5px;
+    }
+    ::-webkit-scrollbar-track {
+      background: rgba(26, 21, 18, 0.4);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #8b6e4e;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #d4af37;
+    }
+
+    /* Desk surface background */
+    .desk-bg {
+      background: radial-gradient(ellipse at center, #1f1712 0%, #0c0e12 60%, #050608 100%);
+    }
+
+    /* Dropcap */
+    .drop-cap {
+      float: left;
+      font-size: 3.4rem;
+      line-height: 0.85;
+      font-weight: 900;
+      color: #5c3818;
+      margin-right: 0.6rem;
+      font-family: 'EB Garamond', serif;
+    }
+
+    /* Subtle parchment shadow */
+    .modal-backdrop {
+      background-color: rgba(10, 8, 6, 0.75);
+      backdrop-filter: blur(3px);
+    }
+
+    /* Event title: 19px (+5 units from 14px), Playfair Display, luxury vintage corporate aesthetic with full Vietnamese support */
+    .event-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 19px;
+      line-height: 1.3;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      color: #3e220f;
+    }
+
+    /* 1914 Vintage Corporate Royal Seal Bullet (High contrast, razor-sharp gilded diamond seal) */
+    .seal-bullet {
+      width: 15px;
+      height: 15px;
+      flex-shrink: 0;
+      margin-top: 3.5px;
+      filter: drop-shadow(0 1px 1.5px rgba(46, 27, 7, 0.35));
+    }
+  </style>
+</head>
+
+<body class="desk-bg text-[#2a241e] font-serif min-h-screen flex flex-col items-center justify-center p-2 sm:p-4 md:p-6 overflow-x-hidden antialiased selection:bg-[#d4af37] selection:text-black">
+
+  <!-- ========================================================================= -->
+  <!-- TOÀN BỘ GIAO DIỆN CHÍNH: CUỐN SỔ CÁI 2 TRANG (GIỮ NGUYÊN STYLE GỐC)       -->
+  <!-- ========================================================================= -->
+  <div class="relative z-10 w-full max-w-6xl aspect-[16/10] min-h-[660px] max-h-[880px] bg-[#1a1512] rounded-xl p-3 sm:p-5 shadow-[0_30px_90px_rgba(0,0,0,0.98)] border-4 border-[#3d2a1c] flex flex-col justify-between">
+    
+    <!-- 1. Leather Frame Top Bar: Niên biểu lịch sử & Ngân sách -->
+    <div class="flex flex-col sm:flex-row items-center justify-between px-3 py-1.5 text-[11px] font-mono text-[#a88d74] border-b border-[#3d2a1c] mb-2.5 gap-2">
+      
+      <div class="flex items-center gap-2">
+        <svg class="w-3.5 h-3.5 text-[#d4af37]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+        <span class="tracking-widest uppercase font-bold text-[#c4aa92]">SỔ CÁI TẬP ĐOÀN ASTERIA</span>
+      </div>
+
+      <!-- Eras Timeline Ribbon -->
+      <div class="flex items-center gap-1 sm:gap-1.5 overflow-x-auto max-w-full py-0.5">
+        <div class="px-2 py-0.5 rounded font-serif text-xs bg-[#291e17] text-[#c4aa92] border border-[#4a3424]">I</div>
+        <div class="px-2 py-0.5 rounded font-serif text-xs bg-[#291e17] text-[#c4aa92] border border-[#4a3424]">II</div>
+        <div class="px-2 py-0.5 rounded font-serif text-xs bg-[#291e17] text-[#c4aa92] border border-[#4a3424]">III</div>
+        <div class="px-2 py-0.5 rounded font-serif text-xs bg-[#291e17] text-[#c4aa92] border border-[#4a3424]">IV</div>
+        <div class="px-2 py-0.5 rounded font-serif text-xs bg-[#291e17] text-[#c4aa92] border border-[#4a3424]">V</div>
+        <div class="px-2 py-0.5 rounded font-serif text-xs bg-[#291e17] text-[#c4aa92] border border-[#4a3424]">VI</div>
+        <!-- Active Era VII (1997 - 2008: Sức ép toàn cầu từ Airbus) -->
+        <div class="px-2.5 py-0.5 rounded font-serif font-black text-xs sm:text-sm bg-[#d4af37] text-black shadow-[2px_2px_0px_#000] border border-black">VII • 2000</div>
+        <div class="px-2 py-0.5 rounded font-serif text-xs text-[#695443]">VIII</div>
+      </div>
+
+      <!-- Budget & Info -->
+      <div class="flex items-center gap-4">
+        <div class="flex items-center gap-1 text-[#d4af37] font-bold">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          <span id="headerBudget">$450,000,000</span>
+        </div>
+        <div class="text-[#8c745f] flex items-center gap-1">
+          <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+          <span>Gấp sổ lại</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- 2. HAI TRANG GIẤY DA MỞ RỘNG (Left Page & Right Page) -->
+    <div class="relative flex-1 rounded bg-[#f7f2e7] shadow-2xl overflow-hidden grid grid-cols-1 md:grid-cols-2 border border-[#d6c7b2]">
+      
+      <!-- Nếp gấp gáy sách chính giữa -->
+      <div class="absolute inset-y-0 left-1/2 -translate-x-1/2 w-8 bg-gradient-to-r from-black/15 via-black/25 to-black/15 pointer-events-none z-30 hidden md:block"></div>
+
+      <!-- ===================================================================== -->
+      <!-- TRANG BÊN TRÁI: TRANH KHẮC + 2 NÚT (THƯ KÝ & CỐ VẤN) + CHÚ THÍCH     -->
+      <!-- ===================================================================== -->
+      <div class="relative bg-[#f4ecd8] p-4 sm:p-6 md:p-8 flex flex-col justify-between border-b md:border-b-0 md:border-r border-[#d4c3ab]">
+        
+        <!-- Header trên cùng trang trái -->
+        <div class="flex items-center justify-between text-[11px] font-mono text-[#7a6452] border-b border-[#d8c9b6] pb-2">
+          <span class="tracking-widest uppercase font-bold">SỨC ÉP TOÀN CẦU</span>
+          <span class="text-[#a48a73]">HÌNH ẢNH BIÊN NIÊN SỬ</span>
+        </div>
+
+        <!-- Khung Clip / Bản Khắc Nghệ Thuật (Illustration Frame) -->
+        <div class="relative my-auto w-full aspect-[4/3] max-h-[350px] rounded bg-[#e8ded0] p-2 border-2 border-[#b8a690] shadow-[inset_0_2px_6px_rgba(0,0,0,0.15)] flex flex-col items-center justify-center overflow-hidden">
+          
+          <div class="relative w-full h-full rounded overflow-hidden bg-black flex items-center justify-center">
+            
+            <!-- Video/Ảnh xưởng lắp ráp máy bay Airbus (dùng file có sẵn hoặc SVG fallback chuẩn xác theo ảnh của bạn) -->
+            <img 
+              src="./frontend/public/assets/events/event_1945.jpg" 
+              alt="Sức ép toàn cầu từ Airbus"
+              onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1517976487507-5b3b11929314?q=80&w=900&auto=format&fit=crop';"
+              class="w-full h-full object-cover object-center filter contrast-[1.03]"
+            />
+
+            <!-- Con dấu hiệu ứng nhẹ góc video -->
+            <div class="absolute bottom-2 right-2 bg-black/60 border border-[#8b6b47] px-2 py-0.5 text-[9px] font-mono text-[#d4af37] rounded">
+              LƯU TRỮ ASTERIA #420
+            </div>
+          </div>
+
+        </div>
+
+        <!-- =================================================================== -->
+        <!-- [ĐÚNG YÊU CẦU]: 2 NÚT BIÊN BẢN & CỐ VẤN NGAY DƯỚI CLIP NGẮN         -->
+        <!-- =================================================================== -->
+        <div class="my-2.5 flex items-center gap-2.5">
+          
+          <!-- NÚT 1: BIÊN BẢN (Ghi lại tất cả sự kiện đã trải qua) -->
+          <button 
+            type="button"
+            onclick="openSecretaryModal()"
+            class="flex-1 py-2 px-3 rounded bg-[#e8ded0] hover:bg-[#ded1be] text-[#3d2f24] border-2 border-[#5c4636] font-serif transition-all shadow-[2px_2px_0px_#3d2f24] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none cursor-pointer flex items-center justify-center gap-2"
+            title="Xem lại toàn bộ các sự kiện và quyết định đã trải qua"
+          >
+            <img src="./vintage_ledger_icon.jpg" alt="Icon Sổ Cái" class="w-5 h-5 rounded border border-[#5c4636] object-cover shrink-0 shadow-sm" />
+            <span class="font-serif font-black tracking-wide text-sm text-[#2b1f17]">Biên bản</span>
+          </button>
+
+          <!-- NÚT 2: CỐ VẤN FRIEDRICH -->
+          <button 
+            type="button"
+            onclick="openAdvisorModal()"
+            class="flex-1 py-2 px-3 rounded bg-[#3d2f24] hover:bg-[#2c2118] text-[#f4ecd8] border-2 border-[#1f1712] font-serif transition-all shadow-[2px_2px_0px_#1a1512] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none cursor-pointer flex items-center justify-center gap-2"
+            title="Mở Cố Vấn Friedrich để đàm đạo chiến lược và lý luận KTCT"
+          >
+            <img src="./friedrich_avatar.jpg" alt="Cố Vấn Friedrich" class="w-5 h-5 rounded-full border border-[#d4af37] object-cover shrink-0 shadow-sm" />
+            <span class="font-serif font-black tracking-wide text-sm text-[#f4ecd8]">Cố vấn Friedrich</span>
+          </button>
+
+        </div>
+
+        <!-- Chú thích chân tranh trang trái -->
+        <div class="text-center pt-2 border-t border-[#d8c9b6]">
+          <h4 class="font-serif font-black text-sm sm:text-base text-[#3d2f24] tracking-wide">
+            SỨC ÉP TOÀN CẦU TỪ AIRBUS
+          </h4>
+          <p class="font-mono text-[11px] text-[#7a6452] mt-0.5 tracking-wider">
+            BẢN KHẮC LỊCH SỬ • 1997 – 2008
+          </p>
+        </div>
+
+      </div>
+
+      <!-- ===================================================================== -->
+      <!-- TRANG BÊN PHẢI: NỘI DUNG SỬ LIỆU, CÂU HỎI & LỰA CHỌN                   -->
+      <!-- ===================================================================== -->
+      <div class="relative bg-[#f9f5ed] p-4 sm:p-6 md:p-8 flex flex-col justify-between overflow-y-auto">
+        
+        <!-- Top Chapter & Node Header -->
+        <div class="border-b-2 border-[#3d2f24] pb-2 sm:pb-3">
+          <div class="flex items-center justify-between text-[11px] font-mono text-[#826b58] uppercase tracking-wider mb-1">
+            <span>KỶ NGUYÊN VII (1997 – 2008)</span>
+            <span class="font-bold text-[#3d2f24]">BẢN GHI #420</span>
+          </div>
+          <h2 class="font-serif font-black text-xl sm:text-2xl text-[#2b2118] tracking-tight">
+            CUỘC ĐỐI ĐẦU ĐỘC QUYỀN VỚI TẬP ĐOÀN AIRBUS
+          </h2>
+        </div>
+
+        <!-- Narrative Story & Strategic Question -->
+        <div class="my-auto py-2 space-y-3 sm:space-y-4">
+          
+          <!-- Story Text with Drop Cap -->
+          <p class="font-serif text-[#2a241e] text-[17px] sm:text-[18px] leading-[1.8] text-justify tracking-normal">
+            <span class="drop-cap">L</span>iên minh Châu Âu vừa rót hàng tỷ Euro trợ cấp phát triển cho Airbus để tung ra dòng phản lực A320 thân hẹp tối tân. Asteria đang đứng trước nguy cơ mất trắng thị phần tuyến bay thương mại liên lục địa. Hội đồng Quản trị họp khẩn trong phòng kín: nếu không hạ đòn trừng phạt kinh tế, thế độc quyền kéo dài suốt nửa thế kỷ của tập đoàn sẽ sụp đổ.
+          </p>
+
+          <!-- Câu hỏi chiến lược -->
+          <div class="bg-[#ede4d3] border-l-4 border-[#5c3818] p-3 rounded-r shadow-inner">
+            <span class="text-[10px] font-mono font-bold text-[#7a5534] uppercase tracking-wider block mb-1">
+              CÂU HỎI CHIẾN LƯỢC:
+            </span>
+            <h3 class="font-serif font-bold text-base sm:text-lg text-[#261d15] leading-snug">
+              Bạn sẽ sử dụng tiềm lực tư bản của Asteria để ngăn chặn sự bành trướng của Airbus bằng cách nào?
+            </h3>
+          </div>
+
+          <!-- Danh sách lựa chọn A & B -->
+          <div class="space-y-2.5">
+            
+            <!-- Choice A -->
+            <button 
+              type="button" 
+              onclick="handleSelectChoice('A')"
+              class="w-full text-left p-3 sm:p-3.5 rounded border-2 border-[#3d2f24] bg-[#e7dfce] hover:bg-[#ded4c0] transition-all cursor-pointer shadow-[3px_3px_0px_#2b2118] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none"
+            >
+              <div class="flex items-start justify-between gap-3">
+                <div class="flex items-start gap-2.5">
+                  <span class="w-5 h-5 rounded flex items-center justify-center font-mono font-black text-xs shrink-0 mt-0.5 border border-black bg-emerald-800 text-white">
+                    A
+                  </span>
+                  <div class="font-serif font-bold text-sm text-[#1f1710] leading-snug">
+                    Vận động chính phủ áp thuế chống bán phá giá và khởi kiện Airbus ra WTO
+                  </div>
+                </div>
+                <span class="shrink-0 font-mono font-bold text-xs px-2 py-0.5 rounded bg-[#3d2f24] text-[#f7f2e7]">
+                  -$50M
+                </span>
+              </div>
+              <div class="mt-1.5 text-xs font-sans text-[#4a3b2f] pl-7">
+                • <em>Bản chất:</em> Dùng bộ máy tư bản độc quyền nhà nước để bảo hộ thị phần nội địa.
+              </div>
+            </button>
+
+            <!-- Choice B -->
+            <button 
+              type="button" 
+              onclick="handleSelectChoice('B')"
+              class="w-full text-left p-3 sm:p-3.5 rounded border-2 border-[#4a2e2b] bg-[#ebdcd5] hover:bg-[#e2cdc4] transition-all cursor-pointer shadow-[3px_3px_0px_#2b2118] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none"
+            >
+              <div class="flex items-start justify-between gap-3">
+                <div class="flex items-start gap-2.5">
+                  <span class="w-5 h-5 rounded flex items-center justify-center font-mono font-black text-xs shrink-0 mt-0.5 border border-black bg-rose-900 text-white">
+                    B
+                  </span>
+                  <div class="font-serif font-bold text-sm text-[#1f1710] leading-snug">
+                    Phát động cuộc chiến hạ giá vé để triệt hạ đối thủ nhỏ và chiếm lĩnh thị trường
+                  </div>
+                </div>
+                <span class="shrink-0 font-mono font-bold text-xs px-2 py-0.5 rounded bg-[#3d2f24] text-[#f7f2e7]">
+                  +$120M
+                </span>
+              </div>
+              <div class="mt-1.5 text-xs font-sans text-[#4a3b2f] pl-7">
+                • <em>Bản chất:</em> Giá cả độc quyền và phân chia lại thị phần thế giới.
+              </div>
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- Footer Trang Phải -->
+        <div class="pt-2 border-t border-[#d8c9b6] flex items-center justify-between text-[11px] font-mono text-[#7a6452]">
+          <span>Ghi chép #420 • Nhánh 1 (Boeing/Asteria)</span>
+          <span class="italic">Ấn vào "Cố vấn AI" bên trang trái để phân tích 2 hướng đi này</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- ========================================================================= -->
+  <!-- MODAL 1: BẢN GHI THƯ KÝ — BIÊN BẢN DOANH NGHIỆP                           -->
+  <!-- ========================================================================= -->
+  <div id="secretaryModal" class="fixed inset-0 modal-backdrop z-50 hidden flex items-center justify-center p-3 sm:p-5">
+    <div class="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl max-w-3xl w-full max-h-[85vh] shadow-[0_20px_60px_rgba(0,0,0,0.85)] flex flex-col overflow-hidden text-[#2a241e]">
+      
+      <!-- Header Biên Bản Doanh Nghiệp (Không có dấu 'X', có icon sổ cái Imagen) -->
+      <div class="bg-[#ebdcc0] px-5 py-3 border-b-2 border-[#b8a690] flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <img src="./vintage_ledger_icon.jpg" alt="Icon Sổ Cái" class="w-8 h-8 rounded border border-[#8b6b47] shadow object-cover shrink-0" />
+          <h3 class="font-title font-black text-[21px] text-[#261d15] tracking-wide">
+            BIÊN BẢN DOANH NGHIỆP
+          </h3>
+        </div>
+      </div>
+
+      <!-- Danh Sách Các Sự Kiện Đầy Đủ 100% Theo File JSON -->
+      <div class="p-5 overflow-y-auto space-y-4 flex-1">
+        
+        <!-- Sự kiện 1 (Node 41) -->
+        <div class="flex gap-4 border-b border-[#dfd2be] pb-4">
+          <div class="event-title font-title font-black text-[19px] text-[#3e220f] w-28 sm:w-32 shrink-0 tracking-wide pt-0.5 select-none whitespace-nowrap">
+            Sự kiện 1
+          </div>
+          <div class="flex-1 space-y-2.5 text-sm text-[#2a241e] font-serif leading-relaxed">
+            <div class="flex items-start gap-2.5">
+              <svg class="seal-bullet" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0.75L15.25 8L8 15.25L0.75 8Z" fill="#2b1805" stroke="#1c0f02" stroke-width="0.5"/>
+                <path d="M8 1.6L14.4 8L8 8Z" fill="#e2af32"/>
+                <path d="M8 1.6L1.6 8L8 8Z" fill="#f5c74e"/>
+                <path d="M8 14.4L1.6 8L8 8Z" fill="#b07d12"/>
+                <path d="M8 14.4L14.4 8L8 8Z" fill="#885b08"/>
+                <path d="M8 3.5L9.4 6.6L12.5 8L9.4 9.4L8 12.5L6.6 9.4L3.5 8L6.6 6.6Z" fill="#fff1b0" stroke="#5a3b04" stroke-width="0.5"/>
+                <circle cx="8" cy="8" r="1.1" fill="#663e05"/>
+                <circle cx="7.7" cy="7.7" r="0.4" fill="#ffffff"/>
+              </svg>
+              <div class="flex-1">
+                <span class="font-bold text-[#5c3818]">Nội dung:</span> Trước năm 1914, ngành hàng không Asteria chỉ dừng lại ở các xưởng nhỏ lẻ, chưa thể cạnh tranh với đường sắt và đường biển. Khi Chiến tranh thế giới thứ nhất nổ ra (1914) và Mỹ tham chiến (1917), nhu cầu máy bay quân sự bùng nổ. Nhờ nền tảng luyện kim - cơ khí sẵn có và sự kết nối của chính phủ, các doanh nghiệp Asteria có cơ hội tiếp nhận đơn hàng quân sự quốc tế, sản xuất linh kiện và lắp ráp máy bay theo chuyển giao công nghệ từ Mỹ. Cơ hội này mở ra đà tăng trưởng vượt xa thị trường dân dụng, nhưng cũng đối mặt với rủi ro dư thừa công suất khi chiến tranh kết thúc.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sự kiện 2 (Node 2) -->
+        <div class="flex gap-4 border-b border-[#dfd2be] pb-4">
+          <div class="event-title font-title font-black text-[19px] text-[#3e220f] w-28 sm:w-32 shrink-0 tracking-wide pt-0.5 select-none whitespace-nowrap">
+            Sự kiện 2
+          </div>
+          <div class="flex-1 space-y-2.5 text-sm text-[#2a241e] font-serif leading-relaxed">
+            <div class="flex items-start gap-2.5">
+              <svg class="seal-bullet" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0.75L15.25 8L8 15.25L0.75 8Z" fill="#2b1805" stroke="#1c0f02" stroke-width="0.5"/>
+                <path d="M8 1.6L14.4 8L8 8Z" fill="#e2af32"/>
+                <path d="M8 1.6L1.6 8L8 8Z" fill="#f5c74e"/>
+                <path d="M8 14.4L1.6 8L8 8Z" fill="#b07d12"/>
+                <path d="M8 14.4L14.4 8L8 8Z" fill="#885b08"/>
+                <path d="M8 3.5L9.4 6.6L12.5 8L9.4 9.4L8 12.5L6.6 9.4L3.5 8L6.6 6.6Z" fill="#fff1b0" stroke="#5a3b04" stroke-width="0.5"/>
+                <circle cx="8" cy="8" r="1.1" fill="#663e05"/>
+                <circle cx="7.7" cy="7.7" r="0.4" fill="#ffffff"/>
+              </svg>
+              <div class="flex-1">
+                <span class="font-bold text-[#5c3818]">Nội dung:</span> Bạn có dám đẩy mạnh sản xuất để đáp ứng những đơn hàng lớn hay không?
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sự kiện 3 (Node 3) -->
+        <div class="flex gap-4 border-b border-[#dfd2be] pb-4">
+          <div class="event-title font-title font-black text-[19px] text-[#3e220f] w-28 sm:w-32 shrink-0 tracking-wide pt-0.5 select-none whitespace-nowrap">
+            Sự kiện 3
+          </div>
+          <div class="flex-1 space-y-2.5 text-sm text-[#2a241e] font-serif leading-relaxed">
+            <div class="flex items-start gap-2.5">
+              <svg class="seal-bullet" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0.75L15.25 8L8 15.25L0.75 8Z" fill="#2b1805" stroke="#1c0f02" stroke-width="0.5"/>
+                <path d="M8 1.6L14.4 8L8 8Z" fill="#e2af32"/>
+                <path d="M8 1.6L1.6 8L8 8Z" fill="#f5c74e"/>
+                <path d="M8 14.4L1.6 8L8 8Z" fill="#b07d12"/>
+                <path d="M8 14.4L14.4 8L8 8Z" fill="#885b08"/>
+                <path d="M8 3.5L9.4 6.6L12.5 8L9.4 9.4L8 12.5L6.6 9.4L3.5 8L6.6 6.6Z" fill="#fff1b0" stroke="#5a3b04" stroke-width="0.5"/>
+                <circle cx="8" cy="8" r="1.1" fill="#663e05"/>
+                <circle cx="7.7" cy="7.7" r="0.4" fill="#ffffff"/>
+              </svg>
+              <div class="flex-1">
+                <span class="font-bold text-[#5c3818]">Nội dung:</span> Có. Dồn hết nguồn lực vào sản xuất và xuất khẩu hàng loạt máy bay quân sự
+              </div>
+            </div>
+            <div class="flex items-start gap-2.5">
+              <svg class="seal-bullet" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0.75L15.25 8L8 15.25L0.75 8Z" fill="#2b1805" stroke="#1c0f02" stroke-width="0.5"/>
+                <path d="M8 1.6L14.4 8L8 8Z" fill="#e2af32"/>
+                <path d="M8 1.6L1.6 8L8 8Z" fill="#f5c74e"/>
+                <path d="M8 14.4L1.6 8L8 8Z" fill="#b07d12"/>
+                <path d="M8 14.4L14.4 8L8 8Z" fill="#885b08"/>
+                <path d="M8 3.5L9.4 6.6L12.5 8L9.4 9.4L8 12.5L6.6 9.4L3.5 8L6.6 6.6Z" fill="#fff1b0" stroke="#5a3b04" stroke-width="0.5"/>
+                <circle cx="8" cy="8" r="1.1" fill="#663e05"/>
+                <circle cx="7.7" cy="7.7" r="0.4" fill="#ffffff"/>
+              </svg>
+              <div class="flex-1">
+                <span class="font-bold text-[#5c3818]">Lợi ích:</span> Nhờ nắm bắt tốt cơ hội nên doanh nghiệp ngày càng phát triển
+              </div>
+            </div>
+            <div class="flex items-start gap-2.5">
+              <svg class="seal-bullet" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0.75L15.25 8L8 15.25L0.75 8Z" fill="#2b1805" stroke="#1c0f02" stroke-width="0.5"/>
+                <path d="M8 1.6L14.4 8L8 8Z" fill="#e2af32"/>
+                <path d="M8 1.6L1.6 8L8 8Z" fill="#f5c74e"/>
+                <path d="M8 14.4L1.6 8L8 8Z" fill="#b07d12"/>
+                <path d="M8 14.4L14.4 8L8 8Z" fill="#885b08"/>
+                <path d="M8 3.5L9.4 6.6L12.5 8L9.4 9.4L8 12.5L6.6 9.4L3.5 8L6.6 6.6Z" fill="#fff1b0" stroke="#5a3b04" stroke-width="0.5"/>
+                <circle cx="8" cy="8" r="1.1" fill="#663e05"/>
+                <circle cx="7.7" cy="7.7" r="0.4" fill="#ffffff"/>
+              </svg>
+              <div class="flex-1">
+                <span class="font-bold text-[#5c3818]">Tác hại:</span> Tuy nhiên, chiến tranh là hành động phi nhân đạo, bạn phải cân nhắc thật kỹ đến tương lai sau này của doanh nghiệp
+              </div>
+            </div>
+            <div class="flex items-start gap-2.5">
+              <svg class="seal-bullet" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0.75L15.25 8L8 15.25L0.75 8Z" fill="#2b1805" stroke="#1c0f02" stroke-width="0.5"/>
+                <path d="M8 1.6L14.4 8L8 8Z" fill="#e2af32"/>
+                <path d="M8 1.6L1.6 8L8 8Z" fill="#f5c74e"/>
+                <path d="M8 14.4L1.6 8L8 8Z" fill="#b07d12"/>
+                <path d="M8 14.4L14.4 8L8 8Z" fill="#885b08"/>
+                <path d="M8 3.5L9.4 6.6L12.5 8L9.4 9.4L8 12.5L6.6 9.4L3.5 8L6.6 6.6Z" fill="#fff1b0" stroke="#5a3b04" stroke-width="0.5"/>
+                <circle cx="8" cy="8" r="1.1" fill="#663e05"/>
+                <circle cx="7.7" cy="7.7" r="0.4" fill="#ffffff"/>
+              </svg>
+              <div class="flex-1">
+                <span class="font-bold text-[#5c3818]">Tác động:</span> Doanh nghiệp của bạn nhanh chóng bán hết số máy bay được sản xuất trong khoảng thời gian ngắn, qua đó ngày càng mở rộng quy mô sản xuất và gia tăng lợi nhuận thời chiến.
+              </div>
+            </div>
+            <div class="flex items-start gap-2.5">
+              <svg class="seal-bullet" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0.75L15.25 8L8 15.25L0.75 8Z" fill="#2b1805" stroke="#1c0f02" stroke-width="0.5"/>
+                <path d="M8 1.6L14.4 8L8 8Z" fill="#e2af32"/>
+                <path d="M8 1.6L1.6 8L8 8Z" fill="#f5c74e"/>
+                <path d="M8 14.4L1.6 8L8 8Z" fill="#b07d12"/>
+                <path d="M8 14.4L14.4 8L8 8Z" fill="#885b08"/>
+                <path d="M8 3.5L9.4 6.6L12.5 8L9.4 9.4L8 12.5L6.6 9.4L3.5 8L6.6 6.6Z" fill="#fff1b0" stroke="#5a3b04" stroke-width="0.5"/>
+                <circle cx="8" cy="8" r="1.1" fill="#663e05"/>
+                <circle cx="7.7" cy="7.7" r="0.4" fill="#ffffff"/>
+              </svg>
+              <div class="flex-1">
+                <span class="font-bold text-[#5c3818]">Thu nhập:</span> <span class="font-serif font-bold text-emerald-800 text-[15px]">+$4 million</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sự kiện 4 (Node 42) -->
+        <div class="flex gap-4 border-b border-[#dfd2be] pb-4">
+          <div class="event-title font-title font-black text-[19px] text-[#3e220f] w-28 sm:w-32 shrink-0 tracking-wide pt-0.5 select-none whitespace-nowrap">
+            Sự kiện 4
+          </div>
+          <div class="flex-1 space-y-2.5 text-sm text-[#2a241e] font-serif leading-relaxed">
+            <div class="flex items-start gap-2.5">
+              <svg class="seal-bullet" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0.75L15.25 8L8 15.25L0.75 8Z" fill="#2b1805" stroke="#1c0f02" stroke-width="0.5"/>
+                <path d="M8 1.6L14.4 8L8 8Z" fill="#e2af32"/>
+                <path d="M8 1.6L1.6 8L8 8Z" fill="#f5c74e"/>
+                <path d="M8 14.4L1.6 8L8 8Z" fill="#b07d12"/>
+                <path d="M8 14.4L14.4 8L8 8Z" fill="#885b08"/>
+                <path d="M8 3.5L9.4 6.6L12.5 8L9.4 9.4L8 12.5L6.6 9.4L3.5 8L6.6 6.6Z" fill="#fff1b0" stroke="#5a3b04" stroke-width="0.5"/>
+                <circle cx="8" cy="8" r="1.1" fill="#663e05"/>
+                <circle cx="7.7" cy="7.7" r="0.4" fill="#ffffff"/>
+              </svg>
+              <div class="flex-1">
+                <span class="font-bold text-[#5c3818]">Nội dung:</span> Chiến tranh thế giới thứ nhất kết thúc (1918), các hợp đồng quốc phòng sụt giảm đột ngột khiến nhiều dây chuyền sản xuất rơi vào cảnh dư thừa công suất. Tuy nhiên, những tiến bộ vượt bậc về công nghệ động cơ, thiết kế khí động học và kỹ thuật chế tạo tích lũy trong thời chiến đã mở ra tính khả thi cho việc ứng dụng máy bay vào các hoạt động kinh tế dân dụng thường xuyên. Tại Asteria, khoảng cách địa lý mênh mông giữa các trung tâm kinh tế lớn tạo tiền đề thuận lợi cho vận tải hàng không.
+              </div>
+            </div>
+            <div class="flex items-start gap-2.5">
+              <svg class="seal-bullet" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0.75L15.25 8L8 15.25L0.75 8Z" fill="#2b1805" stroke="#1c0f02" stroke-width="0.5"/>
+                <path d="M8 1.6L14.4 8L8 8Z" fill="#e2af32"/>
+                <path d="M8 1.6L1.6 8L8 8Z" fill="#f5c74e"/>
+                <path d="M8 14.4L1.6 8L8 8Z" fill="#b07d12"/>
+                <path d="M8 14.4L14.4 8L8 8Z" fill="#885b08"/>
+                <path d="M8 3.5L9.4 6.6L12.5 8L9.4 9.4L8 12.5L6.6 9.4L3.5 8L6.6 6.6Z" fill="#fff1b0" stroke="#5a3b04" stroke-width="0.5"/>
+                <circle cx="8" cy="8" r="1.1" fill="#663e05"/>
+                <circle cx="7.7" cy="7.7" r="0.4" fill="#ffffff"/>
+              </svg>
+              <div class="flex-1">
+                <span class="font-bold text-[#5c3818]">Thu nhập:</span> <span class="font-serif font-bold text-rose-900 text-[15px]">-$2 million</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sự kiện 5 (Node 4) -->
+        <div class="flex gap-4 border-b border-[#dfd2be] pb-4">
+          <div class="event-title font-title font-black text-[21px] text-[#3e220f] w-28 sm:w-32 shrink-0 tracking-wide pt-0.5 select-none whitespace-nowrap">
+            Sự kiện 5
+          </div>
+          <div class="flex-1 space-y-2.5 text-[18px] text-[#2a241e] font-serif leading-relaxed">
+            <div class="flex items-start gap-2.5">
+              <svg class="seal-bullet" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0.75L15.25 8L8 15.25L0.75 8Z" fill="#2b1805" stroke="#1c0f02" stroke-width="0.5"/>
+                <path d="M8 1.6L14.4 8L8 8Z" fill="#e2af32"/>
+                <path d="M8 1.6L1.6 8L8 8Z" fill="#f5c74e"/>
+                <path d="M8 14.4L1.6 8L8 8Z" fill="#b07d12"/>
+                <path d="M8 14.4L14.4 8L8 8Z" fill="#885b08"/>
+                <path d="M8 3.5L9.4 6.6L12.5 8L9.4 9.4L8 12.5L6.6 9.4L3.5 8L6.6 6.6Z" fill="#fff1b0" stroke="#5a3b04" stroke-width="0.5"/>
+                <circle cx="8" cy="8" r="1.1" fill="#663e05"/>
+                <circle cx="7.7" cy="7.7" r="0.4" fill="#ffffff"/>
+              </svg>
+              <div class="flex-1">
+                <span class="font-bold text-[#5c3818]">Nội dung:</span> Đẩy mạnh sản xuất máy bay dân dụng
+              </div>
+            </div>
+            <div class="flex items-start gap-2.5">
+              <svg class="seal-bullet" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0.75L15.25 8L8 15.25L0.75 8Z" fill="#2b1805" stroke="#1c0f02" stroke-width="0.5"/>
+                <path d="M8 1.6L14.4 8L8 8Z" fill="#e2af32"/>
+                <path d="M8 1.6L1.6 8L8 8Z" fill="#f5c74e"/>
+                <path d="M8 14.4L1.6 8L8 8Z" fill="#b07d12"/>
+                <path d="M8 14.4L14.4 8L8 8Z" fill="#885b08"/>
+                <path d="M8 3.5L9.4 6.6L12.5 8L9.4 9.4L8 12.5L6.6 9.4L3.5 8L6.6 6.6Z" fill="#fff1b0" stroke="#5a3b04" stroke-width="0.5"/>
+                <circle cx="8" cy="8" r="1.1" fill="#663e05"/>
+                <circle cx="7.7" cy="7.7" r="0.4" fill="#ffffff"/>
+              </svg>
+              <div class="flex-1">
+                <span class="font-bold text-[#5c3818]">Lợi ích:</span> Xây dựng vững chắc năng lực thương mại dân dụng và bắt kịp xu hướng di chuyển đường dài hậu chiến
+              </div>
+            </div>
+            <div class="flex items-start gap-2.5">
+              <svg class="seal-bullet" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0.75L15.25 8L8 15.25L0.75 8Z" fill="#2b1805" stroke="#1c0f02" stroke-width="0.5"/>
+                <path d="M8 1.6L14.4 8L8 8Z" fill="#e2af32"/>
+                <path d="M8 1.6L1.6 8L8 8Z" fill="#f5c74e"/>
+                <path d="M8 14.4L1.6 8L8 8Z" fill="#b07d12"/>
+                <path d="M8 14.4L14.4 8L8 8Z" fill="#885b08"/>
+                <path d="M8 3.5L9.4 6.6L12.5 8L9.4 9.4L8 12.5L6.6 9.4L3.5 8L6.6 6.6Z" fill="#fff1b0" stroke="#5a3b04" stroke-width="0.5"/>
+                <circle cx="8" cy="8" r="1.1" fill="#663e05"/>
+                <circle cx="7.7" cy="7.7" r="0.4" fill="#ffffff"/>
+              </svg>
+              <div class="flex-1">
+                <span class="font-bold text-[#5c3818]">Tác hại:</span> Mất đi lợi nhuận bùng nổ thời chiến và đòi hỏi đầu tư dài hạn vào hạ tầng dân dụng
+              </div>
+            </div>
+            <div class="flex items-start gap-2.5">
+              <svg class="seal-bullet" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0.75L15.25 8L8 15.25L0.75 8Z" fill="#2b1805" stroke="#1c0f02" stroke-width="0.5"/>
+                <path d="M8 1.6L14.4 8L8 8Z" fill="#e2af32"/>
+                <path d="M8 1.6L1.6 8L8 8Z" fill="#f5c74e"/>
+                <path d="M8 14.4L1.6 8L8 8Z" fill="#b07d12"/>
+                <path d="M8 14.4L14.4 8L8 8Z" fill="#885b08"/>
+                <path d="M8 3.5L9.4 6.6L12.5 8L9.4 9.4L8 12.5L6.6 9.4L3.5 8L6.6 6.6Z" fill="#fff1b0" stroke="#5a3b04" stroke-width="0.5"/>
+                <circle cx="8" cy="8" r="1.1" fill="#663e05"/>
+                <circle cx="7.7" cy="7.7" r="0.4" fill="#ffffff"/>
+              </svg>
+              <div class="flex-1">
+                <span class="font-bold text-[#5c3818]">Tác động:</span> Doanh nghiệp nhanh chóng đặt nền móng cho mạng lưới vận tải thương mại nội địa, giúp duy trì đà tăng trưởng ổn định và tự chủ năng lực sản xuất sau khi hợp đồng quân sự giảm.
+              </div>
+            </div>
+            <div class="flex items-start gap-2.5">
+              <svg class="seal-bullet" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0.75L15.25 8L8 15.25L0.75 8Z" fill="#2b1805" stroke="#1c0f02" stroke-width="0.5"/>
+                <path d="M8 1.6L14.4 8L8 8Z" fill="#e2af32"/>
+                <path d="M8 1.6L1.6 8L8 8Z" fill="#f5c74e"/>
+                <path d="M8 14.4L1.6 8L8 8Z" fill="#b07d12"/>
+                <path d="M8 14.4L14.4 8L8 8Z" fill="#885b08"/>
+                <path d="M8 3.5L9.4 6.6L12.5 8L9.4 9.4L8 12.5L6.6 9.4L3.5 8L6.6 6.6Z" fill="#fff1b0" stroke="#5a3b04" stroke-width="0.5"/>
+                <circle cx="8" cy="8" r="1.1" fill="#663e05"/>
+                <circle cx="7.7" cy="7.7" r="0.4" fill="#ffffff"/>
+              </svg>
+              <div class="flex-1">
+                <span class="font-bold text-[#5c3818]">Thu nhập:</span> <span class="font-serif font-bold text-emerald-800 text-[19px]">+$3.2 million</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sự kiện 6 (Node 43) -->
+        <div class="flex gap-4 pb-2">
+          <div class="event-title font-title font-black text-[21px] text-[#3e220f] w-28 sm:w-32 shrink-0 tracking-wide pt-0.5 select-none whitespace-nowrap">
+            Sự kiện 6
+          </div>
+          <div class="flex-1 space-y-2.5 text-[18px] text-[#2a241e] font-serif leading-relaxed">
+            <div class="flex items-start gap-2.5">
+              <svg class="seal-bullet" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0.75L15.25 8L8 15.25L0.75 8Z" fill="#2b1805" stroke="#1c0f02" stroke-width="0.5"/>
+                <path d="M8 1.6L14.4 8L8 8Z" fill="#e2af32"/>
+                <path d="M8 1.6L1.6 8L8 8Z" fill="#f5c74e"/>
+                <path d="M8 14.4L1.6 8L8 8Z" fill="#b07d12"/>
+                <path d="M8 14.4L14.4 8L8 8Z" fill="#885b08"/>
+                <path d="M8 3.5L9.4 6.6L12.5 8L9.4 9.4L8 12.5L6.6 9.4L3.5 8L6.6 6.6Z" fill="#fff1b0" stroke="#5a3b04" stroke-width="0.5"/>
+                <circle cx="8" cy="8" r="1.1" fill="#663e05"/>
+                <circle cx="7.7" cy="7.7" r="0.4" fill="#ffffff"/>
+              </svg>
+              <div class="flex-1">
+                <span class="font-bold text-[#5c3818]">Nội dung:</span> Tại Asteria, ngành hàng không bắt đầu giai đoạn thương mại hóa. Nhờ khoảng cách lớn giữa các trung tâm kinh tế và nhu cầu đi lại ngày càng tăng mà các giải pháp vận chuyển hàng hóa và hành khách được quan tâm hơn bao giờ hết. Cùng lúc đó, Cuộc Đại suy thoái toàn cầu nổ ra (1929) giáng một đòn nặng nề vào nền kinh tế Asteria. Thắt chặt tín dụng và sự suy giảm thương mại buộc các hãng hàng không cắt giảm đơn đặt mua máy bay. Nhiều xưởng sản xuất nhỏ lẻ đứng trước rủi ro phá sản hoặc buộc phải sáp nhập vào các tập đoàn lớn có tiềm lực tài chính. Để vượt qua khủng hoảng, chính phủ Asteria tăng cường kiểm soát cạnh tranh, đồng thời thắt chặt quy chuẩn minh bạch hợp đồng và cấp phép bay, buộc các nhà chế tạo máy bay phải tối ưu hóa thiết kế nhằm giảm giá thành vận hành và đảm bảo an toàn tuyệt đối cho du khách.
+              </div>
+            </div>
+            <div class="flex items-start gap-2.5">
+              <svg class="seal-bullet" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0.75L15.25 8L8 15.25L0.75 8Z" fill="#2b1805" stroke="#1c0f02" stroke-width="0.5"/>
+                <path d="M8 1.6L14.4 8L8 8Z" fill="#e2af32"/>
+                <path d="M8 1.6L1.6 8L8 8Z" fill="#f5c74e"/>
+                <path d="M8 14.4L1.6 8L8 8Z" fill="#b07d12"/>
+                <path d="M8 14.4L14.4 8L8 8Z" fill="#885b08"/>
+                <path d="M8 3.5L9.4 6.6L12.5 8L9.4 9.4L8 12.5L6.6 9.4L3.5 8L6.6 6.6Z" fill="#fff1b0" stroke="#5a3b04" stroke-width="0.5"/>
+                <circle cx="8" cy="8" r="1.1" fill="#663e05"/>
+                <circle cx="7.7" cy="7.7" r="0.4" fill="#ffffff"/>
+              </svg>
+              <div class="flex-1">
+                <span class="font-bold text-[#5c3818]">Thu nhập:</span> <span class="font-serif font-bold text-rose-900 text-[19px]">-$4 million</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Biên Bản (Xóa dòng "Đã đi qua...", nút Đóng sổ bằng da) -->
+      <div class="bg-[#ede4d3] px-5 py-3 border-t border-[#d4c3ab] flex items-center justify-end">
+        <button 
+          type="button"
+          onclick="closeSecretaryModal()" 
+          class="relative px-7 py-2.5 rounded-lg text-[#faebcd] font-serif font-black text-sm tracking-wider uppercase shadow-[0_4px_10px_rgba(0,0,0,0.5)] border-2 border-[#8b6b47] hover:brightness-110 active:scale-95 transition-all cursor-pointer overflow-hidden flex items-center justify-center"
+          style="background-image: url('./antique_leather_button.jpg'); background-size: cover; background-position: center;"
+        >
+          <span class="relative z-10 drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] text-[#faebcd] font-serif font-black text-sm tracking-wide">
+            Đóng sổ
+          </span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- MODAL 2: CỐ VẤN FRIEDRICH (GIAO DIỆN THUẦN CHAT TỐI GIẢN)                 -->
+  <!-- ========================================================================= -->
+  <div id="advisorModal" class="fixed inset-0 modal-backdrop z-50 hidden flex items-center justify-center p-3 sm:p-5">
+    <div class="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl max-w-3xl w-full max-h-[85vh] shadow-[0_25px_70px_rgba(0,0,0,0.9)] flex flex-col overflow-hidden text-[#2a241e]">
+      
+      <!-- 1. Header Cố Vấn (Tối giản: Avatar Friedrich & Tiêu đề CỐ VẤN FRIEDRICH) -->
+      <div class="bg-[#ebdcc0] px-5 py-3 border-b-2 border-[#b8a690] flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <img src="./friedrich_avatar.jpg" alt="Cố Vấn Friedrich" class="w-8 h-8 rounded-full border border-[#8b6b47] shadow object-cover shrink-0" />
+          <h3 class="font-title font-black text-[21px] text-[#261d15] tracking-wide">
+            CỐ VẤN FRIEDRICH
+          </h3>
+        </div>
+      </div>
+
+      <!-- 2. Vùng Nội Dung Thuần Chat -->
+      <div class="p-5 overflow-y-auto space-y-4 flex-1 bg-[#f9f5ed]">
+        
+        <!-- Khung Dòng Hội Thoại Chat -->
+        <div id="chatStream" class="space-y-3.5 max-h-[380px] overflow-y-auto pr-1">
+          
+          <div class="flex items-start gap-2.5">
+            <img src="./friedrich_avatar.jpg" alt="Friedrich" class="w-8 h-8 rounded-full border border-[#d4af37] object-cover shrink-0 shadow-sm mt-0.5" />
+            <div class="bg-[#ebdcc0] p-3.5 rounded-lg rounded-tl-none text-[18px] text-[#2b2118] leading-relaxed max-w-[85%] border border-[#cfbfae] font-serif shadow-sm">
+              Chào tổng tài, hôm nay bạn muốn thảo luận với tôi về chủ đề gì?
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Gợi ý câu hỏi nhanh duy nhất -->
+        <div class="pt-2">
+          <button 
+            type="button"
+            onclick="sendQuickPrompt('Phân tích tình hình hiện tại dựa trên các sự kiện gần đây')" 
+            class="px-3.5 py-2 bg-[#ebdcc0] hover:bg-[#dfd0b4] border border-[#b8a690] rounded text-[#3d2a1c] font-serif text-sm transition-all cursor-pointer flex items-center gap-2 shadow-sm"
+          >
+            <span>💬 Phân tích tình hình hiện tại dựa trên các sự kiện gần đây</span>
+          </button>
+        </div>
+
+      </div>
+
+      <!-- 3. Footer Input Khung Chat (Đồng bộ nút asset với bên Biên bản) -->
+      <div class="p-3.5 bg-[#ede4d3] border-t border-[#d4c3ab] flex items-center gap-2.5">
+        <button 
+          type="button"
+          onclick="closeAdvisorModal()" 
+          class="relative px-7 py-2.5 rounded-lg text-[#faebcd] font-serif font-black text-sm tracking-wider uppercase shadow-[0_4px_10px_rgba(0,0,0,0.5)] border-2 border-[#8b6b47] hover:brightness-110 active:scale-95 transition-all cursor-pointer overflow-hidden flex items-center justify-center shrink-0"
+          style="background-image: url('./antique_leather_button.jpg'); background-size: cover; background-position: center;"
+        >
+          <span class="relative z-10 drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] text-[#faebcd] font-serif font-black text-sm tracking-wide">
+            Đóng sổ
+          </span>
+        </button>
+
+        <form onsubmit="handleAdvisorChatSubmit(event)" class="flex-1 flex items-center gap-2">
+          <input 
+            id="advisorChatInput"
+            type="text" 
+            placeholder="Thảo luận với Cố vấn Friedrich..." 
+            class="flex-1 bg-[#f7f2e7] border border-[#b8a690] rounded px-3.5 py-2 text-[18px] text-[#1f1710] placeholder-[#8a6d55] focus:outline-none focus:border-[#5c3818] font-serif"
+          />
+          <button 
+            type="submit" 
+            class="relative px-7 py-2.5 rounded-lg text-[#faebcd] font-serif font-black text-sm tracking-wider uppercase shadow-[0_4px_10px_rgba(0,0,0,0.5)] border-2 border-[#8b6b47] hover:brightness-110 active:scale-95 transition-all cursor-pointer overflow-hidden flex items-center justify-center shrink-0"
+            style="background-image: url('./antique_leather_button.jpg'); background-size: cover; background-position: center;"
+          >
+            <span class="relative z-10 drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] text-[#faebcd] font-serif font-black text-sm tracking-wide">
+              Hỏi tiếp
+            </span>
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- ========================================================================= -->
+  <!-- SCRIPT ĐIỀU KHIỂN TƯƠNG TÁC MODAL & CHAT                                 -->
+  <!-- ========================================================================= -->
+  <script>
+    // 1. Điều khiển Modal Thư Ký / Biên Bản
+    function openSecretaryModal() {
+      document.getElementById('secretaryModal').classList.remove('hidden');
+    }
+    function closeSecretaryModal() {
+      document.getElementById('secretaryModal').classList.add('hidden');
+    }
+
+    // 2. Điều khiển Modal Cố Vấn
+    function openAdvisorModal() {
+      document.getElementById('advisorModal').classList.remove('hidden');
+    }
+    function closeAdvisorModal() {
+      document.getElementById('advisorModal').classList.add('hidden');
+    }
+
+    // Đóng khi click ngoài vùng modal hoặc ấn phím ESC
+    window.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeSecretaryModal();
+        closeAdvisorModal();
+      }
+    });
+
+    // 3. Chat trực tiếp với Cố Vấn
+    function sendQuickPrompt(text) {
+      document.getElementById('advisorChatInput').value = text;
+      handleAdvisorChatSubmit(new Event('submit'));
+    }
+
+    function handleAdvisorChatSubmit(e) {
+      e.preventDefault();
+      const input = document.getElementById('advisorChatInput');
+      const text = input.value.trim();
+      if (!text) return;
+
+      const chatStream = document.getElementById('chatStream');
+
+      // Tin nhắn người chơi
+      const userBubble = document.createElement('div');
+      userBubble.className = "flex items-start justify-end gap-2.5";
+      userBubble.innerHTML = `
+        <div class="bg-[#3d2f24] text-[#f7f2e7] p-3.5 rounded-lg rounded-tr-none text-[18px] font-serif max-w-[85%] leading-relaxed shadow-sm">
+          ${text}
+        </div>
+        <img 
+          src="./ceo_male.jpg" 
+          alt="CEO Alexander Vance" 
+          class="w-8 h-8 rounded-full border border-[#8b6b47] object-cover shrink-0 shadow-sm mt-0.5" 
+        />
+      `;
+      chatStream.appendChild(userBubble);
+      input.value = "";
+      chatStream.scrollTop = chatStream.scrollHeight;
+
+      // Phản hồi từ Cố vấn Friedrich
+      setTimeout(() => {
+        let reply = "";
+        const lower = text.toLowerCase();
+        if (lower.includes("phân tích tình hình hiện tại") || lower.includes("sự kiện gần đây")) {
+          reply = "Thưa Tổng tài, nhìn lại toàn bộ biên bản hành trình từ năm 1914 đến nay, Asteria đã liên tục trải qua các nấc thang tích tụ và tập trung tư bản mang tính quy luật: từ bóc lột giá trị thặng dư thời chiến (1914), tái cấu trúc thương mại (1918), đến thâu tóm đối thủ trong Đại suy thoái (1929) và vươn lên thành tập đoàn độc quyền phản lực năm 1945. Hiện tại ở Node #420, cuộc đối đầu với Airbus phản ánh quy luật <em>cạnh tranh giữa các tập đoàn độc quyền xuyên quốc gia</em>. Airbus được hưởng lợi từ trợ cấp trực tiếp của liên minh chính phủ EU (biểu hiện của Chủ nghĩa tư bản độc quyền nhà nước). Nếu ngài chọn kiện chống bán phá giá (A), ngài phải chấp nhận chi phí vận động hành lang và dựa vào bảo hộ của chính phủ. Nếu ngài phát động cuộc chiến giá vé (B), ngài đang áp dụng giá cả độc quyền thấp để triệt hạ đối thủ, nhưng sẽ làm sụt giảm thanh khoản của tập đoàn ngay trước thềm cơn bão tài chính toàn cầu 2008!";
+        } else if (lower.includes("trợ cấp") || lower.includes("nhà nước")) {
+          reply = "Thưa Tổng tài, chính xác! Theo V.I. Lênin, trong giai đoạn độc quyền, nhà nước không còn đứng ngoài thị trường mà trở thành công cụ của các nhóm tài phiệt. Việc các chính phủ EU bơm tiền cho Airbus chính là hình thức <em>kết hợp giữa sức mạnh của các tổ chức độc quyền với sức mạnh của nhà nước</em> để cạnh tranh trên trường quốc tế.";
+        } else if (lower.includes("2008") || lower.includes("khủng hoảng")) {
+          reply = "Nếu ngài phát động cuộc chiến giá vé ở phương án B, Asteria sẽ phải vay nợ các định chế tài chính Phố Wall để bù đắp chi phí vận hành. Khi bong bóng nhà đất và chứng khoán phái sinh nổ tung vào năm 2008, chi phí lãi vay sẽ bóp nghẹt thanh khoản của tập đoàn, dẫn ngài thẳng tới nguy cơ phá sản ở Kỷ nguyên VIII!";
+        } else {
+          reply = `Câu hỏi rất thấu đáo! Dưới góc nhìn Kinh tế Chính trị Mác - Lênin, mỗi lựa chọn của ngài tại Node #420 này đều tác động trực tiếp đến quan hệ phân chia thị trường thế giới giữa các liên minh độc quyền. Cố vấn tôi luôn túc trực để cùng ngài chèo lái Asteria!`;
+        }
+
+        const aiBubble = document.createElement('div');
+        aiBubble.className = "flex items-start gap-2.5";
+        aiBubble.innerHTML = `
+          <img src="./friedrich_avatar.jpg" alt="Friedrich" class="w-8 h-8 rounded-full border border-[#d4af37] object-cover shrink-0 shadow-sm mt-0.5" />
+          <div class="bg-[#ebdcc0] p-3.5 rounded-lg rounded-tl-none text-[18px] text-[#2b2118] leading-relaxed max-w-[85%] border border-[#cfbfae] font-serif shadow-sm">
+            ${reply}
+          </div>
+        `;
+        chatStream.appendChild(aiBubble);
+        chatStream.scrollTop = chatStream.scrollHeight;
+      }, 700);
+    }
+
+    // 4. Tương tác chọn nhánh A / B ở trang chính
+    function handleSelectChoice(choice) {
+      alert(`Bạn đã chọn Hướng Đi ${choice}! Nếu muốn xem trước phân tích rủi ro kinh tế của lựa chọn này, hãy nhấn nút "Cố vấn Friedrich" ở trang bên trái.`);
+    }
+  </script>
+
+</body>
+</html>

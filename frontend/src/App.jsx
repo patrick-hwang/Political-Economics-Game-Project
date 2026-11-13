@@ -92,6 +92,7 @@ export default function App() {
 
   return (
     <ExecutiveLedger
+      session={session}
       currentNodeId={effectiveNodeId}
       currentContext={currentContext}
       contextIndex={contextIndex}

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   ArrowRight, 
@@ -6,7 +6,8 @@ import {
   BookOpen, 
   RotateCcw, 
   Award, 
-  FileCheck2
+  FileCheck2,
+  Loader2
 } from 'lucide-react';
 import { 
   playPageTurnSound, 
@@ -15,6 +16,22 @@ import {
   playGoldChimeSound 
 } from '../services/soundEffects';
 import AtmosphericVFX from './AtmosphericVFX';
+import { getLocalGraph, sendChatMessage, getChatHistory, explainDecision } from '../services/api';
+
+function SealBullet() {
+  return (
+    <svg className="seal-bullet" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M8 0.75L15.25 8L8 15.25L0.75 8Z" fill="#2b1805" stroke="#1c0f02" strokeWidth="0.5"/>
+      <path d="M8 1.6L14.4 8L8 8Z" fill="#e2af32"/>
+      <path d="M8 1.6L1.6 8L8 8Z" fill="#f5c74e"/>
+      <path d="M8 14.4L1.6 8L8 8Z" fill="#b07d12"/>
+      <path d="M8 14.4L14.4 8L8 8Z" fill="#885b08"/>
+      <path d="M8 3.5L9.4 6.6L12.5 8L9.4 9.4L8 12.5L6.6 9.4L3.5 8L6.6 6.6Z" fill="#fff1b0" stroke="#5a3b04" strokeWidth="0.5"/>
+      <circle cx="8" cy="8" r="1.1" fill="#663e05"/>
+      <circle cx="7.7" cy="7.7" r="0.4" fill="#ffffff"/>
+    </svg>
+  );
+}
 
 const TIMELINE_ERAS = [
   { id: 1, roman: 'I', year: '1914', label: 'WWI' },
@@ -104,6 +121,7 @@ const ERA_METADATA = [
 ];
 
 export default function ExecutiveLedger({
+  session = null,
   currentNodeId = 1,
   currentContext = null,
   contextIndex = 0,
@@ -118,6 +136,179 @@ export default function ExecutiveLedger({
   historyLength = 0,
   onRestart
 }) {
+  const [graph, setGraph] = useState(null);
+  const [showSecretaryModal, setShowSecretaryModal] = useState(false);
+  const [showAdvisorModal, setShowAdvisorModal] = useState(false);
+  const [chatMessages, setChatMessages] = useState([
+    { role: 'assistant', content: 'Chào tổng tài, hôm nay bạn muốn thảo luận với tôi về chủ đề gì?' }
+  ]);
+  const [chatInput, setChatInput] = useState('');
+  const [isChatLoading, setIsChatLoading] = useState(false);
+  const chatStreamRef = useRef(null);
+
+  // Nạp toàn bộ dữ liệu đồ thị câu hỏi để duyệt biên bản
+  useEffect(() => {
+    getLocalGraph().then(g => setGraph(g)).catch(err => console.error("Error loading graph:", err));
+  }, []);
+
+  useEffect(() => {
+    if (showSecretaryModal && !graph) {
+      getLocalGraph().then(g => setGraph(g)).catch(err => console.error("Error loading graph:", err));
+    }
+  }, [showSecretaryModal, graph]);
+
+  // Tải lịch sử chat khi mở Modal Cố vấn
+  useEffect(() => {
+    if (showAdvisorModal) {
+      const activeSession = session || { session_id: 'local_session', isBackend: false };
+      getChatHistory(activeSession).then(res => {
+        if (res && res.messages && res.messages.length > 0) {
+          setChatMessages(res.messages);
+        }
+      }).catch(err => console.error("Failed to load chat history:", err));
+    }
+  }, [showAdvisorModal, session]);
+
+  // Đóng modal khi ấn phím ESC
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') {
+        setShowSecretaryModal(false);
+        setShowAdvisorModal(false);
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
+
+  // Tự động cuộn xuống đáy khi có tin nhắn mới
+  useEffect(() => {
+    if (chatStreamRef.current) {
+      chatStreamRef.current.scrollTop = chatStreamRef.current.scrollHeight;
+    }
+  }, [chatMessages, isChatLoading]);
+
+  // Gửi tin nhắn đàm thoại tới Cố vấn Friedrich
+  const handleSendChat = async (promptOverride) => {
+    const text = (promptOverride || chatInput).trim();
+    if (!text || isChatLoading) return;
+
+    setChatInput('');
+    const newMsgs = [...chatMessages, { role: 'user', content: text }];
+    setChatMessages(newMsgs);
+    setIsChatLoading(true);
+
+    try {
+      const activeSession = session || { session_id: 'local_session', isBackend: false };
+      const res = await sendChatMessage(activeSession, text);
+      if (res && res.messages) {
+        setChatMessages(res.messages);
+      }
+    } catch (err) {
+      console.error("Chat error:", err);
+    } finally {
+      setIsChatLoading(false);
+    }
+  };
+
+  // Giải thích kết cục / quyết định bằng AI (kết nối endpoint explain)
+  const handleExplainOutcome = async () => {
+    setShowAdvisorModal(true);
+    setIsChatLoading(true);
+    try {
+      const activeSession = session || { session_id: 'local_session', isBackend: false };
+      const res = await explainDecision(activeSession);
+      if (res && res.messages) {
+        setChatMessages(res.messages);
+      }
+    } catch (err) {
+      console.error("Explain outcome error:", err);
+    } finally {
+      setIsChatLoading(false);
+    }
+  };
+
+  // Hàm kiểm tra trường dữ liệu hợp lệ (ẩn nếu rỗng hoặc 'Không')
+  const isValidValue = (val) => {
+    if (val === null || val === undefined) return false;
+    const s = String(val).trim();
+    const lower = s.toLowerCase();
+    if (!s || s === "" || lower === "không" || lower === "khong" || lower === "không có" || lower === "khong co" || lower === "none" || lower === "n/a") {
+      return false;
+    }
+    return true;
+  };
+
+  // Duyệt qua lịch sử các node đã trải qua từ session.history và context nodes
+  const getChronologicalEvents = () => {
+    if (!graph || graph.size === 0) return [];
+
+    const history = session?.history || [];
+    const events = [];
+    let currId = 1;
+    const visited = new Set();
+    let historyChoiceIdx = 0;
+
+    while (currId && !visited.has(currId)) {
+      visited.add(currId);
+      const node = graph.get(currId);
+      if (!node) break;
+
+      if (node.type === "context") {
+        if (node.content && node.content.trim().toLowerCase() !== "start") {
+          events.push(node);
+        }
+        if (currentContext && Number(node.node) === Number(currentContext.node)) {
+          break;
+        }
+        const nextList = node["next node"] || [];
+        if (nextList.length === 0) break;
+        currId = Number(nextList[0]);
+        continue;
+      }
+
+      if (node.type === "question") {
+        const choices = (node["next node"] || []).map(Number);
+        let chosenId = null;
+        if (historyChoiceIdx < history.length) {
+          const nextHist = Number(history[historyChoiceIdx]);
+          if (choices.includes(nextHist)) {
+            chosenId = nextHist;
+            historyChoiceIdx++;
+          }
+        }
+
+        if (chosenId) {
+          events.push(node);
+          const choiceNode = graph.get(chosenId);
+          if (choiceNode) {
+            events.push(choiceNode);
+            const choiceNext = choiceNode["next node"] || [];
+            if (choiceNext.length > 0) {
+              currId = Number(choiceNext[0]);
+              continue;
+            }
+          }
+          break;
+        } else {
+          if (!currentContext && question && Number(question.node) === Number(node.node)) {
+            events.push(node);
+          }
+          break;
+        }
+      }
+
+      if (node.type === "win" || node.type === "lose") {
+        events.push(node);
+        break;
+      }
+
+      break;
+    }
+
+    return events;
+  };
+
   // Method 1: Dynamically resolve historical era from decision history length
   // 0 choices -> Era 0 (1914); 1 choice -> Era 1 (1918); ... 7+ choices -> Era 7 (2008-2011)
   const eraIndex = Math.min(7, Math.max(0, historyLength));
@@ -375,6 +566,37 @@ export default function ExecutiveLedger({
               </AnimatePresence>
             </div>
 
+            {/* 2 Nút: Biên Bản & Cố Vấn Friedrich */}
+            <div className="my-2.5 flex items-center gap-2.5">
+              <button 
+                type="button"
+                onClick={() => setShowSecretaryModal(true)}
+                className="flex-1 py-2 px-3 rounded bg-[#e8ded0] hover:bg-[#ded1be] text-[#3d2f24] border-2 border-[#5c4636] font-serif transition-all shadow-[2px_2px_0px_#3d2f24] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none cursor-pointer flex items-center justify-center gap-2"
+                title="Xem lại toàn bộ các sự kiện và quyết định đã trải qua"
+              >
+                <img 
+                  src="/assets/icons/vintage_ledger_icon.jpg" 
+                  alt="Icon Sổ Cái" 
+                  className="w-5 h-5 rounded border border-[#5c4636] object-cover shrink-0 shadow-sm" 
+                />
+                <span className="font-serif font-black tracking-wide text-sm text-[#2b1f17]">Biên bản</span>
+              </button>
+
+              <button 
+                type="button"
+                onClick={() => setShowAdvisorModal(true)}
+                className="flex-1 py-2 px-3 rounded bg-[#3d2f24] hover:bg-[#2c2118] text-[#f4ecd8] border-2 border-[#1f1712] font-serif transition-all shadow-[2px_2px_0px_#1a1512] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none cursor-pointer flex items-center justify-center gap-2"
+                title="Mở Cố Vấn Friedrich để đàm đạo chiến lược và lý luận KTCT"
+              >
+                <img 
+                  src="/assets/icons/friedrich_avatar.jpg" 
+                  alt="Cố Vấn Friedrich" 
+                  className="w-5 h-5 rounded-full border border-[#d4af37] object-cover shrink-0 shadow-sm" 
+                />
+                <span className="font-serif font-black tracking-wide text-sm text-[#f4ecd8]">Cố vấn Friedrich</span>
+              </button>
+            </div>
+
             {/* Bottom Caption & Engraved Plate */}
             <div className="text-center pt-2 border-t border-[#d8c9b6]">
               <h4 className="font-serif font-black text-sm sm:text-base text-[#3d2f24] tracking-wide">
@@ -531,14 +753,30 @@ export default function ExecutiveLedger({
                       <span className="font-black text-base sm:text-lg gold-shimmer">{formattedBudget}</span>
                     </div>
 
-                    <button
-                      type="button"
-                      onClick={onRestart}
-                      className="py-3 px-6 rounded bg-[#5c3818] hover:bg-[#472a12] text-[#f7f2e7] font-serif font-bold text-sm shadow-[3px_3px_0px_#1a1512] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all cursor-pointer flex items-center justify-center gap-2 mx-auto"
-                    >
-                      <RotateCcw className="w-4 h-4" />
-                      <span>MỞ LẠI SỔ CÁI TỪ NĂM 1914</span>
-                    </button>
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-1">
+                      <button
+                        type="button"
+                        onClick={handleExplainOutcome}
+                        className="py-3 px-5 rounded bg-[#3d2f24] hover:bg-[#2b2118] text-[#f4ecd8] border-2 border-[#8b6b47] font-serif font-bold text-sm shadow-[3px_3px_0px_#1a1512] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all cursor-pointer flex items-center justify-center gap-2"
+                        title="Nhờ Cố vấn Friedrich giải thích chi tiết nguyên nhân dẫn tới kết cục theo lý luận kinh tế chính trị"
+                      >
+                        <img 
+                          src="/assets/icons/friedrich_avatar.jpg" 
+                          alt="Cố Vấn Friedrich" 
+                          className="w-5 h-5 rounded-full border border-[#d4af37] object-cover shrink-0" 
+                        />
+                        <span>Cố vấn giải thích kết cục</span>
+                      </button>
+
+                      <button
+                        type="button"
+                        onClick={onRestart}
+                        className="py-3 px-5 rounded bg-[#5c3818] hover:bg-[#472a12] text-[#f7f2e7] font-serif font-bold text-sm shadow-[3px_3px_0px_#1a1512] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all cursor-pointer flex items-center justify-center gap-2"
+                      >
+                        <RotateCcw className="w-4 h-4" />
+                        <span>MỞ LẠI SỔ CÁI TỪ NĂM 1914</span>
+                      </button>
+                    </div>
                   </div>
                 )}
 
@@ -574,6 +812,266 @@ export default function ExecutiveLedger({
         </div>
 
       </motion.div>
+
+      {/* ========================================================================= */}
+      {/* MODAL 1: BẢN GHI THƯ KÝ — BIÊN BẢN DOANH NGHIỆP                           */}
+      {/* ========================================================================= */}
+      {showSecretaryModal && (
+        <div 
+          onClick={() => setShowSecretaryModal(false)}
+          className="fixed inset-0 modal-backdrop z-50 flex items-center justify-center p-3 sm:p-5"
+        >
+          <div 
+            onClick={(e) => e.stopPropagation()}
+            className="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl max-w-3xl w-full max-h-[85vh] shadow-[0_20px_60px_rgba(0,0,0,0.85)] flex flex-col overflow-hidden text-[#2a241e]"
+          >
+            {/* Header Biên Bản Doanh Nghiệp (Không có dấu 'X', có icon sổ cái) */}
+            <div className="bg-[#ebdcc0] px-5 py-3 border-b-2 border-[#b8a690] flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <img 
+                  src="/assets/icons/vintage_ledger_icon.jpg" 
+                  alt="Icon Sổ Cái" 
+                  className="w-8 h-8 rounded border border-[#8b6b47] shadow object-cover shrink-0" 
+                />
+                <h3 className="font-title font-black text-[21px] text-[#261d15] tracking-wide">
+                  BIÊN BẢN DOANH NGHIỆP
+                </h3>
+              </div>
+            </div>
+
+            {/* Danh Sách Các Sự Kiện */}
+            <div className="p-5 overflow-y-auto space-y-4 flex-1">
+              {(() => {
+                const chronologicalEvents = getChronologicalEvents();
+                if (chronologicalEvents.length === 0) {
+                  return (
+                    <div className="text-center py-8 text-[#7a6452] font-serif italic text-sm">
+                      Chưa có sự kiện nào được ghi nhận trong sổ cái Asteria.
+                    </div>
+                  );
+                }
+
+                return chronologicalEvents.map((evt, idx) => {
+                  const rev = evt.revenue || (evt.revenue_million ? `+$${evt.revenue_million} million` : null);
+                  const isRevValid = isValidValue(rev);
+                  const isNegative = isRevValid && String(rev).includes('-');
+
+                  return (
+                    <div key={`${evt.node}_${idx}`} className="flex gap-4 border-b border-[#dfd2be] pb-4">
+                      <div className="event-title font-title font-black text-[21px] text-[#3e220f] w-28 sm:w-32 shrink-0 tracking-wide pt-0.5 select-none whitespace-nowrap">
+                        Sự kiện {idx + 1}
+                      </div>
+                      <div className="flex-1 space-y-2.5 text-[18px] text-[#2a241e] font-serif leading-relaxed">
+                        {isValidValue(evt.content) && (
+                          <div className="flex items-start gap-2.5">
+                            <SealBullet />
+                            <div className="flex-1">
+                              <span className="font-bold text-[#5c3818]">Nội dung:</span> {evt.content}
+                            </div>
+                          </div>
+                        )}
+
+                        {isValidValue(evt.benefits) && (
+                          <div className="flex items-start gap-2.5">
+                            <SealBullet />
+                            <div className="flex-1">
+                              <span className="font-bold text-[#5c3818]">Lợi ích:</span> {evt.benefits}
+                            </div>
+                          </div>
+                        )}
+
+                        {isValidValue(evt['potential drawback']) && (
+                          <div className="flex items-start gap-2.5">
+                            <SealBullet />
+                            <div className="flex-1">
+                              <span className="font-bold text-[#5c3818]">Tác hại:</span> {evt['potential drawback']}
+                            </div>
+                          </div>
+                        )}
+
+                        {isValidValue(evt.impact) && (
+                          <div className="flex items-start gap-2.5">
+                            <SealBullet />
+                            <div className="flex-1">
+                              <span className="font-bold text-[#5c3818]">Tác động:</span> {evt.impact}
+                            </div>
+                          </div>
+                        )}
+
+                        {isRevValid && (
+                          <div className="flex items-start gap-2.5">
+                            <SealBullet />
+                            <div className="flex-1">
+                              <span className="font-bold text-[#5c3818]">Thu nhập:</span>{" "}
+                              <span className={`font-serif font-bold text-[19px] ${isNegative ? 'text-rose-900' : 'text-emerald-800'}`}>
+                                {rev}
+                              </span>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  );
+                });
+              })()}
+            </div>
+
+            {/* Footer Biên Bản (Nút Đóng sổ bằng da) */}
+            <div className="bg-[#ede4d3] px-5 py-3 border-t border-[#d4c3ab] flex items-center justify-end">
+              <button 
+                type="button"
+                onClick={() => setShowSecretaryModal(false)} 
+                className="relative px-7 py-2.5 rounded-lg text-[#faebcd] font-serif font-black text-sm tracking-wider uppercase shadow-[0_4px_10px_rgba(0,0,0,0.5)] border-2 border-[#8b6b47] hover:brightness-110 active:scale-95 transition-all cursor-pointer overflow-hidden flex items-center justify-center"
+                style={{ backgroundImage: "url('/assets/icons/antique_leather_button.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
+              >
+                <span className="relative z-10 drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] text-[#faebcd] font-serif font-black text-sm tracking-wide">
+                  Đóng sổ
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ========================================================================= */}
+      {/* MODAL 2: CỐ VẤN FRIEDRICH (GIAO DIỆN THUẦN CHAT TỐI GIẢN)                 */}
+      {/* ========================================================================= */}
+      {showAdvisorModal && (
+        <div 
+          onClick={() => setShowAdvisorModal(false)}
+          className="fixed inset-0 modal-backdrop z-50 flex items-center justify-center p-3 sm:p-5"
+        >
+          <div 
+            onClick={(e) => e.stopPropagation()}
+            className="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl max-w-3xl w-full max-h-[85vh] shadow-[0_25px_70px_rgba(0,0,0,0.9)] flex flex-col overflow-hidden text-[#2a241e]"
+          >
+            {/* Header Cố Vấn (Tối giản: Avatar Friedrich & Tiêu đề CỐ VẤN FRIEDRICH, Không có dấu X) */}
+            <div className="bg-[#ebdcc0] px-5 py-3 border-b-2 border-[#b8a690] flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <img 
+                  src="/assets/icons/friedrich_avatar.jpg" 
+                  alt="Cố Vấn Friedrich" 
+                  className="w-8 h-8 rounded-full border border-[#8b6b47] shadow object-cover shrink-0" 
+                />
+                <h3 className="font-title font-black text-[21px] text-[#261d15] tracking-wide">
+                  CỐ VẤN FRIEDRICH
+                </h3>
+              </div>
+            </div>
+
+            {/* Vùng Nội Dung Thuần Chat */}
+            <div className="p-5 overflow-y-auto space-y-4 flex-1 bg-[#f9f5ed]">
+              <div ref={chatStreamRef} className="space-y-3.5 max-h-[380px] overflow-y-auto pr-1">
+                {chatMessages.map((msg, i) => {
+                  if (msg.role === 'user') {
+                    return (
+                      <div key={i} className="flex items-start justify-end gap-2.5">
+                        <div className="bg-[#3d2f24] text-[#f7f2e7] p-3.5 rounded-lg rounded-tr-none text-[18px] font-serif max-w-[85%] leading-relaxed shadow-sm whitespace-pre-wrap break-words">
+                          {msg.content}
+                        </div>
+                        <img 
+                          src={gender === 'female' ? '/assets/portraits/ceo_female.jpg' : '/assets/portraits/ceo_male.jpg'}
+                          alt={gender === 'female' ? 'CEO Victoria Vance' : 'CEO Alexander Vance'}
+                          className="w-8 h-8 rounded-full border border-[#8b6b47] object-cover shrink-0 shadow-sm mt-0.5" 
+                        />
+                      </div>
+                    );
+                  }
+                  return (
+                    <div key={i} className="flex items-start gap-2.5">
+                      <img 
+                        src="/assets/icons/friedrich_avatar.jpg" 
+                        alt="Friedrich" 
+                        className="w-8 h-8 rounded-full border border-[#d4af37] object-cover shrink-0 shadow-sm mt-0.5" 
+                      />
+                      <div 
+                        className="bg-[#ebdcc0] p-3.5 rounded-lg rounded-tl-none text-[18px] text-[#2b2118] leading-relaxed max-w-[85%] border border-[#cfbfae] font-serif shadow-sm whitespace-pre-wrap break-words"
+                        dangerouslySetInnerHTML={{ __html: msg.content }}
+                      />
+                    </div>
+                  );
+                })}
+
+                {isChatLoading && (
+                  <div className="flex items-start gap-2.5">
+                    <img 
+                      src="/assets/icons/friedrich_avatar.jpg" 
+                      alt="Friedrich" 
+                      className="w-8 h-8 rounded-full border border-[#d4af37] object-cover shrink-0 shadow-sm mt-0.5 animate-pulse" 
+                    />
+                    <div className="bg-[#ebdcc0] p-3.5 rounded-lg rounded-tl-none text-[18px] text-[#5c3818] leading-relaxed border border-[#cfbfae] font-serif italic shadow-sm flex items-center gap-2">
+                      <Loader2 className="w-5 h-5 animate-spin text-[#8b6b47]" />
+                      <span>Cố vấn Friedrich đang suy ngẫm lý luận kinh tế chính trị...</span>
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* Gợi ý câu hỏi nhanh */}
+              <div className="pt-2 flex flex-wrap gap-2">
+                <button 
+                  type="button"
+                  disabled={isChatLoading}
+                  onClick={() => handleSendChat("Phân tích tình hình hiện tại dựa trên các sự kiện gần đây")} 
+                  className="px-3.5 py-2 bg-[#ebdcc0] hover:bg-[#dfd0b4] disabled:opacity-60 disabled:cursor-not-allowed border border-[#b8a690] rounded text-[#3d2a1c] font-serif text-[16px] transition-all cursor-pointer flex items-center gap-2 shadow-sm active:scale-95"
+                >
+                  <span>💬 Phân tích tình hình hiện tại dựa trên các sự kiện gần đây</span>
+                </button>
+                {outcome && (
+                  <button 
+                    type="button"
+                    disabled={isChatLoading}
+                    onClick={handleExplainOutcome} 
+                    className="px-3.5 py-2 bg-[#dfd0b4] hover:bg-[#d0be9e] disabled:opacity-60 disabled:cursor-not-allowed border border-[#8b6b47] rounded text-[#261d15] font-serif font-bold text-[16px] transition-all cursor-pointer flex items-center gap-2 shadow-sm active:scale-95"
+                  >
+                    <span>📜 Cố vấn giải thích nguyên nhân kết cục</span>
+                  </button>
+                )}
+              </div>
+            </div>
+
+            {/* Footer Input Khung Chat */}
+            <div className="p-3.5 bg-[#ede4d3] border-t border-[#d4c3ab] flex items-center gap-2.5">
+              <button 
+                type="button"
+                onClick={() => setShowAdvisorModal(false)} 
+                className="relative px-7 py-2.5 rounded-lg text-[#faebcd] font-serif font-black text-sm tracking-wider uppercase shadow-[0_4px_10px_rgba(0,0,0,0.5)] border-2 border-[#8b6b47] hover:brightness-110 active:scale-95 transition-all cursor-pointer overflow-hidden flex items-center justify-center shrink-0"
+                style={{ backgroundImage: "url('/assets/icons/antique_leather_button.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
+              >
+                <span className="relative z-10 drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] text-[#faebcd] font-serif font-black text-sm tracking-wide">
+                  Đóng sổ
+                </span>
+              </button>
+
+              <form 
+                onSubmit={(e) => { 
+                  e.preventDefault(); 
+                  handleSendChat(); 
+                }} 
+                className="flex-1 flex items-center gap-2"
+              >
+                <input 
+                  type="text" 
+                  value={chatInput}
+                  onChange={(e) => setChatInput(e.target.value)}
+                  placeholder="Thảo luận với Cố vấn Friedrich..." 
+                  className="flex-1 bg-[#f7f2e7] border border-[#b8a690] rounded px-3.5 py-2 text-[18px] text-[#1f1710] placeholder-[#8a6d55] focus:outline-none focus:border-[#5c3818] font-serif"
+                />
+                <button 
+                  type="submit" 
+                  disabled={isChatLoading || !chatInput.trim()}
+                  className="relative px-7 py-2.5 rounded-lg text-[#faebcd] font-serif font-black text-sm tracking-wider uppercase shadow-[0_4px_10px_rgba(0,0,0,0.5)] border-2 border-[#8b6b47] hover:brightness-110 active:scale-95 disabled:opacity-60 disabled:cursor-not-allowed transition-all cursor-pointer overflow-hidden flex items-center justify-center shrink-0"
+                  style={{ backgroundImage: "url('/assets/icons/antique_leather_button.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
+                >
+                  <span className="relative z-10 drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] text-[#faebcd] font-serif font-black text-sm tracking-wide">
+                    Hỏi tiếp
+                  </span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      )}
 
     </div>
   );
