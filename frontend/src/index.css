@@ -78,3 +78,86 @@
   background-color: rgba(10, 8, 6, 0.75);
   backdrop-filter: blur(3px);
 }
+
+/* Desk surface background */
+.desk-bg {
+  background: radial-gradient(ellipse at center, #1f1712 0%, #0c0e12 60%, #050608 100%);
+}
+
+/* Fixed 16:9 Virtual Resolution Canvas (1280x720) with Uniform GPU Scaling */
+.game-canvas-1280-720 {
+  width: 1280px;
+  height: 720px;
+  flex-shrink: 0;
+  transform-origin: center center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.98);
+}
+
+/* 1914 Mechanical Animations */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes spinRev {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+
+.propeller-spin {
+  animation: spin 0.6s linear infinite;
+}
+
+.gear-slow {
+  animation: spin 16s linear infinite;
+}
+
+.gear-medium {
+  animation: spinRev 9s linear infinite;
+}
+
+.gear-fast {
+  animation: spinRev 6s linear infinite;
+}
+
+/* Logo Golden Halo & Metallic Light Sweep VFX */
+@keyframes logoLightSweep {
+  0% { transform: translateX(-180%) rotate(25deg); opacity: 0; }
+  15% { opacity: 0.95; }
+  35% { transform: translateX(250%) rotate(25deg); opacity: 0; }
+  100% { transform: translateX(250%) rotate(25deg); opacity: 0; }
+}
+@keyframes logoBreathing {
+  0%, 100% { transform: translateY(0px) scale(1); }
+  50% { transform: translateY(-3px) scale(1.008); }
+}
+.logo-container {
+  animation: logoBreathing 5s ease-in-out infinite;
+}
+.logo-shine {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  mask-image: url('/assets/logo_wings_of_capital.png');
+  -webkit-mask-image: url('/assets/logo_wings_of_capital.png');
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+}
+.logo-shine::after {
+  content: '';
+  position: absolute;
+  top: -60%;
+  left: -40%;
+  width: 70px;
+  height: 220%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4) 30%, rgba(255, 245, 180, 0.9) 50%, rgba(255, 255, 255, 0.4) 70%, transparent);
+  animation: logoLightSweep 4.5s ease-in-out infinite;
+  filter: blur(1px);
+}

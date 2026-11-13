@@ -7,6 +7,7 @@ import { Loader2 } from 'lucide-react';
 export default function App() {
   const [gameState, setGameState] = useState('menu'); // 'menu' | 'playing'
   const [characterGender, setCharacterGender] = useState('male');
+  const [companyName, setCompanyName] = useState('ĐỘC TÔN HÀNG KHÔNG');
   const [session, setSession] = useState(null);
   const [loading, setLoading] = useState(false);
   
@@ -31,8 +32,9 @@ export default function App() {
     }
   };
 
-  const handleStartGame = ({ gender }) => {
+  const handleStartGame = ({ gender, companyName: name }) => {
     setCharacterGender(gender);
+    if (name) setCompanyName(name);
     setGameState('playing');
     initGame();
   };
