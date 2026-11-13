@@ -481,94 +481,226 @@
   </div>
 
   <!-- ========================================================================= -->
-  <!-- VIEW 2: PLAYING VIEW (CUỐN SỔ CÁI 2 TRANG • CHUẨN EXECUTIVELEDGER.JSX)    -->
+  <!-- VIEW 2: PLAYING VIEW (CUỐN SỔ CÁI 2 TRANG • VIRTUAL CANVAS 1280x720 CHUẨN)  -->
   <!-- ========================================================================= -->
-  <div id="viewPlaying" class="hidden relative z-10 w-[1280px] h-[720px] bg-[#1a1512] p-4 shadow-[0_25px_70px_rgba(0,0,0,0.98)] flex flex-col justify-between overflow-hidden">
+  <div id="viewPlaying" class="hidden relative z-10 w-[1280px] h-[720px] bg-[#1a1512] p-3.5 shadow-[0_25px_70px_rgba(0,0,0,0.98)] border-4 border-[#3d2a1c] rounded-xl flex flex-col justify-between overflow-hidden select-none">
     
-    <!-- 1. Leather Frame Top Bar: Tiêu Đề Đã Duyệt + Niên Biểu + Ngân Sách -->
-    <div class="flex flex-col sm:flex-row items-center justify-between px-3 py-1.5 text-[11px] font-mono text-[#a88d74] border-b border-[#3d2a1c] mb-2.5 gap-2">
+
+    <!-- 4 Góc Bọc Kim Loại Đồng Thau Khắc Họa Tiết Cơ Khí 1914 (Ornate Brass Corner Brackets) -->
+    <div class="absolute top-0 left-0 w-11 h-11 pointer-events-none z-30 filter drop-shadow-[0_2px_5px_rgba(0,0,0,0.9)]">
+      <svg viewBox="0 0 40 40" class="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="brassGradCorner" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fae89d"/>
+            <stop offset="35%" stop-color="#c99728"/>
+            <stop offset="70%" stop-color="#7a5410"/>
+            <stop offset="100%" stop-color="#422c06"/>
+          </linearGradient>
+        </defs>
+        <path d="M0 0 L40 0 L40 10 L10 10 L10 40 L0 40 Z" fill="url(#brassGradCorner)" stroke="#2b1a03" stroke-width="1.2"/>
+        <path d="M2 2 L38 2 L38 8 L8 8 L8 38 L2 38 Z" fill="#ffeaa3" opacity="0.45"/>
+        <path d="M10 10 C18 10 24 16 26 26 C22 24 18 20 18 16" fill="#805b10" opacity="0.6"/>
+        <circle cx="26" cy="5" r="2.2" fill="#3a2406" stroke="#ffea9f" stroke-width="0.8"/>
+        <line x1="24.5" y1="5" x2="27.5" y2="5" stroke="#ffea9f" stroke-width="0.8"/>
+        <circle cx="5" cy="26" r="2.2" fill="#3a2406" stroke="#ffea9f" stroke-width="0.8"/>
+        <line x1="5" y1="24.5" x2="5" y2="27.5" stroke="#ffea9f" stroke-width="0.8"/>
+        <circle cx="5" cy="5" r="2.8" fill="#f5d36e" stroke="#2b1a03" stroke-width="0.8"/>
+        <circle cx="4.2" cy="4.2" r="0.8" fill="#fff" opacity="0.9"/>
+      </svg>
+    </div>
+    <div class="absolute top-0 right-0 w-11 h-11 pointer-events-none z-30 filter drop-shadow-[0_2px_5px_rgba(0,0,0,0.9)] transform rotate-90">
+      <svg viewBox="0 0 40 40" class="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0 L40 0 L40 10 L10 10 L10 40 L0 40 Z" fill="url(#brassGradCorner)" stroke="#2b1a03" stroke-width="1.2"/>
+        <path d="M2 2 L38 2 L38 8 L8 8 L8 38 L2 38 Z" fill="#ffeaa3" opacity="0.45"/>
+        <path d="M10 10 C18 10 24 16 26 26 C22 24 18 20 18 16" fill="#805b10" opacity="0.6"/>
+        <circle cx="26" cy="5" r="2.2" fill="#3a2406" stroke="#ffea9f" stroke-width="0.8"/>
+        <line x1="24.5" y1="5" x2="27.5" y2="5" stroke="#ffea9f" stroke-width="0.8"/>
+        <circle cx="5" cy="26" r="2.2" fill="#3a2406" stroke="#ffea9f" stroke-width="0.8"/>
+        <line x1="5" y1="24.5" x2="5" y2="27.5" stroke="#ffea9f" stroke-width="0.8"/>
+        <circle cx="5" cy="5" r="2.8" fill="#f5d36e" stroke="#2b1a03" stroke-width="0.8"/>
+        <circle cx="4.2" cy="4.2" r="0.8" fill="#fff" opacity="0.9"/>
+      </svg>
+    </div>
+    <div class="absolute bottom-0 right-0 w-11 h-11 pointer-events-none z-30 filter drop-shadow-[0_2px_5px_rgba(0,0,0,0.9)] transform rotate-180">
+      <svg viewBox="0 0 40 40" class="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0 L40 0 L40 10 L10 10 L10 40 L0 40 Z" fill="url(#brassGradCorner)" stroke="#2b1a03" stroke-width="1.2"/>
+        <path d="M2 2 L38 2 L38 8 L8 8 L8 38 L2 38 Z" fill="#ffeaa3" opacity="0.45"/>
+        <path d="M10 10 C18 10 24 16 26 26 C22 24 18 20 18 16" fill="#805b10" opacity="0.6"/>
+        <circle cx="26" cy="5" r="2.2" fill="#3a2406" stroke="#ffea9f" stroke-width="0.8"/>
+        <line x1="24.5" y1="5" x2="27.5" y2="5" stroke="#ffea9f" stroke-width="0.8"/>
+        <circle cx="5" cy="26" r="2.2" fill="#3a2406" stroke="#ffea9f" stroke-width="0.8"/>
+        <line x1="5" y1="24.5" x2="5" y2="27.5" stroke="#ffea9f" stroke-width="0.8"/>
+        <circle cx="5" cy="5" r="2.8" fill="#f5d36e" stroke="#2b1a03" stroke-width="0.8"/>
+        <circle cx="4.2" cy="4.2" r="0.8" fill="#fff" opacity="0.9"/>
+      </svg>
+    </div>
+    <div class="absolute bottom-0 left-0 w-11 h-11 pointer-events-none z-30 filter drop-shadow-[0_2px_5px_rgba(0,0,0,0.9)] transform -rotate-90">
+      <svg viewBox="0 0 40 40" class="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0 L40 0 L40 10 L10 10 L10 40 L0 40 Z" fill="url(#brassGradCorner)" stroke="#2b1a03" stroke-width="1.2"/>
+        <path d="M2 2 L38 2 L38 8 L8 8 L8 38 L2 38 Z" fill="#ffeaa3" opacity="0.45"/>
+        <path d="M10 10 C18 10 24 16 26 26 C22 24 18 20 18 16" fill="#805b10" opacity="0.6"/>
+        <circle cx="26" cy="5" r="2.2" fill="#3a2406" stroke="#ffea9f" stroke-width="0.8"/>
+        <line x1="24.5" y1="5" x2="27.5" y2="5" stroke="#ffea9f" stroke-width="0.8"/>
+        <circle cx="5" cy="26" r="2.2" fill="#3a2406" stroke="#ffea9f" stroke-width="0.8"/>
+        <line x1="5" y1="24.5" x2="5" y2="27.5" stroke="#ffea9f" stroke-width="0.8"/>
+        <circle cx="5" cy="5" r="2.8" fill="#f5d36e" stroke="#2b1a03" stroke-width="0.8"/>
+        <circle cx="4.2" cy="4.2" r="0.8" fill="#fff" opacity="0.9"/>
+      </svg>
+    </div>
+
+    <!-- 1. Executive Brass Chronometer Top Bar: Tiêu Đề Điều Hành + Thước Đo Niên Biểu + Đồng Hồ Ngân Quỹ -->
+    <div class="flex flex-row items-center justify-between px-3 py-1 text-[11px] font-mono text-[#a88d74] border-b-2 border-[#4a3424] mb-2 gap-2 h-[42px] shrink-0 bg-gradient-to-r from-[#17110c] via-[#211710] to-[#17110c] rounded-t-lg shadow-sm">
       
-      <!-- TIÊU ĐỀ THANH TRÊN CÙNG: ĐÃ DUYỆT -->
+      <!-- TIÊU ĐỀ THANH TRÊN CÙNG: HUY HIỆU ĐỒNG & TÊN DOANH NGHIỆP -->
       <div class="flex items-center gap-2">
-        <svg class="w-3.5 h-3.5 text-[#d4af37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
-        </svg>
+        <div class="w-6 h-6 rounded-full bg-gradient-to-br from-[#d4af37] to-[#614511] p-[1px] shadow-sm flex items-center justify-center">
+          <div class="w-full h-full rounded-full bg-[#1e150d] flex items-center justify-center">
+            <svg class="w-3.5 h-3.5 text-[#d4af37]" viewBox="0 0 16 16" fill="currentColor">
+              <path d="M8 0.75L15.25 8L8 15.25L0.75 8Z"/>
+            </svg>
+          </div>
+        </div>
         <span class="tracking-wider uppercase font-bold text-[#c4aa92]">
-          BẢN GHI ĐIỀU HÀNH • <span id="companyNameLabel" class="text-[#d4af37]">ĐỘC TÔN HÀNG KHÔNG</span> (Nước Asteria)
+          BẢN GHI ĐIỀU HÀNH • <span id="companyNameLabel" class="text-[#d4af37] font-black drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]">ĐỘC TÔN HÀNG KHÔNG</span> (Asteria)
         </span>
       </div>
 
-      <!-- Eras Timeline Ribbon (Giữ nguyên chuẩn ExecutiveLedger) -->
-      <div class="flex items-center gap-1 sm:gap-1.5 overflow-x-auto max-w-full py-0.5">
-        <div class="px-2.5 py-0.5 rounded font-serif font-black text-xs sm:text-sm bg-[#d4af37] text-black shadow-[2px_2px_0px_#000] border border-black">I • 1914</div>
-        <div class="px-2 py-0.5 rounded font-serif text-xs bg-[#291e17] text-[#c4aa92] border border-[#4a3424]">II</div>
-        <div class="px-2 py-0.5 rounded font-serif text-xs bg-[#291e17] text-[#c4aa92] border border-[#4a3424]">III</div>
-        <div class="px-2 py-0.5 rounded font-serif text-xs bg-[#291e17] text-[#c4aa92] border border-[#4a3424]">IV</div>
-        <div class="px-2 py-0.5 rounded font-serif text-xs bg-[#291e17] text-[#c4aa92] border border-[#4a3424]">V</div>
-        <div class="px-2 py-0.5 rounded font-serif text-xs bg-[#291e17] text-[#c4aa92] border border-[#4a3424]">VI</div>
-        <div class="px-2 py-0.5 rounded font-serif text-xs bg-[#291e17] text-[#c4aa92] border border-[#4a3424]">VII</div>
-        <div class="px-2 py-0.5 rounded font-serif text-xs text-[#695443]">VIII</div>
+      <!-- 1914 Chronometer Timeline Plaque (Thước đo thời gian bọc đồng với ốc vít cơ khí) -->
+      <div class="relative px-3 py-1 rounded bg-gradient-to-r from-[#21160d] via-[#332214] to-[#21160d] border border-[#78531d] shadow-[inset_0_1px_3px_rgba(0,0,0,0.9),0_2px_5px_rgba(0,0,0,0.6)] flex items-center gap-1.5">
+        <!-- Chronometer Screws -->
+        <div class="w-1.5 h-1.5 rounded-full bg-[#d4af37] border border-[#3b280a] shadow-[inset_0_0.5px_0.5px_#fff] shrink-0"></div>
+        
+        <!-- Eras Milestones -->
+        <div class="flex items-center gap-1 overflow-hidden">
+          <div class="px-2.5 py-0.5 rounded font-serif font-black text-xs bg-gradient-to-b from-[#ffe599] via-[#d4af37] to-[#8c6721] text-[#1c1205] shadow-[0_1px_3px_rgba(0,0,0,0.8)] border border-[#382305] cursor-default flex items-center gap-1">
+            <span class="w-1.5 h-1.5 rounded-full bg-[#523306]"></span>
+            <span>I • 1914</span>
+          </div>
+          <div class="px-2 py-0.5 rounded font-serif text-xs bg-[#1a120b] text-[#a48a73] border border-[#422c19] cursor-default hover:text-[#d4af37] transition-colors">II</div>
+          <div class="px-2 py-0.5 rounded font-serif text-xs bg-[#1a120b] text-[#a48a73] border border-[#422c19] cursor-default hover:text-[#d4af37] transition-colors">III</div>
+          <div class="px-2 py-0.5 rounded font-serif text-xs bg-[#1a120b] text-[#a48a73] border border-[#422c19] cursor-default hover:text-[#d4af37] transition-colors">IV</div>
+          <div class="px-2 py-0.5 rounded font-serif text-xs bg-[#1a120b] text-[#a48a73] border border-[#422c19] cursor-default hover:text-[#d4af37] transition-colors">V</div>
+          <div class="px-2 py-0.5 rounded font-serif text-xs bg-[#1a120b] text-[#a48a73] border border-[#422c19] cursor-default hover:text-[#d4af37] transition-colors">VI</div>
+          <div class="px-2 py-0.5 rounded font-serif text-xs bg-[#1a120b] text-[#a48a73] border border-[#422c19] cursor-default hover:text-[#d4af37] transition-colors">VII</div>
+          <div class="px-2 py-0.5 rounded font-serif text-xs text-[#5c4737] cursor-default">VIII</div>
+        </div>
+
+        <div class="w-1.5 h-1.5 rounded-full bg-[#d4af37] border border-[#3b280a] shadow-[inset_0_0.5px_0.5px_#fff] shrink-0"></div>
       </div>
 
       <!-- Ngân quỹ & Nút Gấp Sổ Lại -->
-      <div class="flex items-center gap-4">
-        <div class="flex items-center gap-1 text-[#d4af37] font-bold">
-          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
-          </svg>
-          <span id="headerBudget">$1,000,000</span>
+      <div class="flex items-center gap-3">
+        <!-- Mechanical Balance Gauge -->
+        <div class="flex items-center gap-1.5 bg-[#120d08] px-2.5 py-1 rounded-full border border-[#6b4c1e] shadow-[inset_0_1px_3px_rgba(0,0,0,0.8)]">
+          <div class="w-3.5 h-3.5 rounded-full bg-[#d4af37] text-[#1e1305] flex items-center justify-center font-bold text-[9px] shadow-sm">
+            $
+          </div>
+          <span id="headerBudget" class="font-mono text-xs font-black tracking-wider text-[#faebcd] drop-shadow-sm">$1,000,000</span>
         </div>
+
+        <!-- Button Gấp Sổ Lại -->
         <button 
           type="button" 
           onclick="backToStartMenu()" 
-          class="text-[#8c745f] hover:text-[#d4af37] transition-colors flex items-center gap-1 cursor-pointer"
+          class="text-[#c4aa92] hover:text-[#faebcd] transition-all flex items-center gap-1.5 cursor-pointer font-serif font-bold text-xs px-2.5 py-1 rounded border border-[#6b4c1e] hover:border-[#d4af37] bg-gradient-to-b from-[#2e1f14] to-[#1c120a] shadow-sm active:scale-95"
           title="Gấp sổ lại và quay về bìa sách"
         >
-          <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
-          <span>Gấp sổ lại</span>
+          <svg class="w-3 h-3 text-[#d4af37]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+          <span>Gấp sổ</span>
         </button>
       </div>
 
     </div>
 
-    <!-- 2. HAI TRANG GIẤY DA MỞ RỘNG (Left Page & Right Page) -->
-    <div class="relative flex-1 rounded bg-[#f7f2e7] shadow-2xl overflow-hidden grid grid-cols-1 md:grid-cols-2 border border-[#d6c7b2]">
+    <!-- 2. HAI TRANG GIẤY DA MỞ RỘNG (Left Page & Right Page • Cố định 2 cột 1280x720) -->
+    <div class="relative w-full h-[644px] rounded-lg bg-[#f7f2e7] shadow-[inset_0_0_35px_rgba(61,42,28,0.2),0_15px_35px_rgba(0,0,0,0.85)] border-2 border-[#b8a287] grid grid-cols-2 overflow-hidden">
       
-      <!-- Nếp gấp gáy sách chính giữa -->
-      <div class="absolute inset-y-0 left-1/2 -translate-x-1/2 w-8 bg-gradient-to-r from-black/15 via-black/25 to-black/15 pointer-events-none z-30 hidden md:block"></div>
+      <!-- Nếp gấp gáy sách chính giữa (3D Spine Crease & Stitching) -->
+      <div class="absolute inset-y-0 left-1/2 -translate-x-1/2 w-9 bg-gradient-to-r from-transparent via-black/20 to-transparent pointer-events-none z-30"></div>
+      <div class="absolute inset-y-0 left-1/2 -translate-x-1/2 w-[1px] bg-[#8a6845]/30 z-30 pointer-events-none"></div>
 
       <!-- ===================================================================== -->
       <!-- TRANG BÊN TRÁI: TRANH TƯ LIỆU / CHÂN DUNG CEO + 2 NÚT + CHÚ THÍCH     -->
       <!-- ===================================================================== -->
-      <div class="relative bg-[#f4ecd8] p-4 sm:p-6 md:p-8 flex flex-col justify-between border-b md:border-b-0 md:border-r border-[#d4c3ab]">
+      <div class="relative w-full h-full bg-[#f4ecd8] p-6 flex flex-col justify-between border-r border-[#d4c3ab]">
         
         <!-- Header trên cùng trang trái -->
-        <div class="flex items-center justify-between text-[11px] font-mono text-[#7a6452] border-b border-[#d8c9b6] pb-2">
-          <span id="leftPageHeaderTag" class="tracking-widest uppercase font-bold text-[#5c3818]">SỨC ÉP NĂM 1914</span>
+        <div class="flex items-center justify-between text-[11px] font-mono text-[#7a6452] border-b border-[#d8c9b6] pb-1.5">
+          <span id="leftPageHeaderTag" class="tracking-widest uppercase font-bold text-[#5c3818] flex items-center gap-1.5">
+            <svg class="w-2.5 h-2.5 text-[#8c6721]" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0.75L15.25 8L8 15.25L0.75 8Z"/></svg>
+            SỨC ÉP NĂM 1914
+          </span>
           <span class="text-[#a48a73]">THÁNG 8 • 1914</span>
         </div>
 
-        <!-- Khung Clip / Tư liệu ảnh: Tự động đổi giữa Ảnh Sự Kiện và Chân Dung CEO khi tới Question Node -->
-        <div class="relative my-auto w-full aspect-[4/3] max-h-[350px] rounded bg-[#e8ded0] p-2 border-2 border-[#b8a690] shadow-[inset_0_2px_6px_rgba(0,0,0,0.15)] flex flex-col items-center justify-center overflow-hidden">
-          <div class="relative w-full h-full rounded overflow-hidden bg-black flex items-center justify-center">
+        <!-- Khung Kẹp Kim Loại Quân Sự 1914 (Industrial Military Dossier Frame) - Click để phóng to toàn màn hình -->
+        <div 
+          onclick="openMediaModal()"
+          class="relative my-auto w-full h-[330px] rounded-lg bg-gradient-to-b from-[#261b11] via-[#1a120b] to-[#120d08] p-2.5 border-2 border-[#7a5823] hover:border-[#d4af37] shadow-[0_10px_25px_rgba(0,0,0,0.65),inset_0_1px_2px_rgba(255,225,130,0.2)] flex flex-col justify-between overflow-hidden cursor-pointer group transition-all duration-200"
+          title="Nhấn để phóng to toàn màn hình"
+        >
+          
+          <!-- Dossier Frame Header Strip -->
+          <div class="w-full flex items-center justify-between px-1 pb-1 text-[10px] font-mono border-b border-[#422e17] shrink-0">
+            <span class="flex items-center gap-1.5 font-bold tracking-widest text-[#d4af37]">
+              <span class="w-1.5 h-1.5 rounded-full bg-[#d4af37] shadow-[0_0_5px_#d4af37] animate-pulse"></span>
+              TƯ LIỆU MẬT • HỒ SƠ QUÂN SỰ 1914
+            </span>
+            <span class="text-[#8a6e56] tracking-widest">REF: AST-1914</span>
+          </div>
+
+          <!-- Photo Container with Brass Corner Clamps -->
+          <div class="relative w-full h-[278px] rounded overflow-hidden bg-[#0a0705] border border-[#52391e] shadow-inner flex items-center justify-center">
+            
+            <!-- 4 Corner Brass Mounting Clamps -->
+            <div class="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-[#d4af37] z-20 pointer-events-none shadow-sm"></div>
+            <div class="absolute top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-[#d4af37] z-20 pointer-events-none shadow-sm"></div>
+            <div class="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-[#d4af37] z-20 pointer-events-none shadow-sm"></div>
+            <div class="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-[#d4af37] z-20 pointer-events-none shadow-sm"></div>
+
+            <!-- Nút hover: Phóng to toàn màn hình -->
+            <div class="absolute top-2 right-2 px-2.5 py-1 rounded bg-[#160f0a]/90 border border-[#d4af37]/80 text-[10px] font-mono text-[#d4af37] tracking-wider flex items-center gap-1.5 opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-30 shadow-[0_2px_8px_rgba(0,0,0,0.85)] pointer-events-none">
+              <svg class="w-3.5 h-3.5 text-[#d4af37]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+              </svg>
+              <span class="font-bold uppercase tracking-wide">Phóng to ⛶</span>
+            </div>
+
+            <video 
+              id="leftPageVideo"
+              src="./frontend/public/assets/videos/event_1914.mp4"
+              autoplay
+              loop
+              muted
+              playsinline
+              class="w-full h-full object-cover contrast-[1.03]"
+            ></video>
+
             <img 
               id="leftPageImage"
               src="./frontend/public/assets/events/event_1914.jpg" 
               alt="Tư liệu sự kiện"
-              class="w-full h-full object-cover grayscale contrast-115 transition-all duration-300"
+              class="w-full h-full object-cover contrast-[1.05] transition-all duration-300 hidden"
               onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1517976487507-5b3b11929314?q=80&w=900&auto=format&fit=crop';"
             />
+            
+            <!-- Status Diode Overlay on bottom-right of photo -->
+            <div class="absolute bottom-2 right-2 px-2 py-0.5 rounded bg-[#160f0a]/85 border border-[#8c6721]/60 text-[9px] font-mono text-[#d4af37] tracking-wider flex items-center gap-1 shadow-md pointer-events-none z-20">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 shadow-[0_0_4px_#10b981]"></span>
+              <span>LƯU TRỮ KHẨN</span>
+            </div>
           </div>
+
         </div>
 
         <!-- 2 NÚT GIỮ NGUYÊN THEO YÊU CẦU: BIÊN BẢN & CỐ VẤN FRIEDRICH -->
-        <div class="my-2.5 flex items-center gap-2.5">
+        <div class="my-2 flex items-center gap-2.5 h-[44px]">
           
           <!-- Nút 1: Biên bản (Giữ nguyên) -->
           <button 
             type="button"
             onclick="openSecretaryModal()"
-            class="flex-1 py-2 px-3 rounded bg-[#e8ded0] hover:bg-[#ded1be] text-[#3d2f24] border-2 border-[#5c4636] font-serif transition-all shadow-[2px_2px_0px_#3d2f24] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none cursor-pointer flex items-center justify-center gap-2"
+            class="flex-1 h-full rounded bg-[#e8ded0] hover:bg-[#ded1be] text-[#3d2f24] border-2 border-[#5c4636] font-serif transition-all shadow-[2px_2px_0px_#3d2f24] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none cursor-pointer flex items-center justify-center gap-2"
           >
             <img src="./vintage_ledger_icon.jpg" alt="Icon Sổ Cái" class="w-5 h-5 rounded border border-[#5c4636] object-cover shrink-0 shadow-sm" onerror="this.onerror=null; this.style.display='none';" />
             <span class="font-serif font-black tracking-wide text-sm text-[#2b1f17]">Biên bản</span>
@@ -578,7 +710,7 @@
           <button 
             type="button"
             onclick="openAdvisorModal()"
-            class="flex-1 py-2 px-3 rounded bg-[#3d2f24] hover:bg-[#2c2118] text-[#f4ecd8] border-2 border-[#1f1712] font-serif transition-all shadow-[2px_2px_0px_#1a1512] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none cursor-pointer flex items-center justify-center gap-2"
+            class="flex-1 h-full rounded bg-[#3d2f24] hover:bg-[#2c2118] text-[#f4ecd8] border-2 border-[#1f1712] font-serif transition-all shadow-[2px_2px_0px_#1a1512] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none cursor-pointer flex items-center justify-center gap-2"
           >
             <img src="./friedrich_avatar.jpg" alt="Cố Vấn Friedrich" class="w-5 h-5 rounded-full border border-[#d4af37] object-cover shrink-0 shadow-sm" onerror="this.onerror=null; this.style.display='none';" />
             <span class="font-serif font-black tracking-wide text-sm text-[#f4ecd8]">Cố vấn Friedrich</span>
@@ -588,7 +720,7 @@
 
         <!-- CHÚ THÍCH TRANG TRÁI: ĐÃ DUYỆT -->
         <div class="text-center pt-2 border-t border-[#d8c9b6]">
-          <h4 id="leftArtTitle" class="font-serif font-black text-sm sm:text-base text-[#3d2f24] tracking-wide">
+          <h4 id="leftArtTitle" class="font-serif font-black text-[15px] text-[#3d2f24] tracking-wide">
             BẢN TIN KHẨN GỬI BAN GIÁM ĐỐC • 1914
           </h4>
           <p id="leftArtCaption" class="font-mono text-[11px] text-[#7a6452] mt-0.5 tracking-wider">
@@ -601,15 +733,16 @@
       <!-- ===================================================================== -->
       <!-- TRANG BÊN PHẢI: NỘI DUNG SỬ LIỆU JSON + CÂU HỎI + NÚT TIẾP THEO       -->
       <!-- ===================================================================== -->
-      <div class="relative bg-[#f9f5ed] p-4 sm:p-6 md:p-8 flex flex-col justify-between overflow-y-auto">
+      <div class="relative w-full h-full bg-[#f9f5ed] p-6 flex flex-col justify-between overflow-hidden">
+
         
         <!-- Top Chapter & Node Header -->
-        <div class="border-b-2 border-[#3d2f24] pb-2 sm:pb-3">
-          <div class="flex items-center justify-between text-[11px] font-mono text-[#826b58] uppercase tracking-wider mb-1">
+        <div class="border-b-2 border-[#3d2f24] pb-2">
+          <div class="flex items-center justify-between text-[11px] font-mono text-[#826b58] uppercase tracking-wider mb-0.5">
             <span>KỶ NGUYÊN I (NĂM 1914)</span>
             <span id="nodeBadge" class="font-bold text-[#3d2f24]">NGỮ CẢNH #41</span>
           </div>
-          <h2 id="sectionTitle" class="font-serif font-black text-xl sm:text-2xl text-[#2b2118] tracking-tight">
+          <h2 id="sectionTitle" class="font-serif font-black text-xl text-[#2b2118] tracking-tight">
             CHIẾN TRANH BÙNG NỔ TẠI ASTERIA
           </h2>
         </div>
@@ -617,28 +750,73 @@
         <!-- =================================================================== -->
         <!-- MÀN HÌNH 1: CONTEXT NODE (LẤY NGUYÊN DATA TỪ JSON)                  -->
         <!-- =================================================================== -->
-        <div id="viewContext" class="my-auto py-2 space-y-4">
+        <div id="viewContext" class="my-auto py-2 space-y-3.5">
           <!-- Giữ nguyên giọng văn chuẩn từ file JSON theo yêu cầu -->
-          <p class="font-serif text-[#2a241e] text-[17px] sm:text-[18px] leading-[1.8] text-justify tracking-normal">
+          <p class="font-serif text-[#2a241e] text-[17px] leading-[1.75] text-justify tracking-normal">
             <span class="drop-cap">T</span>hế chiến thứ nhất bùng nổ, kéo theo cuộc đại khủng hoảng lan rộng khắp châu Âu. Không phận đóng cửa, thị trường hàng không dân dụng lập tức đóng băng. Toàn bộ các hợp đồng thương mại xuất xưởng phi cơ của doanh nghiệp bạn vừa bị đối tác đơn phương hủy bỏ. Ban giám đốc triệu tập phiên họp đặc biệt để tìm lối thoát trước khi doanh nghiệp rơi vào bờ vực phá sản.
           </p>
 
-          <div class="p-3 bg-[#ede4d3] border-l-4 border-[#8b6e4e] rounded-r text-sm text-[#4a3b2f] italic">
+          <div class="relative p-3.5 bg-[#ede4d3] border-l-4 border-[#8b6e4e] rounded-r text-[13px] text-[#4a3b2f] italic leading-relaxed shadow-sm pr-16">
             "Chiến sự bùng phát mang lại nguy cơ phá sản dây chuyền, nhưng đồng thời cũng mở ra cơ hội tích tụ tư bản quân sự chưa từng có trong lịch sử nước Asteria."
+            <!-- Asteria Imperial Red Wax Seal Stamp (Con Dấu Sáp Đỏ Asteria 1914) -->
+            <div class="absolute bottom-2 right-2 w-16 h-16 pointer-events-none select-none z-20 filter drop-shadow-[0_4px_8px_rgba(0,0,0,0.6)]">
+              <svg viewBox="0 0 120 120" class="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <radialGradient id="waxBaseGrad" cx="45%" cy="40%" r="55%">
+                    <stop offset="0%" stop-color="#df2626" />
+                    <stop offset="45%" stop-color="#aa1111" />
+                    <stop offset="85%" stop-color="#6e0808" />
+                    <stop offset="100%" stop-color="#450303" />
+                  </radialGradient>
+                  <radialGradient id="waxInnerGrad" cx="42%" cy="38%" r="50%">
+                    <stop offset="0%" stop-color="#c91e1e" />
+                    <stop offset="60%" stop-color="#880a0a" />
+                    <stop offset="100%" stop-color="#500505" />
+                  </radialGradient>
+                  <linearGradient id="waxHighlight" x1="20%" y1="10%" x2="80%" y2="90%">
+                    <stop offset="0%" stop-color="#ff7b7b" stop-opacity="0.7" />
+                    <stop offset="30%" stop-color="#ffffff" stop-opacity="0.15" />
+                    <stop offset="100%" stop-color="#3d0303" stop-opacity="0.8" />
+                  </linearGradient>
+                </defs>
+                <path d="M60 6 C75 4, 88 12, 98 22 C108 32, 116 46, 114 62 C112 78, 104 92, 92 103 C80 114, 64 116, 48 114 C32 112, 18 103, 11 89 C4 75, 4 58, 10 44 C16 30, 28 17, 44 10 C50 7, 55 7, 60 6 Z" fill="url(#waxBaseGrad)" stroke="#3d0202" stroke-width="1.5" />
+                <path d="M58 12 C72 10, 84 17, 92 26 C100 35, 107 48, 105 62 C103 76, 96 87, 86 96 C76 105, 62 107, 48 105 C34 103, 23 95, 17 83 C11 71, 11 56, 16 44 C21 32, 31 21, 44 15 C49 13, 54 13, 58 12 Z" fill="none" stroke="url(#waxHighlight)" stroke-width="3" opacity="0.75" />
+                <circle cx="60" cy="60" r="41" fill="url(#waxInnerGrad)" stroke="#380202" stroke-width="1.5" />
+                <circle cx="60" cy="60" r="40" fill="none" stroke="#ff8585" stroke-width="0.8" opacity="0.35" />
+                <circle cx="60" cy="60" r="36" fill="none" stroke="#480505" stroke-width="1.2" stroke-dasharray="2, 2.5" />
+                <path id="waxTextTop" d="M 28 60 A 32 32 0 0 1 92 60" fill="none" />
+                <text font-family="'Cinzel', serif" font-size="6.5" font-weight="900" fill="#fca5a5" letter-spacing="1.5" opacity="0.85">
+                  <textPath href="#waxTextTop" startOffset="50%" text-anchor="middle">ASTERIA • 1914</textPath>
+                </text>
+                <path id="waxTextBottom" d="M 92 60 A 32 32 0 0 1 28 60" fill="none" />
+                <text font-family="'Cinzel', serif" font-size="5" font-weight="900" fill="#fca5a5" letter-spacing="1.2" opacity="0.75">
+                  <textPath href="#waxTextBottom" startOffset="50%" text-anchor="middle">WINGS OF CAPITAL</textPath>
+                </text>
+                <g transform="translate(60,60)">
+                  <circle cx="0" cy="0" r="16" fill="#5e0707" stroke="#360202" stroke-width="1" />
+                  <circle cx="0" cy="0" r="15" fill="none" stroke="#fca5a5" stroke-width="0.5" opacity="0.4" />
+                  <path d="M-2 -18 h4 v3 h-4 z M-2 15 h4 v3 h-4 z M-18 -2 v4 h3 v-4 z M15 -2 v4 h3 v-4 z M-13 -13 l2.8 -2.8 l2.1 2.1 l-2.8 2.8 z M9 9 l2.8 -2.8 l2.1 2.1 l-2.8 2.8 z M-13 11 l2.8 2.8 l2.1 -2.1 l-2.8 -2.8 z M9 -11 l2.8 2.8 l2.1 -2.1 l-2.8 -2.8 z" fill="#3b0202" />
+                  <path d="M-1 -1 C-4 -8, -6 -14, 0 -17 C6 -14, 4 -8, 1 -1 Z" fill="#8c0f0f" stroke="#ff9e9e" stroke-width="0.5" opacity="0.9" />
+                  <path d="M1 1 C4 8, 6 14, 0 17 C-6 14, -4 8, -1 1 Z" fill="#8c0f0f" stroke="#ff9e9e" stroke-width="0.5" opacity="0.9" />
+                  <circle cx="0" cy="0" r="4.5" fill="#360202" stroke="#ff9e9e" stroke-width="0.6" />
+                  <circle cx="-1" cy="-1" r="1" fill="#fff" opacity="0.6" />
+                </g>
+              </svg>
+            </div>
           </div>
         </div>
 
         <!-- =================================================================== -->
         <!-- MÀN HÌNH 2: QUESTION NODE & NÚT ĐÁP ÁN (CHỈ HIỆN FIELD CONTENT)     -->
         <!-- =================================================================== -->
-        <div id="viewQuestion" class="hidden my-auto py-2 space-y-3 sm:space-y-4">
+        <div id="viewQuestion" class="hidden my-auto py-2 space-y-3">
           
           <!-- HỘP CÂU HỎI: GIỮ NGUYÊN THEO YÊU CẦU -->
           <div class="bg-[#ede4d3] border-l-4 border-[#5c3818] p-3 rounded-r shadow-inner">
             <span class="text-[10px] font-mono font-bold text-[#7a5534] uppercase tracking-wider block mb-1">
               CÂU HỎI CHIẾN LƯỢC:
             </span>
-            <h3 class="font-serif font-bold text-base sm:text-lg text-[#261d15] leading-snug">
+            <h3 class="font-serif font-bold text-base text-[#261d15] leading-snug">
               Bạn muốn phát triển doanh nghiệp hàng không theo hướng nào trong thời kỳ chiến sự?
             </h3>
           </div>
@@ -650,7 +828,7 @@
             <button 
               type="button" 
               onclick="openChoiceModal('A')"
-              class="w-full text-left p-3 sm:p-3.5 rounded border-2 border-[#3d2f24] bg-[#e7dfce] hover:bg-[#ded4c0] transition-all cursor-pointer shadow-[3px_3px_0px_#2b2118] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none"
+              class="w-full text-left p-3 rounded border-2 border-[#3d2f24] bg-[#e7dfce] hover:bg-[#ded4c0] transition-all cursor-pointer shadow-[3px_3px_0px_#2b2118] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none"
             >
               <div class="flex items-start justify-between gap-3">
                 <div class="flex items-start gap-2.5">
@@ -658,7 +836,7 @@
                     A
                   </span>
                   <!-- Chỉ hiển thị đúng field 'content' của node đó, ẩn benefits -->
-                  <div class="font-serif font-bold text-sm sm:text-base text-[#1f1710] leading-snug">
+                  <div class="font-serif font-bold text-sm text-[#1f1710] leading-snug">
                     Đầu tư vào nghiên cứu động cơ phản lực, mở rộng quy mô xưởng sản xuất phục vụ chiến tranh.
                   </div>
                 </div>
@@ -672,7 +850,7 @@
             <button 
               type="button" 
               onclick="openChoiceModal('B')"
-              class="w-full text-left p-3 sm:p-3.5 rounded border-2 border-[#4a2e2b] bg-[#ebdcd5] hover:bg-[#e2cdc4] transition-all cursor-pointer shadow-[3px_3px_0px_#2b2118] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none"
+              class="w-full text-left p-3 rounded border-2 border-[#4a2e2b] bg-[#ebdcd5] hover:bg-[#e2cdc4] transition-all cursor-pointer shadow-[3px_3px_0px_#2b2118] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none"
             >
               <div class="flex items-start justify-between gap-3">
                 <div class="flex items-start gap-2.5">
@@ -680,7 +858,7 @@
                     B
                   </span>
                   <!-- Chỉ hiển thị đúng field 'content' của node đó, ẩn benefits -->
-                  <div class="font-serif font-bold text-sm sm:text-base text-[#1f1710] leading-snug">
+                  <div class="font-serif font-bold text-sm text-[#1f1710] leading-snug">
                     Tập trung hoàn toàn vào máy bay chở khách dân dụng, tìm kiếm các thị trường trung lập.
                   </div>
                 </div>
@@ -697,40 +875,40 @@
         <!-- =================================================================== -->
         <!-- MÀN HÌNH 3: TERMINAL OUTCOME BEAT (CHIẾN LƯỢC TOÀN THẮNG • CHUẨN)   -->
         <!-- =================================================================== -->
-        <div id="viewOutcome" class="hidden my-auto py-3 space-y-4 text-center">
-          <div class="inline-flex p-3.5 rounded-full bg-[#3d2f24] text-[#d4af37] shadow-xl mb-1 border-2 border-[#d4af37]">
-            <svg class="w-9 h-9 text-[#d4af37]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
+        <div id="viewOutcome" class="hidden my-auto py-2 space-y-3.5 text-center">
+          <div class="inline-flex p-3 rounded-full bg-[#3d2f24] text-[#d4af37] shadow-xl mb-0.5 border-2 border-[#d4af37]">
+            <svg class="w-8 h-8 text-[#d4af37]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
           </div>
 
-          <h3 class="font-serif font-black text-xl sm:text-2xl text-[#2b2118] tracking-tight">
+          <h3 class="font-serif font-black text-xl text-[#2b2118] tracking-tight">
             <span class="gold-shimmer">
               CHIẾN LƯỢC TOÀN THẮNG: ĐỘC QUYỀN ASTERIA
             </span>
           </h3>
 
-          <div id="outcomeContentText" class="bg-[#ede4d3] p-4 rounded border border-[#bfae97] text-left text-sm text-[#261d15] leading-relaxed shadow-inner">
+          <div id="outcomeContentText" class="bg-[#ede4d3] p-3.5 rounded border border-[#bfae97] text-left text-[13px] text-[#261d15] leading-relaxed shadow-inner">
             Sắc lệnh điều hành đã được ban hành. Doanh nghiệp của ngài đã thành công thâu tóm toàn bộ ngành hàng không và thiết lập thế độc quyền vững chắc trên bầu trời Asteria.
           </div>
 
-          <div class="bg-[#241a12] text-[#f7f2e7] p-3.5 rounded border border-[#d4af37]/40 text-xs font-mono flex items-center justify-between shadow-md">
+          <div class="bg-[#241a12] text-[#f7f2e7] p-3 rounded border border-[#d4af37]/40 text-xs font-mono flex items-center justify-between shadow-md">
             <span class="text-[#c4aa92]">NGÂN SÁCH TÍCH LŨY CUỐI CÙNG:</span>
-            <span id="outcomeFinalBudget" class="font-black text-base sm:text-lg text-[#d4af37]">$750,000</span>
+            <span id="outcomeFinalBudget" class="font-black text-base text-[#d4af37]">$750,000</span>
           </div>
 
-          <div class="flex flex-col sm:flex-row items-center justify-center gap-3 pt-1">
+          <div class="flex flex-row items-center justify-center gap-3 pt-1">
             <button
               type="button"
               onclick="openAdvisorModal()"
-              class="py-2.5 px-4 rounded bg-[#3d2f24] hover:bg-[#2b2118] text-[#f4ecd8] border-2 border-[#8b6b47] font-serif font-bold text-xs sm:text-sm shadow-[3px_3px_0px_#1a1512] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all cursor-pointer flex items-center justify-center gap-2"
+              class="py-2 px-3.5 rounded bg-[#3d2f24] hover:bg-[#2b2118] text-[#f4ecd8] border-2 border-[#8b6b47] font-serif font-bold text-xs shadow-[3px_3px_0px_#1a1512] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all cursor-pointer flex items-center justify-center gap-2"
             >
-              <img src="./friedrich_avatar.jpg" alt="Friedrich" class="w-5 h-5 rounded-full border border-[#d4af37] object-cover shrink-0" onerror="this.onerror=null; this.style.display='none';" />
+              <img src="./friedrich_avatar.jpg" alt="Friedrich" class="w-4 h-4 rounded-full border border-[#d4af37] object-cover shrink-0" onerror="this.onerror=null; this.style.display='none';" />
               <span>Cố vấn giải thích kết cục</span>
             </button>
 
             <button
               type="button"
               onclick="backToStartMenu()"
-              class="py-2.5 px-4 rounded bg-[#5c3818] hover:bg-[#472a12] text-[#f7f2e7] font-serif font-bold text-xs sm:text-sm shadow-[3px_3px_0px_#1a1512] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all cursor-pointer flex items-center justify-center gap-2"
+              class="py-2 px-3.5 rounded bg-[#5c3818] hover:bg-[#472a12] text-[#f7f2e7] font-serif font-bold text-xs shadow-[3px_3px_0px_#1a1512] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all cursor-pointer flex items-center justify-center gap-2"
             >
               <span>MỞ LẠI SỔ CÁI TỪ NĂM 1914</span>
             </button>
@@ -740,7 +918,7 @@
         <!-- =================================================================== -->
         <!-- FOOTER TRANG PHẢI: NÚT 'TIẾP THEO' (THEO YÊU CẦU ĐÃ DUYỆT)          -->
         <!-- =================================================================== -->
-        <div id="rightPageFooter" class="pt-2 sm:pt-3 border-t border-[#d8c9b6] flex items-center justify-between">
+        <div id="rightPageFooter" class="pt-2 border-t border-[#d8c9b6] flex items-center justify-between h-[42px] shrink-0">
           <span id="pageCounter" class="text-[11px] font-mono text-[#7a6452]">
             Trang 1/2
           </span>
@@ -750,10 +928,10 @@
             id="btnNext"
             type="button"
             onclick="handleNext()"
-            class="py-2.5 px-6 bg-[#3d2f24] hover:bg-[#2b2118] text-[#f7f2e7] font-mono font-bold text-xs sm:text-sm rounded border border-black shadow-[3px_3px_0px_#1a1512] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all cursor-pointer flex items-center gap-2"
+            class="py-2 px-6 bg-[#3d2f24] hover:bg-[#2b2118] text-[#f7f2e7] font-mono font-bold text-xs rounded border border-black shadow-[3px_3px_0px_#1a1512] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all cursor-pointer flex items-center gap-2"
           >
             <span>TIẾP THEO</span>
-            <svg class="w-4 h-4 text-[#d4af37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg class="w-3.5 h-3.5 text-[#d4af37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
             </svg>
           </button>
@@ -763,18 +941,37 @@
 
     </div>
 
+    <!-- Cây Bút Mực Điều Hành 1914 Cài Bên Mép Phải Sổ Cái (1914 Executive Fountain Pen in Leather Sleeve) -->
+    <div class="absolute right-1 top-[200px] z-40 pointer-events-none select-none flex flex-col items-center">
+      <!-- Leather loop tab stitched to tome edge -->
+      <div class="relative w-6 h-28 bg-gradient-to-r from-[#24150b] via-[#3a2213] to-[#1c1008] rounded-l border-l-2 border-y-2 border-[#6b4720] shadow-[-3px_5px_10px_rgba(0,0,0,0.85)] flex items-center justify-center">
+        <div class="w-1 h-20 bg-[#0d0704] rounded-full border border-[#4d3016]"></div>
+        <!-- Brass rivet on leather tab -->
+        <div class="absolute top-1.5 right-1 w-1.5 h-1.5 rounded-full bg-[#d4af37] border border-[#2b1803] shadow-[inset_0_0.5px_0.5px_#fff]"></div>
+        <div class="absolute bottom-1.5 right-1 w-1.5 h-1.5 rounded-full bg-[#d4af37] border border-[#2b1803] shadow-[inset_0_0.5px_0.5px_#fff]"></div>
+      </div>
+      <!-- Fountain Pen Image (Scaled and Rotated -68deg for Perfect Vertical Alignment) -->
+      <div class="absolute -top-10 -left-16 w-44 h-44 flex items-center justify-center pointer-events-none">
+        <img 
+          src="./asset_vintage_fountain_pen.png" 
+          alt="Bút Mực Điều Hành Asteria 1914" 
+          style="width: 240px; height: 240px; transform: rotate(-68deg); object-fit: contain; filter: drop-shadow(-6px 12px 14px rgba(0,0,0,0.85));"
+        />
+      </div>
+    </div>
+
   </div>
 
   <!-- ========================================================================= -->
   <!-- POP-UP CHI TIẾT ĐÁP ÁN: TỐI GIẢN THEO THEME VỚI 2 NÚT "KHÔNG DUYỆT" / "DUYỆT" -->
   <!-- ========================================================================= -->
   <div 
-    id="choiceDetailModal" class="absolute inset-0 modal-backdrop z-50 hidden flex items-center justify-center p-3 sm:p-5"
+    id="choiceDetailModal" class="absolute inset-0 modal-backdrop z-50 hidden flex items-center justify-center p-4"
     onclick="closeChoiceModal()"
   >
     <div 
       onclick="event.stopPropagation()" 
-      class="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl max-w-lg w-full p-5 sm:p-6 shadow-[0_25px_60px_rgba(0,0,0,0.95)] flex flex-col gap-4 text-[#2b2118] font-serif"
+      class="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl w-[560px] max-h-[580px] p-6 shadow-[0_25px_60px_rgba(0,0,0,0.95)] flex flex-col gap-4 text-[#2b2118] font-serif"
     >
       <!-- Header Pop-up -->
       <div class="flex items-center justify-between pb-2.5 border-b-2 border-[#b8a690]">
@@ -799,11 +996,56 @@
       <div class="space-y-3 text-sm leading-relaxed">
         
         <!-- 1. FIELD "CONTENT" -->
-        <div class="p-3 bg-[#ede4d3] border-l-4 border-[#5c3818] rounded-r">
+        <div class="relative p-3 bg-[#ede4d3] border-l-4 border-[#5c3818] rounded-r pr-16">
+          <!-- Asteria Imperial Red Wax Seal Stamp in Modal -->
+            <div class="absolute bottom-2 right-2 w-16 h-16 pointer-events-none select-none z-20 filter drop-shadow-[0_4px_8px_rgba(0,0,0,0.6)]">
+              <svg viewBox="0 0 120 120" class="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <radialGradient id="waxBaseGradM" cx="45%" cy="40%" r="55%">
+                    <stop offset="0%" stop-color="#df2626" />
+                    <stop offset="45%" stop-color="#aa1111" />
+                    <stop offset="85%" stop-color="#6e0808" />
+                    <stop offset="100%" stop-color="#450303" />
+                  </radialGradient>
+                  <radialGradient id="waxInnerGradM" cx="42%" cy="38%" r="50%">
+                    <stop offset="0%" stop-color="#c91e1e" />
+                    <stop offset="60%" stop-color="#880a0a" />
+                    <stop offset="100%" stop-color="#500505" />
+                  </radialGradient>
+                  <linearGradient id="waxHighlightM" x1="20%" y1="10%" x2="80%" y2="90%">
+                    <stop offset="0%" stop-color="#ff7b7b" stop-opacity="0.7" />
+                    <stop offset="30%" stop-color="#ffffff" stop-opacity="0.15" />
+                    <stop offset="100%" stop-color="#3d0303" stop-opacity="0.8" />
+                  </linearGradient>
+                </defs>
+                <path d="M60 6 C75 4, 88 12, 98 22 C108 32, 116 46, 114 62 C112 78, 104 92, 92 103 C80 114, 64 116, 48 114 C32 112, 18 103, 11 89 C4 75, 4 58, 10 44 C16 30, 28 17, 44 10 C50 7, 55 7, 60 6 Z" fill="url(#waxBaseGradM)" stroke="#3d0202" stroke-width="1.5" />
+                <path d="M58 12 C72 10, 84 17, 92 26 C100 35, 107 48, 105 62 C103 76, 96 87, 86 96 C76 105, 62 107, 48 105 C34 103, 23 95, 17 83 C11 71, 11 56, 16 44 C21 32, 31 21, 44 15 C49 13, 54 13, 58 12 Z" fill="none" stroke="url(#waxHighlightM)" stroke-width="3" opacity="0.75" />
+                <circle cx="60" cy="60" r="41" fill="url(#waxInnerGradM)" stroke="#380202" stroke-width="1.5" />
+                <circle cx="60" cy="60" r="40" fill="none" stroke="#ff8585" stroke-width="0.8" opacity="0.35" />
+                <circle cx="60" cy="60" r="36" fill="none" stroke="#480505" stroke-width="1.2" stroke-dasharray="2, 2.5" />
+                <path id="waxTextTopM" d="M 28 60 A 32 32 0 0 1 92 60" fill="none" />
+                <text font-family="'Cinzel', serif" font-size="6.5" font-weight="900" fill="#fca5a5" letter-spacing="1.5" opacity="0.85">
+                  <textPath href="#waxTextTopM" startOffset="50%" text-anchor="middle">ASTERIA • 1914</textPath>
+                </text>
+                <path id="waxTextBottomM" d="M 92 60 A 32 32 0 0 1 28 60" fill="none" />
+                <text font-family="'Cinzel', serif" font-size="5" font-weight="900" fill="#fca5a5" letter-spacing="1.2" opacity="0.75">
+                  <textPath href="#waxTextBottomM" startOffset="50%" text-anchor="middle">WINGS OF CAPITAL</textPath>
+                </text>
+                <g transform="translate(60,60)">
+                  <circle cx="0" cy="0" r="16" fill="#5e0707" stroke="#360202" stroke-width="1" />
+                  <circle cx="0" cy="0" r="15" fill="none" stroke="#fca5a5" stroke-width="0.5" opacity="0.4" />
+                  <path d="M-2 -18 h4 v3 h-4 z M-2 15 h4 v3 h-4 z M-18 -2 v4 h3 v-4 z M15 -2 v4 h3 v-4 z M-13 -13 l2.8 -2.8 l2.1 2.1 l-2.8 2.8 z M9 9 l2.8 -2.8 l2.1 2.1 l-2.8 2.8 z M-13 11 l2.8 2.8 l2.1 -2.1 l-2.8 -2.8 z M9 -11 l2.8 2.8 l2.1 -2.1 l-2.8 -2.8 z" fill="#3b0202" />
+                  <path d="M-1 -1 C-4 -8, -6 -14, 0 -17 C6 -14, 4 -8, 1 -1 Z" fill="#8c0f0f" stroke="#ff9e9e" stroke-width="0.5" opacity="0.9" />
+                  <path d="M1 1 C4 8, 6 14, 0 17 C-6 14, -4 8, -1 1 Z" fill="#8c0f0f" stroke="#ff9e9e" stroke-width="0.5" opacity="0.9" />
+                  <circle cx="0" cy="0" r="4.5" fill="#360202" stroke="#ff9e9e" stroke-width="0.6" />
+                  <circle cx="-1" cy="-1" r="1" fill="#fff" opacity="0.6" />
+                </g>
+              </svg>
+            </div>
           <span class="text-[10px] font-mono font-bold uppercase text-[#7a5534] block mb-1">
             NỘI DUNG PHƯƠNG ÁN:
           </span>
-          <p id="modalContent" class="font-serif font-bold text-[#1f1710] text-sm sm:text-base leading-snug">
+          <p id="modalContent" class="font-serif font-bold text-[#1f1710] text-[15px] leading-snug">
             Nội dung chi tiết phương án...
           </p>
         </div>
@@ -813,7 +1055,7 @@
           <span class="text-[10px] font-mono font-bold uppercase block mb-0.5 text-[#1b5e20]">
             ✦ LỢI THẾ ĐẠT ĐƯỢC (BENEFITS):
           </span>
-          <p id="modalBenefits" class="text-xs sm:text-sm text-[#1b5e20] leading-relaxed">
+          <p id="modalBenefits" class="text-xs text-[#1b5e20] leading-relaxed">
             Mở rộng quy mô công xưởng, nhận đơn bao tiêu độc quyền từ phía chính phủ Asteria.
           </p>
         </div>
@@ -823,7 +1065,7 @@
           <span class="text-[10px] font-mono font-bold uppercase block mb-0.5 text-[#9e2a2b]">
             ⚠ RỦI RO TIỀM ẨN (POTENTIAL DRAWBACK):
           </span>
-          <p id="modalDrawbacks" class="text-xs sm:text-sm text-[#9e2a2b] leading-relaxed">
+          <p id="modalDrawbacks" class="text-xs text-[#9e2a2b] leading-relaxed">
             Ngân sách thâm hụt -$250,000 ngay lập tức, chịu sức ép quản lý từ quân đội.
           </p>
         </div>
@@ -859,8 +1101,8 @@
   <!-- ========================================================================= -->
   <!-- MODAL 1: BẢN GHI THƯ KÝ — BIÊN BẢN DOANH NGHIỆP (100% THEO GAME HIỆN TẠI)  -->
   <!-- ========================================================================= -->
-  <div id="secretaryModal" class="absolute inset-0 modal-backdrop z-50 hidden flex items-center justify-center p-3 sm:p-5" onclick="closeSecretaryModal()">
-    <div onclick="event.stopPropagation()" class="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl max-w-3xl w-full max-h-[85vh] shadow-[0_20px_60px_rgba(0,0,0,0.85)] flex flex-col overflow-hidden text-[#2a241e]">
+  <div id="secretaryModal" class="absolute inset-0 modal-backdrop z-50 hidden flex items-center justify-center p-4" onclick="closeSecretaryModal()">
+    <div onclick="event.stopPropagation()" class="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl w-[820px] max-h-[610px] shadow-[0_20px_60px_rgba(0,0,0,0.85)] flex flex-col overflow-hidden text-[#2a241e]">
       
       <!-- Header Biên Bản Doanh Nghiệp (Không có dấu 'X', có icon sổ cái như game hiện tại) -->
       <div class="bg-[#ebdcc0] px-5 py-3 border-b-2 border-[#b8a690] flex items-center justify-between">
@@ -902,8 +1144,8 @@
   <!-- ========================================================================= -->
   <!-- MODAL 2: CỐ VẤN FRIEDRICH (CHUẨN GIAO DIỆN CHAT THEO GAME HIỆN TẠI)       -->
   <!-- ========================================================================= -->
-  <div id="advisorModal" class="absolute inset-0 modal-backdrop z-50 hidden flex items-center justify-center p-3 sm:p-5" onclick="closeAdvisorModal()">
-    <div onclick="event.stopPropagation()" class="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl max-w-3xl w-full max-h-[85vh] shadow-[0_25px_70px_rgba(0,0,0,0.9)] flex flex-col overflow-hidden text-[#2a241e]">
+  <div id="advisorModal" class="absolute inset-0 modal-backdrop z-50 hidden flex items-center justify-center p-4" onclick="closeAdvisorModal()">
+    <div onclick="event.stopPropagation()" class="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl w-[820px] max-h-[610px] shadow-[0_25px_70px_rgba(0,0,0,0.9)] flex flex-col overflow-hidden text-[#2a241e]">
       
       <!-- Header Cố Vấn (Không có dấu X, có avatar Friedrich) -->
       <div class="bg-[#ebdcc0] px-5 py-3 border-b-2 border-[#b8a690] flex items-center justify-between">
@@ -969,8 +1211,8 @@
   <!-- ========================================================================= -->
   <!-- MODAL: CÀI ĐẶT (SETTINGS)                                                 -->
   <!-- ========================================================================= -->
-  <div id="settingsModal" class="absolute inset-0 modal-backdrop z-50 hidden flex items-center justify-center p-3 sm:p-5" onclick="closeSettingsModal()">
-    <div onclick="event.stopPropagation()" class="bg-[#1c140d] border-4 border-[#8c6721] rounded-xl max-w-md w-full p-6 shadow-[0_25px_60px_rgba(0,0,0,0.95)] flex flex-col gap-4 text-[#f4ecd8] font-serif">
+  <div id="settingsModal" class="absolute inset-0 modal-backdrop z-50 hidden flex items-center justify-center p-4" onclick="closeSettingsModal()">
+    <div onclick="event.stopPropagation()" class="bg-[#1c140d] border-4 border-[#8c6721] rounded-xl w-[460px] p-6 shadow-[0_25px_60px_rgba(0,0,0,0.95)] flex flex-col gap-4 text-[#f4ecd8] font-serif">
       <div class="flex items-center justify-between pb-3 border-b border-[#5c3e27]">
         <h3 class="font-serif font-black text-lg text-[#d4af37] tracking-wider uppercase flex items-center gap-2">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
@@ -1005,8 +1247,8 @@
   <!-- ========================================================================= -->
   <!-- MODAL: CREDITS (TRI ÂN ĐỘI NGŨ SẢN XUẤT)                                   -->
   <!-- ========================================================================= -->
-  <div id="creditsModal" class="absolute inset-0 modal-backdrop z-50 hidden flex items-center justify-center p-3 sm:p-5" onclick="closeCreditsModal()">
-    <div onclick="event.stopPropagation()" class="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl max-w-lg w-full p-6 shadow-[0_25px_60px_rgba(0,0,0,0.95)] flex flex-col gap-4 text-[#2b2118] font-serif">
+  <div id="creditsModal" class="absolute inset-0 modal-backdrop z-50 hidden flex items-center justify-center p-4" onclick="closeCreditsModal()">
+    <div onclick="event.stopPropagation()" class="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl w-[540px] p-6 shadow-[0_25px_60px_rgba(0,0,0,0.95)] flex flex-col gap-4 text-[#2b2118] font-serif">
       <div class="text-center pb-3 border-b-2 border-[#b8a690]">
         <h3 class="font-serif font-black text-xl text-[#3d2a1c] tracking-tight uppercase">
           ASTERIA 1914: ĐẾ CHẾ CÁNH BAY
@@ -1130,6 +1372,76 @@
             ĐÓNG
           </span>
         </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- MODAL: PHÓNG TO TƯ LIỆU / VIDEO TOÀN MÀN HÌNH (PROTOTYPE FULLSCREEN MODAL) -->
+  <!-- ========================================================================= -->
+  <div id="mediaModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-black/92 backdrop-blur-md hidden" onclick="closeMediaModal()">
+    <div onclick="event.stopPropagation()" class="relative w-full max-w-5xl bg-[#16100a] border-2 border-[#8c6721] rounded-xl shadow-[0_30px_90px_rgba(0,0,0,0.98),0_0_40px_rgba(140,103,33,0.35)] flex flex-col overflow-hidden text-[#e6d5c1]">
+      
+      <!-- Modal Header -->
+      <div class="bg-gradient-to-r from-[#21160d] via-[#2f2014] to-[#21160d] px-6 py-3.5 border-b-2 border-[#5c401f] flex items-center justify-between z-10 shrink-0">
+        <div class="flex items-center gap-3">
+          <div class="w-7 h-7 rounded-full bg-gradient-to-br from-[#d4af37] to-[#593d0c] p-[1px] flex items-center justify-center shadow-md">
+            <div class="w-full h-full rounded-full bg-[#1b120a] flex items-center justify-center">
+              <svg class="w-4 h-4 text-[#d4af37]" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" />
+              </svg>
+            </div>
+          </div>
+          <div>
+            <span id="modalTag" class="font-mono text-[10px] text-[#a48a73] tracking-widest uppercase block">
+              TƯ LIỆU MẬT • HỒ SƠ QUÂN SỰ ĐỘC QUYỀN
+            </span>
+            <h2 id="modalTitle" class="font-serif font-black text-lg text-[#f0dfcc] tracking-wide">
+              BẢN TIN KHẨN GỬI BAN GIÁM ĐỐC • 1914
+            </h2>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <span class="font-mono text-xs text-[#a48a73] hidden sm:inline">
+            ESC để đóng
+          </span>
+          <button
+            type="button"
+            onclick="closeMediaModal()"
+            class="px-4 py-1.5 rounded bg-gradient-to-b from-[#3a2818] to-[#25180d] hover:from-[#4d3520] hover:to-[#322012] border border-[#a87f32] text-[#f2e6d6] font-mono font-bold text-xs tracking-wider transition-all shadow-[0_2px_8px_rgba(0,0,0,0.6)] cursor-pointer active:scale-95 flex items-center gap-1.5"
+          >
+            <span>✕</span>
+            <span>ĐÓNG</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="relative w-full bg-black/95 flex items-center justify-center p-2 min-h-[420px] max-h-[70vh] overflow-hidden">
+        <video 
+          id="modalVideo"
+          src="./frontend/public/assets/videos/event_1914.mp4"
+          controls
+          autoplay
+          playsinline
+          class="w-full max-h-[68vh] object-contain rounded shadow-2xl"
+        ></video>
+        <img 
+          id="modalImage"
+          src="./ceo_male.jpg"
+          alt="Media modal"
+          class="w-full max-h-[68vh] object-contain rounded shadow-2xl hidden"
+        />
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="bg-[#1b130c] px-6 py-3 border-t border-[#422c17] flex items-center justify-between text-xs font-mono text-[#a8907a] z-10 shrink-0">
+        <div class="flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-[#d4af37] animate-pulse"></span>
+          <span id="modalCaption" class="text-[#e2caa8] font-serif italic text-sm">KHỦNG HOẢNG CHIẾN TRANH TOÀN CẦU TẠI ASTERIA</span>
+        </div>
+        <span class="text-[#8c745d] text-[11px]">BẢN QUYỀN LƯU TRỮ ASTERIA 1914</span>
       </div>
     </div>
   </div>
@@ -1274,11 +1586,22 @@
       document.getElementById("viewStartMenu").classList.add("hidden");
       document.getElementById("viewPlaying").classList.remove("hidden");
 
-      // Reset state
+      // Reset state & phases hoàn chỉnh
       currentPhase = 1;
       currentBudget = 1000000;
       eventsHistory = [...initialEvents];
       document.getElementById("headerBudget").textContent = formatMoney(currentBudget);
+      
+      // Reset view trang phải về Pha 1 (Ngữ cảnh ban đầu)
+      document.getElementById("viewContext").classList.remove("hidden");
+      document.getElementById("viewQuestion").classList.add("hidden");
+      document.getElementById("viewOutcome").classList.add("hidden");
+      document.getElementById("rightPageFooter").classList.remove("hidden");
+      document.getElementById("btnNext").classList.remove("hidden");
+      document.getElementById("pageCounter").textContent = "Trang 1/2";
+      document.getElementById("nodeBadge").textContent = "NGỮ CẢNH #41";
+      document.getElementById("sectionTitle").textContent = "CHIẾN TRANH BÙNG NỔ TẠI ASTERIA";
+
       renderEvents();
       updateLeftPageArt();
     }
@@ -1289,35 +1612,88 @@
       document.getElementById("viewStartMenu").classList.remove("hidden");
     }
 
-    // Cập nhật tranh trang trái (Event image khi đọc Context, chuyển thành Chân dung CEO khi ở Question node chuẩn ExecutiveLedger!)
+    // Cập nhật tranh trang trái (Video sự kiện 1914 khi đọc Context, chuyển thành Chân dung CEO khi ở Question node)
     function updateLeftPageArt() {
+      const vid = document.getElementById("leftPageVideo");
       const img = document.getElementById("leftPageImage");
       const title = document.getElementById("leftArtTitle");
       const caption = document.getElementById("leftArtCaption");
       const tag = document.getElementById("leftPageHeaderTag");
 
       if (currentPhase === 1) {
-        // Context node: Ảnh sự kiện 1914
-        img.src = "./frontend/public/assets/events/event_1914.jpg";
-        img.className = "w-full h-full object-cover grayscale contrast-115 transition-all duration-300";
-        tag.textContent = "SỨC ÉP NĂM 1914";
+        // Context node: Video sự kiện 1914 nguyên màu tự nhiên
+        if (vid) {
+          vid.classList.remove("hidden");
+          vid.src = "./frontend/public/assets/videos/event_1914.mp4";
+          vid.play().catch(() => {});
+        }
+        if (img) img.classList.add("hidden");
+        tag.textContent = "KHỞI NGUYÊN ASTERIA 1914";
         title.textContent = "BẢN TIN KHẨN GỬI BAN GIÁM ĐỐC • 1914";
         caption.textContent = "KHỦNG HOẢNG CHIẾN TRANH TOÀN CẦU TẠI ASTERIA";
       } else if (currentPhase === 2) {
-        // Question node: Chuyển sang Chân dung CEO chuẩn ExecutiveLedger lines 380-386!
-        img.src = selectedGender === 'female' ? './ceo_female.jpg' : './ceo_male.jpg';
-        img.className = "w-full h-full object-cover object-top filter contrast-[1.08] transition-all duration-300";
+        // Question node: Chuyển sang Chân dung CEO
+        if (vid) {
+          vid.pause();
+          vid.classList.add("hidden");
+        }
+        if (img) {
+          img.classList.remove("hidden");
+          img.src = selectedGender === 'female' ? './ceo_female.jpg' : './ceo_male.jpg';
+          img.className = "w-full h-full object-cover object-top filter contrast-[1.05] transition-all duration-300";
+        }
         tag.textContent = "QUYẾT ĐỊNH ĐIỀU HÀNH";
         title.textContent = selectedGender === 'female' ? "TỔNG GIÁM ĐỐC VICTORIA VANCE" : "CHỦ TỊCH ALEXANDER VANCE";
         caption.textContent = companyName + " • BẢN GHI #2";
       } else {
-        // Outcome node
-        img.src = "./frontend/public/assets/events/event_1914.jpg";
-        img.className = "w-full h-full object-cover filter contrast-[1.15] transition-all duration-300";
+        // Outcome node: Video sự kiện 1914 nguyên màu
+        if (vid) {
+          vid.classList.remove("hidden");
+          vid.src = "./frontend/public/assets/videos/event_1914.mp4";
+          vid.play().catch(() => {});
+        }
+        if (img) img.classList.add("hidden");
         tag.textContent = "KẾT CỤC TOÀN CẢNH";
         title.textContent = "KẾT QUẢ ĐIỀU HÀNH THỜI CHIẾN";
         caption.textContent = "BẢN GHI TỔNG KẾT NĂM 1914";
       }
+    }
+
+    // Modal Phóng To Video/Ảnh Toàn Màn Hình (Fullscreen Media Modal)
+    function openMediaModal() {
+      const modal = document.getElementById("mediaModal");
+      const modalVid = document.getElementById("modalVideo");
+      const modalImg = document.getElementById("modalImage");
+      const vid = document.getElementById("leftPageVideo");
+      const img = document.getElementById("leftPageImage");
+      const title = document.getElementById("leftArtTitle").textContent;
+      const caption = document.getElementById("leftArtCaption").textContent;
+      const tag = document.getElementById("leftPageHeaderTag").textContent;
+
+      document.getElementById("modalTitle").textContent = title;
+      document.getElementById("modalCaption").textContent = caption;
+      document.getElementById("modalTag").textContent = tag + " • HỒ SƠ QUÂN SỰ ĐỘC QUYỀN";
+
+      if (vid && !vid.classList.contains("hidden") && vid.src) {
+        modalVid.src = vid.src;
+        modalVid.classList.remove("hidden");
+        modalImg.classList.add("hidden");
+        modalVid.play().catch(() => {});
+      } else if (img) {
+        modalImg.src = img.src;
+        modalImg.classList.remove("hidden");
+        modalVid.classList.add("hidden");
+        modalVid.pause();
+      }
+
+      modal.classList.remove("hidden");
+    }
+
+    function closeMediaModal() {
+      const modal = document.getElementById("mediaModal");
+      const modalVid = document.getElementById("modalVideo");
+      if (modalVid) modalVid.pause();
+      modal.classList.add("hidden");
     }
 
     // Vẽ con dấu mạ vàng SealBullet chuẩn ExecutiveLedger.jsx
@@ -1503,6 +1879,18 @@
         chatStream.scrollTop = chatStream.scrollHeight;
       }, 400);
     }
+    // Đóng toàn bộ modals khi ấn ESC
+    window.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        closeSecretaryModal();
+        closeAdvisorModal();
+        closeChoiceModal();
+        closeMediaModal();
+        closeSettingsModal();
+        closeCreditsModal();
+        closeCharSelectModal();
+      }
+    });
   </script>
 
 </body>

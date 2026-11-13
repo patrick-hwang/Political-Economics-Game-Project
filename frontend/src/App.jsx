@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import StartMenu from './components/StartMenu';
 import ExecutiveLedger from './components/ExecutiveLedger';
 import { createSession, submitChoice } from './services/api';
@@ -73,7 +73,7 @@ export default function App() {
           Đang mở Sổ Cái Asteria (1914)...
         </h2>
         <p className="text-xs text-[#a48a73] mt-1 font-mono">
-          Nạp 28 nodes kịch bản Nhánh 1 • Kinh tế chính trị Mác - Lênin
+          Nạp 28 nodes kịch bản Nhóm 6 • Kinh tế chính trị Mác - Lênin
         </p>
       </div>
     );
@@ -105,6 +105,7 @@ export default function App() {
       onSelectChoice={handleSelectChoice}
       outcome={isOutcome ? screen.outcome : null}
       budget={session?.budget ?? 1000000}
+      companyName={companyName}
       gender={characterGender}
       historyLength={session?.history?.length || 0}
       onRestart={handleRestart}
