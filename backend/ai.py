@@ -111,7 +111,8 @@ class GeminiExplainer:
 
         final_message = (
             "Explain in Vietnamese why this outcome happened as a result of the "
-            "player's decisions, step by step, using ONLY the decision data above."
+            "player's decisions, step by step, using ONLY the decision data above. "
+            "Use fully accented Vietnamese spelling with all diacritical marks."
         )
         return self._ask(context, final_message, history)
 
@@ -131,7 +132,8 @@ class GeminiExplainer:
 
         final_message = (
             f"The player says: {message}\n\n"
-            "Answer naturally in Vietnamese. If relevant, connect your answer to "
+            "Answer naturally in Vietnamese with fully accented spelling and "
+            "correct diacritical marks. If relevant, connect your answer to "
             "their decisions using ONLY the decision data above; otherwise just "
             "answer the question directly."
         )
@@ -152,6 +154,12 @@ class GeminiExplainer:
             "choices to their economic consequences.\n\n"
             "ALWAYS answer in Vietnamese (Tiếng Việt), regardless of the language "
             "of the question.\n\n"
+            "Use FULLY ACCENTED, correct Vietnamese spelling with all diacritical "
+            "marks (dấu thanh điệu and dấu mũ/móc/trăng). For example, write "
+            "\"không\", \"học\", \"được\", \"tiếng Việt\", NOT \"khong\", \"hoc\", "
+            "\"duoc\", \"tieng Viet\". "
+            "NEVER use accentless/teencode Vietnamese. Every word must carry its "
+            "proper Unicode diacritics exactly as standard written Vietnamese.\n\n"
             "FORMAT: reply in plain text only. Do NOT use Markdown formatting "
             "(no asterisks, hashes, backticks, bullet points, numbered lists, "
             "bold, italics, or links). Use normal sentences and plain paragraphs."
