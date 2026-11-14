@@ -107,6 +107,13 @@ export async function createSession() {
   // Fallback to local graph
   const graph = await getLocalGraph();
   const screen = resolveScreenLocally(graph, 1);
+  let initRunningBudget = 1000000;
+  for (const ctx of (screen.contexts || [])) {
+    const ctxRev = parseRevenue(ctx.revenue);
+    ctx.budget_before = initRunningBudget;
+    initRunningBudget += ctxRev;
+    ctx.budget_after = initRunningBudget;
+  }
   return {
     session_id: "local_session",
     budget: 1000000,
@@ -118,6 +125,25 @@ export async function createSession() {
 }
 
 export async function submitChoice(session, choiceNodeId) {
+  const graph = await getLocalGraph();
+  const choice = graph ? graph.get(Number(choiceNodeId)) : null;
+  const oldBudget = session.budget ?? 1000000;
+  const choiceRev = parseRevenue(choice?.revenue_million || choice?.revenue);
+  const choiceBudgetAfter = oldBudget + choiceRev;
+
+  const choiceResultNode = choice ? {
+    node: Number(choice.node),
+    type: "choice_result",
+    isChoiceResult: true,
+    content: choice.content || "",
+    benefits: choice.benefits || "",
+    potential_drawback: choice["potential drawback"] || "",
+    impact: choice.impact || "",
+    revenue: choice.revenue || (choice.revenue_million ? `+$${choice.revenue_million} million` : ""),
+    budget_before: oldBudget,
+    budget_after: choiceBudgetAfter,
+  } : null;
+
   if (session.isBackend) {
     try {
       const res = await fetch(`${API_BASE}/session/${session.session_id}/choose`, {
@@ -127,6 +153,25 @@ export async function submitChoice(session, choiceNodeId) {
       });
       if (res.ok) {
         const data = await res.json();
+        // Luôn đảm bảo node kết quả phương án xuất hiện đầu tiên trong danh sách contexts
+        if (choiceResultNode && (!data.screen.contexts || data.screen.contexts.length === 0 || Number(data.screen.contexts[0]?.node) !== Number(choiceNodeId))) {
+          data.screen.contexts = [choiceResultNode, ...(data.screen.contexts || [])];
+        }
+        // Gán tuần tự budget_before và budget_after cho toàn bộ contexts để mọi trang đều hiển thị số tiền chính xác
+        let running = choiceBudgetAfter;
+        for (let i = 0; i < (data.screen.contexts || []).length; i++) {
+          const ctx = data.screen.contexts[i];
+          if (ctx.isChoiceResult) {
+            ctx.budget_before = oldBudget;
+            ctx.budget_after = choiceBudgetAfter;
+            running = choiceBudgetAfter;
+          } else {
+            const ctxRev = parseRevenue(ctx.revenue);
+            ctx.budget_before = running;
+            running += ctxRev;
+            ctx.budget_after = running;
+          }
+        }
         return { ...data, isBackend: true };
       }
     } catch (err) {
@@ -135,13 +180,23 @@ export async function submitChoice(session, choiceNodeId) {
   }
 
   // Local fallback with accurate revenue delta (choice revenue + context revenues)
-  const graph = await getLocalGraph();
-  const choice = graph.get(choiceNodeId);
-  const choiceRev = parseRevenue(choice?.revenue_million || choice?.revenue);
   const nextTarget = Number(choice["next node"]?.[0] || 1);
   const newScreen = resolveScreenLocally(graph, nextTarget);
+
+  let runningBudget = choiceBudgetAfter;
+  for (const ctx of (newScreen.contexts || [])) {
+    const ctxRev = parseRevenue(ctx.revenue);
+    ctx.budget_before = runningBudget;
+    runningBudget += ctxRev;
+    ctx.budget_after = runningBudget;
+  }
+
   const contextRev = (newScreen.contexts || []).reduce((acc, ctx) => acc + parseRevenue(ctx.revenue), 0);
-  const newBudget = (session.budget || 0) + choiceRev + contextRev;
+  const newBudget = oldBudget + choiceRev + contextRev;
+
+  if (choiceResultNode) {
+    newScreen.contexts = [choiceResultNode, ...(newScreen.contexts || [])];
+  }
 
   return {
     session_id: session.session_id,

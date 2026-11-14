@@ -301,7 +301,31 @@ def choose(session_id: str, body: ChooseRequest) -> Any:
         "budget_after": session["budget"],
     })
 
-    return _session_view(session_id)
+    view = _session_view(session_id)
+    choice_budget_before = session["budget"] - change
+    choice_budget_after = choice_budget_before + _revenue(choice)
+    choice_context = {
+        "node": choice_id,
+        "type": "choice_result",
+        "isChoiceResult": True,
+        "content": choice.get("content", ""),
+        "benefits": choice.get("benefits", ""),
+        "potential_drawback": choice.get("potential drawback", ""),
+        "impact": choice.get("impact", ""),
+        "revenue": choice.get("revenue", ""),
+        "budget_before": choice_budget_before,
+        "budget_after": choice_budget_after,
+    }
+
+    running_budget = choice_budget_after
+    for ctx in view["screen"].get("contexts", []):
+        ctx_rev = _parse_revenue_string(ctx.get("revenue"))
+        ctx["budget_before"] = running_budget
+        running_budget += ctx_rev
+        ctx["budget_after"] = running_budget
+
+    view["screen"]["contexts"] = [choice_context] + view["screen"].get("contexts", [])
+    return view
 
 
 # ============================================

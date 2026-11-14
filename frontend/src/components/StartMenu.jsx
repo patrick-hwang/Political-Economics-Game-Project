@@ -35,7 +35,7 @@ export default function StartMenu({ onStartGame }) {
     : '/assets/portraits/ceo_female.jpg';
 
   const ceoName = selectedGender === 'male' ? 'ALEXANDER VANCE' : 'VICTORIA VANCE';
-  const ceoRole = selectedGender === 'male' ? 'Chủ tịch Sáng lập • 1914' : 'Tổng Giám đốc Điều hành • 1914';
+  const ceoRole = selectedGender === 'male' ? 'CHỦ TỊCH SÁNG LẬP • 1914' : 'TỔNG GIÁM ĐỐC ĐIỀU HÀNH • 1914';
 
   const handleStart = () => {
     playPageTurnSound();
@@ -244,7 +244,7 @@ export default function StartMenu({ onStartGame }) {
               <h3 className="font-display font-black text-lg text-[#faebcd] tracking-wider drop-shadow-md">
                 {ceoName}
               </h3>
-              <p className="font-display text-[11px] font-bold text-[#d4af37] tracking-wider mt-0.5">
+              <p className="font-display uppercase text-[11px] font-bold text-[#d4af37] tracking-wider mt-0.5">
                 {ceoRole}
               </p>
             </div>

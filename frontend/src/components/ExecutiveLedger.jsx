@@ -13,7 +13,7 @@ import {
 import { playTrack, pauseMusic, resumeMusic, MUSIC_TRACKS } from '../services/musicManager';
 import { getNodeEra } from '../services/nodeEraMap';
 import AtmosphericVFX from './AtmosphericVFX';
-import { getLocalGraph, sendChatMessage, getChatHistory, explainDecision } from '../services/api';
+import { getLocalGraph, sendChatMessage, getChatHistory, explainDecision, parseRevenue } from '../services/api';
 
 // 1914 Royal Seal Diamond Bullet
 function SealBullet() {
@@ -392,6 +392,9 @@ export default function ExecutiveLedger({
           const choiceNode = graph.get(chosenId);
           if (choiceNode) {
             events.push(choiceNode);
+            if (currentContext && Number(choiceNode.node) === Number(currentContext.node)) {
+              break;
+            }
             const choiceNext = choiceNode["next node"] || [];
             if (choiceNext.length > 0) {
               currId = Number(choiceNext[0]);
@@ -456,11 +459,20 @@ export default function ExecutiveLedger({
     }
   }, [eraIndex]);
 
-  const formattedBudget = new Intl.NumberFormat('en-US', {
+  const formatMoney = (val) => new Intl.NumberFormat('en-US', {
     style: 'currency',
     currency: 'USD',
     maximumFractionDigits: 0,
-  }).format(budget);
+  }).format(val || 0);
+
+  // Ngân sách chuẩn xác theo đúng bước diễn biến đang xem:
+  // Nếu đang xem một ngữ cảnh / kết quả quyết sách, ngân sách là budget_after của node đó.
+  // Khi đã vào câu hỏi hoặc màn hình kết cục, hiển thị budget chung của phiên chơi.
+  const activeBudget = (currentContext && currentContext.budget_after !== undefined)
+    ? currentContext.budget_after
+    : budget;
+
+  const formattedBudget = formatMoney(activeBudget);
 
   // Lựa chọn ảnh/video tư liệu hoặc chân dung CEO chính xác theo tình huống game
   const getLeftArt = () => {
@@ -503,6 +515,21 @@ export default function ExecutiveLedger({
         videoSrc: "/assets/videos/event_1929.mp4",
         tag: "KẾT CỤC BIÊN NIÊN SỬ",
         dateText: "NĂM 2011",
+      };
+    }
+
+    // 2.5. KHI Ở NODE KẾT QUẢ PHƯƠNG ÁN ĐÃ CHỌN (CHOICE RESULT NODE)
+    if (currentContext && (currentContext.isChoiceResult || currentContext.type === 'choice_result' || (currentContext.impact && String(currentContext.impact).trim() !== ""))) {
+      const portraitSrc = gender === 'female' 
+        ? '/assets/portraits/ceo_female.jpg' 
+        : '/assets/portraits/ceo_male.jpg';
+
+      return {
+        title: gender === 'female' ? "TỔNG GIÁM ĐỐC VICTORIA VANCE" : "CHỦ TỊCH ALEXANDER VANCE",
+        caption: "QUYẾT SÁCH CHIẾN LƯỢC ĐÃ THỰC THI",
+        src: portraitSrc,
+        tag: "KẾT QUẢ SẮC LỆNH CHIẾN LƯỢC",
+        dateText: TIMELINE_ERAS[eraIndex]?.year || "1914",
       };
     }
 
@@ -717,12 +744,22 @@ export default function ExecutiveLedger({
 
             {/* Ngân quỹ & Nút Gấp Sổ Lại */}
             <div className="flex items-center gap-3">
-              {/* Mechanical Balance Gauge */}
-              <div className="flex items-center gap-1.5 bg-[#120d08] px-2.5 py-1 rounded-full border border-[#6b4c1e] shadow-[inset_0_1px_3px_rgba(0,0,0,0.8)]">
-                <div className="w-3.5 h-3.5 rounded-full bg-[#d4af37] text-[#1e1305] flex items-center justify-center font-bold text-[9px] shadow-sm">
-                  $
+              {/* Khung số tiền ngân quỹ bằng da đen viền kim loại đồng thau và sấp tiền cổ điển 1914 */}
+              <div 
+                className="relative h-[34px] w-[165px] flex items-center shrink-0 drop-shadow-[0_2px_5px_rgba(0,0,0,0.85)]"
+                title={`Ngân quỹ hiện có: ${formattedBudget}`}
+              >
+                <img 
+                  src="/assets/asset_money_frame.png" 
+                  alt="Khung số tiền" 
+                  className="absolute inset-0 w-full h-full object-fill pointer-events-none select-none" 
+                />
+                {/* Vùng hiển thị số tiền: Căn giữa trong phần nền da đen bên phải sấp tiền */}
+                <div className="relative z-10 w-full h-full flex items-center justify-center pl-[52px] pr-[12px] select-none pointer-events-none">
+                  <span className="font-title font-black text-xs sm:text-[13px] tracking-wide text-[#faebcd] drop-shadow-[0_1px_3px_rgba(0,0,0,0.95)] whitespace-nowrap">
+                    {formattedBudget}
+                  </span>
                 </div>
-                <span className="font-mono text-xs font-black tracking-wider text-[#faebcd] drop-shadow-sm">{formattedBudget}</span>
               </div>
 
               {/* Button Gấp Sổ Lại */}
@@ -869,7 +906,7 @@ export default function ExecutiveLedger({
                   />
                   {/* Vùng da chứa chữ: Căn giữa tuyệt đối cả chiều ngang và dọc so với lòng ô */}
                   <div className="absolute left-[29%] right-[9%] top-[15%] bottom-[5%] flex items-center justify-center pointer-events-none z-10 px-2">
-                    <span className="font-['Playfair_Display_SC','Faustina',serif] font-bold tracking-wider text-xs sm:text-[13px] text-[#f4ecd8] drop-shadow-[0_2px_4px_rgba(0,0,0,0.95)] uppercase select-none whitespace-nowrap text-center">
+                    <span className="font-['Playfair_Display','Faustina',serif] font-bold tracking-wider text-xs sm:text-[13px] text-[#f4ecd8] drop-shadow-[0_2px_4px_rgba(0,0,0,0.95)] uppercase select-none whitespace-nowrap text-center">
                       Biên bản
                     </span>
                   </div>
@@ -888,7 +925,7 @@ export default function ExecutiveLedger({
                   />
                   {/* Vùng da chứa chữ: Căn giữa tuyệt đối cả chiều ngang và dọc so với lòng ô */}
                   <div className="absolute left-[29%] right-[9%] top-[15%] bottom-[5%] flex items-center justify-center pointer-events-none z-10 px-2">
-                    <span className="font-['Playfair_Display_SC','Faustina',serif] font-bold tracking-normal text-[11px] sm:text-[12px] text-[#f4ecd8] drop-shadow-[0_2px_4px_rgba(0,0,0,0.95)] uppercase select-none whitespace-nowrap text-center">
+                    <span className="font-['Playfair_Display','Faustina',serif] font-bold tracking-normal text-[11px] sm:text-[12px] text-[#f4ecd8] drop-shadow-[0_2px_4px_rgba(0,0,0,0.95)] uppercase select-none whitespace-nowrap text-center">
                       Cố vấn Friedrich
                     </span>
                   </div>
@@ -930,30 +967,147 @@ export default function ExecutiveLedger({
                   className="flex-1 flex flex-col justify-between"
                 >
 
-                  {/* 1. MÀN HÌNH NARRATIVE CONTEXT (CÓ CON DẤU SÁP ĐỎ ASTERIA 1914) */}
+                  {/* 1. MÀN HÌNH NARRATIVE CONTEXT HOẶC NODE KẾT QUẢ PHƯƠNG ÁN ĐÃ CHỌN */}
                   {currentContext && (
                     <div className="my-auto py-2 space-y-3.5">
-                      {formatStoryWithDropCap(currentContext.content)}
+                      {(currentContext.isChoiceResult || currentContext.type === 'choice_result' || (currentContext.impact && String(currentContext.impact).trim() !== "")) ? (
+                        /* GIAO DIỆN NODE RIÊNG CHO PHƯƠNG ÁN ĐÃ CHỌN: NỘI DUNG, ẢNH HƯỞNG, DOANH THU */
+                        <div className="space-y-4">
+                          {/* Tiêu đề phương án đã phê chuẩn */}
+                          <div className="pb-1 border-b border-[#d8c9b6] flex items-center">
+                            <span className="font-title font-black text-xs sm:text-[13px] text-[#7a3e14] tracking-widest uppercase select-none">
+                              KẾT QUẢ QUYẾT SÁCH ĐÃ THỰC THI
+                            </span>
+                          </div>
 
-                      {/* Financial Movement with Red Wax Seal Stamp (Bỏ nền xanh/đỏ, dùng 2 font riêng biệt làm nổi bật) */}
-                      {currentContext.revenue && currentContext.revenue.trim() !== "" && (
-                        <div className="relative p-3.5 bg-[#ede4d3]/85 border-l-4 border-[#7a5538] rounded-r shadow-sm flex items-center justify-between gap-4 pr-20 overflow-hidden">
-                          <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3">
-                            <span className="font-condensed font-bold text-xs sm:text-[13px] text-[#6b421a] tracking-widest uppercase select-none">
-                              GHI NHẬN BIẾN ĐỘNG SỔ CÁI:
+                          {/* 1. NỘI DUNG */}
+                          <div className="space-y-1">
+                            <span className="font-condensed font-bold text-xs sm:text-[13px] text-[#5c3818] tracking-widest uppercase block select-none">
+                              NỘI DUNG PHƯƠNG ÁN:
                             </span>
-                            <span className={`font-title font-black text-xl sm:text-2xl tracking-wide select-none ${
-                              currentContext.revenue.includes('-') ? 'text-[#922119]' : 'text-[#166534]'
-                            }`}>
-                              {currentContext.revenue}
-                            </span>
+                            <p className="font-serif font-bold text-[16px] sm:text-[17.5px] text-[#241a12] leading-snug">
+                              {currentContext.content}
+                            </p>
                           </div>
-                          
-                          {/* Asteria Imperial Red Wax Seal Stamp */}
-                          <div className="absolute -bottom-2 right-1 pointer-events-none select-none">
-                            <RedWaxSeal className="w-16 h-16 drop-shadow-md opacity-95" />
-                          </div>
+
+                          {/* 2. ẢNH HƯỞNG (Không dùng nền xanh/khung hộp, hiển thị thoáng sạch trên trang giấy da) */}
+                          {isValidValue(currentContext.impact) && (
+                            <div className="space-y-1 pt-0.5">
+                              <div className="flex items-center gap-2">
+                                <SealBullet />
+                                <span className="font-condensed font-bold text-xs sm:text-[13px] text-[#5c3818] tracking-widest uppercase select-none">
+                                  ẢNH HƯỞNG:
+                                </span>
+                              </div>
+                              <p className="font-serif text-[#2a241e] text-[15px] sm:text-[16px] leading-relaxed text-justify pl-5">
+                                {currentContext.impact}
+                              </p>
+                            </div>
+                          )}
+
+                          {/* 3. DOANH THU & BIẾN ĐỘNG NGÂN QUỸ (Không dùng nền xanh, thể hiện số tiền cũ gạch ngang -> số tiền mới) */}
+                          {isValidValue(currentContext.revenue) && (() => {
+                            const delta = parseRevenue(currentContext.revenue);
+                            const oldVal = currentContext.budget_before !== undefined 
+                              ? currentContext.budget_before 
+                              : (budget - delta);
+                            const newVal = currentContext.budget_after !== undefined 
+                              ? currentContext.budget_after 
+                              : budget;
+                            const isNegative = delta < 0 || String(currentContext.revenue).includes('-');
+
+                            return (
+                              <div className="relative pt-2.5 pb-1 border-t border-[#d8c9b6] flex items-center justify-between gap-4 pr-16 select-none">
+                                <div className="flex flex-col gap-0.5">
+                                  <span className="font-condensed font-bold text-xs sm:text-[13px] text-[#6b421a] tracking-widest uppercase select-none">
+                                    GHI NHẬN BIẾN ĐỘNG SỔ CÁI:
+                                  </span>
+                                  <div className="flex items-center flex-wrap gap-2">
+                                    {/* Tổng số tiền cũ (hiệu ứng gạch ngang) */}
+                                    <span className="font-mono text-base sm:text-lg text-[#826b58] line-through decoration-rose-900/80 decoration-2 select-none opacity-85">
+                                      {formatMoney(oldVal)}
+                                    </span>
+                                    {/* Mũi tên chuyển đổi */}
+                                    <span className="text-[#8c6721] font-bold text-base sm:text-lg select-none">
+                                      →
+                                    </span>
+                                    {/* Tổng số tiền mới */}
+                                    <span className={`font-title font-black text-xl sm:text-2xl tracking-wide select-none ${
+                                      isNegative ? 'text-[#922119]' : 'text-[#166534]'
+                                    }`}>
+                                      {formatMoney(newVal)}
+                                    </span>
+                                    {/* Mức chênh lệch */}
+                                    <span className={`font-serif font-bold text-xs sm:text-sm tracking-wide ml-1 select-none ${
+                                      isNegative ? 'text-[#922119]' : 'text-[#166534]'
+                                    }`}>
+                                      ({currentContext.revenue})
+                                    </span>
+                                  </div>
+                                </div>
+                                
+                                {/* Asteria Imperial Red Wax Seal Stamp */}
+                                <div className="absolute -bottom-1 right-0 pointer-events-none select-none">
+                                  <RedWaxSeal className="w-14 h-14 drop-shadow-md opacity-95" />
+                                </div>
+                              </div>
+                            );
+                          })()}
                         </div>
+                      ) : (
+                        /* GIAO DIỆN NGỮ CẢNH SỬ LIỆU THÔNG THƯỜNG */
+                        <>
+                          {formatStoryWithDropCap(currentContext.content)}
+
+                          {/* Financial Movement with Red Wax Seal Stamp (Bỏ nền xanh, thể hiện số tiền cũ gạch ngang -> số tiền mới) */}
+                          {currentContext.revenue && currentContext.revenue.trim() !== "" && (() => {
+                            const delta = parseRevenue(currentContext.revenue);
+                            const oldVal = currentContext.budget_before !== undefined 
+                              ? currentContext.budget_before 
+                              : (budget - delta);
+                            const newVal = currentContext.budget_after !== undefined 
+                              ? currentContext.budget_after 
+                              : budget;
+                            const isNegative = delta < 0 || String(currentContext.revenue).includes('-');
+
+                            return (
+                              <div className="relative pt-2.5 pb-1 border-t border-[#d8c9b6] flex items-center justify-between gap-4 pr-16 select-none">
+                                <div className="flex flex-col gap-0.5">
+                                  <span className="font-condensed font-bold text-xs sm:text-[13px] text-[#6b421a] tracking-widest uppercase select-none">
+                                    GHI NHẬN BIẾN ĐỘNG SỔ CÁI:
+                                  </span>
+                                  <div className="flex items-center flex-wrap gap-2">
+                                    {/* Tổng số tiền cũ (hiệu ứng gạch ngang) */}
+                                    <span className="font-mono text-base sm:text-lg text-[#826b58] line-through decoration-rose-900/80 decoration-2 select-none opacity-85">
+                                      {formatMoney(oldVal)}
+                                    </span>
+                                    {/* Mũi tên chuyển đổi */}
+                                    <span className="text-[#8c6721] font-bold text-base sm:text-lg select-none">
+                                      →
+                                    </span>
+                                    {/* Tổng số tiền mới */}
+                                    <span className={`font-title font-black text-xl sm:text-2xl tracking-wide select-none ${
+                                      isNegative ? 'text-[#922119]' : 'text-[#166534]'
+                                    }`}>
+                                      {formatMoney(newVal)}
+                                    </span>
+                                    {/* Mức chênh lệch */}
+                                    <span className={`font-serif font-bold text-xs sm:text-sm tracking-wide ml-1 select-none ${
+                                      isNegative ? 'text-[#922119]' : 'text-[#166534]'
+                                    }`}>
+                                      ({currentContext.revenue})
+                                    </span>
+                                  </div>
+                                </div>
+                                
+                                {/* Asteria Imperial Red Wax Seal Stamp */}
+                                <div className="absolute -bottom-1 right-0 pointer-events-none select-none">
+                                  <RedWaxSeal className="w-14 h-14 drop-shadow-md opacity-95" />
+                                </div>
+                              </div>
+                            );
+                          })()}
+                        </>
                       )}
                     </div>
                   )}
@@ -1064,7 +1218,7 @@ export default function ExecutiveLedger({
                           className="absolute inset-0 w-full h-full object-fill filter brightness-95 group-hover:brightness-105 pointer-events-none" 
                           onError={(e) => { e.currentTarget.style.display = 'none'; }}
                         />
-                        <span className="relative z-10 font-['Playfair_Display_SC','Faustina',serif] font-bold text-xs sm:text-[17px] text-[#f4ecd8] drop-shadow-[0_2px_4px_rgba(0,0,0,0.95)] tracking-widest uppercase select-none">
+                        <span className="relative z-10 font-['Playfair_Display','Faustina',serif] font-bold text-xs sm:text-[17px] text-[#f4ecd8] drop-shadow-[0_2px_4px_rgba(0,0,0,0.95)] tracking-widest uppercase select-none">
                           {contextIndex >= totalContexts - 1 ? "TIẾP THEO" : "TRANG KẾ TIẾP"}
                         </span>
                       </button>
@@ -1196,29 +1350,29 @@ export default function ExecutiveLedger({
         >
           <div 
             onClick={(e) => e.stopPropagation()}
-            className="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl w-[820px] max-h-[610px] shadow-[0_20px_60px_rgba(0,0,0,0.85)] flex flex-col overflow-hidden text-[#2a241e]"
+            className="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl w-[840px] max-h-[85vh] shadow-[0_20px_60px_rgba(0,0,0,0.85)] flex flex-col overflow-hidden text-[#2a241e]"
           >
             {/* Header */}
-            <div className="bg-[#ebdcc0] px-5 py-3 border-b-2 border-[#b8a690] flex items-center justify-between">
+            <div className="bg-[#ebdcc0] px-5 py-3 border-b-2 border-[#b8a690] flex items-center justify-between shrink-0">
               <div className="flex items-center gap-3">
                 <img 
                   src="/assets/icons/vintage_ledger_icon.jpg" 
                   alt="Icon Sổ Cái" 
                   className="w-8 h-8 rounded border border-[#8b6b47] shadow object-cover shrink-0" 
                 />
-                <h3 className="font-title font-black text-[21px] text-[#261d15] tracking-wide">
+                <h3 className="font-title font-black text-[22px] text-[#261d15] tracking-wide">
                   BIÊN BẢN DOANH NGHIỆP
                 </h3>
               </div>
             </div>
 
-            {/* Danh Sách Sự Kiện */}
-            <div className="p-5 overflow-y-auto space-y-4 flex-1">
+            {/* Danh Sách Sự Kiện (Tăng cỡ chữ nội dung thêm 4px: 16px -> 20px) */}
+            <div className="p-5 overflow-y-auto space-y-5 flex-1">
               {(() => {
                 const chronologicalEvents = getChronologicalEvents();
                 if (chronologicalEvents.length === 0) {
                   return (
-                    <div className="text-center py-8 text-[#7a6452] font-serif italic text-sm">
+                    <div className="text-center py-8 text-[#7a6452] font-serif italic text-[18px]">
                       Chưa có sự kiện nào được ghi nhận trong sổ cái Asteria.
                     </div>
                   );
@@ -1231,13 +1385,15 @@ export default function ExecutiveLedger({
 
                   return (
                     <div key={`${evt.node}_${idx}`} className="flex gap-4 border-b border-[#dfd2be] pb-4">
-                      <div className="event-title font-title font-black text-[18px] text-[#3e220f] w-28 shrink-0 tracking-wide pt-0.5 select-none whitespace-nowrap">
+                      <div className="event-title font-title font-black text-[20px] text-[#3e220f] w-32 shrink-0 tracking-wide pt-0.5 select-none whitespace-nowrap">
                         Sự kiện {idx + 1}
                       </div>
-                      <div className="flex-1 space-y-2 text-[16px] text-[#2a241e] font-serif leading-relaxed">
+                      <div className="flex-1 space-y-2.5 text-[20px] text-[#2a241e] font-serif leading-relaxed">
                         {isValidValue(evt.content) && (
-                          <div className="flex items-start gap-2.5">
-                            <SealBullet />
+                          <div className="flex items-start gap-3">
+                            <div className="mt-1.5 shrink-0">
+                              <SealBullet />
+                            </div>
                             <div className="flex-1">
                               <span className="font-bold text-[#5c3818]">Nội dung:</span> {evt.content}
                             </div>
@@ -1245,8 +1401,10 @@ export default function ExecutiveLedger({
                         )}
 
                         {isValidValue(evt.benefits) && (
-                          <div className="flex items-start gap-2.5">
-                            <SealBullet />
+                          <div className="flex items-start gap-3">
+                            <div className="mt-1.5 shrink-0">
+                              <SealBullet />
+                            </div>
                             <div className="flex-1">
                               <span className="font-bold text-[#5c3818]">Lợi ích:</span> {evt.benefits}
                             </div>
@@ -1254,8 +1412,10 @@ export default function ExecutiveLedger({
                         )}
 
                         {isValidValue(evt['potential drawback']) && (
-                          <div className="flex items-start gap-2.5">
-                            <SealBullet />
+                          <div className="flex items-start gap-3">
+                            <div className="mt-1.5 shrink-0">
+                              <SealBullet />
+                            </div>
                             <div className="flex-1">
                               <span className="font-bold text-[#5c3818]">Tác hại:</span> {evt['potential drawback']}
                             </div>
@@ -1263,8 +1423,10 @@ export default function ExecutiveLedger({
                         )}
 
                         {isValidValue(evt.impact) && (
-                          <div className="flex items-start gap-2.5">
-                            <SealBullet />
+                          <div className="flex items-start gap-3">
+                            <div className="mt-1.5 shrink-0">
+                              <SealBullet />
+                            </div>
                             <div className="flex-1">
                               <span className="font-bold text-[#5c3818]">Tác động:</span> {evt.impact}
                             </div>
@@ -1272,11 +1434,13 @@ export default function ExecutiveLedger({
                         )}
 
                         {isRevValid && (
-                          <div className="flex items-start gap-2.5">
-                            <SealBullet />
+                          <div className="flex items-start gap-3">
+                            <div className="mt-1.5 shrink-0">
+                              <SealBullet />
+                            </div>
                             <div className="flex-1">
                               <span className="font-bold text-[#5c3818]">Thu nhập:</span>{" "}
-                              <span className={`font-serif font-bold text-[17px] ${isNegative ? 'text-rose-900' : 'text-emerald-800'}`}>
+                              <span className={`font-serif font-bold text-[21px] ${isNegative ? 'text-rose-900' : 'text-emerald-800'}`}>
                                 {rev}
                               </span>
                             </div>
@@ -1316,36 +1480,36 @@ export default function ExecutiveLedger({
         >
           <div 
             onClick={(e) => e.stopPropagation()}
-            className="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl w-[820px] max-h-[610px] shadow-[0_25px_70px_rgba(0,0,0,0.9)] flex flex-col overflow-hidden text-[#2a241e]"
+            className="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl w-[840px] max-h-[85vh] shadow-[0_25px_70px_rgba(0,0,0,0.9)] flex flex-col overflow-hidden text-[#2a241e]"
           >
             {/* Header */}
-            <div className="bg-[#ebdcc0] px-5 py-3 border-b-2 border-[#b8a690] flex items-center justify-between">
+            <div className="bg-[#ebdcc0] px-5 py-3 border-b-2 border-[#b8a690] flex items-center justify-between shrink-0">
               <div className="flex items-center gap-3">
                 <img 
                   src="/assets/icons/friedrich_avatar.jpg" 
                   alt="Cố Vấn Friedrich" 
                   className="w-8 h-8 rounded-full border border-[#8b6b47] shadow object-cover shrink-0" 
                 />
-                <h3 className="font-title font-black text-[21px] text-[#261d15] tracking-wide">
+                <h3 className="font-title font-black text-[22px] text-[#261d15] tracking-wide">
                   CỐ VẤN FRIEDRICH
                 </h3>
               </div>
             </div>
 
-            {/* Chat Stream */}
+            {/* Chat Stream (Tăng cỡ chữ tin nhắn thêm 4px: 16px -> 20px) */}
             <div className="p-5 overflow-y-auto space-y-4 flex-1 bg-[#f9f5ed]">
-              <div ref={chatStreamRef} className="space-y-3.5 max-h-[350px] overflow-y-auto pr-1">
+              <div ref={chatStreamRef} className="space-y-4 max-h-[380px] overflow-y-auto pr-1">
                 {chatMessages.map((msg, i) => {
                   if (msg.role === 'user') {
                     return (
                       <div key={i} className="flex items-start justify-end gap-2.5">
-                        <div className="bg-[#3d2f24] text-[#f7f2e7] p-3 rounded-lg rounded-tr-none text-[16px] font-serif max-w-[85%] leading-relaxed shadow-sm whitespace-pre-wrap break-words">
+                        <div className="bg-[#3d2f24] text-[#f7f2e7] p-3.5 rounded-lg rounded-tr-none text-[20px] font-serif max-w-[85%] leading-relaxed shadow-sm whitespace-pre-wrap break-words">
                           {msg.content}
                         </div>
                         <img 
                           src={gender === 'female' ? '/assets/portraits/ceo_female.jpg' : '/assets/portraits/ceo_male.jpg'}
                           alt={gender === 'female' ? 'CEO Victoria Vance' : 'CEO Alexander Vance'}
-                          className="w-8 h-8 rounded-full border border-[#8b6b47] object-cover shrink-0 shadow-sm mt-0.5" 
+                          className="w-9 h-9 rounded-full border border-[#8b6b47] object-cover shrink-0 shadow-sm mt-0.5" 
                         />
                       </div>
                     );
@@ -1355,10 +1519,10 @@ export default function ExecutiveLedger({
                       <img 
                         src="/assets/icons/friedrich_avatar.jpg" 
                         alt="Friedrich" 
-                        className="w-8 h-8 rounded-full border border-[#d4af37] object-cover shrink-0 shadow-sm mt-0.5" 
+                        className="w-9 h-9 rounded-full border border-[#d4af37] object-cover shrink-0 shadow-sm mt-0.5" 
                       />
                       <div 
-                        className="bg-[#ebdcc0] p-3 rounded-lg rounded-tl-none text-[16px] text-[#2b2118] leading-relaxed max-w-[85%] border border-[#cfbfae] font-serif shadow-sm whitespace-pre-wrap break-words"
+                        className="bg-[#ebdcc0] p-3.5 rounded-lg rounded-tl-none text-[20px] text-[#2b2118] leading-relaxed max-w-[85%] border border-[#cfbfae] font-serif shadow-sm whitespace-pre-wrap break-words"
                         dangerouslySetInnerHTML={{ __html: msg.content }}
                       />
                     </div>
@@ -1370,9 +1534,9 @@ export default function ExecutiveLedger({
                     <img 
                       src="/assets/icons/friedrich_avatar.jpg" 
                       alt="Friedrich" 
-                      className="w-8 h-8 rounded-full border border-[#d4af37] object-cover shrink-0 shadow-sm mt-0.5 animate-pulse" 
+                      className="w-9 h-9 rounded-full border border-[#d4af37] object-cover shrink-0 shadow-sm mt-0.5 animate-pulse" 
                     />
-                    <div className="bg-[#ebdcc0] p-3 rounded-lg rounded-tl-none text-[16px] text-[#5c3818] leading-relaxed border border-[#cfbfae] font-serif italic shadow-sm flex items-center gap-2">
+                    <div className="bg-[#ebdcc0] p-3.5 rounded-lg rounded-tl-none text-[20px] text-[#5c3818] leading-relaxed border border-[#cfbfae] font-serif italic shadow-sm flex items-center gap-2">
                       <Loader2 className="w-5 h-5 animate-spin text-[#8b6b47]" />
                       <span>Cố vấn Friedrich đang suy ngẫm lý luận kinh tế chính trị...</span>
                     </div>
@@ -1380,13 +1544,13 @@ export default function ExecutiveLedger({
                 )}
               </div>
 
-              {/* Gợi ý câu hỏi nhanh */}
+              {/* Gợi ý câu hỏi nhanh (Tăng cỡ chữ) */}
               <div className="pt-2 flex flex-wrap gap-2">
                 <button 
                   type="button" 
                   disabled={isChatLoading}
                   onClick={() => handleSendChat("Phân tích tình hình hiện tại dựa trên các sự kiện gần đây")} 
-                  className="px-3.5 py-1.5 bg-[#ebdcc0] hover:bg-[#dfd0b4] disabled:opacity-60 disabled:cursor-not-allowed border border-[#b8a690] rounded text-[#3d2a1c] font-serif text-[15px] transition-all cursor-pointer flex items-center gap-2 shadow-sm active:scale-95"
+                  className="px-4 py-2 bg-[#ebdcc0] hover:bg-[#dfd0b4] disabled:opacity-60 disabled:cursor-not-allowed border border-[#b8a690] rounded text-[#3d2a1c] font-serif text-[18px] transition-all cursor-pointer flex items-center gap-2 shadow-sm active:scale-95"
                 >
                   <span>💬 Phân tích tình hình hiện tại</span>
                 </button>
@@ -1395,7 +1559,7 @@ export default function ExecutiveLedger({
                     type="button" 
                     disabled={isChatLoading}
                     onClick={handleExplainOutcome} 
-                    className="px-3.5 py-1.5 bg-[#dfd0b4] hover:bg-[#d0be9e] disabled:opacity-60 disabled:cursor-not-allowed border border-[#8b6b47] rounded text-[#261d15] font-serif font-bold text-[15px] transition-all cursor-pointer flex items-center gap-2 shadow-sm active:scale-95"
+                    className="px-4 py-2 bg-[#dfd0b4] hover:bg-[#d0be9e] disabled:opacity-60 disabled:cursor-not-allowed border border-[#8b6b47] rounded text-[#261d15] font-serif font-bold text-[18px] transition-all cursor-pointer flex items-center gap-2 shadow-sm active:scale-95"
                   >
                     <span>📜 Cố vấn giải thích nguyên nhân kết cục</span>
                   </button>
@@ -1404,14 +1568,14 @@ export default function ExecutiveLedger({
             </div>
 
             {/* Footer Chat */}
-            <div className="p-3 bg-[#ede4d3] border-t border-[#d4c3ab] flex items-center gap-2.5">
+            <div className="p-3 bg-[#ede4d3] border-t border-[#d4c3ab] flex items-center gap-2.5 shrink-0">
               <button 
                 type="button" 
                 onClick={() => setShowAdvisorModal(false)} 
-                className="relative px-6 py-2 rounded-lg text-[#faebcd] font-serif font-black text-xs tracking-wider uppercase shadow-[0_4px_10px_rgba(0,0,0,0.5)] border-2 border-[#8b6b47] hover:brightness-110 active:scale-95 transition-all cursor-pointer overflow-hidden flex items-center justify-center shrink-0"
+                className="relative px-6 py-2.5 rounded-lg text-[#faebcd] font-serif font-black text-xs sm:text-[13px] tracking-wider uppercase shadow-[0_4px_10px_rgba(0,0,0,0.5)] border-2 border-[#8b6b47] hover:brightness-110 active:scale-95 transition-all cursor-pointer overflow-hidden flex items-center justify-center shrink-0"
                 style={{ backgroundImage: "url('/assets/icons/antique_leather_button.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
               >
-                <span className="relative z-10 drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] text-[#faebcd] font-serif font-black text-xs tracking-wide">
+                <span className="relative z-10 drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] text-[#faebcd] font-serif font-black text-xs sm:text-[13px] tracking-wide">
                   Đóng sổ
                 </span>
               </button>
@@ -1428,15 +1592,15 @@ export default function ExecutiveLedger({
                   value={chatInput}
                   onChange={(e) => setChatInput(e.target.value)}
                   placeholder="Thảo luận với Cố vấn Friedrich..." 
-                  className="flex-1 bg-[#f7f2e7] border border-[#b8a690] rounded px-3 py-1.5 text-[16px] text-[#1f1710] placeholder-[#8a6d55] focus:outline-none focus:border-[#5c3818] font-serif"
+                  className="flex-1 bg-[#f7f2e7] border border-[#b8a690] rounded px-3 py-2 text-[19px] text-[#1f1710] placeholder-[#8a6d55] focus:outline-none focus:border-[#5c3818] font-serif"
                 />
                 <button 
                   type="submit" 
                   disabled={isChatLoading || !chatInput.trim()}
-                  className="relative px-6 py-2 rounded-lg text-[#faebcd] font-serif font-black text-xs tracking-wider uppercase shadow-[0_4px_10px_rgba(0,0,0,0.5)] border-2 border-[#8b6b47] hover:brightness-110 active:scale-95 disabled:opacity-60 disabled:cursor-not-allowed transition-all cursor-pointer overflow-hidden flex items-center justify-center shrink-0"
+                  className="relative px-6 py-2.5 rounded-lg text-[#faebcd] font-serif font-black text-xs sm:text-[13px] tracking-wider uppercase shadow-[0_4px_10px_rgba(0,0,0,0.5)] border-2 border-[#8b6b47] hover:brightness-110 active:scale-95 disabled:opacity-60 disabled:cursor-not-allowed transition-all cursor-pointer overflow-hidden flex items-center justify-center shrink-0"
                   style={{ backgroundImage: "url('/assets/icons/antique_leather_button.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
                 >
-                  <span className="relative z-10 drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] text-[#faebcd] font-serif font-black text-xs tracking-wide">
+                  <span className="relative z-10 drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] text-[#faebcd] font-serif font-black text-xs sm:text-[13px] tracking-wide">
                     Hỏi tiếp
                   </span>
                 </button>
@@ -1469,21 +1633,23 @@ export default function ExecutiveLedger({
           >
             <div 
               onClick={(e) => e.stopPropagation()} 
-              className="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl w-[640px] max-h-[85vh] p-6 shadow-[0_25px_60px_rgba(0,0,0,0.95)] flex flex-col justify-between text-[#2a241e] font-serif"
+              className="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl w-[680px] max-h-[85vh] p-6 shadow-[0_25px_60px_rgba(0,0,0,0.95)] flex flex-col justify-between text-[#2a241e] font-serif"
             >
               {/* Header Pop-up (Đã bỏ dấu ✕, thay icon A/B thành chữ 'PHƯƠNG ÁN A/B:') */}
               <div className="flex items-center pb-3 border-b-2 border-[#b8a690]">
                 <h3 className="font-title font-bold text-lg text-[#261d15] tracking-wide uppercase">
                   <span className="text-[#7a3e14] font-black mr-2">PHƯƠNG ÁN {choiceLetter}:</span>
-                  XÁC NHẬN SẮC LỆNH ĐIỀU HÀNH
+                  XEM XÉT SẮC LỆNH ĐIỀU HÀNH
                 </h3>
               </div>
 
-              {/* Danh sách các trường thông tin: hiện trơn bằng bullet SealBullet, không icon khác, không viền/background card */}
-              <div className="my-4 overflow-y-auto max-h-[400px] pr-2 space-y-3.5 text-[15px] sm:text-[16px] text-[#2a241e] leading-relaxed">
+              {/* Danh sách các trường thông tin lúc xem xét: Tăng thêm 4px (19px - 20px) cho Nội dung, Lợi ích, Tác hại */}
+              <div className="my-4 overflow-y-auto max-h-[420px] pr-2 space-y-4 text-[19px] sm:text-[20px] text-[#2a241e] leading-relaxed">
                 {isValidValue(content) && (
-                  <div className="flex items-start gap-2.5">
-                    <SealBullet />
+                  <div className="flex items-start gap-3">
+                    <div className="mt-1.5 shrink-0">
+                      <SealBullet />
+                    </div>
                     <div className="flex-1">
                       <span className="font-bold text-[#5c3818]">Nội dung:</span> {content}
                     </div>
@@ -1491,8 +1657,10 @@ export default function ExecutiveLedger({
                 )}
 
                 {isValidValue(benefits) && (
-                  <div className="flex items-start gap-2.5">
-                    <SealBullet />
+                  <div className="flex items-start gap-3">
+                    <div className="mt-1.5 shrink-0">
+                      <SealBullet />
+                    </div>
                     <div className="flex-1">
                       <span className="font-bold text-[#5c3818]">Lợi ích:</span> {benefits}
                     </div>
@@ -1500,59 +1668,50 @@ export default function ExecutiveLedger({
                 )}
 
                 {isValidValue(drawback) && (
-                  <div className="flex items-start gap-2.5">
-                    <SealBullet />
+                  <div className="flex items-start gap-3">
+                    <div className="mt-1.5 shrink-0">
+                      <SealBullet />
+                    </div>
                     <div className="flex-1">
                       <span className="font-bold text-[#5c3818]">Tác hại:</span> {drawback}
                     </div>
                   </div>
                 )}
-
-                {isValidValue(impact) && (
-                  <div className="flex items-start gap-2.5">
-                    <SealBullet />
-                    <div className="flex-1">
-                      <span className="font-bold text-[#5c3818]">Ảnh hưởng:</span> {impact}
-                    </div>
-                  </div>
-                )}
-
-                {isRevValid && (
-                  <div className="flex items-start gap-2.5">
-                    <SealBullet />
-                    <div className="flex-1">
-                      <span className="font-bold text-[#5c3818]">Doanh thu:</span>{" "}
-                      <span className={`font-serif font-bold text-[17px] ${isNegative ? 'text-rose-900' : 'text-emerald-800'}`}>
-                        {rev}
-                      </span>
-                    </div>
-                  </div>
-                )}
               </div>
 
-              {/* Footer: Góc trái dưới có Con dấu sáp đỏ Asteria 1914, Góc phải dưới có 2 Nút Duyệt / Không Duyệt */}
-              <div className="pt-3 flex items-center justify-between border-t border-[#b8a690]">
+              {/* Footer: Góc trái dưới có Con dấu sáp đỏ Asteria 1914, Góc phải dưới có Nút Suy nghĩ thêm (Asset da cổ điển) và Nút Duyệt */}
+              <div className="pt-3.5 flex items-center justify-between border-t border-[#b8a690]">
                 {/* Góc trái dưới: Con dấu sáp không che nội dung */}
                 <div className="flex items-center gap-2">
                   <RedWaxSeal className="w-14 h-14 shrink-0 drop-shadow-md" />
                 </div>
 
-                {/* Góc phải dưới: 2 Nút Duyệt / Suy nghĩ thêm */}
+                {/* Góc phải dưới: Nút "SUY NGHĨ THÊM" (dùng asset antique_leather_button từ Biên Bản) & Nút "DUYỆT" */}
                 <div className="flex items-center gap-3">
                   <button 
                     type="button" 
                     onClick={() => setSelectedChoiceForDetail(null)}
-                    className="py-2 px-5 rounded bg-[#7a5538] hover:bg-[#65442a] text-white font-mono font-bold text-xs uppercase transition-all shadow-[2px_2px_0px_#422316] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none cursor-pointer"
+                    className="relative px-6 py-2.5 rounded-lg text-[#faebcd] font-serif font-black text-xs sm:text-[13px] tracking-wider uppercase shadow-[0_4px_10px_rgba(0,0,0,0.5)] border-2 border-[#8b6b47] hover:brightness-110 active:scale-95 transition-all cursor-pointer overflow-hidden flex items-center justify-center shrink-0"
+                    style={{ backgroundImage: "url('/assets/icons/antique_leather_button.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
                   >
-                    SUY NGHĨ THÊM
+                    <span className="relative z-10 drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] text-[#faebcd] font-serif font-black text-xs sm:text-[13px] tracking-widest uppercase">
+                      SUY NGHĨ THÊM
+                    </span>
                   </button>
                   
                   <button 
                     type="button" 
                     onClick={() => handleConfirmChoice(choice)}
-                    className="py-2 px-6 rounded bg-[#1e7e34] hover:bg-[#19692c] text-white font-mono font-bold text-xs uppercase transition-all shadow-[2px_2px_0px_#11451d] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none cursor-pointer flex items-center gap-1.5"
+                    className="relative px-7 py-2.5 rounded-lg text-[#ecfdf5] font-serif font-black text-xs sm:text-[13px] tracking-wider uppercase shadow-[0_4px_12px_rgba(5,46,22,0.7)] border-2 border-[#15803d] hover:border-[#22c55e] hover:brightness-110 active:scale-95 transition-all cursor-pointer overflow-hidden flex items-center justify-center shrink-0"
+                    style={{ 
+                      backgroundImage: "linear-gradient(rgba(20,83,45,0.78), rgba(5,46,22,0.92)), url('/assets/icons/antique_leather_button.jpg')", 
+                      backgroundSize: 'cover', 
+                      backgroundPosition: 'center' 
+                    }}
                   >
-                    <span>✓ DUYỆT</span>
+                    <span className="relative z-10 drop-shadow-[0_2px_4px_rgba(0,0,0,0.95)] text-[#f0fdf4] font-serif font-black text-xs sm:text-[13px] tracking-widest uppercase">
+                      DUYỆT
+                    </span>
                   </button>
                 </div>
               </div>
