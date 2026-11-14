@@ -192,6 +192,15 @@ const ERA_METADATA = [
     videoSrc: "/assets/videos/event_1929.mp4",
     vfx: "rain",
   },
+  {
+    eraIndex: 8,
+    era: "KẾT THÚC",
+    title: "KỶ NGUYÊN TOÀN THẮNG",
+    tag: "KỶ NGUYÊN TOÀN THẮNG",
+    artSrc: "/assets/events/event_1945.jpg",
+    videoSrc: "/assets/videos/victory_382.mp4",
+    vfx: "sparks",
+  },
 ];
 
 export default function ExecutiveLedger({
@@ -648,15 +657,26 @@ export default function ExecutiveLedger({
     return chapter.vfx || 'dust';
   };
 
-  // Drop cap chữ cái đầu tiên cho văn bản ngữ cảnh
+  // Drop cap chữ cái đầu tiên cho văn bản ngữ cảnh, tự động co dãn linh hoạt theo độ dài để không bị tràn hay che khuất
   const formatStoryWithDropCap = (text) => {
     if (!text) return null;
     const normalized = String(text).normalize('NFC').trim();
     const firstLetter = normalized.charAt(0);
     const rest = normalized.slice(1);
+
+    const textStyleClass = normalized.length > 550
+      ? "text-[14px] sm:text-[14.5px] leading-[1.6]"
+      : normalized.length > 350
+      ? "text-[15px] sm:text-[15.5px] leading-[1.65]"
+      : "text-[16.5px] sm:text-[17px] leading-[1.75]";
+
+    const dropCapClass = normalized.length > 550
+      ? "text-4xl -mt-0.5 mr-2"
+      : "text-5xl -mt-1 mr-2";
+
     return (
-      <p className="font-serif text-[#2a241e] text-[17px] leading-[1.75] text-justify tracking-normal">
-        <span className="float-left text-5xl font-serif font-black text-[#5c3818] mr-2 -mt-1 leading-none select-none">
+      <p className={`font-serif text-[#2a241e] ${textStyleClass} text-justify tracking-normal`}>
+        <span className={`float-left font-serif font-black text-[#5c3818] ${dropCapClass} leading-none select-none`}>
           {firstLetter}
         </span>
         {rest}
@@ -954,15 +974,15 @@ export default function ExecutiveLedger({
             {/* ===================================================================== */}
             {/* TRANG BÊN PHẢI: NỘI DUNG SỬ LIỆU JSON + CÂU HỎI + NÚT TIẾP THEO       */}
             {/* ===================================================================== */}
-            <div className="relative w-full h-full bg-[#f9f5ed] p-6 flex flex-col justify-between overflow-hidden">
+            <div className="relative w-full h-full bg-[#f9f5ed] p-6 pr-16 flex flex-col justify-between overflow-hidden">
               
               {/* Top Chapter & Node Header */}
               <div className="border-b-2 border-[#3d2f24] pb-2">
                 <div className="flex items-center justify-between text-[11px] font-mono text-[#826b58] uppercase tracking-wider mb-0.5">
-                  <span>{chapter.era}</span>
+                  <span>{outcome ? "KẾT THÚC" : chapter.era}</span>
                 </div>
                 <h2 className="font-serif font-black text-xl text-[#2b2118] tracking-tight">
-                  {chapter.title}
+                  {outcome ? (outcome.type === 'win' ? "KỶ NGUYÊN TOÀN THẮNG" : "KẾT THÚC SỰ NGHIỆP") : chapter.title}
                 </h2>
               </div>
 
@@ -1238,8 +1258,7 @@ export default function ExecutiveLedger({
                             alt="Làm lại sự nghiệp" 
                             className="absolute inset-0 w-full h-full object-fill pointer-events-none" 
                           />
-                          <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-10 px-3 gap-1.5">
-                            <RotateCcw className="w-3.5 h-3.5 text-[#d4af37] drop-shadow-[0_1px_2px_rgba(0,0,0,0.95)] shrink-0" />
+                          <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-10 px-3">
                             <span className="font-['Playfair_Display','Faustina',serif] font-bold tracking-normal text-[11px] sm:text-[12px] text-[#f4ecd8] drop-shadow-[0_2px_4px_rgba(0,0,0,0.95)] uppercase select-none text-center whitespace-nowrap">
                               Làm lại sự nghiệp
                             </span>
@@ -1285,7 +1304,7 @@ export default function ExecutiveLedger({
           {/* ======================================================================= */}
           {/* CÂY BÚT MỰC ĐIỀU HÀNH 1914 & QUAI CÀI DA (1914 EXECUTIVE FOUNTAIN PEN)  */}
           {/* ======================================================================= */}
-          <div className="absolute right-1 top-[200px] z-40 pointer-events-none select-none flex flex-col items-center">
+          <div className="absolute right-0.5 top-[200px] z-40 pointer-events-none select-none flex flex-col items-center">
             {/* Leather loop tab stitched to tome edge */}
             <div className="relative w-6 h-28 bg-gradient-to-r from-[#24150b] via-[#3a2213] to-[#1c1008] rounded-l border-l-2 border-y-2 border-[#6b4720] shadow-[-3px_5px_10px_rgba(0,0,0,0.85)] flex items-center justify-center">
               <div className="w-1 h-20 bg-[#0d0704] rounded-full border border-[#4d3016]"></div>
@@ -1293,13 +1312,13 @@ export default function ExecutiveLedger({
               <div className="absolute bottom-1.5 right-1 w-1.5 h-1.5 rounded-full bg-[#d4af37] border border-[#2b1803] shadow-[inset_0_0.5px_0.5px_#fff]"></div>
             </div>
             {/* Fountain Pen Image (Scaled and Rotated -68deg for Perfect Vertical Alignment) */}
-            <div className="absolute -top-10 -left-16 w-44 h-44 flex items-center justify-center pointer-events-none">
+            <div className="absolute -top-10 -left-11 w-44 h-44 flex items-center justify-center pointer-events-none">
               <img 
                 src="/assets/asset_vintage_fountain_pen.png" 
                 alt="Bút Mực Điều Hành Asteria 1914" 
                 style={{
-                  width: '240px',
-                  height: '240px',
+                  width: '210px',
+                  height: '210px',
                   transform: 'rotate(-68deg)',
                   objectFit: 'contain',
                   filter: 'drop-shadow(-6px 12px 14px rgba(0,0,0,0.85))'

@@ -9,6 +9,7 @@ export default function StartMenu({ onStartGame }) {
   const [companyName, setCompanyName] = useState('');
   const [showSettings, setShowSettings] = useState(false);
   const [showCredits, setShowCredits] = useState(false);
+  const [showDisclaimer, setShowDisclaimer] = useState(false);
   const [volume, setVolume] = useState(80);
   const [bgmVolume, setBgmVolume] = useState(getMusicVolume());
   const [scale, setScale] = useState(1);
@@ -246,12 +247,12 @@ export default function StartMenu({ onStartGame }) {
           </div>
 
           {/* ======================================================================= */}
-          {/* PHÍA BÊN PHẢI (60% = 768px): LOGO + KHUNG TÊN + 4 NÚT DỌC                 */}
+          {/* PHÍA BÊN PHẢI (60% = 768px): LOGO + KHUNG TÊN + 5 NÚT DỌC                 */}
           {/* ======================================================================= */}
           <div className="w-[768px] h-[720px] flex flex-col justify-center items-center p-8 relative z-20">
             
             {/* 1. Logo Game (Phóng To • Ánh Sáng Hào Quang Hoàng Kim & Vệt Quét Kim Loại • Giãn Cách Rộng Rãi) */}
-            <div className="relative w-[570px] h-[155px] flex items-center justify-center -mt-4 mb-7 logo-container">
+            <div className="relative w-[570px] h-[155px] flex items-center justify-center -mt-3 mb-4 logo-container">
               
               {/* Golden Radial Halo Glow behind the logo */}
               <div className="absolute inset-0 -m-6 rounded-full bg-[radial-gradient(ellipse_at_center,_rgba(255,225,120,0.5)_0%,_rgba(212,175,55,0.25)_40%,_rgba(0,0,0,0)_75%)] filter blur-xl pointer-events-none animate-pulse" />
@@ -268,7 +269,7 @@ export default function StartMenu({ onStartGame }) {
             </div>
 
             {/* 2. Khung ghi tên doanh nghiệp */}
-            <div className="w-[420px] flex flex-col items-center mb-4">
+            <div className="w-[420px] flex flex-col items-center mb-3">
               <div className="mb-1.5 px-3.5 py-0.5 rounded-full bg-[#160f0a]/90 border border-[#9a7628]/70 shadow-[0_4px_10px_rgba(0,0,0,0.95)] flex items-center justify-center">
                 <span className="font-display font-extrabold text-[11px] text-[#faebcd] tracking-[0.25em] uppercase drop-shadow-[0_1px_3px_rgba(0,0,0,0.95)]">
                   TÊN CHO DOANH NGHIỆP CỦA BẠN
@@ -291,8 +292,8 @@ export default function StartMenu({ onStartGame }) {
               </div>
             </div>
 
-            {/* 3. 4 Nút xếp theo cột dọc */}
-            <div className="w-[420px] flex flex-col space-y-2.5">
+            {/* 3. 5 Nút xếp theo cột dọc */}
+            <div className="w-[420px] flex flex-col space-y-2">
               
               {/* Nút 1: BẮT ĐẦU SỰ NGHIỆP */}
               <button 
@@ -339,6 +340,18 @@ export default function StartMenu({ onStartGame }) {
                 <img src="/assets/asset_menu_button_clean.png" alt="Button Background" className="absolute inset-0 w-full h-full object-fill filter brightness-80 group-hover:brightness-95 transition-all" />
                 <span className="relative z-10 font-serif font-black text-sm text-[#faebcd] tracking-widest uppercase drop-shadow-[0_2px_4px_rgba(0,0,0,0.95)]">
                   CREDITS
+                </span>
+              </button>
+
+              {/* Nút 5: DISCLAIMER */}
+              <button 
+                type="button" 
+                onClick={() => setShowDisclaimer(true)}
+                className="relative w-[420px] h-[48px] filter drop-shadow-[0_4px_10px_rgba(0,0,0,0.85)] hover:brightness-115 active:scale-[0.98] transition-all cursor-pointer flex items-center justify-center group"
+              >
+                <img src="/assets/asset_menu_button_clean.png" alt="Button Background" className="absolute inset-0 w-full h-full object-fill filter brightness-80 group-hover:brightness-95 transition-all" />
+                <span className="relative z-10 font-serif font-black text-sm text-[#faebcd] tracking-widest uppercase drop-shadow-[0_2px_4px_rgba(0,0,0,0.95)]">
+                  DISCLAIMER
                 </span>
               </button>
 
@@ -445,7 +458,7 @@ export default function StartMenu({ onStartGame }) {
         </AnimatePresence>
 
         {/* ======================================================================= */}
-        {/* MODAL: CREDITS (TRI ÂN ĐỘI NGŨ SẢN XUẤT)                                 */}
+        {/* MODAL: CREDITS (TRI ÂN ĐỘI NGŨ SẢN XUẤT & BẢN QUYỀN NGHỆ THUẬT)          */}
         {/* ======================================================================= */}
         <AnimatePresence>
           {showCredits && (
@@ -458,57 +471,58 @@ export default function StartMenu({ onStartGame }) {
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.95 }}
                 onClick={(e) => e.stopPropagation()}
-                className="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl max-w-lg w-full p-6 shadow-[0_25px_60px_rgba(0,0,0,0.95)] flex flex-col gap-4 text-[#2b2118] font-serif"
+                className="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl max-w-lg w-full max-h-[630px] p-6 shadow-[0_25px_60px_rgba(0,0,0,0.95)] flex flex-col gap-3 text-[#2b2118] font-serif"
               >
-                <div className="text-center pb-3 border-b-2 border-[#b8a690]">
+                <div className="text-center pb-2.5 border-b-2 border-[#b8a690] shrink-0">
                   <h3 className="font-display font-black text-xl text-[#3d2a1c] tracking-tight uppercase">
                     ASTERIA 1914: WINGS OF CAPITAL
                   </h3>
-                  {/* <p className="font-display text-xs text-[#8c6721] tracking-widest uppercase mt-0.5">
-                    (Asteria 1914: Wings of Capital)
-                  </p> */}
+                  <p className="font-serif italic font-normal text-sm text-[#7d5828] tracking-wider mt-1">
+                    ASTERIA 1914: ĐẾ CHẾ CÁNH BAY
+                  </p>
                 </div>
 
-                <div className="space-y-2 text-center text-xs sm:text-sm text-[#4a3b2f] leading-relaxed">
-                  <p className="font-bold text-[#2a1a08] font-serif text-base">Đồ án Kinh tế Chính trị Mác – Lênin</p>                  
-                  {/* Khung danh sách nhóm chuẩn phông theme & bullet mạ vàng */}
-                  <div className="my-3 p-4 bg-[#f0e7d5] border-2 border-[#c8b49c] rounded-xl text-left shadow-[inset_0_1px_3px_rgba(0,0,0,0.06)]">
-                    <p className="font-display font-bold text-sm text-[#3a200e] tracking-[0.12em] uppercase border-b border-[#c8b49c] pb-2 mb-3 flex items-center gap-2">
+                <div className="overflow-y-auto pr-1 space-y-3 text-xs sm:text-sm text-[#4a3b2f] leading-relaxed custom-scrollbar">
+                  <p className="font-bold text-[#2a1a08] font-serif text-base text-center">Đồ án Kinh tế Chính trị Mác – Lênin</p>                  
+                  
+                  {/* Mục 1: Đội ngũ sản xuất đồ án */}
+                  <div className="p-3.5 bg-[#f0e7d5] border-2 border-[#c8b49c] rounded-xl text-left shadow-[inset_0_1px_3px_rgba(0,0,0,0.06)]">
+                    <p className="font-display font-bold text-sm text-[#3a200e] tracking-[0.12em] uppercase border-b border-[#c8b49c] pb-2 mb-2.5 flex items-center gap-2">
                       {renderSealBullet()}
-                      Nhóm 6, APCS K24, HCMUS:
+                      Đội Ngũ Sản Xuất (Nhóm 6, APCS K24, HCMUS):
                     </p>
                     <ul className="space-y-2 text-[#24170d]">
                       <li className="flex items-start gap-2.5">
                         {renderSealBullet()}
-                        <div className="font-serif text-[15px] leading-snug">
+                        <div className="font-serif text-[14.5px] leading-snug">
                           <span className="font-display font-bold text-xs tracking-wider text-[#754316] uppercase mr-1">Context:</span>
                           <span className="font-semibold text-[#24170d]">Lê Văn Vĩ (24125050), Phạm Vân Trang (24125046)</span>
                         </div>
                       </li>
                       <li className="flex items-start gap-2.5">
                         {renderSealBullet()}
-                        <div className="font-serif text-[15px] leading-snug">
-                          <span className="font-display font-bold text-xs tracking-wider text-[#754316] uppercase mr-1">Compilation and presentation:</span>
+                        <div className="font-serif text-[14.5px] leading-snug">
+                          <span className="font-display font-bold text-xs tracking-wider text-[#754316] uppercase mr-1">Compilation & Presentation:</span>
                           <span className="font-semibold text-[#24170d]">Nguyễn Minh Tâm (24125042), Nguyễn Văn Lê Bảo (24125053), Trần Trung Hậu (24125055)</span>
                         </div>
                       </li>
                       <li className="flex items-start gap-2.5">
                         {renderSealBullet()}
-                        <div className="font-serif text-[15px] leading-snug">
+                        <div className="font-serif text-[14.5px] leading-snug">
                           <span className="font-display font-bold text-xs tracking-wider text-[#754316] uppercase mr-1">Frontend:</span>
                           <span className="font-semibold text-[#24170d]">Hoàng Đức Hưng Phát (24125016)</span>
                         </div>
                       </li>
                       <li className="flex items-start gap-2.5">
                         {renderSealBullet()}
-                        <div className="font-serif text-[15px] leading-snug">
+                        <div className="font-serif text-[14.5px] leading-snug">
                           <span className="font-display font-bold text-xs tracking-wider text-[#754316] uppercase mr-1">Backend:</span>
                           <span className="font-semibold text-[#24170d]">Nguyễn Anh Khôi (24125060)</span>
                         </div>
                       </li>
                       <li className="flex items-start gap-2.5">
                         {renderSealBullet()}
-                        <div className="font-serif text-[15px] leading-snug">
+                        <div className="font-serif text-[14.5px] leading-snug">
                           <span className="font-display font-bold text-xs tracking-wider text-[#754316] uppercase mr-1">Deploy:</span>
                           <span className="font-semibold text-[#24170d]">Nguyễn Chánh Chương (24125005)</span>
                         </div>
@@ -516,13 +530,179 @@ export default function StartMenu({ onStartGame }) {
                     </ul>
                   </div>
 
-                  <p className="italic text-[12px] font-serif text-[#7a6452]">Cảm ơn bạn đã tham gia trải nghiệm và dẫn dắt doanh nghiệp qua các biến động lịch sử!</p>
+                  {/* Mục 2: Bản quyền âm nhạc (Music Credits) */}
+                  <div className="p-3.5 bg-[#f0e7d5] border-2 border-[#c8b49c] rounded-xl text-left shadow-[inset_0_1px_3px_rgba(0,0,0,0.06)]">
+                    <p className="font-display font-bold text-xs sm:text-sm text-[#3a200e] tracking-[0.12em] uppercase border-b border-[#c8b49c] pb-1.5 mb-2 flex items-center gap-2">
+                      {renderSealBullet()}
+                      Bản Quyền Âm Nhạc (Soundtracks)
+                    </p>
+                    <ul className="space-y-1.5 text-[#24170d]">
+                      <li className="flex items-start gap-2.5">
+                        {renderSealBullet()}
+                        <div className="font-serif text-[14px] leading-snug">
+                          <span className="font-semibold text-[#24170d]">Wandering</span>
+                          <span className="mx-1.5 text-[#8c6721]">—</span>
+                          <a 
+                            href="http://www.youtube.com/@natkeefe" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-[#8c531b] hover:text-[#b87326] underline font-medium transition-colors"
+                          >
+                            Net Keefe
+                          </a>
+                        </div>
+                      </li>
+                      <li className="flex items-start gap-2.5">
+                        {renderSealBullet()}
+                        <div className="font-serif text-[14px] leading-snug">
+                          <span className="font-semibold text-[#24170d]">Taking Chances</span>
+                          <span className="mx-1.5 text-[#8c6721]">—</span>
+                          <a 
+                            href="https://thesoundlings.com" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-[#8c531b] hover:text-[#b87326] underline font-medium transition-colors"
+                          >
+                            The Soundings
+                          </a>
+                        </div>
+                      </li>
+                      <li className="flex items-start gap-2.5">
+                        {renderSealBullet()}
+                        <div className="font-serif text-[14px] leading-snug">
+                          <span className="font-semibold text-[#24170d]">Standoff</span>
+                          <span className="mx-1.5 text-[#8c6721]">—</span>
+                          <a 
+                            href="http://www.youtube.com/@GoldenPalmRecorders" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-[#8c531b] hover:text-[#b87326] underline font-medium transition-colors"
+                          >
+                            Density & Time
+                          </a>
+                        </div>
+                      </li>
+                      <li className="flex items-start gap-2.5">
+                        {renderSealBullet()}
+                        <div className="font-serif text-[14px] leading-snug">
+                          <span className="font-semibold text-[#24170d]">Floating Lanterns</span>
+                          <span className="mx-1.5 text-[#8c6721]">—</span>
+                          <a 
+                            href="http://www.youtube.com/@theminivandals1840" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-[#8c531b] hover:text-[#b87326] underline font-medium transition-colors"
+                          >
+                            The Mini Vandals
+                          </a>
+                        </div>
+                      </li>
+                      <li className="flex items-start gap-2.5">
+                        {renderSealBullet()}
+                        <div className="font-serif text-[14px] leading-snug">
+                          <span className="font-semibold text-[#24170d]">Sands of time</span>
+                          <span className="mx-1.5 text-[#8c6721]">—</span>
+                          <a 
+                            href="http://www.youtube.com/@Patrick-Patrikios" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-[#8c531b] hover:text-[#b87326] underline font-medium transition-colors"
+                          >
+                            Patrick Patrikios
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  {/* Mục 3: Tài nguyên đồ họa & Mỹ thuật AI (Visual Assets) */}
+                  <div className="p-3.5 bg-[#f0e7d5] border-2 border-[#c8b49c] rounded-xl text-left shadow-[inset_0_1px_3px_rgba(0,0,0,0.06)]">
+                    <p className="font-display font-bold text-xs sm:text-sm text-[#3a200e] tracking-[0.12em] uppercase border-b border-[#c8b49c] pb-1.5 mb-2 flex items-center gap-2">
+                      {renderSealBullet()}
+                      Tài Nguyên Mỹ Thuật & Trí Tuệ Nhân Tạo
+                    </p>
+                    <p className="font-serif text-[13.5px] leading-relaxed text-[#24170d] text-justify">
+                      Toàn bộ các tài nguyên đồ họa và hình ảnh mỹ thuật trong trò chơi được tạo bởi mô hình trí tuệ nhân tạo <strong>Imagen 3</strong> thông qua môi trường <strong>Antigravity</strong>, với các câu lệnh định hướng mỹ thuật (prompts) được tinh chỉnh bởi thành viên <strong>Hoàng Đức Hưng Phát</strong>.
+                    </p>
+                  </div>
+
+                  <p className="italic text-[12px] font-serif text-[#7a6452] text-center pt-0.5">
+                    Cảm ơn bạn đã tham gia trải nghiệm và dẫn dắt doanh nghiệp qua các biến động lịch sử!
+                  </p>
                 </div>
 
-                <div className="pt-2 flex justify-center">
+                <div className="pt-2 flex justify-center shrink-0">
                   <button 
                     type="button" 
                     onClick={() => setShowCredits(false)}
+                    className="relative w-[180px] h-[44px] filter drop-shadow-[0_4px_10px_rgba(0,0,0,0.4)] hover:brightness-110 active:scale-[0.98] transition-all cursor-pointer flex items-center justify-center group"
+                  >
+                    <img src="/assets/asset_menu_button_clean.png" alt="Button Background" className="absolute inset-0 w-full h-full object-fill filter brightness-90 group-hover:brightness-100 transition-all" />
+                    <span className="relative z-10 font-display font-black text-xs text-[#faebcd] tracking-widest uppercase drop-shadow-[0_1px_3px_rgba(0,0,0,0.95)]">
+                      ĐÓNG
+                    </span>
+                  </button>
+                </div>
+              </motion.div>
+            </div>
+          )}
+        </AnimatePresence>
+
+        {/* ======================================================================= */}
+        {/* MODAL: DISCLAIMER (TUYÊN BỐ MIỄN TRỪ TRÁCH NHIỆM)                       */}
+        {/* ======================================================================= */}
+        <AnimatePresence>
+          {showDisclaimer && (
+            <div 
+              className="absolute inset-0 modal-backdrop z-50 flex items-center justify-center p-3 sm:p-5"
+              onClick={() => setShowDisclaimer(false)}
+            >
+              <motion.div 
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.95 }}
+                onClick={(e) => e.stopPropagation()}
+                className="bg-[#f7f2e7] border-4 border-[#3d2a1c] rounded-xl max-w-lg w-full p-6 shadow-[0_25px_60px_rgba(0,0,0,0.95)] flex flex-col gap-4 text-[#2b2118] font-serif"
+              >
+                <div className="text-center pb-2.5 border-b-2 border-[#b8a690] shrink-0">
+                  <h3 className="font-display font-black text-xl text-[#3d2a1c] tracking-tight uppercase">
+                    TUYÊN BỐ MIỄN TRỪ TRÁCH NHIỆM
+                  </h3>
+                  <p className="font-serif italic font-normal text-sm text-[#7d5828] tracking-wider mt-0.5">
+                    DISCLAIMER
+                  </p>
+                </div>
+
+                <div className="space-y-3.5 text-xs sm:text-sm text-[#4a3b2f] leading-relaxed">
+                  {/* Khung Tuyên bố miễn trừ trách nhiệm chuẩn phong cách văn bản chính luận */}
+                  <div className="p-4 bg-[#f0e7d5] border-2 border-[#c8b49c] rounded-xl text-left shadow-[inset_0_1px_3px_rgba(0,0,0,0.06)] space-y-2.5">
+                    <p className="font-display font-bold text-xs sm:text-sm text-[#3a200e] tracking-[0.12em] uppercase border-b border-[#c8b49c] pb-2 mb-2 flex items-center gap-2">
+                      {renderSealBullet()}
+                      Tính Hư Cấu & Mục Đích Học Thuật
+                    </p>
+                    
+                    <p className="font-serif text-[14px] leading-relaxed text-[#24170d] text-justify">
+                      Toàn bộ dữ liệu, tình tiết lịch sử, bối cảnh kinh tế, tổ chức, số liệu tài chính và nhân vật xuất hiện trong trò chơi đều là <strong>sản phẩm hư cấu</strong>, xuất phát từ trí tưởng tượng và sự sáng tạo của đội ngũ biên soạn bối cảnh và nội dung (Context & Content).
+                    </p>
+
+                    <p className="font-serif text-[14px] leading-relaxed text-[#24170d] text-justify">
+                      Nội dung trò chơi được xây dựng hoàn toàn vì <strong>mục đích nghiên cứu và giáo dục</strong> trong khuôn khổ đồ án môn học Kinh tế Chính trị Mác – Lênin. Mọi sự trùng hợp với nhân vật, cơ quan, doanh nghiệp hoặc sự kiện có thật ngoài đời thực (nếu có) hoàn toàn chỉ mang tính ngẫu nhiên hoặc được dùng làm phương tiện giả định để minh họa cho các quy luật kinh tế chính trị.
+                    </p>
+
+                    <p className="font-serif text-[13px] italic text-[#5c4433] pt-1">
+                      * Trò chơi được phát hành phi thương mại phục vụ học tập.
+                    </p>
+                  </div>
+
+                  <p className="italic text-[12px] font-serif text-[#7a6452] text-center pt-1">
+                    Ban Biên soạn Đồ án • Asteria 1914
+                  </p>
+                </div>
+
+                <div className="pt-2 flex justify-center shrink-0">
+                  <button 
+                    type="button" 
+                    onClick={() => setShowDisclaimer(false)}
                     className="relative w-[180px] h-[44px] filter drop-shadow-[0_4px_10px_rgba(0,0,0,0.4)] hover:brightness-110 active:scale-[0.98] transition-all cursor-pointer flex items-center justify-center group"
                   >
                     <img src="/assets/asset_menu_button_clean.png" alt="Button Background" className="absolute inset-0 w-full h-full object-fill filter brightness-90 group-hover:brightness-100 transition-all" />
