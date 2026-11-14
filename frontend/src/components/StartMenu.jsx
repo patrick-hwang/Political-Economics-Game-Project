@@ -215,12 +215,6 @@ export default function StartMenu({ onStartGame }) {
                 </svg>
               </div>
 
-              {/* Bottom-Right Brass Serial Plate */}
-              <div className="absolute -bottom-2.5 -right-2 z-20 pointer-events-none px-1.5 py-0.5 rounded bg-[#1c130b] border border-[#8c6721] shadow-lg flex items-center gap-1">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#34d399] animate-pulse" />
-                <span className="text-[8px] font-mono font-bold text-[#d4af37] tracking-wider">PAT.1914</span>
-              </div>
-
               {/* Inner Portrait Window */}
               <div className="relative w-[220px] h-[290px] rounded-lg overflow-hidden border border-[#5a3e1b] shadow-[inset_0_0_20px_rgba(0,0,0,0.9)] bg-[#0a0705]">
                 <AnimatePresence mode="wait">
@@ -374,9 +368,6 @@ export default function StartMenu({ onStartGame }) {
                   <h3 className="font-display font-black text-xl text-[#3d2a1c] tracking-tight uppercase">
                     CÀI ĐẶT HỆ THỐNG
                   </h3>
-                  <p className="font-display text-xs text-[#8c6721] tracking-widest uppercase mt-0.5">
-                    Asteria Aeronautics • Pat.1914
-                  </p>
                 </div>
 
                 <div className="space-y-4 text-xs font-display">
