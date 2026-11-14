@@ -206,7 +206,7 @@ export default function ExecutiveLedger({
   onSelectChoice,
   outcome = null,
   budget = 1000000,
-  companyName = 'ĐỘC TÔN HÀNG KHÔNG',
+  companyName = '',
   gender = 'male',
   historyLength = 0,
   onRestart
@@ -219,7 +219,7 @@ export default function ExecutiveLedger({
   const [isMediaModalOpen, setIsMediaModalOpen] = useState(false);
   const [mediaAspect, setMediaAspect] = useState(16 / 9);
   const [chatMessages, setChatMessages] = useState([
-    { role: 'assistant', content: 'Chào ngài Chủ tịch, tôi là Friedrich. Hôm nay ngài muốn thảo luận về chiến lược kinh tế hay cơ cấu tư bản của tập đoàn?' }
+    { role: 'assistant', content: 'Chào ngài Chủ tịch, tôi là Friedrich. Hôm nay ngài muốn thảo luận về chiến lược kinh tế hay cơ cấu tư bản của doanh nghiệp?' }
   ]);
   const [chatInput, setChatInput] = useState('');
   const [isChatLoading, setIsChatLoading] = useState(false);
@@ -421,7 +421,7 @@ export default function ExecutiveLedger({
   // Xác định node đang hoạt động
   const activeNodeId = currentContext 
     ? currentContext.node 
-    : (question ? question.node : currentNodeId);
+    : (question ? question.node : (outcome ? outcome.node : currentNodeId));
 
   // Tính Kỷ nguyên (Era Index 0..7) chuẩn xác 100% theo bản đồ nodeEraMap cho toàn bộ 560 nodes
   const calculateEraIndex = (nodeId, contextObj = null, questionObj = null) => {
@@ -477,10 +477,30 @@ export default function ExecutiveLedger({
   // Lựa chọn ảnh/video tư liệu hoặc chân dung CEO chính xác theo tình huống game
   const getLeftArt = () => {
     const contextContent = (currentContext?.content || "").toLowerCase();
-    const isArrest = activeNodeId === 381 || String(activeNodeId) === "381" ||
-      contextContent.includes("bị bắt") || contextContent.includes("bỏ vào tù") || contextContent.includes("vào tù");
+    
+    // 1. KẾT CỤC TOÀN THẮNG ĐỘC QUYỀN (ENDING NODE 382)
+    // Nếu đạt kết cục độc quyền (node 382 hoặc outcome win), luôn ưu tiên hiển thị video victory_382.mp4
+    const isNode382 = String(activeNodeId) === "382" || activeNodeId === 382 ||
+      String(currentContext?.node) === "382" || String(outcome?.node) === "382" || outcome?.node === 382 ||
+      contextContent.includes("thả bạn ra khỏi tù") ||
+      (outcome && (outcome.type === 'win' || String(outcome.node) === "382" || outcome.node === 382));
 
-    // 1. KỊCH BẢN BỊ BẮT GIỮ DO CẤU KẾT ĐỘC QUYỀN (NODE 381 & CÁC NHÁNH TƯƠNG ĐƯƠNG)
+    if (isNode382) {
+      return {
+        title: "KỶ NGUYÊN TOÀN THẮNG • 2011",
+        caption: "ĐẾ CHẾ CÁNH BAY ĐỘC TÔN HOÀN TOÀN THỐNG TRỊ THỊ TRƯỜNG",
+        src: "/assets/events/event_1945.jpg",
+        videoSrc: "/assets/videos/victory_382.mp4",
+        tag: "KỶ NGUYÊN TOÀN THẮNG",
+        dateText: "NĂM 2011",
+      };
+    }
+
+    // 2. KỊCH BẢN BỊ BẮT GIỮ DO CẤU KẾT ĐỘC QUYỀN (NODE 381 & CÁC NHÁNH TƯƠNG ĐƯƠNG)
+    const isArrest = (activeNodeId === 381 || String(activeNodeId) === "381" ||
+      contextContent.includes("bị bắt") || contextContent.includes("bỏ vào tù") || contextContent.includes("vào tù")) &&
+      !isNode382;
+
     if (isArrest) {
       const arrestVideo = gender === 'female' 
         ? '/assets/videos/arrest_female_381.mp4' 
@@ -496,18 +516,8 @@ export default function ExecutiveLedger({
       };
     }
 
-    // 2. KẾT CỤC CUỐI GAME (WIN HOẶC LOSE)
+    // 3. KẾT CỤC CUỐI GAME THẤT BẠI / PHÁ SẢN (LOSE OUTCOME)
     if (outcome) {
-      if (outcome.type === 'win' || String(activeNodeId) === "382" || activeNodeId === 382) {
-        return {
-          title: "KỶ NGUYÊN TOÀN THẮNG • 2011",
-          caption: "ĐẾ CHẾ CÁNH BAY ĐỘC TÔN HOÀN TOÀN THỐNG TRỊ THỊ TRƯỜNG",
-          src: "/assets/events/event_1945.jpg",
-          videoSrc: "/assets/videos/victory_382.mp4",
-          tag: "KỶ NGUYÊN TOÀN THẮNG",
-          dateText: "NĂM 2011",
-        };
-      }
       return {
         title: "BẢN ÁN SUY TÀN • PHÁ SẢN",
         caption: "DOANH NGHIỆP THẤT BẠI TRONG CUỘC ĐUA ĐỘC QUYỀN",
@@ -1157,7 +1167,7 @@ export default function ExecutiveLedger({
 
                   {/* 3. MÀN HÌNH TERMINAL OUTCOME */}
                   {!currentContext && outcome && (
-                    <div className="my-auto py-2 space-y-3.5 text-center">
+                    <div className="my-auto py-2 space-y-4 text-center">
                       <div className="inline-flex p-3 rounded-full bg-[#3d2f24] text-[#d4af37] shadow-xl mb-0.5 border-2 border-[#d4af37]">
                         <Award className="w-8 h-8 text-[#d4af37]" />
                       </div>
@@ -1168,32 +1178,72 @@ export default function ExecutiveLedger({
                         </span>
                       </h3>
 
-                      <div className="bg-[#ede4d3] p-3.5 rounded border border-[#bfae97] text-left text-[13px] text-[#261d15] leading-relaxed shadow-inner">
-                        {outcome.content}
+                      {/* 1. Đoạn chữ tổng kết ghi thẳng lên giấy da, không có màu nền đằng sau */}
+                      <div className="text-left text-[#2a241e] px-2">
+                        {formatStoryWithDropCap(outcome.content)}
                       </div>
 
-                      <div className="bg-[#241a12] text-[#f7f2e7] p-3 rounded border border-[#d4af37]/40 text-xs font-mono flex items-center justify-between shadow-md">
-                        <span className="text-[#c4aa92]">NGÂN SÁCH TÍCH LŨY CUỐI CÙNG:</span>
-                        <span className="font-black text-base text-[#d4af37]">{formattedBudget}</span>
+                      {/* 2. Ngân sách tích lũy cuối cùng: Thiết kế đồng bộ với biến động ngân sách (divider, font cổ điển, con dấu sáp đỏ) */}
+                      <div className="relative pt-3 pb-1 border-t border-[#d8c9b6] flex items-center justify-between gap-4 pr-16 select-none text-left">
+                        <div className="flex flex-col gap-0.5">
+                          <span className="font-condensed font-bold text-xs sm:text-[13px] text-[#6b421a] tracking-widest uppercase select-none">
+                            NGÂN SÁCH TÍCH LŨY CUỐI CÙNG:
+                          </span>
+                          <div className="flex items-center flex-wrap gap-2">
+                            <span className="font-title font-black text-2xl sm:text-3xl tracking-wide select-none text-[#166534]">
+                              {formattedBudget}
+                            </span>
+                            <span className="font-serif font-bold text-xs sm:text-sm tracking-wide ml-1 select-none text-[#166534]">
+                              (KẾT SỔ TỔNG TÀI SẢN)
+                            </span>
+                          </div>
+                        </div>
+
+                        {/* Asteria Imperial Red Wax Seal Stamp */}
+                        <div className="absolute -bottom-1 right-0 pointer-events-none select-none">
+                          <RedWaxSeal className="w-16 h-16 drop-shadow-md opacity-95" />
+                        </div>
                       </div>
 
-                      <div className="flex flex-row items-center justify-center gap-3 pt-1">
+                      {/* 3 & 4. Nút bấm: Cố vấn giải thích kết cục & Làm lại sự nghiệp (Đồng bộ chiều cao và cách đều nhau) */}
+                      <div className="flex flex-row items-center justify-evenly gap-4 px-2 pt-3">
+                        {/* Nút 1: Cố vấn giải thích kết cục (Sử dụng asset plaque Friedrich đã căn chuẩn chiều cao) */}
                         <button
                           type="button"
                           onClick={handleExplainOutcome}
-                          className="py-2 px-3.5 rounded bg-[#3d2f24] hover:bg-[#2b2118] text-[#f4ecd8] border-2 border-[#8b6b47] font-serif font-bold text-xs shadow-[3px_3px_0px_#1a1512] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all cursor-pointer flex items-center justify-center gap-2"
+                          className="relative w-[215px] h-[50px] transition-all active:scale-95 cursor-pointer overflow-visible group filter drop-shadow-[0_3px_6px_rgba(0,0,0,0.7)] hover:brightness-105"
+                          title="Cố vấn Friedrich giải thích kết cục lịch sử và phân tích lý luận KTCT"
                         >
-                          <img src="/assets/icons/friedrich_avatar.jpg" alt="Friedrich" className="w-4 h-4 rounded-full border border-[#d4af37] object-cover shrink-0" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
-                          <span>Cố vấn giải thích kết cục</span>
+                          <img 
+                            src="/assets/asset_btn_friedrich_equal.png" 
+                            alt="Cố vấn giải thích kết cục" 
+                            className="absolute inset-0 w-full h-full object-fill pointer-events-none" 
+                          />
+                          <div className="absolute left-[30%] right-[6%] top-0 bottom-0 flex items-center justify-center pointer-events-none z-10 px-1">
+                            <span className="font-['Playfair_Display','Faustina',serif] font-bold tracking-normal text-[11px] sm:text-[11.5px] text-[#f4ecd8] drop-shadow-[0_2px_4px_rgba(0,0,0,0.95)] uppercase select-none text-center leading-tight whitespace-nowrap">
+                              Cố vấn giải thích
+                            </span>
+                          </div>
                         </button>
 
+                        {/* Nút 2: Làm lại sự nghiệp (Khung da viền đồng cùng kích thước chuẩn xác) */}
                         <button
                           type="button"
                           onClick={onRestart}
-                          className="py-2 px-3.5 rounded bg-[#5c3818] hover:bg-[#472a12] text-[#f7f2e7] font-serif font-bold text-xs shadow-[3px_3px_0px_#1a1512] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all cursor-pointer flex items-center justify-center gap-2"
+                          className="relative w-[215px] h-[50px] transition-all active:scale-95 cursor-pointer overflow-visible group filter drop-shadow-[0_3px_6px_rgba(0,0,0,0.7)] hover:brightness-105"
+                          title="Bắt đầu lại sự nghiệp từ năm 1914"
                         >
-                          <RotateCcw className="w-3.5 h-3.5" />
-                          <span>MỞ LẠI SỔ CÁI TỪ NĂM 1914</span>
+                          <img 
+                            src="/assets/asset_choice_bar_clean.png" 
+                            alt="Làm lại sự nghiệp" 
+                            className="absolute inset-0 w-full h-full object-fill pointer-events-none" 
+                          />
+                          <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-10 px-3 gap-1.5">
+                            <RotateCcw className="w-3.5 h-3.5 text-[#d4af37] drop-shadow-[0_1px_2px_rgba(0,0,0,0.95)] shrink-0" />
+                            <span className="font-['Playfair_Display','Faustina',serif] font-bold tracking-normal text-[11px] sm:text-[12px] text-[#f4ecd8] drop-shadow-[0_2px_4px_rgba(0,0,0,0.95)] uppercase select-none text-center whitespace-nowrap">
+                              Làm lại sự nghiệp
+                            </span>
+                          </div>
                         </button>
                       </div>
                     </div>

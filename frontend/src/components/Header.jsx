@@ -23,7 +23,7 @@ export default function Header({ budget, isBackend, onRestart, historyLength }) 
               ASTERIA: ĐỘC QUYỀN TƯ BẢN
             </h1>
             <p className="text-xs text-amber-400/70 uppercase tracking-widest font-mono">
-              Kinh tế chính trị Mác - Lênin • Tập đoàn Hàng không
+              Kinh tế chính trị Mác - Lênin • Doanh nghiệp Hàng không
             </p>
           </div>
         </div>

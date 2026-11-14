@@ -6,7 +6,7 @@ import { playTrack, MUSIC_TRACKS, getMusicVolume, setMusicVolume } from '../serv
 
 export default function StartMenu({ onStartGame }) {
   const [selectedGender, setSelectedGender] = useState('male'); // 'male' | 'female'
-  const [companyName, setCompanyName] = useState('ĐỘC TÔN HÀNG KHÔNG');
+  const [companyName, setCompanyName] = useState('');
   const [showSettings, setShowSettings] = useState(false);
   const [showCredits, setShowCredits] = useState(false);
   const [volume, setVolume] = useState(80);
@@ -471,17 +471,15 @@ export default function StartMenu({ onStartGame }) {
               >
                 <div className="text-center pb-3 border-b-2 border-[#b8a690]">
                   <h3 className="font-display font-black text-xl text-[#3d2a1c] tracking-tight uppercase">
-                    ASTERIA 1914: ĐẾ CHẾ CÁNH BAY
+                    ASTERIA 1914: WINGS OF CAPITAL
                   </h3>
-                  <p className="font-display text-xs text-[#8c6721] tracking-widest uppercase mt-0.5">
+                  {/* <p className="font-display text-xs text-[#8c6721] tracking-widest uppercase mt-0.5">
                     (Asteria 1914: Wings of Capital)
-                  </p>
+                  </p> */}
                 </div>
 
                 <div className="space-y-2 text-center text-xs sm:text-sm text-[#4a3b2f] leading-relaxed">
-                  <p className="font-bold text-[#2a1a08] font-serif text-base">Đồ án Kinh tế Chính trị Mác – Lênin</p>
-                  <p className="font-serif text-xs text-[#7a6452]">Chủ đề: Sự hình thành chủ nghĩa tư bản độc quyền nhà nước trong ngành hàng không (1914 – 2008)</p>
-                  
+                  <p className="font-bold text-[#2a1a08] font-serif text-base">Đồ án Kinh tế Chính trị Mác – Lênin</p>                  
                   {/* Khung danh sách nhóm chuẩn phông theme & bullet mạ vàng */}
                   <div className="my-3 p-4 bg-[#f0e7d5] border-2 border-[#c8b49c] rounded-xl text-left shadow-[inset_0_1px_3px_rgba(0,0,0,0.06)]">
                     <p className="font-display font-bold text-sm text-[#3a200e] tracking-[0.12em] uppercase border-b border-[#c8b49c] pb-2 mb-3 flex items-center gap-2">
@@ -527,7 +525,7 @@ export default function StartMenu({ onStartGame }) {
                     </ul>
                   </div>
 
-                  <p className="italic text-[12px] font-serif text-[#7a6452]">Cảm ơn bạn đã tham gia trải nghiệm và dẫn dắt tập đoàn qua các biến động lịch sử!</p>
+                  <p className="italic text-[12px] font-serif text-[#7a6452]">Cảm ơn bạn đã tham gia trải nghiệm và dẫn dắt doanh nghiệp qua các biến động lịch sử!</p>
                 </div>
 
                 <div className="pt-2 flex justify-center">

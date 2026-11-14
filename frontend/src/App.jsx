@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import StartMenu from './components/StartMenu';
 import ExecutiveLedger from './components/ExecutiveLedger';
+import LoadingScreen from './components/LoadingScreen';
 import { createSession, submitChoice } from './services/api';
-import { Loader2 } from 'lucide-react';
 
 export default function App() {
   const [gameState, setGameState] = useState('menu'); // 'menu' | 'playing'
   const [characterGender, setCharacterGender] = useState('male');
-  const [companyName, setCompanyName] = useState('ĐỘC TÔN HÀNG KHÔNG');
+  const [companyName, setCompanyName] = useState('');
   const [session, setSession] = useState(null);
   const [loading, setLoading] = useState(false);
   
@@ -66,17 +66,7 @@ export default function App() {
 
   // 2. Initial Loading state
   if (loading && !session) {
-    return (
-      <div className="min-h-screen w-screen flex flex-col items-center justify-center bg-[#0c0e12] text-[#f4ecd8] font-serif">
-        <Loader2 className="w-8 h-8 text-[#d4af37] animate-spin mb-3" />
-        <h2 className="font-black text-xl text-[#d4af37]">
-          Đang mở Sổ Cái Asteria (1914)...
-        </h2>
-        <p className="text-xs text-[#a48a73] mt-1 font-mono">
-          Nạp 28 nodes kịch bản Nhóm 6 • Kinh tế chính trị Mác - Lênin
-        </p>
-      </div>
-    );
+    return <LoadingScreen />;
   }
 
   // 3. Playing view: 2-Page Executive Ledger (The Life and Suffering of Sir Brante style)
@@ -90,7 +80,7 @@ export default function App() {
 
   const effectiveNodeId = currentContext 
     ? currentContext.node 
-    : (screen.question ? screen.question.node : (session?.current_node || 1));
+    : (screen.question ? screen.question.node : (screen.outcome ? screen.outcome.node : (session?.current_node || 1)));
 
   return (
     <ExecutiveLedger
