@@ -111,7 +111,11 @@ class GeminiExplainer:
 
         final_message = (
             "Explain in Vietnamese why this outcome happened as a result of the "
-            "player's decisions, step by step, using ONLY the decision data above. "
+            "player's decisions, using ONLY the decision data above. "
+            "Write a natural, flowing explanation in plain prose paragraphs — do "
+            "NOT enumerate, list, or recount every decision one by one. Instead, "
+            "focus on the key causal connections: which decisions mattered most "
+            "and how they led to this outcome. "
             "Use fully accented Vietnamese spelling with all diacritical marks."
         )
         return self._ask(context, final_message, history)
